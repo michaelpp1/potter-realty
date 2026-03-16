@@ -33,6 +33,9 @@ export const metadata: Metadata = {
     'eXp Realty Northern Colorado',
     'Michael Potter realtor',
   ],
+  verification: {
+    google: 'rI6UziQd8pquZ2-9x4',
+  },
   openGraph: {
     type: 'website',
     title: SITE.title,
