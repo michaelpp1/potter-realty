@@ -33,8 +33,9 @@ export const metadata: Metadata = {
     'eXp Realty Northern Colorado',
     'Michael Potter realtor',
   ],
-  verification: {
-    google: 'rI6UziQd8pquZ2-9x4',
+
+  other: {
+    'google-site-verification': 'rI6UziQd8pquZ2-9x4',
   },
   openGraph: {
     type: 'website',
@@ -74,6 +75,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${montserrat.variable}`}>
       <head>
+        <meta name="google-site-verification" content="rI6UziQd8pquZ2-9x4" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
