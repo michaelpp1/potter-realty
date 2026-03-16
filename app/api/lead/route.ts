@@ -1,0 +1,80 @@
+import { NextRequest, NextResponse } from 'next/server'
+
+const TIMELINE_TAGS: Record<string, string> = {
+  'ASAP': 'Relocation - Moving ASAP',
+  'Within the Next 6 Months': 'Relocation - Moving Within 6 Months',
+  '6-12 Months': 'Relocation - Moving 6-12 Months',
+  '1 Year or More': 'Relocation - Moving 1+ Year',
+}
+
+export async function POST(req: NextRequest) {
+  try {
+    const body = await req.json()
+    const { firstName, lastName, email, phone, movingTimeline } = body
+
+    if (!firstName || !lastName || !email || !movingTimeline) {
+      return NextResponse.json(
+        { error: 'Missing required fields.' },
+        { status: 400 }
+      )
+    }
+
+    const apiKey = process.env.FOLLOW_UP_BOSS_API_KEY
+    if (!apiKey) {
+      console.error('FOLLOW_UP_BOSS_API_KEY is not set')
+      return NextResponse.json(
+        { error: 'Server configuration error.' },
+        { status: 500 }
+      )
+    }
+
+    const tag = TIMELINE_TAGS[movingTimeline] ?? 'Relocation - Website Lead'
+    const credentials = Buffer.from(`${apiKey}:`).toString('base64')
+
+    const person: Record<string, unknown> = {
+      firstName,
+      lastName,
+      emails: [{ value: email }],
+      tags: [tag, 'Website Lead'],
+    }
+
+    if (phone && phone.trim()) {
+      person.phones = [{ value: phone.trim(), type: 'mobile' }]
+    }
+
+    const payload = {
+      source: 'Website Relocation Form',
+      type: 'Registration',
+      person,
+      note: `Relocation inquiry submitted via website. Moving timeline: ${movingTimeline}.`,
+    }
+
+    const fubRes = await fetch('https://api.followupboss.com/v1/events', {
+      method: 'POST',
+      headers: {
+        'Authorization': `Basic ${credentials}`,
+        'Content-Type': 'application/json',
+        'X-System': 'Website',
+        'X-System-Key': apiKey,
+      },
+      body: JSON.stringify(payload),
+    })
+
+    if (!fubRes.ok) {
+      const errorText = await fubRes.text()
+      console.error('Follow Up Boss API error:', fubRes.status, errorText)
+      return NextResponse.json(
+        { error: 'Failed to submit lead. Please try again.' },
+        { status: 502 }
+      )
+    }
+
+    return NextResponse.json({ success: true }, { status: 200 })
+  } catch (err) {
+    console.error('Lead submission error:', err)
+    return NextResponse.json(
+      { error: 'An unexpected error occurred.' },
+      { status: 500 }
+    )
+  }
+}

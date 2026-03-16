@@ -1,0 +1,45 @@
+name: Weekly Blog Post
+
+on:
+  schedule:
+    # Every Monday at 8:00 AM Mountain Time (14:00 UTC)
+    - cron: '0 14 * * 1'
+  # Also lets you trigger it manually from GitHub any time
+  workflow_dispatch:
+    inputs:
+      topic:
+        description: 'Optional topic (leave blank to auto-pick)'
+        required: false
+        default: ''
+
+jobs:
+  generate-post:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate blog post
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GMB_CLIENT_ID: ${{ secrets.GMB_CLIENT_ID }}
+          GMB_CLIENT_SECRET: ${{ secrets.GMB_CLIENT_SECRET }}
+          GMB_REFRESH_TOKEN: ${{ secrets.GMB_REFRESH_TOKEN }}
+          GMB_ACCOUNT_ID: ${{ secrets.GMB_ACCOUNT_ID }}
+          GMB_LOCATION_ID: ${{ secrets.GMB_LOCATION_ID }}
+          NEXT_PUBLIC_SITE_URL: https://www.michaelpotterrealty.com
+        run: node scripts/generate-post.mjs "${{ github.event.inputs.topic }}"
+
+      - name: Commit and push
+        run: |
+          git config user.name "Blog Bot"
+          git config user.email "blog-bot@potterrealty.com"
+          git add lib/blog.ts
+          git diff --staged --quiet || git commit -m "blog: auto-generated weekly post"
+          git push

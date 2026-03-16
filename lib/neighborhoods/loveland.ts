@@ -1,0 +1,198 @@
+export interface Neighborhood {
+  id: string
+  name: string
+  tagline: string
+  color: string
+  fillColor: string
+  idealFor: string[]
+  priceRange: string
+  vibe: string
+  outdoors: string
+  schools: string[]
+  commute: string
+  michaelsTake: string
+  polygon: [number, number][]
+}
+
+export const LOVELAND_NEIGHBORHOODS: Neighborhood[] = [
+  {
+    id: 'downtown',
+    name: 'Downtown / City Center',
+    tagline: 'Historic heart of Loveland',
+    color: '#b45309',
+    fillColor: '#e19c5c',
+    idealFor: ['Young professionals', 'Empty nesters', 'Art lovers', 'Walkers'],
+    priceRange: '$330K – $550K',
+    vibe: "Loveland's historic core, centered around 4th Street and Lincoln Ave. Think galleries, breweries, the Foote Lagoon summer concert series, and walkable blocks lined with original architecture. Homes here are a mix of charming bungalows and updated mid-century ranches.",
+    outdoors: 'Sculpture walk, Big Thompson River trail access, Lake Loveland minutes away',
+    schools: ['Garfield K-8', 'Bill Reed Middle', 'Loveland High School'],
+    commute: 'Central location — easy access anywhere in Loveland. Denver ~1 hr, Fort Collins 20 min.',
+    michaelsTake: "If walkability and a true Colorado town feel matter to you, Downtown Loveland is hard to beat. This is where Loveland's personality lives — sculpture parks, local breweries, and neighbors who actually know each other.",
+    polygon: [
+      [40.401, -105.085], [40.401, -105.072], [40.394, -105.072],
+      [40.394, -105.085],
+    ],
+  },
+  {
+    id: 'north-lake',
+    name: 'North Lake Loveland',
+    tagline: 'Established lakefront living',
+    color: '#0e7490',
+    fillColor: '#007ea2',
+    idealFor: ['Families', 'Long-time residents', 'Retirees', 'Water lovers'],
+    priceRange: '$500K – $850K',
+    vibe: 'Quiet, tree-lined streets surrounding Lake Loveland with direct trail and park access. Homes range from well-kept mid-century ranches to custom lakefront builds. The area has a rooted, established feel that appeals to buyers who want a stable, community-driven neighborhood.',
+    outdoors: 'Lake Loveland walking/biking paths, Mehaffey Park, direct water access',
+    schools: ['Garfield K-8', 'Bill Reed Middle', 'Loveland High School'],
+    commute: '15 min to US-34 corridor, 25 min to Fort Collins, 1 hr to Denver.',
+    michaelsTake: 'North Lake is the kind of neighborhood where people buy and stay for decades. If you want mature trees, lake views, and neighbors who have block parties — this is it.',
+    polygon: [
+      [40.407, -105.092], [40.407, -105.078], [40.401, -105.078],
+      [40.401, -105.092],
+    ],
+  },
+  {
+    id: 'mariana-butte',
+    name: 'Mariana Butte / The Overlook',
+    tagline: 'Foothills golf & views',
+    color: '#3a3a3c',
+    fillColor: '#89927e',
+    idealFor: ['Golf households', 'Families', 'Retirees', 'Outdoor enthusiasts'],
+    priceRange: '$600K – $900K+',
+    vibe: 'Wrapped around the Mariana Butte Golf Course on the western edge of Loveland, this area offers stunning Front Range views, larger lots, and a quieter pace. Newer builds mix with custom homes, and trail access to the foothills is genuinely minutes away.',
+    outdoors: "Mariana Butte Golf Course, Devil's Backbone trailhead nearby, Big Thompson Canyon drives",
+    schools: ['Namaqua Elementary', 'Walt Clark Middle', 'Thompson Valley High'],
+    commute: 'Quick access to US-34 west toward Estes Park. Fort Collins 25 min, Denver ~1 hr 10 min.',
+    michaelsTake: "This one is a personal favorite. You get mountain views from your backyard, trails before breakfast, and a neighborhood that still feels uncrowded. Great fit for remote workers who moved from the coast for exactly this.",
+    polygon: [
+      [40.397, -105.105], [40.397, -105.093], [40.389, -105.093],
+      [40.389, -105.105],
+    ],
+  },
+  {
+    id: 'centerra',
+    name: 'Centerra',
+    tagline: 'Master-planned, modern & connected',
+    color: '#6d28d9',
+    fillColor: '#7c3aed',
+    idealFor: ['Young families', 'Commuters', 'Remote workers', 'First-time buyers'],
+    priceRange: '$500K – $700K',
+    vibe: "Centerra is Loveland's largest planned community — think modern homes, townhomes, walkable retail, medical offices, and trails all built in. It has a slightly suburban Denver feel but with easy I-25 access and Loveland pricing. Great for buyers who want new construction without going too far east.",
+    outdoors: 'Equalizer Lake, internal trail network, Centerra shopping district, short drive to Boyd Lake',
+    schools: ['High Plains PK-8', 'Mountain View High School'],
+    commute: 'Right on I-25 — Fort Collins 20 min, Denver under 1 hr. Best commuter access in Loveland.',
+    michaelsTake: "Centerra is the go-to for buyers coming from Denver or the suburbs who want that familiar planned-community feel but at a lower price point. Lots of California and Texas transplants land here first.",
+    polygon: [
+      [40.392, -105.060], [40.392, -105.046], [40.382, -105.046],
+      [40.382, -105.060],
+    ],
+  },
+  {
+    id: 'boyd-lake',
+    name: 'Boyd Lake Area',
+    tagline: 'Outdoor living by the water',
+    color: '#0f766e',
+    fillColor: '#0d9488',
+    idealFor: ['Families', 'Outdoor households', 'Boaters', 'Retirees'],
+    priceRange: '$600K – $900K',
+    vibe: 'The neighborhoods surrounding Boyd Lake State Park offer a rare combination: newer suburban homes with genuine lake and trail access right outside the door. Lots tend to be larger than in Centerra, and the community has a more relaxed, outdoorsy energy.',
+    outdoors: 'Boyd Lake State Park (boating, fishing, swimming), trail connections, open space',
+    schools: ['High Plains PK-8', 'Mountain View High School'],
+    commute: 'Close to I-25 via Crossroads Blvd. Fort Collins 20 min, Denver ~55 min.',
+    michaelsTake: "Boyd Lake is one of those neighborhoods I always mention to outdoor-lifestyle buyers. The idea that you can launch a kayak from essentially your neighborhood? That sells itself.",
+    polygon: [
+      [40.411, -105.068], [40.411, -105.054], [40.401, -105.054],
+      [40.401, -105.068],
+    ],
+  },
+  {
+    id: 'southwest',
+    name: 'Southwest Loveland',
+    tagline: 'Quiet, practical, family-friendly',
+    color: '#c2410c',
+    fillColor: '#ea580c',
+    idealFor: ['Families', 'Commuters south', 'First-time buyers', 'Value seekers'],
+    priceRange: '$450K – $650K',
+    vibe: 'A steady, unpretentious stretch of Loveland with ranch-style homes, parks, and solid schools. Well-positioned for buyers who commute toward Longmont, Boulder, or Denver via US-287. Less flashy than Mariana Butte or Boyd Lake, but more affordable and very livable.',
+    outdoors: 'Mehaffey Park, easy access to US-34 and Big Thompson trails',
+    schools: ['Sarah Milner Elementary', 'Walt Clark Middle', 'Thompson Valley High'],
+    commute: 'US-287 south access — Longmont 25 min, Boulder 45 min, Denver under 1 hr.',
+    michaelsTake: "Great value pocket of Loveland. Buyers from the Front Range metro who are priced out of Boulder or Longmont often find exactly what they need here — solid home, good schools, and breathing room.",
+    polygon: [
+      [40.389, -105.095], [40.389, -105.080], [40.380, -105.080],
+      [40.380, -105.095],
+    ],
+  },
+  {
+    id: 'east-loveland',
+    name: 'East Loveland',
+    tagline: 'Affordable, connected, convenient',
+    color: '#991b1b',
+    fillColor: '#dc2626',
+    idealFor: ['First-time buyers', 'Young families', 'Commuters', 'Budget-conscious buyers'],
+    priceRange: '$380K – $550K',
+    vibe: "East Loveland sits near the I-25 corridor with a mix of older single-family homes, townhomes, and newer infill developments. It's the most affordable part of Loveland proper, convenient to Centerra shopping and with straightforward commutes in all directions.",
+    outdoors: 'Loveland Sports Park, connections to I-25 trail, short drives to Boyd Lake',
+    schools: ['Winona Elementary', 'Lucile Erwin Middle', 'Mountain View High'],
+    commute: 'Best I-25 access in Loveland. Denver 50 min, Fort Collins 18 min, Greeley 30 min.',
+    michaelsTake: "East Loveland is where I point buyers who are stretching their budget but refuse to leave NoCo. You're giving up some mountain views, but gaining a lot of house for the money.",
+    polygon: [
+      [40.400, -105.052], [40.400, -105.038], [40.388, -105.038],
+      [40.388, -105.052],
+    ],
+  },
+  {
+    id: 'west-foothills',
+    name: 'Foothills / West Loveland',
+    tagline: 'Rural feel, mountain access',
+    color: '#3a3a3c',
+    fillColor: '#57534e',
+    idealFor: ['Rural lifestyle seekers', 'Outdoor enthusiasts', 'Remote workers', 'Horse properties'],
+    priceRange: '$600K – $1M+',
+    vibe: "West of Loveland proper, this area transitions quickly into acreage properties with larger lots, mature trees, and a peaceful rural character. Quick canyon drives, genuinely dark skies, and the kind of quiet that city buyers specifically move here to find.",
+    outdoors: "Big Thompson Canyon minutes away, Devil's Backbone, Loveland Ski Area 45 min, Estes Park 35 min",
+    schools: ['Namaqua Elementary', 'Walt Clark Middle', 'Thompson Valley High'],
+    commute: 'Slower to I-25 from here — plan on 20+ min to get to the freeway. Worth it for many buyers.',
+    michaelsTake: "This is where the relocation dream really lives for people leaving cities. Big lots, mountain views, neighbors with horses. I've placed a lot of California and remote-work buyers out here who never look back.",
+    polygon: [
+      [40.404, -105.118], [40.404, -105.105], [40.394, -105.105],
+      [40.394, -105.118],
+    ],
+  },
+  {
+    id: 'campion',
+    name: 'Campion',
+    tagline: 'Upscale south end, top-ranked schools',
+    color: '#1e3a8a',
+    fillColor: '#2563eb',
+    idealFor: ['Families', 'Long-time Loveland residents', 'School-focused buyers'],
+    priceRange: '$550K – $800K',
+    vibe: "Campion is a well-established, sought-after neighborhood on Loveland's south end known for its safety, quality homes, and proximity to Campion Academy — ranked #1 private school in Larimer County. Great parks, quiet streets, and a strong sense of community.",
+    outdoors: 'Centennial Park, walking paths, close to Boyd Lake and Centerra',
+    schools: ['Campion Academy (private, #1 Larimer County)', 'Namaqua Elementary', 'Walt Clark Middle', 'Thompson Valley High'],
+    commute: 'Easy US-287 access. Longmont 25 min, Fort Collins 25 min, Denver just under 1 hr.',
+    michaelsTake: "Campion is one of the first neighborhoods I mention to families who are relocating and have school-age kids. The school ranking alone gets a lot of attention from out-of-state buyers.",
+    polygon: [
+      [40.379, -105.080], [40.379, -105.062], [40.370, -105.062],
+      [40.370, -105.080],
+    ],
+  },
+  {
+    id: 'little-dam',
+    name: 'Little Dam',
+    tagline: 'Peaceful foothills views, larger lots',
+    color: '#166534',
+    fillColor: '#16a34a',
+    idealFor: ['Retirees', 'Families', 'Hikers', 'Nature lovers'],
+    priceRange: '$500K – $750K',
+    vibe: "Tucked on the west side of Loveland, Little Dam is prized for its foothills views, larger property sizes, and genuinely quiet atmosphere. It has the feel of a neighborhood where people choose to slow down — popular with retirees and families who want space without full acreage.",
+    outdoors: 'Direct foothills trail access, Big Thompson River nearby, scenic drives west',
+    schools: ['Namaqua Elementary', 'Walt Clark Middle', 'Thompson Valley High'],
+    commute: '15 min to downtown Loveland, 30 min to Fort Collins, ~1 hr 15 min to Denver.',
+    michaelsTake: "Little Dam is a hidden gem that doesn't get mentioned enough. If you want those iconic mountain backdrop photos from your backyard, this is where to look.",
+    polygon: [
+      [40.413, -105.108], [40.413, -105.095], [40.405, -105.095],
+      [40.405, -105.108],
+    ],
+  },
+]
