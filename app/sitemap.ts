@@ -2,7 +2,7 @@ import type { MetadataRoute } from 'next'
 import { cities } from '@/lib/cities'
 import { posts } from '@/lib/blog'
 
-const BASE_URL = 'https://www.michaelpotterrealty.com'
+const BASE_URL = 'https://www.potterealty.com'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages: MetadataRoute.Sitemap = [

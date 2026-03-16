@@ -48,8 +48,8 @@ const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': 'RealEstateAgent',
   name: 'Michael Potter, eXp Realty Northern Colorado',
-  image: 'https://www.michaelpotterrealty.com/images/headshot.jpg',
-  url: 'https://www.michaelpotterrealty.com',
+  image: 'https://www.potterealty.com/images/headshot.jpg',
+  url: 'https://www.potterealty.com',
   telephone: SITE.phone,
   email: SITE.email,
   address: {
