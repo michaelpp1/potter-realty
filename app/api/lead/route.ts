@@ -1,10 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server'
 
 const TIMELINE_TAGS: Record<string, string> = {
-  'ASAP': 'Relocation - Moving ASAP',
-  'Within the Next 6 Months': 'Relocation - Moving Within 6 Months',
-  '6-12 Months': 'Relocation - Moving 6-12 Months',
-  '1 Year or More': 'Relocation - Moving 1+ Year',
+  'ASAP': 'ASAP',
+  'Within the Next 6 Months': '6 Months or Under',
+  '6-12 Months': '6-12 Months',
+  '1 Year or More': '1 Year or More',
 }
 
 export async function POST(req: NextRequest) {
