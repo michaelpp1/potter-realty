@@ -12,6 +12,15 @@ interface FormData {
   movingTimeline: string
 }
 
+declare global {
+  interface Window {
+    grecaptcha: {
+      ready: (cb: () => void) => void
+      execute: (siteKey: string, options: { action: string }) => Promise<string>
+    }
+  }
+}
+
 export default function RelocationForm() {
   const [formState, setFormState] = useState<FormState>('idle')
   const [errorMessage, setErrorMessage] = useState('')
@@ -22,6 +31,8 @@ export default function RelocationForm() {
     phone: '',
     movingTimeline: '',
   })
+  // Honeypot field — should always be empty for real users
+  const [honeypot, setHoneypot] = useState('')
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>
@@ -35,10 +46,23 @@ export default function RelocationForm() {
     setErrorMessage('')
 
     try {
+      // Get reCAPTCHA v3 token
+      const siteKey = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY ?? ''
+      const recaptchaToken = await new Promise<string>((resolve, reject) => {
+        window.grecaptcha.ready(async () => {
+          try {
+            const token = await window.grecaptcha.execute(siteKey, { action: 'relocation_form' })
+            resolve(token)
+          } catch (err) {
+            reject(err)
+          }
+        })
+      })
+
       const res = await fetch('/api/lead', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({ ...formData, honeypot, recaptchaToken }),
       })
 
       if (!res.ok) {
@@ -76,6 +100,18 @@ export default function RelocationForm() {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-4">
+      {/* Honeypot field — hidden from real users, bots will fill it */}
+      <div style={{ position: 'absolute', left: '-9999px', opacity: 0, pointerEvents: 'none' }} aria-hidden="true">
+        <input
+          type="text"
+          name="website"
+          value={honeypot}
+          onChange={(e) => setHoneypot(e.target.value)}
+          tabIndex={-1}
+          autoComplete="off"
+        />
+      </div>
+
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div>
           <label className="block font-sans text-sm font-500 text-charcoal mb-1.5">

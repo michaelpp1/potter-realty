@@ -7,10 +7,42 @@ const TIMELINE_TAGS: Record<string, string> = {
   '1 Year or More': '1 Year or More',
 }
 
+async function verifyRecaptcha(token: string): Promise<boolean> {
+  const secretKey = process.env.RECAPTCHA_SECRET_KEY
+  if (!secretKey) {
+    console.error('RECAPTCHA_SECRET_KEY is not set')
+    return false
+  }
+
+  const res = await fetch('https://www.google.com/recaptcha/api/siteverify', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    body: new URLSearchParams({ secret: secretKey, response: token }),
+  })
+
+  const data = await res.json()
+  // Require score >= 0.5 (0 = bot, 1 = human)
+  return data.success === true && data.score >= 0.5
+}
+
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json()
-    const { firstName, lastName, email, phone, movingTimeline } = body
+    const { firstName, lastName, email, phone, movingTimeline, honeypot, recaptchaToken } = body
+
+    // Honeypot check — bots fill this, humans don't
+    if (honeypot) {
+      // Return success silently so bots don't know they were blocked
+      return NextResponse.json({ success: true }, { status: 200 })
+    }
+
+    // reCAPTCHA verification
+    if (!recaptchaToken || !(await verifyRecaptcha(recaptchaToken))) {
+      return NextResponse.json(
+        { error: 'Security check failed. Please try again.' },
+        { status: 400 }
+      )
+    }
 
     if (!firstName || !lastName || !email || !movingTimeline) {
       return NextResponse.json(
