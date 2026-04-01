@@ -9,19 +9,14 @@ export default function HomePage() {
     <>
       {/* HERO — drone video background */}
       <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
-        {/* Mobile: sharp poster image */}
-        <div
-          className="absolute inset-0 bg-cover bg-center md:hidden"
-          style={{ backgroundImage: 'url(/videos/hero-poster.jpg)' }}
-        />
-        {/* Desktop: full 1080p video */}
+        {/* Full 1080p video — all screen sizes */}
         <video
           autoPlay
           muted
           loop
           playsInline
           poster="/videos/hero-poster.jpg"
-          className="absolute inset-0 w-full h-full object-cover hidden md:block"
+          className="absolute inset-0 w-full h-full object-cover"
         >
           <source src="/videos/hero.mp4" type="video/mp4" />
         </video>
