@@ -65,7 +65,7 @@ export default function NewsletterSignup({ variant = 'blog' }: Props) {
             Stay Informed on the Northern Colorado Market
           </h3>
           <p className="font-sans text-gray-500 text-sm leading-relaxed">
-            Market updates, buyer and seller tips, and relocation insights — delivered monthly. No spam, unsubscribe any time.
+            Market updates, local events, buyer and seller tips, and relocation insights — delivered monthly. No spam, unsubscribe any time.
           </p>
         </div>
         <form onSubmit={handleSubmit} className="space-y-3">
@@ -118,7 +118,7 @@ export default function NewsletterSignup({ variant = 'blog' }: Props) {
             Get the Monthly Northern Colorado Market Update
           </p>
           <p className="font-sans text-gray-400 text-sm leading-relaxed">
-            Tips, market news, and relocation insights every month. Free, no spam.
+            Market news, local events, and relocation insights every month. Free, no spam.
           </p>
         </div>
       </div>
