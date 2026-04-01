@@ -62,11 +62,8 @@ export default function NewsletterSignup({ variant = 'blog' }: Props) {
             Free Monthly Newsletter
           </p>
           <h3 className="font-heading font-700 text-2xl text-charcoal mb-2">
-            Stay Informed on the Northern Colorado Market
-          </h3>
-          <p className="font-sans text-gray-500 text-sm leading-relaxed">
             Market updates, local events, buyer and seller tips, and relocation insights delivered monthly.
-          </p>
+          </h3>
         </div>
         <form onSubmit={handleSubmit} className="space-y-3">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -94,7 +91,7 @@ export default function NewsletterSignup({ variant = 'blog' }: Props) {
             disabled={state === 'loading'}
             className="w-full btn-secondary py-3.5 text-base disabled:opacity-60 disabled:cursor-not-allowed"
           >
-            {state === 'loading' ? 'Subscribing...' : 'Get the Monthly Update'}
+            {state === 'loading' ? 'Subscribing...' : 'Sign Up'}
           </button>
           <p className="text-xs text-gray-400 font-sans text-center">
             No spam. Unsubscribe any time.
