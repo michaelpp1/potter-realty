@@ -25,6 +25,94 @@ export const categoryColors: Record<BlogCategory, string> = {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'what-its-really-like-to-live-in-northern-colorado-an-honest-',
+    title: "What It’s Really Like to Live in Northern Colorado: An Honest Look at the Lifestyle",
+    date: 'April 1, 2026',
+    category: 'Relocation',
+    excerpt: "Thinking about relocating to Northern Colorado? Here is a genuine look at the outdoor lifestyle, tight-knit communities, and everyday quality of life that make this region so hard to leave.",
+    readTime: '7 min read',
+    content: [
+      {
+        type: 'paragraph',
+        text: "I get calls and emails every week from people across the country who are considering a move to Northern Colorado. They have seen the photos of the mountains, read about the craft beer scene, or heard from a friend that Fort Collins is one of the best places to live. And honestly, most of what they have heard is true. But there is more to the story than pretty scenery and good vibes, and I think you deserve the full picture before you pack up a moving truck.",
+      },
+      {
+        type: 'h2',
+        text: "The Outdoor Lifestyle Is Not Hype — It’s Everyday Life",
+      },
+      {
+        type: 'paragraph',
+        text: "One of the first things people notice after moving here is how naturally the outdoors weave into daily routines. This is not a place where you save outdoor adventures for vacation. It is where you mountain bike after work on a Tuesday, paddle board at Horsetooth Reservoir on a Saturday morning, or take a quick evening hike at Devil’s Backbone outside Loveland. The trail systems in and around Fort Collins, Loveland, Windsor, and Timnath are extensive, well-maintained, and genuinely used by locals year-round.",
+      },
+      {
+        type: 'paragraph',
+        text: "Northern Colorado gets roughly 300 days of sunshine a year, which means even in January you will likely find yourself outside more than you expected. Winter here is not the brutal, gray slog that people sometimes imagine. Yes, it snows, and yes, it gets cold. But storms tend to come and go, and you can often be back in a T-shirt within a day or two. If you ski or snowboard, you are about two hours from several world-class resorts. If you prefer cross-country skiing or snowshoeing, there are options much closer to home.",
+      },
+      {
+        type: 'h2',
+        text: "Community Feels Real Here",
+      },
+      {
+        type: 'paragraph',
+        text: "I have lived and worked in this area long enough to know that community is not just a marketing buzzword here. Fort Collins has a genuine downtown where you run into people you know. Loveland has a strong arts culture and a kind of neighborly warmth that is hard to fake. Windsor and Timnath have grown significantly, but they have managed to hold onto a small-town feel with strong schools and family-centered events. Berthoud is similar — a place where people wave at each other and actually mean it.",
+      },
+      {
+        type: 'paragraph',
+        text: "Farmers markets, local festivals, charity runs, and neighborhood gatherings are not occasional events. They are the rhythm of life here. People move to Northern Colorado and are often surprised by how quickly they feel connected. Whether it is through a running group, a church, a neighborhood Facebook group, or a volunteer organization, there are easy entry points into the community.",
+      },
+      {
+        type: 'h2',
+        text: "Quality of Life: What Day-to-Day Actually Looks Like",
+      },
+      {
+        type: 'paragraph',
+        text: "Day-to-day life in Northern Colorado has a balance that is hard to find in bigger metros. Commutes are generally reasonable. You can get across Fort Collins in about 15 to 20 minutes on most days. The food scene has grown tremendously, with everything from local taco shops to farm-to-table restaurants. And yes, the craft beer culture is very real — Fort Collins alone has dozens of breweries, and Loveland and Windsor are not far behind.",
+      },
+      {
+        type: 'paragraph',
+        text: "Families here tend to prioritize a few things that I think are worth highlighting:",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Access to strong public and private school options across the region",
+          "Proximity to outdoor recreation without sacrificing urban conveniences",
+          "A safer, slower pace compared to Denver or Boulder, while still having plenty to do",
+          "A growing job market, especially in tech, healthcare, agriculture, and education",
+          "A culture that genuinely values health, wellness, and work-life balance",
+        ],
+      },
+      {
+        type: 'h2',
+        text: "The Honest Stuff: What to Be Aware Of",
+      },
+      {
+        type: 'paragraph',
+        text: "I would not be doing my job if I only told you the good parts. Northern Colorado has grown a lot, and with that growth comes real considerations. Home prices have increased significantly over the past decade, and inventory can be competitive depending on the season and price range. Traffic along the I-25 corridor, especially between Loveland and Fort Collins, has gotten heavier. And while the area is more affordable than Boulder or Denver, it is not the hidden bargain it was ten years ago.",
+      },
+      {
+        type: 'paragraph',
+        text: "That said, most people I work with who relocate here tell me the same thing after a year: they wish they had done it sooner. The trade-offs are real, but the lifestyle tends to outweigh the compromises.",
+      },
+      {
+        type: 'h2',
+        text: "Each Town Has Its Own Personality",
+      },
+      {
+        type: 'paragraph',
+        text: "One thing I always tell people is that Northern Colorado is not one-size-fits-all. Fort Collins has a college-town energy with a mature cultural scene. Loveland is artsy, welcoming, and a bit more laid-back. Windsor offers a newer, family-oriented suburban feel with excellent parks and schools. Timnath has become one of the fastest-growing communities in the state, attracting families who want new construction and top-rated schools. Berthoud has a quieter, more rural charm that appeals to people who want space and simplicity. Knowing which town fits your lifestyle is just as important as finding the right house.",
+      },
+      {
+        type: 'h2',
+        text: "Thinking About Making the Move?",
+      },
+      {
+        type: 'paragraph',
+        text: "If you are considering a relocation to Northern Colorado, I would love to be a resource for you — even if you are months or years away from making a decision. I am happy to answer questions about specific neighborhoods, towns, schools, or anything else that will help you get a real feel for the area. No pressure, no sales pitch. Just honest, local insight from someone who genuinely loves living and working here. Feel free to reach out anytime. I look forward to helping you figure out if Northern Colorado is the right fit.",
+      },
+    ],
+  },
+  {
     slug: 'northern-colorado-market-update-q1-2026',
     title: 'Northern Colorado Real Estate Market Update — Q1 2026',
     date: 'March 10, 2026',
