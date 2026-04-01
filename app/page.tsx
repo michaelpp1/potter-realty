@@ -20,10 +20,10 @@ export default function HomePage() {
         >
           <source src="/videos/hero.mp4" type="video/mp4" />
         </video>
-        {/* Dark overlay so text stays readable */}
-        <div className="absolute inset-0 bg-charcoal/20" />
+        {/* Left-to-right gradient — dark behind text, transparent on right */}
+        <div className="absolute inset-0 bg-gradient-to-r from-charcoal/85 via-charcoal/50 to-transparent" />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full">
-          <div className="max-w-2xl ml-auto bg-charcoal/65 backdrop-blur-sm rounded-2xl px-8 py-10">
+          <div className="max-w-2xl">
             <p className="font-sans text-gold text-sm font-500 uppercase tracking-widest mb-4">
               Northern Colorado Real Estate
             </p>
