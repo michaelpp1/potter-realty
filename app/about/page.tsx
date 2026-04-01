@@ -107,35 +107,19 @@ export default function AboutPage() {
             <div className="space-y-4">
               <div className="prose prose-lg max-w-none">
                 <p className="font-sans text-gray-600 text-lg leading-relaxed">
-                  I&apos;m a real estate advisor with eXp Realty serving Northern Colorado,
-                  helping people buy, sell, and relocate to communities like Loveland,
-                  Fort Collins, Windsor, Timnath, and the surrounding areas.
+                  I&apos;m a Colorado native and a Northern Colorado real estate advisor with eXp Realty. I was born in Denver and moved to Loveland when I was two — and with the exception of a few years in Denver for college, I&apos;ve called Northern Colorado home ever since.
                 </p>
                 <p className="font-sans text-gray-600 text-base leading-relaxed mt-5">
-                  A large part of my business focuses on helping people move to Northern
-                  Colorado from out of state or other parts of Colorado. Relocating can
-                  be overwhelming, so my goal is to make the process clear, organized,
-                  and as smooth as possible while helping my clients find the right home
-                  and the right community for their lifestyle.
+                  I graduated from Thompson Valley High School in Loveland in 2007, then spent two years at Front Range Community College in Fort Collins before transferring to CU Denver, where I earned my bachelor&apos;s degree in Business Administration. After graduating I worked in accounting at a telecom company, then was recruited back to Northern Colorado by a pediatric home healthcare agency where I spent several years in HR management, business development, and marketing.
                 </p>
                 <p className="font-sans text-gray-600 text-base leading-relaxed mt-5">
-                  I&apos;ve lived in Northern Colorado for decades and genuinely love sharing
-                  what makes this area special. Through local insight, strong
-                  communication, and a modern approach to real estate, I help my clients
-                  make confident decisions whether they&apos;re buying, selling, or relocating.
+                  In 2017 I purchased my first home in downtown Loveland — a milestone that quietly planted the seed for what was ahead. A career coach helped me find alignment in real estate, and in 2019 I left my job to travel abroad and explore the idea of working remotely. Two months in, I was homesick and missing my dog. I came home, dove headfirst into getting my real estate license, and never looked back.
                 </p>
                 <p className="font-sans text-gray-600 text-base leading-relaxed mt-5">
-                  Outside of real estate, I spend most of my time outdoors. You&apos;ll find
-                  me hiking, camping, hitting hot springs, or road tripping to other
-                  corners of Colorado with my dog and friends. Traveling outside of
-                  Colorado is a big part of my life too. And wherever I end up, food is
-                  a priority. Cooking, barbecuing, and tracking down great restaurants
-                  are hobbies I genuinely enjoy.
+                  Today I specialize in helping people relocate to Northern Colorado — primarily from out of state — and I find and serve most of my clients through content I create on Instagram. The people I work with tend to be couples or families who are drawn to the outdoor lifestyle, sense of community, and slower pace of life that this area offers. Some want to be in town, close to coffee shops, yoga studios, farmers markets, and walkable downtowns. Others are dreaming of life on acreage west of town — horses, chickens, a shop, a greenhouse. Both are my kind of client.
                 </p>
                 <p className="font-sans text-gray-600 text-base leading-relaxed mt-5">
-                  Northern Colorado offers an incredible lifestyle with great communities,
-                  access to nature, and beautiful mountain views. I love helping
-                  people make the move here.
+                  Growing up here, nature was woven into everything. My grandparents from New Jersey would come every summer in their RV and take us on camping adventures through Rocky Mountain National Park — hiking, watching the elk bugle, driving over Trail Ridge Road. My other grandparents had a pontoon boat and we spent summers on Horsetooth Reservoir, Carter Lake, and Boyd Lake. I still spend my summers paddleboarding on the lakes, swimming in the rivers, and watching sunsets over the water. My dog and I hit the trails constantly — Devil&apos;s Backbone, Horsetooth, the Poudre, Lory State Park — and I still love camping up the Poudre Canyon whenever I get the chance.
                 </p>
               </div>
 
@@ -229,10 +213,10 @@ export default function AboutPage() {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-5 mt-8">
             {[
-              { emoji: '🏔️', label: 'Mountain Access' },
-              { emoji: '🛤️', label: 'World-Class Trails' },
-              { emoji: '🌅', label: '300+ Sunny Days' },
-              { emoji: '🤝', label: 'Strong Communities' },
+              { emoji: '🏔️', label: 'Rocky Mountain NP — 1 hr away' },
+              { emoji: '🛶', label: 'Horsetooth, Carter & Boyd Lakes' },
+              { emoji: '🥾', label: "Devil's Backbone & Poudre Trails" },
+              { emoji: '🌅', label: '300+ Sunny Days a Year' },
             ].map((item) => (
               <div
                 key={item.label}
