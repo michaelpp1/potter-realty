@@ -59,7 +59,7 @@ export default function NewsletterSignup({ variant = 'blog' }: Props) {
       <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-8 max-w-xl mx-auto">
         <div className="text-center mb-6">
           <p className="font-sans text-teal text-sm font-500 uppercase tracking-widest mb-2">
-            Free Weekly Newsletter
+            Free Monthly Newsletter
           </p>
           <h3 className="font-heading font-700 text-2xl text-charcoal mb-2">
             Stay Informed on the Northern Colorado Market
