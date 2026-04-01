@@ -17,6 +17,7 @@ export default function HomePage() {
           playsInline
           poster="/videos/hero-poster.jpg"
           className="absolute inset-0 w-full h-full object-cover"
+          style={{ filter: 'contrast(1.15) saturate(1.2) brightness(1.05)' }}
         >
           <source src="/videos/hero.mp4" type="video/mp4" />
         </video>
