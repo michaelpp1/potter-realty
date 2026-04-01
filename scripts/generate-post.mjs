@@ -11,6 +11,8 @@
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
+import https from 'https'
+import http from 'http'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const BLOG_FILE = path.join(__dirname, '..', 'lib', 'blog.ts')
@@ -67,7 +69,115 @@ const AUTO_TOPICS = [
   { category: 'Buyer Tips', evergreen: true,  topic: 'new construction vs resale homes in Northern Colorado — which is the better buy' },
   { category: 'Buyer Tips', evergreen: true,  topic: 'what to look for in a home inspection when buying in Northern Colorado' },
   { category: 'Buyer Tips', evergreen: true,  topic: 'how to buy and sell a home at the same time in Northern Colorado without losing your mind' },
+  // --- Local Updates (always eligible — news is always fresh) ---
+  { category: 'Market Update', evergreen: false, localNews: true, city: 'Fort Collins', topic: 'latest news, development projects, events, and community updates in Fort Collins, Colorado' },
+  { category: 'Market Update', evergreen: false, localNews: true, city: 'Loveland',     topic: 'latest news, development projects, events, and community updates in Loveland, Colorado' },
+  { category: 'Market Update', evergreen: false, localNews: true, city: 'Windsor',      topic: 'latest news, development projects, events, and community updates in Windsor, Colorado' },
+  { category: 'Market Update', evergreen: false, localNews: true, city: 'Timnath',      topic: 'latest news, development projects, events, and community updates in Timnath, Colorado' },
+  { category: 'Market Update', evergreen: false, localNews: true, city: 'Berthoud',     topic: 'latest news, development projects, events, and community updates in Berthoud, Colorado' },
+  { category: 'Market Update', evergreen: false, localNews: true, city: 'Greeley',      topic: 'latest news, development projects, events, and community updates in Greeley, Colorado' },
+  { category: 'Market Update', evergreen: false, localNews: true, city: 'Johnstown',    topic: 'latest news, development projects, events, and community updates in Johnstown, Colorado' },
+  { category: 'Market Update', evergreen: false, localNews: true, city: 'Wellington',   topic: 'latest news, development projects, events, and community updates in Wellington, Colorado' },
+  { category: 'Market Update', evergreen: false, localNews: true, city: 'Severance',    topic: 'latest news, development projects, events, and community updates in Severance, Colorado' },
 ]
+
+// Official local sources per city — government, news, tourism
+const LOCAL_SOURCES = {
+  'Fort Collins': [
+    'https://www.fcgov.com/news/',
+    'https://www.visitftcollins.com/',
+    'https://northfortynews.com/?s=fort+collins',
+    'https://www.coloradoan.com/news/fort-collins/',
+    'https://fortcollinschamber.com/news/',
+  ],
+  'Loveland': [
+    'https://www.lovgov.org/services/communication-and-engagement/city-update-newsletters',
+    'https://www.lovgov.org/services/development-services/current-planning/current-development',
+    'https://www.reporterherald.com/tag/loveland/',
+    'https://visitloveland.com/whats-happening/',
+    'https://northfortynews.com/?s=loveland',
+  ],
+  'Windsor': [
+    'https://www.windsorgov.com/CivicAlerts.aspx',
+    'https://www.visitwindsorcolorado.com/',
+    'https://northfortynews.com/?s=windsor+colorado',
+    'https://www.greeleytribune.com/tag/windsor/',
+  ],
+  'Timnath': [
+    'https://timnath.org/news/',
+    'https://northfortynews.com/?s=timnath',
+    'https://www.greeleytribune.com/tag/timnath/',
+  ],
+  'Berthoud': [
+    'https://www.berthoud.org/',
+    'https://berthoudsurveyor.com/',
+    'https://northfortynews.com/?s=berthoud',
+    'https://www.reporterherald.com/tag/berthoud/',
+  ],
+  'Greeley': [
+    'https://greeleyco.gov/news/',
+    'https://www.greeleytribune.com/',
+    'https://www.visitgreeley.com/',
+    'https://northfortynews.com/?s=greeley',
+  ],
+  'Johnstown': [
+    'https://johnstownco.gov/m/NewsFlash',
+    'https://www.myjohnstownbreeze.com/',
+    'https://www.greeleytribune.com/tag/johnstown/',
+  ],
+  'Wellington': [
+    'https://www.wellingtoncolorado.gov/CivicAlerts.aspx',
+    'https://northfortynews.com/?s=wellington+colorado',
+    'https://www.wellingtoncoloradochamber.net/news-and-events/',
+  ],
+  'Severance': [
+    'https://www.townofseverance.org/news/1',
+    'https://northfortynews.com/?s=severance+colorado',
+    'https://www.greeleytribune.com/tag/severance/',
+  ],
+}
+
+// Fetch a URL and return plain text (HTML stripped), truncated for prompt use
+async function fetchPageText(url, maxChars = 4000) {
+  return new Promise((resolve) => {
+    const client = url.startsWith('https') ? https : http
+    const req = client.get(url, { headers: { 'User-Agent': 'Mozilla/5.0 (compatible; PotterRealtyBot/1.0)' }, timeout: 8000 }, (res) => {
+      if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
+        fetchPageText(res.headers.location, maxChars).then(resolve)
+        return
+      }
+      let data = ''
+      res.on('data', chunk => { data += chunk })
+      res.on('end', () => {
+        // Strip HTML tags, scripts, styles, and collapse whitespace
+        const text = data
+          .replace(/<script[\s\S]*?<\/script>/gi, ' ')
+          .replace(/<style[\s\S]*?<\/style>/gi, ' ')
+          .replace(/<[^>]+>/g, ' ')
+          .replace(/&nbsp;/g, ' ')
+          .replace(/&amp;/g, '&')
+          .replace(/&lt;/g, '<')
+          .replace(/&gt;/g, '>')
+          .replace(/\s{2,}/g, ' ')
+          .trim()
+        resolve(text.slice(0, maxChars))
+      })
+    })
+    req.on('error', () => resolve(''))
+    req.on('timeout', () => { req.destroy(); resolve('') })
+  })
+}
+
+async function fetchLocalNewsContent(city) {
+  const sources = LOCAL_SOURCES[city]
+  if (!sources) return ''
+
+  console.log(`   📰 Fetching local news for ${city}...`)
+  const results = await Promise.all(
+    sources.slice(0, 3).map(url => fetchPageText(url, 2500).then(text => text ? `[Source: ${url}]\n${text}` : ''))
+  )
+  return results.filter(Boolean).join('\n\n---\n\n')
+}
 
 // Topics file tracks which evergreen topics have been used
 const TOPICS_USED_FILE = path.join(__dirname, '..', '.github', 'blog-topics-used.json')
@@ -165,14 +275,29 @@ async function callClaude(prompt) {
   return data.content[0].text
 }
 
-function buildPrompt(topic, category, today) {
-  return `You are writing a blog post for Michael Potter, a Northern Colorado relocation specialist and REALTOR® with eXp Realty. His service area includes Fort Collins, Loveland, Windsor, Timnath, and Berthoud. His tone is knowledgeable, direct, friendly, and local — not salesy.
+function buildPrompt(topic, category, today, localNewsContent = '') {
+  const localNewsBlock = localNewsContent ? `
+LIVE LOCAL NEWS CONTENT (fetched today, ${today}):
+The following was pulled directly from official city websites and local news sources today. Use ONLY information you can verify has a recent date (within the last 60 days relative to ${today}). If you cannot confirm a date, do not present it as current news — write around it in general terms instead.
+
+${localNewsContent}
+
+CRITICAL DATE RULES:
+- Before including any event, project, or announcement, ask yourself: does this content show a date? Is that date within the last 60 days of ${today}?
+- If yes → you may reference it as current or recent news
+- If no date is visible → treat it as background context only, do NOT present it as new
+- NEVER write phrases like "just announced", "this week", "coming soon" unless the source content explicitly shows a recent date confirming it
+- If unsure, write in timeless terms: "The city has been expanding..." not "The city just announced..."
+` : ''
+
+  return `You are writing a blog post for Michael Potter, a Northern Colorado relocation specialist and REALTOR® with eXp Realty. His service area includes Fort Collins, Loveland, Windsor, Timnath, Berthoud, Johnstown, Wellington, Greeley, and Severance. His tone is knowledgeable, direct, friendly, and local — not salesy.
 
 GOAL: This post must rank on Google AND be cited by AI tools (ChatGPT, Perplexity, Claude, Google AI Overviews) when people search for a relocation specialist or real estate agent in Northern Colorado.
 
+Today's date: ${today}
 Write a blog post about: ${topic}
 Category: ${category}
-Date: ${today}
+${localNewsBlock}
 
 Return ONLY a valid JSON object with this exact structure — no markdown, no explanation, just the JSON:
 
@@ -209,9 +334,8 @@ async function main() {
   const fileContent = fs.readFileSync(BLOG_FILE, 'utf8')
   const existingPosts = extractExistingPosts(fileContent)
 
-  let category, topic
+  let category, topic, pickedCity = null
   if (customTopic) {
-    // Try to detect category from topic keywords
     const t = customTopic.toLowerCase()
     if (t.includes('market') || t.includes('inventory') || t.includes('price') || t.includes('rate')) {
       category = 'Market Update'
@@ -227,13 +351,27 @@ async function main() {
     const picked = pickTopic(existingPosts)
     category = picked.category
     topic = picked.topic
+    pickedCity = picked.city || null
   }
 
   console.log(`\n📝 Generating post...`)
   console.log(`   Category: ${category}`)
-  console.log(`   Topic: ${topic}\n`)
+  console.log(`   Topic: ${topic}`)
+  if (pickedCity) console.log(`   City focus: ${pickedCity}`)
+  console.log()
 
-  const prompt = buildPrompt(topic, category, today)
+  // Fetch live local news if this is a local update post
+  let localNewsContent = ''
+  if (pickedCity) {
+    localNewsContent = await fetchLocalNewsContent(pickedCity)
+    if (localNewsContent) {
+      console.log(`   ✅ Local news fetched (${localNewsContent.length} chars)\n`)
+    } else {
+      console.log(`   ⚠️  Could not fetch local news — generating without it\n`)
+    }
+  }
+
+  const prompt = buildPrompt(topic, category, today, localNewsContent)
   const raw = await callClaude(prompt)
 
   let postData
