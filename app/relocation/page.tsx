@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import RelocationForm from '@/components/RelocationForm'
 import { cities } from '@/lib/cities'
+import NewsletterSignup from '@/components/NewsletterSignup'
 
 export const metadata: Metadata = {
   title: 'Relocate to Northern Colorado',
@@ -309,6 +310,13 @@ export default function RelocationPage() {
               </details>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* NEWSLETTER */}
+      <section className="py-12 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <NewsletterSignup variant="homepage" />
         </div>
       </section>
 

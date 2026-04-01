@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { cities, getCityBySlug } from '@/lib/cities'
 import { SITE } from '@/lib/constants'
+import NewsletterSignup from '@/components/NewsletterSignup'
 
 interface Props {
   params: { city: string }
@@ -207,6 +208,13 @@ export default function CityPage({ params }: Props) {
                 </Link>
               ))}
           </div>
+        </div>
+      </section>
+
+      {/* NEWSLETTER */}
+      <section className="py-12 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <NewsletterSignup variant="homepage" />
         </div>
       </section>
 

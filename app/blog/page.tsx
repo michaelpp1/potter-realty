@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { posts, categoryColors, type BlogCategory } from '@/lib/blog'
+import NewsletterSignup from '@/components/NewsletterSignup'
 
 export const metadata: Metadata = {
   title: 'Real Estate Blog, Northern Colorado',
@@ -106,6 +107,13 @@ export default function BlogPage({
         </div>
       </section>
 
+      {/* NEWSLETTER */}
+      <section className="py-12 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <NewsletterSignup variant="homepage" />
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="bg-charcoal py-12">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -123,6 +131,7 @@ export default function BlogPage({
             <Link href="/relocation#guide" className="btn-outline-white text-base px-8 py-3.5">
               Get the Free Relocation Guide
             </Link>
+
           </div>
         </div>
       </section>

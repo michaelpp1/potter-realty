@@ -11,7 +11,7 @@ const inlineCta: Record<BlogCategory, { headline: string; body: string; cta: str
     headline: 'Thinking About Moving to Northern Colorado?',
     body: 'Get the free Northern Colorado Relocation Guide — neighborhoods, schools, lifestyle, and everything you need to plan your move.',
     cta: 'Get the Free Relocation Guide',
-    href: '/relocation',
+    href: '/relocation#guide',
     color: 'border-teal/30 bg-teal/5',
   },
   'Buyer Tips': {

@@ -171,7 +171,7 @@ export default function ContactPage() {
                   {[
                     { href: '/buy', label: 'Browse homes for sale →', color: 'text-teal' },
                     { href: '/sell', label: 'Get your home\'s value →', color: 'text-amber-600' },
-                    { href: '/relocation', label: 'Get the free Relocation Guide →', color: 'text-teal' },
+                    { href: '/relocation#guide', label: 'Get the free Relocation Guide →', color: 'text-teal' },
                     { href: '/about', label: 'Learn more about Michael →', color: 'text-sage' },
                   ].map((link) => (
                     <Link

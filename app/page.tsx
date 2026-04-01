@@ -91,7 +91,7 @@ export default function HomePage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                   </svg>
                 ),
-                href: '/relocation',
+                href: '/relocation#guide',
                 cta: 'Get Free Guide',
                 color: 'sage',
               },
