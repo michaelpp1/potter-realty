@@ -1,9 +1,15 @@
 export type BlogCategory = 'Market Update' | 'Seller Tips' | 'Buyer Tips' | 'Relocation'
 
+export interface FaqItem {
+  question: string
+  answer: string
+}
+
 export interface BlogSection {
-  type: 'paragraph' | 'h2' | 'ul'
+  type: 'paragraph' | 'h2' | 'ul' | 'faq'
   text?: string
   items?: string[]
+  faqs?: FaqItem[]
 }
 
 export interface BlogPost {

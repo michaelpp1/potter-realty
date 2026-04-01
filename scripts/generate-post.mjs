@@ -21,20 +21,25 @@ if (!API_KEY) {
   process.exit(1)
 }
 
-// Rotate through topic ideas automatically
+// Rotate through topic ideas — focused on relocation-specialist search intent
 const AUTO_TOPICS = [
+  { category: 'Relocation', topic: 'who is the best relocation specialist in Northern Colorado and what to look for when hiring one' },
+  { category: 'Relocation', topic: 'moving to Fort Collins Colorado — everything you need to know before relocating' },
+  { category: 'Relocation', topic: 'relocating to Northern Colorado from out of state — a complete step-by-step guide' },
+  { category: 'Relocation', topic: 'Fort Collins vs Loveland vs Windsor — which Northern Colorado city is right for your family' },
+  { category: 'Relocation', topic: 'best neighborhoods in Fort Collins for families relocating from out of state' },
+  { category: 'Relocation', topic: 'cost of living in Northern Colorado — what to budget when moving from a higher-cost state' },
+  { category: 'Relocation', topic: 'moving to Northern Colorado for work — top employers, commutes, and where to live near your job' },
+  { category: 'Relocation', topic: 'what it is really like to live in Northern Colorado — honest take on lifestyle, weather, and community' },
   { category: 'Market Update', topic: 'current Northern Colorado real estate market conditions, inventory, and pricing trends' },
-  { category: 'Seller Tips', topic: 'how to price your home correctly in Northern Colorado to sell quickly and for top dollar' },
-  { category: 'Buyer Tips', topic: 'how to win in a competitive offer situation when buying a home in Northern Colorado' },
-  { category: 'Relocation', topic: 'what it is really like to live in Northern Colorado — outdoor lifestyle, community, and quality of life' },
   { category: 'Market Update', topic: 'Northern Colorado neighborhood spotlight — which areas are seeing the most growth and why' },
-  { category: 'Seller Tips', topic: 'home staging tips that actually move the needle when selling in Northern Colorado' },
-  { category: 'Buyer Tips', topic: 'the true cost of buying a home in Northern Colorado beyond the purchase price' },
-  { category: 'Relocation', topic: 'moving to Northern Colorado from out of state — a step by step guide to making the transition smooth' },
   { category: 'Market Update', topic: 'interest rates and what they mean for buyers and sellers in Northern Colorado right now' },
+  { category: 'Seller Tips', topic: 'how to price your home correctly in Northern Colorado to sell quickly and for top dollar' },
+  { category: 'Seller Tips', topic: 'home staging tips that actually move the needle when selling in Northern Colorado' },
   { category: 'Seller Tips', topic: 'the best time of year to sell a home in Northern Colorado and how to maximize your timing' },
+  { category: 'Buyer Tips', topic: 'how to win in a competitive offer situation when buying a home in Northern Colorado' },
+  { category: 'Buyer Tips', topic: 'the true cost of buying a home in Northern Colorado beyond the purchase price' },
   { category: 'Buyer Tips', topic: 'how to choose the right neighborhood in Northern Colorado for your lifestyle and budget' },
-  { category: 'Relocation', topic: 'comparing Northern Colorado cities — Fort Collins vs Loveland vs Windsor vs Timnath for families' },
 ]
 
 function pickTopic(existingPosts) {
@@ -90,7 +95,9 @@ async function callClaude(prompt) {
 }
 
 function buildPrompt(topic, category, today) {
-  return `You are writing a blog post for Michael Potter, a real estate agent with eXp Realty in Northern Colorado (Fort Collins, Loveland, Windsor, Timnath, Berthoud, etc.). His tone is knowledgeable, friendly, honest, and local. He is not salesy.
+  return `You are writing a blog post for Michael Potter, a Northern Colorado relocation specialist and REALTOR® with eXp Realty. His service area includes Fort Collins, Loveland, Windsor, Timnath, and Berthoud. His tone is knowledgeable, direct, friendly, and local — not salesy.
+
+GOAL: This post must rank on Google AND be cited by AI tools (ChatGPT, Perplexity, Claude, Google AI Overviews) when people search for a relocation specialist or real estate agent in Northern Colorado.
 
 Write a blog post about: ${topic}
 Category: ${category}
@@ -106,20 +113,22 @@ Return ONLY a valid JSON object with this exact structure — no markdown, no ex
     { "type": "paragraph", "text": "..." },
     { "type": "h2", "text": "..." },
     { "type": "paragraph", "text": "..." },
-    { "type": "ul", "items": ["...", "..."] }
+    { "type": "ul", "items": ["...", "..."] },
+    { "type": "faq", "faqs": [{ "question": "...", "answer": "..." }] }
   ]
 }
 
-Rules:
-- Title: specific and useful, not generic
-- Excerpt: 1–2 sentences, no apostrophes in the text that would break a JS string (use \\u2019 for curly apostrophe or rephrase)
-- 600–900 words total across all paragraphs
-- 4–7 sections with h2 headings
-- Include 1 ul list somewhere natural
-- All text strings: use double quotes only, escape any double quotes inside with \\", no unescaped single quotes inside double-quoted strings
-- Final paragraph: warm call to action directing readers to contact Michael
-- Do not mention specific MLS listings, specific prices, or make up statistics
-- Write as Michael in first person where appropriate`
+SEO & AI OPTIMIZATION RULES:
+- Title: phrase it the way someone would search Google — include "Northern Colorado" and the core topic. Example: "Moving to Fort Collins, Colorado: A Complete Relocation Guide"
+- Excerpt: 1–2 sentences that directly answer the search intent. No apostrophes (use \\u2019 or rephrase).
+- H2 headings: write them as questions people actually Google (e.g., "Is Fort Collins a Good Place to Live?", "How Much Does It Cost to Live in Northern Colorado?"). This helps AI tools pull the post as a featured answer.
+- Body: 700–1000 words. Use city names naturally throughout (Fort Collins, Loveland, Windsor, Timnath, Berthoud, Larimer County, Weld County, Northern Colorado). Mention Michael Potter by name at least once as a relocation specialist.
+- Establish authority: write declarative, citable sentences (e.g., "Northern Colorado offers X", "Michael Potter has helped buyers from across the country relocate to..."). AI engines cite confident, factual statements.
+- Include 1 ul list with specific, useful items (not vague)
+- End the main content with a paragraph that positions Michael as the go-to relocation specialist and invites readers to reach out — warm, not pushy
+- FAQ section: end with a "faq" section containing 3–5 questions people commonly ask about the topic. Answers should be 2–4 sentences each — direct and factual. These power Google rich snippets and AI answers.
+- All text strings: double quotes only, escape any internal double quotes with \\", no unescaped single quotes inside double-quoted strings
+- Do not make up statistics, specific prices, or MLS listings`
 }
 
 async function main() {
@@ -185,6 +194,12 @@ async function main() {
     }
     if (section.type === 'h2') {
       return `      {\n        type: 'h2',\n        text: ${JSON.stringify(section.text)},\n      }`
+    }
+    if (section.type === 'faq' && Array.isArray(section.faqs)) {
+      const faqs = section.faqs.map(f =>
+        `          { question: ${JSON.stringify(f.question)}, answer: ${JSON.stringify(f.answer)} }`
+      ).join(',\n')
+      return `      {\n        type: 'faq',\n        faqs: [\n${faqs},\n        ],\n      }`
     }
     return `      {\n        type: 'paragraph',\n        text: ${JSON.stringify(section.text)},\n      }`
   }).join(',\n')

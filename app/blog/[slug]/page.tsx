@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
+import Script from 'next/script'
 import { posts, getPostBySlug, categoryColors } from '@/lib/blog'
 import { SITE } from '@/lib/constants'
 
@@ -35,8 +36,54 @@ export default function BlogPostPage({ params }: Props) {
 
   const suggestions = [...related, ...otherPosts].slice(0, 3)
 
+  const faqSections = post.content.filter((s) => s.type === 'faq' && s.faqs?.length)
+  const allFaqs = faqSections.flatMap((s) => s.faqs ?? [])
+
+  const articleJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: post.title,
+    description: post.excerpt,
+    datePublished: post.date,
+    author: {
+      '@type': 'Person',
+      name: 'Michael Potter',
+      jobTitle: 'Northern Colorado Relocation Specialist & REALTOR®',
+      worksFor: { '@type': 'Organization', name: 'eXp Realty' },
+      url: 'https://www.potterealty.com',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Potter Realty — Michael Potter, eXp Realty',
+      url: 'https://www.potterealty.com',
+    },
+    mainEntityOfPage: `https://www.potterealty.com/blog/${post.slug}`,
+  }
+
+  const faqJsonLd = allFaqs.length > 0 ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: allFaqs.map((faq) => ({
+      '@type': 'Question',
+      name: faq.question,
+      acceptedAnswer: { '@type': 'Answer', text: faq.answer },
+    })),
+  } : null
+
   return (
     <>
+      <Script
+        id="article-jsonld"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
+      {faqJsonLd && (
+        <Script
+          id="faq-jsonld"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+      )}
       {/* HEADER */}
       <section className="pt-24 pb-10 bg-white border-b border-gray-100">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -108,6 +155,26 @@ export default function BlogPostPage({ params }: Props) {
                       </li>
                     ))}
                   </ul>
+                )
+              }
+              if (section.type === 'faq' && section.faqs?.length) {
+                return (
+                  <div key={i} className="space-y-4 mt-10">
+                    <h2 className="font-heading font-700 text-xl text-charcoal mb-5">
+                      Frequently Asked Questions
+                    </h2>
+                    {section.faqs.map((faq, j) => (
+                      <details key={j} className="group border border-gray-200 rounded-xl p-5 cursor-pointer">
+                        <summary className="font-heading font-600 text-base text-charcoal list-none flex items-center justify-between gap-3">
+                          {faq.question}
+                          <svg className="w-4 h-4 text-teal shrink-0 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                          </svg>
+                        </summary>
+                        <p className="font-sans text-gray-600 text-base leading-relaxed mt-3">{faq.answer}</p>
+                      </details>
+                    ))}
+                  </div>
                 )
               }
               return (
