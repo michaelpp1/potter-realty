@@ -26,7 +26,7 @@ export const categoryColors: Record<BlogCategory, string> = {
   'Market Update': 'bg-teal/10 text-teal',
   'Seller Tips': 'bg-gold/15 text-amber-700',
   'Buyer Tips': 'bg-sage/15 text-sage',
-  'Relocation': 'bg-charcoal/10 text-charcoal',
+  'Relocation': 'bg-indigo-50 text-indigo-700',
 }
 
 export const posts: BlogPost[] = [
