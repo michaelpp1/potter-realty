@@ -4,6 +4,7 @@ import Link from 'next/link'
 import Script from 'next/script'
 import { posts, getPostBySlug, categoryColors, type BlogCategory } from '@/lib/blog'
 import { SITE } from '@/lib/constants'
+import NewsletterSignup from '@/components/NewsletterSignup'
 
 const inlineCta: Record<BlogCategory, { headline: string; body: string; cta: string; href: string; color: string }> = {
   'Relocation': {
@@ -263,6 +264,13 @@ export default function BlogPostPage({ params }: Props) {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* NEWSLETTER */}
+      <section className="bg-charcoal py-2">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <NewsletterSignup variant="blog" />
         </div>
       </section>
 

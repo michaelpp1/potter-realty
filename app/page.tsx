@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { SITE } from '@/lib/constants'
 import Reviews from '@/components/Reviews'
+import NewsletterSignup from '@/components/NewsletterSignup'
 
 export default function HomePage() {
   return (
@@ -216,6 +217,13 @@ export default function HomePage() {
           <Link href="/relocation" className="btn-outline-white text-base px-8 py-3.5">
             Explore Northern Colorado
           </Link>
+        </div>
+      </section>
+
+      {/* NEWSLETTER */}
+      <section className="py-12 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <NewsletterSignup variant="homepage" />
         </div>
       </section>
 
