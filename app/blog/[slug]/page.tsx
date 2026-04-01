@@ -2,8 +2,39 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import Script from 'next/script'
-import { posts, getPostBySlug, categoryColors } from '@/lib/blog'
+import { posts, getPostBySlug, categoryColors, type BlogCategory } from '@/lib/blog'
 import { SITE } from '@/lib/constants'
+
+const inlineCta: Record<BlogCategory, { headline: string; body: string; cta: string; href: string; color: string }> = {
+  'Relocation': {
+    headline: 'Thinking About Moving to Northern Colorado?',
+    body: 'Get the free Northern Colorado Relocation Guide — neighborhoods, schools, lifestyle, and everything you need to plan your move.',
+    cta: 'Get the Free Relocation Guide',
+    href: '/relocation',
+    color: 'border-teal/30 bg-teal/5',
+  },
+  'Buyer Tips': {
+    headline: 'Ready to Start Your Home Search?',
+    body: "Browse up-to-date listings across Fort Collins, Loveland, Windsor, and the rest of Northern Colorado. I'll help you find the right home.",
+    cta: 'Browse Homes',
+    href: '/buy',
+    color: 'border-teal/30 bg-teal/5',
+  },
+  'Seller Tips': {
+    headline: 'Curious What Your Home Is Worth?',
+    body: "Get a free, no-pressure market analysis for your Northern Colorado home. I'll show you exactly what it's worth in today's market.",
+    cta: 'Get My Home\u2019s Value',
+    href: '/sell',
+    color: 'border-gold/30 bg-gold/5',
+  },
+  'Market Update': {
+    headline: 'Have Questions About the Market?',
+    body: "Whether you're thinking about buying, selling, or just keeping tabs on Northern Colorado real estate, I'm happy to talk through what the data means for you.",
+    cta: 'Let\u2019s Connect',
+    href: '/contact',
+    color: 'border-teal/30 bg-teal/5',
+  },
+}
 
 interface Props {
   params: { slug: string }
@@ -131,56 +162,76 @@ export default function BlogPostPage({ params }: Props) {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="prose-custom space-y-6">
             {post.content.map((section, i) => {
+              const cta = inlineCta[post.category]
+              const ctaBlock = i === 3 && cta ? (
+                <div className={`my-8 rounded-2xl border p-6 ${cta.color}`}>
+                  <p className="font-heading font-700 text-base text-charcoal mb-2">{cta.headline}</p>
+                  <p className="font-sans text-gray-600 text-sm leading-relaxed mb-4">{cta.body}</p>
+                  <Link href={cta.href} className="btn-primary text-sm px-5 py-2.5 inline-block">
+                    {cta.cta}
+                  </Link>
+                </div>
+              ) : null
+
               if (section.type === 'h2') {
                 return (
-                  <h2
-                    key={i}
-                    className="font-heading font-700 text-xl text-charcoal mt-10 mb-3"
-                  >
-                    {section.text}
-                  </h2>
+                  <div key={i}>
+                    {ctaBlock}
+                    <h2 className="font-heading font-700 text-xl text-charcoal mt-10 mb-3">
+                      {section.text}
+                    </h2>
+                  </div>
                 )
               }
               if (section.type === 'ul') {
                 return (
-                  <ul key={i} className="space-y-2 my-4">
-                    {section.items?.map((item) => (
-                      <li key={item} className="flex items-start gap-3">
-                        <div className="w-5 h-5 rounded-full bg-teal/10 flex items-center justify-center shrink-0 mt-0.5">
-                          <svg className="w-3 h-3 text-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
-                          </svg>
-                        </div>
-                        <p className="font-sans text-gray-600 text-base leading-relaxed">{item}</p>
-                      </li>
-                    ))}
-                  </ul>
+                  <div key={i}>
+                    {ctaBlock}
+                    <ul className="space-y-2 my-4">
+                      {section.items?.map((item) => (
+                        <li key={item} className="flex items-start gap-3">
+                          <div className="w-5 h-5 rounded-full bg-teal/10 flex items-center justify-center shrink-0 mt-0.5">
+                            <svg className="w-3 h-3 text-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                            </svg>
+                          </div>
+                          <p className="font-sans text-gray-600 text-base leading-relaxed">{item}</p>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 )
               }
               if (section.type === 'faq' && section.faqs?.length) {
                 return (
-                  <div key={i} className="space-y-4 mt-10">
-                    <h2 className="font-heading font-700 text-xl text-charcoal mb-5">
-                      Frequently Asked Questions
-                    </h2>
-                    {section.faqs.map((faq, j) => (
-                      <details key={j} className="group border border-gray-200 rounded-xl p-5 cursor-pointer">
-                        <summary className="font-heading font-600 text-base text-charcoal list-none flex items-center justify-between gap-3">
-                          {faq.question}
-                          <svg className="w-4 h-4 text-teal shrink-0 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                          </svg>
-                        </summary>
-                        <p className="font-sans text-gray-600 text-base leading-relaxed mt-3">{faq.answer}</p>
-                      </details>
-                    ))}
+                  <div key={i}>
+                    {ctaBlock}
+                    <div className="space-y-4 mt-10">
+                      <h2 className="font-heading font-700 text-xl text-charcoal mb-5">
+                        Frequently Asked Questions
+                      </h2>
+                      {section.faqs.map((faq, j) => (
+                        <details key={j} className="group border border-gray-200 rounded-xl p-5 cursor-pointer">
+                          <summary className="font-heading font-600 text-base text-charcoal list-none flex items-center justify-between gap-3">
+                            {faq.question}
+                            <svg className="w-4 h-4 text-teal shrink-0 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                            </svg>
+                          </summary>
+                          <p className="font-sans text-gray-600 text-base leading-relaxed mt-3">{faq.answer}</p>
+                        </details>
+                      ))}
+                    </div>
                   </div>
                 )
               }
               return (
-                <p key={i} className="font-sans text-gray-600 text-base leading-relaxed">
-                  {section.text}
-                </p>
+                <div key={i}>
+                  {ctaBlock}
+                  <p className="font-sans text-gray-600 text-base leading-relaxed">
+                    {section.text}
+                  </p>
+                </div>
               )
             })}
           </div>
