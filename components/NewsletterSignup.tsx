@@ -103,19 +103,19 @@ export default function NewsletterSignup({ variant = 'blog' }: Props) {
 
   // Blog variant — compact inline
   return (
-    <div className="my-10 rounded-2xl bg-charcoal p-6 sm:p-8">
+    <div className="my-10 rounded-2xl bg-teal p-6 sm:p-8">
       <div className="flex flex-col sm:flex-row gap-6 items-start sm:items-center">
-        <div className="shrink-0 w-10 h-10 rounded-xl bg-teal/20 flex items-center justify-center">
-          <svg className="w-5 h-5 text-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <div className="shrink-0 w-10 h-10 rounded-xl bg-white/20 flex items-center justify-center">
+          <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
           </svg>
         </div>
         <div className="flex-1">
-          <p className="font-heading font-700 text-white text-base mb-1">
-            Get the Monthly Northern Colorado Market Update
+          <p className="font-sans text-white/70 text-xs font-500 uppercase tracking-widest mb-1">
+            Free Monthly Newsletter
           </p>
-          <p className="font-sans text-gray-400 text-sm leading-relaxed">
-            Market news, local events, and relocation insights every month. Free, no spam.
+          <p className="font-heading font-700 text-white text-base">
+            Market updates, local events, and buyer/seller tips — delivered monthly.
           </p>
         </div>
       </div>
@@ -125,7 +125,7 @@ export default function NewsletterSignup({ variant = 'blog' }: Props) {
           placeholder="First name"
           value={firstName}
           onChange={(e) => setFirstName(e.target.value)}
-          className="flex-1 px-4 py-3 rounded-xl bg-white/10 border border-white/10 text-white placeholder-gray-500 font-sans text-sm focus:outline-none focus:border-teal/50"
+          className="flex-1 px-4 py-3 rounded-xl bg-white border border-white/20 text-charcoal placeholder-gray-400 font-sans text-sm focus:outline-none focus:ring-2 focus:ring-white/50"
         />
         <input
           type="email"
@@ -133,18 +133,18 @@ export default function NewsletterSignup({ variant = 'blog' }: Props) {
           required
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          className="flex-1 px-4 py-3 rounded-xl bg-white/10 border border-white/10 text-white placeholder-gray-500 font-sans text-sm focus:outline-none focus:border-teal/50"
+          className="flex-1 px-4 py-3 rounded-xl bg-white border border-white/20 text-charcoal placeholder-gray-400 font-sans text-sm focus:outline-none focus:ring-2 focus:ring-white/50"
         />
         <button
           type="submit"
           disabled={state === 'loading'}
-          className="btn-primary px-6 py-3 text-sm whitespace-nowrap disabled:opacity-60 disabled:cursor-not-allowed"
+          className="bg-charcoal text-white font-heading font-700 text-sm px-6 py-3 rounded-xl whitespace-nowrap hover:bg-charcoal/90 transition-colors disabled:opacity-60 disabled:cursor-not-allowed"
         >
-          {state === 'loading' ? 'Subscribing...' : 'Subscribe'}
+          {state === 'loading' ? 'Subscribing...' : 'Sign Up'}
         </button>
       </form>
       {state === 'error' && (
-        <p className="text-red-400 text-sm font-sans mt-2">{error}</p>
+        <p className="text-white/80 text-sm font-sans mt-2">{error}</p>
       )}
     </div>
   )
