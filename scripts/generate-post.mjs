@@ -21,33 +21,104 @@ if (!API_KEY) {
   process.exit(1)
 }
 
-// Rotate through topic ideas — focused on relocation-specialist search intent
+// Topics — evergreen ones are used once then retired until the full list cycles.
+// Market Updates are always eligible (new data each time).
 const AUTO_TOPICS = [
-  { category: 'Relocation', topic: 'who is the best relocation specialist in Northern Colorado and what to look for when hiring one' },
-  { category: 'Relocation', topic: 'moving to Fort Collins Colorado — everything you need to know before relocating' },
-  { category: 'Relocation', topic: 'relocating to Northern Colorado from out of state — a complete step-by-step guide' },
-  { category: 'Relocation', topic: 'Fort Collins vs Loveland vs Windsor — which Northern Colorado city is right for your family' },
-  { category: 'Relocation', topic: 'best neighborhoods in Fort Collins for families relocating from out of state' },
-  { category: 'Relocation', topic: 'cost of living in Northern Colorado — what to budget when moving from a higher-cost state' },
-  { category: 'Relocation', topic: 'moving to Northern Colorado for work — top employers, commutes, and where to live near your job' },
-  { category: 'Relocation', topic: 'what it is really like to live in Northern Colorado — honest take on lifestyle, weather, and community' },
-  { category: 'Market Update', topic: 'current Northern Colorado real estate market conditions, inventory, and pricing trends' },
-  { category: 'Market Update', topic: 'Northern Colorado neighborhood spotlight — which areas are seeing the most growth and why' },
-  { category: 'Market Update', topic: 'interest rates and what they mean for buyers and sellers in Northern Colorado right now' },
-  { category: 'Seller Tips', topic: 'how to price your home correctly in Northern Colorado to sell quickly and for top dollar' },
-  { category: 'Seller Tips', topic: 'home staging tips that actually move the needle when selling in Northern Colorado' },
-  { category: 'Seller Tips', topic: 'the best time of year to sell a home in Northern Colorado and how to maximize your timing' },
-  { category: 'Buyer Tips', topic: 'how to win in a competitive offer situation when buying a home in Northern Colorado' },
-  { category: 'Buyer Tips', topic: 'the true cost of buying a home in Northern Colorado beyond the purchase price' },
-  { category: 'Buyer Tips', topic: 'how to choose the right neighborhood in Northern Colorado for your lifestyle and budget' },
+  // --- Relocation (high search intent for Michael's core positioning) ---
+  { category: 'Relocation', evergreen: true,  topic: 'who is the best relocation specialist in Northern Colorado and what to look for when hiring one' },
+  { category: 'Relocation', evergreen: true,  topic: 'moving to Fort Collins Colorado — everything you need to know before relocating' },
+  { category: 'Relocation', evergreen: true,  topic: 'relocating to Northern Colorado from out of state — a complete step-by-step guide' },
+  { category: 'Relocation', evergreen: true,  topic: 'Fort Collins vs Loveland vs Windsor vs Timnath — which Northern Colorado city is right for your family' },
+  { category: 'Relocation', evergreen: true,  topic: 'best neighborhoods in Fort Collins for families relocating from out of state' },
+  { category: 'Relocation', evergreen: true,  topic: 'best neighborhoods in Loveland Colorado for families, retirees, and first-time buyers' },
+  { category: 'Relocation', evergreen: true,  topic: 'cost of living in Northern Colorado — what to budget when moving from a higher-cost state like California or Texas' },
+  { category: 'Relocation', evergreen: true,  topic: 'moving to Northern Colorado for work — top employers, commutes, and where to live near your job' },
+  { category: 'Relocation', evergreen: true,  topic: 'what it is really like to live in Northern Colorado — honest take on lifestyle, weather, and community' },
+  { category: 'Relocation', evergreen: true,  topic: 'moving to Windsor or Timnath Colorado — what makes these fast-growing towns so popular' },
+  { category: 'Relocation', evergreen: true,  topic: 'moving to Berthoud Colorado — small town feel with easy access to Fort Collins and Denver' },
+  { category: 'Relocation', evergreen: true,  topic: 'Northern Colorado schools guide — what families need to know before choosing where to live' },
+  { category: 'Relocation', evergreen: true,  topic: 'retiring to Northern Colorado — why so many retirees are choosing Fort Collins and Loveland' },
+  { category: 'Relocation', evergreen: true,  topic: 'outdoor lifestyle in Northern Colorado — hiking, biking, skiing, and recreation near Fort Collins' },
+  { category: 'Relocation', evergreen: true,  topic: 'moving from California to Northern Colorado — what to expect and how to make the transition' },
+  { category: 'Relocation', evergreen: true,  topic: 'moving from Texas to Northern Colorado — cost of living, climate, and real estate comparison' },
+  // --- Market Update (repeatable — fresh data every time) ---
+  { category: 'Market Update', evergreen: false, topic: 'current Northern Colorado real estate market conditions, inventory, and pricing trends' },
+  { category: 'Market Update', evergreen: false, topic: 'interest rates and what they mean for buyers and sellers in Northern Colorado right now' },
+  { category: 'Market Update', evergreen: false, topic: 'Northern Colorado neighborhood spotlight — which areas are seeing the most growth and why' },
+  { category: 'Market Update', evergreen: false, topic: 'Fort Collins housing market update — supply, demand, and what buyers and sellers should know' },
+  { category: 'Market Update', evergreen: false, topic: 'Loveland and Windsor real estate market update — pricing trends and inventory levels' },
+  { category: 'Market Update', evergreen: false, topic: 'is now a good time to buy a home in Northern Colorado — honest market analysis' },
+  { category: 'Market Update', evergreen: false, topic: 'is now a good time to sell a home in Northern Colorado — what the data says' },
+  // --- Seller Tips ---
+  { category: 'Seller Tips', evergreen: true,  topic: 'how to price your home correctly in Northern Colorado to sell quickly and for top dollar' },
+  { category: 'Seller Tips', evergreen: true,  topic: 'home staging tips that actually move the needle when selling in Northern Colorado' },
+  { category: 'Seller Tips', evergreen: true,  topic: 'the best time of year to sell a home in Northern Colorado and how to maximize your timing' },
+  { category: 'Seller Tips', evergreen: true,  topic: 'what repairs and upgrades are actually worth doing before listing your Northern Colorado home' },
+  { category: 'Seller Tips', evergreen: true,  topic: 'how to choose the right listing agent in Northern Colorado — questions to ask before you sign' },
+  { category: 'Seller Tips', evergreen: true,  topic: 'how to sell your Northern Colorado home fast — a realistic game plan from prep to close' },
+  { category: 'Seller Tips', evergreen: true,  topic: 'what to expect during the closing process when selling a home in Colorado' },
+  { category: 'Seller Tips', evergreen: true,  topic: 'how to handle multiple offers on your Northern Colorado home and pick the right buyer' },
+  // --- Buyer Tips ---
+  { category: 'Buyer Tips', evergreen: true,  topic: 'how to win in a competitive offer situation when buying a home in Northern Colorado' },
+  { category: 'Buyer Tips', evergreen: true,  topic: 'the true cost of buying a home in Northern Colorado beyond the purchase price' },
+  { category: 'Buyer Tips', evergreen: true,  topic: 'how to choose the right neighborhood in Northern Colorado for your lifestyle and budget' },
+  { category: 'Buyer Tips', evergreen: true,  topic: 'first-time home buyer guide for Northern Colorado — what to know before you start your search' },
+  { category: 'Buyer Tips', evergreen: true,  topic: 'how to get pre-approved for a mortgage in Colorado and why it matters before you search' },
+  { category: 'Buyer Tips', evergreen: true,  topic: 'new construction vs resale homes in Northern Colorado — which is the better buy' },
+  { category: 'Buyer Tips', evergreen: true,  topic: 'what to look for in a home inspection when buying in Northern Colorado' },
+  { category: 'Buyer Tips', evergreen: true,  topic: 'how to buy and sell a home at the same time in Northern Colorado without losing your mind' },
 ]
 
+// Topics file tracks which evergreen topics have been used
+const TOPICS_USED_FILE = path.join(__dirname, '..', '.github', 'blog-topics-used.json')
+
+function loadUsedTopics() {
+  try {
+    return JSON.parse(fs.readFileSync(TOPICS_USED_FILE, 'utf8'))
+  } catch {
+    return []
+  }
+}
+
+function saveUsedTopics(used) {
+  fs.writeFileSync(TOPICS_USED_FILE, JSON.stringify(used, null, 2), 'utf8')
+}
+
 function pickTopic(existingPosts) {
-  // Avoid repeating topics too recently
-  const recentCategories = existingPosts.slice(0, 4).map(p => p.category)
-  const available = AUTO_TOPICS.filter(t => !recentCategories.includes(t.category))
-  const pool = available.length > 0 ? available : AUTO_TOPICS
-  return pool[Math.floor(Math.random() * pool.length)]
+  const usedTopics = loadUsedTopics()
+
+  // Market Updates are always eligible — never marked as used
+  const marketUpdates = AUTO_TOPICS.filter(t => !t.evergreen)
+
+  // Evergreen topics not yet used
+  const unusedEvergreen = AUTO_TOPICS.filter(t => t.evergreen && !usedTopics.includes(t.topic))
+
+  // If all evergreen topics have been used, reset and start the cycle again
+  const evergreenPool = unusedEvergreen.length > 0
+    ? unusedEvergreen
+    : (() => { saveUsedTopics([]); return AUTO_TOPICS.filter(t => t.evergreen) })()
+
+  // Avoid repeating the same category as the last 2 posts (keep variety)
+  const recentCategories = existingPosts.slice(0, 2).map(p => p.category)
+
+  // Combine pools: ~30% chance of a Market Update, otherwise evergreen
+  const roll = Math.random()
+  let pool
+  if (roll < 0.3 && marketUpdates.length > 0) {
+    pool = marketUpdates
+  } else {
+    pool = evergreenPool.filter(t => !recentCategories.includes(t.category))
+    if (pool.length === 0) pool = evergreenPool
+  }
+
+  const picked = pool[Math.floor(Math.random() * pool.length)]
+
+  // Mark evergreen topics as used
+  if (picked.evergreen) {
+    saveUsedTopics([...usedTopics.filter(t => t !== picked.topic), picked.topic])
+  }
+
+  return picked
 }
 
 function slugify(title) {
