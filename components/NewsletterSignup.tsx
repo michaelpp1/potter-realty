@@ -62,7 +62,7 @@ export default function NewsletterSignup({ variant = 'blog' }: Props) {
             Free Monthly Newsletter
           </p>
           <h3 className="font-heading font-700 text-2xl text-charcoal mb-2">
-            Market updates, local events, buyer and seller tips, and relocation insights delivered monthly.
+            Market updates, local events, and buyer/seller tips — delivered monthly.
           </h3>
         </div>
         <form onSubmit={handleSubmit} className="space-y-3">
