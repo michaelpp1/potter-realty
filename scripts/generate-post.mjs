@@ -500,7 +500,7 @@ async function postToGoogleMyBusiness(postData) {
     return
   }
 
-  const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.michaelpotterrealty.com'
+  const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.potterrealtyco.com'
   const postUrl = `${SITE_URL}/blog/${postData.slug}`
 
   // Use the excerpt as the GMB summary (max 1500 chars)
@@ -513,6 +513,12 @@ async function postToGoogleMyBusiness(postData) {
       actionType: 'LEARN_MORE',
       url: postUrl,
     },
+    media: [
+      {
+        mediaFormat: 'PHOTO',
+        sourceUrl: `${SITE_URL}/images/headshot.jpg`,
+      },
+    ],
     topicType: 'STANDARD',
   }
 
