@@ -42,6 +42,7 @@ jobs:
         run: |
           git config user.name "Blog Bot"
           git config user.email "blog-bot@potterrealty.com"
-          git add lib/blog.ts .github/blog-topics-used.json
+          git add lib/blog.ts
+          git add .github/blog-topics-used.json || true
           git diff --staged --quiet || git commit -m "blog: auto-generated weekly post"
           git push
