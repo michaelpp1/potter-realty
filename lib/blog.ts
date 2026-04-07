@@ -31,6 +31,101 @@ export const categoryColors: Record<BlogCategory, string> = {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'how-to-choose-the-right-neighborhood-in-northern-colorado-fo',
+    title: "How to Choose the Right Neighborhood in Northern Colorado for Your Lifestyle and Budget",
+    date: 'April 7, 2026',
+    category: 'Buyer Tips',
+    excerpt: "Northern Colorado offers dozens of distinct neighborhoods across Fort Collins, Loveland, Windsor, Timnath, Berthoud, and beyond. This guide breaks down how to match your lifestyle priorities and budget to the right community so you can relocate with confidence.",
+    readTime: '9 min read',
+    content: [
+      {
+        type: 'paragraph',
+        text: "One of the biggest decisions you will make when relocating to Northern Colorado is not just which city to move to, but which neighborhood within that city fits the life you are trying to build. I grew up in Loveland, graduated from Thompson Valley High School, and have spent the better part of my adult life exploring every corner of this region. As a relocation specialist, I work with people every week who are moving here from California, Texas, the Pacific Northwest, and beyond. The question I hear most often is not whether Northern Colorado is a great place to live. They already know it is. The question is: where exactly should I land?",
+      },
+      {
+        type: 'h2',
+        text: "What Are the Best Neighborhoods in Northern Colorado for Relocation?",
+      },
+      {
+        type: 'paragraph',
+        text: "The answer depends entirely on what your day-to-day life looks like. Northern Colorado is not a single market with a single personality. Fort Collins feels different from Loveland. Windsor feels different from Berthoud. Timnath feels different from Wellington. And within each of those cities, individual neighborhoods can vary dramatically in character, price, lot size, walkability, and proximity to open space. Before I ever send a client a listing, I ask them to describe their ideal Tuesday morning. That single question tells me more than any price range ever could.",
+      },
+      {
+        type: 'h2',
+        text: "Do You Want a Walkable In-Town Lifestyle or Rural Acreage?",
+      },
+      {
+        type: 'paragraph',
+        text: "This is the most important fork in the road. Northern Colorado supports both lifestyles beautifully, but they lead to very different neighborhoods. If your ideal Tuesday morning starts with a walk to a coffee shop, a yoga class, and a stop at the farmers market, you are looking at in-town neighborhoods. Downtown Fort Collins along College Avenue and Old Town is the gold standard for walkability. Loveland has its own growing downtown core with local restaurants, art galleries, and breweries. Both cities have established neighborhoods within biking distance of these hubs.",
+      },
+      {
+        type: 'paragraph',
+        text: "If your ideal Tuesday morning starts with feeding chickens, walking your dog on your own acreage, and looking at the mountains from your porch with a cup of coffee, you are looking west. West of Loveland and west of Fort Collins, you will find properties on larger lots, some with barns, shops, and room for horses, goats, greenhouses, and gardens. Berthoud also offers semi-rural properties with a small-town feel and relatively easy access to I-25 and Highway 287. The homestead lifestyle is very much alive here, and it does not require moving to the middle of nowhere.",
+      },
+      {
+        type: 'h2',
+        text: "How Much Does It Cost to Live in Different Northern Colorado Neighborhoods?",
+      },
+      {
+        type: 'paragraph',
+        text: "Budget is obviously a major factor, and the good news is that Northern Colorado offers a wider range of price points than most people expect, especially those coming from higher cost-of-living states. Generally speaking, Fort Collins and Timnath tend to sit at the higher end of the market, while Loveland, Windsor, Berthoud, Johnstown, Severance, Wellington, and Greeley offer more value per square foot. That said, there are affordable pockets in Fort Collins and premium properties in every city on this list. The key is knowing which neighborhoods align with both your lifestyle and your budget simultaneously.",
+      },
+      {
+        type: 'paragraph',
+        text: "One thing worth noting: Northern Colorado straddles two counties. Fort Collins, Loveland, Berthoud, and Wellington are in Larimer County. Windsor, Severance, Johnstown, and Greeley are in Weld County. Timnath spans both. Property taxes, school districts, and certain regulations differ between the two counties, which can influence your total cost of living. This is something I walk through with every relocation client because it matters more than people realize.",
+      },
+      {
+        type: 'h2',
+        text: "What Should You Prioritize When Choosing a Neighborhood in Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "After helping buyers relocate from across the country, I have found that the people who are happiest with their choice are the ones who ranked their priorities before they started looking at homes. Here is what I recommend evaluating:",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Proximity to trails and open space: If hiking with your dog is a daily activity, neighborhoods near Devil’s Backbone, Horsetooth, Lory State Park, or the Poudre River trail system will feel like home.",
+          "Walkability to downtown amenities: If you want to walk or bike to coffee shops, breweries, restaurants, and weekend festivals, prioritize established neighborhoods in central Fort Collins or downtown Loveland.",
+          "Lot size and land use: If you want space for horses, chickens, a large garden, or a detached shop, look at properties west of town or in rural pockets of Berthoud, Johnstown, and Wellington.",
+          "School districts: If you have kids at home or grandchildren who will visit regularly, research the Thompson School District (Loveland, Berthoud) and Poudre School District (Fort Collins, Timnath, Wellington) specifically.",
+          "Commute and access: Denver International Airport is roughly one hour south on I-25, making air travel very convenient. If you ski, resorts like Breckenridge, Keystone, Vail, and Arapahoe Basin are 1.5 to 2.5 hours away, which is very doable for day trips or weekend getaways.",
+          "Community feel: Smaller towns like Berthoud and Windsor offer a tight-knit, neighbors-know-your-name atmosphere. Fort Collins offers more urban energy while still feeling approachable and safe.",
+        ],
+      },
+      {
+        type: 'h2',
+        text: "Is Northern Colorado Too Expensive for Relocating Buyers?",
+      },
+      {
+        type: 'paragraph',
+        text: "This is a concern I hear regularly, and I understand it. But most of my relocation clients are coming from markets that are significantly more expensive than Northern Colorado. If you are moving from the Bay Area, Southern California, Austin, Seattle, or Portland, your dollar stretches further here in almost every category: housing, groceries, dining, and general cost of living. The region also does not have the extreme congestion or infrastructure strain you find in larger metros. You get mountain access, open space, four seasons, and a genuine sense of community without the premium price tag of resort towns or major cities.",
+      },
+      {
+        type: 'h2',
+        text: "How Do You Narrow Down Neighborhoods Without Visiting Every One?",
+      },
+      {
+        type: 'paragraph',
+        text: "This is where working with someone who actually lives here makes a real difference. I am not just pulling listings off a database. I paddleboard at Horsetooth Reservoir and Carter Lake in the summer. I hike Devil’s Backbone and camp up the Poudre Canyon. I eat at the restaurants, drink coffee at the local shops, and walk through these neighborhoods regularly. When I tell a client that a particular street feels quiet and tree-lined or that a certain subdivision has an active community feel, it is because I have been there, not because I read it on a website.",
+      },
+      {
+        type: 'paragraph',
+        text: "Michael Potter is a Northern Colorado relocation specialist with eXp Realty who has helped buyers from across the country find the right neighborhood for their lifestyle and budget. If you are considering a move to Fort Collins, Loveland, Windsor, Timnath, Berthoud, or anywhere else in the region, I would love to help you get oriented. Download the free Relocation Guide at potterealty.com/relocation#guide to start planning your move, or reach out directly. No pressure, just honest answers from someone who grew up here and genuinely loves helping people find their place in Northern Colorado.",
+      },
+      {
+        type: 'faq',
+        faqs: [
+          { question: "What is the best city in Northern Colorado for retirees?", answer: "Loveland and Fort Collins are both excellent choices for retirees. Loveland offers a slightly slower pace, a vibrant arts community, and access to trails and lakes. Fort Collins provides more dining, cultural events, and walkable neighborhoods. Both cities have strong healthcare infrastructure and active outdoor recreation options." },
+          { question: "Is Northern Colorado too far from ski resorts?", answer: "No. Popular ski resorts like Breckenridge, Keystone, Arapahoe Basin, and Vail are approximately 1.5 to 2.5 hours from Fort Collins and Loveland. Many residents make regular day trips or weekend getaways throughout ski season. The drive is scenic and straightforward via I-70." },
+          { question: "What is the difference between living in Larimer County and Weld County?", answer: "Larimer County includes Fort Collins, Loveland, Berthoud, and Wellington. Weld County includes Windsor, Severance, Johnstown, and Greeley. Property taxes, school districts, and land use regulations differ between the two. Homes in Weld County often offer more value per square foot, while Larimer County properties tend to be closer to mountain access and established trail systems." },
+          { question: "Can I find acreage or a homestead property near Fort Collins or Loveland?", answer: "Yes. Properties west of Fort Collins and west of Loveland offer larger lots with room for horses, livestock, gardens, barns, and shops. Berthoud and parts of Wellington also have rural properties with a homestead feel. These areas provide mountain views and open space while remaining a short drive from in-town amenities." },
+          { question: "How far is Northern Colorado from Denver International Airport?", answer: "Denver International Airport is approximately one hour south of Fort Collins and Loveland via I-25. This makes Northern Colorado very convenient for frequent travelers and for family members flying in to visit. Several shuttle and rideshare services also operate between Northern Colorado and the airport." },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'what-its-really-like-to-live-in-northern-colorado-an-honest-',
     title: "What It’s Really Like to Live in Northern Colorado: An Honest Look at the Lifestyle",
     date: 'April 1, 2026',
