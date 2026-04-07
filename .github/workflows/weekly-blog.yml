@@ -35,7 +35,7 @@ jobs:
           GMB_REFRESH_TOKEN: ${{ secrets.GMB_REFRESH_TOKEN }}
           GMB_ACCOUNT_ID: ${{ secrets.GMB_ACCOUNT_ID }}
           GMB_LOCATION_ID: ${{ secrets.GMB_LOCATION_ID }}
-          NEXT_PUBLIC_SITE_URL: https://www.michaelpotterrealty.com
+          NEXT_PUBLIC_SITE_URL: https://www.potterrealtyco.com
         run: node scripts/generate-post.mjs "${{ github.event.inputs.topic }}"
 
       - name: Commit and push
