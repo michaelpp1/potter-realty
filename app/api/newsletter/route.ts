@@ -57,7 +57,7 @@ export async function POST(req: NextRequest) {
     }
 
     // Add to Follow Up Boss as a new contact
-    const fubApiKey = process.env.FUB_API_KEY
+    const fubApiKey = process.env.FOLLOW_UP_BOSS_API_KEY
     if (fubApiKey) {
       const fubCredentials = Buffer.from(`${fubApiKey}:`).toString('base64')
       const fubRes = await fetch('https://api.followupboss.com/v1/people', {
@@ -66,7 +66,7 @@ export async function POST(req: NextRequest) {
           'Authorization': `Basic ${fubCredentials}`,
           'Content-Type': 'application/json',
           'X-System': 'Potter Realty Website',
-          'X-System-Key': fubApiKey,
+          'X-System-Key': fubApiKey!,
         },
         body: JSON.stringify({
           source: 'Newsletter Signup',
