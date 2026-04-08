@@ -56,6 +56,32 @@ export async function POST(req: NextRequest) {
       // Subscriber was created — not a hard failure
     }
 
+    // Add to Follow Up Boss as a new contact
+    const fubApiKey = process.env.FUB_API_KEY
+    if (fubApiKey) {
+      const fubCredentials = Buffer.from(`${fubApiKey}:`).toString('base64')
+      const fubRes = await fetch('https://api.followupboss.com/v1/people', {
+        method: 'POST',
+        headers: {
+          'Authorization': `Basic ${fubCredentials}`,
+          'Content-Type': 'application/json',
+          'X-System': 'Potter Realty Website',
+          'X-System-Key': fubApiKey,
+        },
+        body: JSON.stringify({
+          source: 'Newsletter Signup',
+          emails: [{ value: email, type: 'home' }],
+          ...(firstName ? { firstName } : {}),
+          tags: ['Newsletter'],
+        }),
+      })
+      if (!fubRes.ok) {
+        const err = await fubRes.text()
+        console.error('FUB contact error:', err)
+        // Not a hard failure — Flodesk already succeeded
+      }
+    }
+
     return NextResponse.json({ success: true }, { status: 200 })
   } catch (err) {
     console.error('Newsletter signup error:', err)
