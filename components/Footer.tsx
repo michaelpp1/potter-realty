@@ -13,8 +13,8 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <div className="relative w-28 h-12 mb-4 brightness-0 invert">
               <Image
-                src="/images/exp-logo.png"
-                alt="eXp Realty"
+                src="/images/lpt-logo.png"
+                alt="LPT Realty"
                 fill
                 className="object-contain object-left"
               />
@@ -112,7 +112,7 @@ export default function Footer() {
 
         <div className="border-t border-white/10 mt-12 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="font-sans text-xs text-gray-500">
-            © {year} Michael Potter · eXp Realty · All rights reserved.
+            © {year} Michael Potter · LPT Realty · All rights reserved.
           </p>
           <p className="font-sans text-xs text-gray-500 text-center">
             Licensed Colorado Real Estate Broker · Northern Colorado

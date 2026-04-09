@@ -7,7 +7,7 @@ import NewsletterSignup from '@/components/NewsletterSignup'
 export const metadata: Metadata = {
   title: 'About Michael Potter',
   description:
-    'Learn about Michael Potter, eXp Realty real estate advisor serving Northern Colorado. Local expertise, modern approach, and a passion for helping clients find their perfect community.',
+    'Learn about Michael Potter, LPT Realty real estate advisor serving Northern Colorado. Local expertise, modern approach, and a passion for helping clients find their perfect community.',
 }
 
 export default function AboutPage() {
@@ -23,7 +23,7 @@ export default function AboutPage() {
             Michael Potter
           </h1>
           <p className="font-sans text-gray-500 text-lg mt-3">
-            Real Estate Advisor · eXp Realty · Northern Colorado
+            Real Estate Advisor · LPT Realty · Northern Colorado
           </p>
         </div>
       </section>
@@ -39,7 +39,7 @@ export default function AboutPage() {
                 <div className="relative w-full aspect-square rounded-2xl overflow-hidden shadow-xl">
                   <Image
                     src="/images/headshot.jpg"
-                    alt="Michael Potter — eXp Realty Northern Colorado"
+                    alt="Michael Potter — LPT Realty Northern Colorado"
                     fill
                     className="object-cover"
                     priority
@@ -107,7 +107,7 @@ export default function AboutPage() {
             <div className="space-y-4">
               <div className="prose prose-lg max-w-none">
                 <p className="font-sans text-gray-600 text-lg leading-relaxed">
-                  I&apos;m a Colorado native and a Northern Colorado real estate advisor with eXp Realty. I was born in Denver and moved to Loveland when I was two, and with the exception of a few years in Denver for college, I&apos;ve called Northern Colorado home ever since.
+                  I&apos;m a Colorado native and a Northern Colorado real estate advisor with LPT Realty. I was born in Denver and moved to Loveland when I was two, and with the exception of a few years in Denver for college, I&apos;ve called Northern Colorado home ever since.
                 </p>
                 <p className="font-sans text-gray-600 text-base leading-relaxed mt-5">
                   I graduated from Thompson Valley High School in Loveland in 2007 and went on to earn my bachelor&apos;s degree in Business Administration from CU Denver. After graduating I worked in accounting at a telecom company, then was recruited back to Northern Colorado by a pediatric home healthcare agency where I spent several years in HR management, business development, and marketing.
