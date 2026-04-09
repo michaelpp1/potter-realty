@@ -43,15 +43,14 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-18 py-3">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 shrink-0">
-            <div className="relative w-24 h-10">
-              <Image
-                src="/images/lpt-logo.png"
-                alt="LPT Realty"
-                fill
-                className="object-contain object-left invert"
-                priority
-              />
-            </div>
+            <Image
+              src="/images/lpt-logo.png"
+              alt="LPT Realty"
+              width={80}
+              height={36}
+              className="object-contain invert"
+              priority
+            />
             <div className="border-l border-gray-300 pl-2">
               <p className="font-heading font-700 text-sm text-charcoal leading-tight">
                 Michael Potter
