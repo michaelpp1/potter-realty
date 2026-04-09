@@ -48,7 +48,7 @@ export default function Navbar() {
                 src="/images/lpt-logo.png"
                 alt="LPT Realty"
                 fill
-                className="object-contain object-left"
+                className="object-contain object-left invert"
                 priority
               />
             </div>
