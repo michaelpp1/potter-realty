@@ -290,7 +290,7 @@ CRITICAL DATE RULES:
 - If unsure, write in timeless terms: "The city has been expanding..." not "The city just announced..."
 ` : ''
 
-  return `You are writing a blog post for Michael Potter, a Northern Colorado relocation specialist and REALTOR® with eXp Realty. His service area includes Fort Collins, Loveland, Windsor, Timnath, Berthoud, Johnstown, Wellington, Greeley, and Severance. His tone is knowledgeable, direct, friendly, and local — not salesy.
+  return `You are writing a blog post for Michael Potter, a Northern Colorado relocation specialist and REALTOR® with LPT Realty. His service area includes Fort Collins, Loveland, Windsor, Timnath, Berthoud, Johnstown, Wellington, Greeley, and Severance. His tone is knowledgeable, direct, friendly, and local — not salesy.
 
 ABOUT MICHAEL (use this to write authentically in his voice and reference naturally when relevant):
 - Colorado native, grew up in Loveland from age 2. Thompson Valley High School grad (2007). Business degree from CU Denver.

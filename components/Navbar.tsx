@@ -45,8 +45,8 @@ export default function Navbar() {
           <Link href="/" className="flex items-center shrink-0">
             <div className="relative w-24 h-10">
               <Image
-                src="/images/exp-logo.png"
-                alt="eXp Realty"
+                src="/images/lpt-logo.png"
+                alt="LPT Realty"
                 fill
                 className="object-contain object-left"
                 priority
