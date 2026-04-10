@@ -29,7 +29,7 @@ export default function RelocationGuidePage() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
 
           {/* Left: what's inside */}
-          <div>
+          <div className="order-2 lg:order-1">
             <p className="font-sans text-white/70 text-sm font-500 uppercase tracking-widest mb-4">
               What&apos;s inside
             </p>
@@ -67,7 +67,7 @@ export default function RelocationGuidePage() {
           </div>
 
           {/* Right: form */}
-          <div className="bg-white rounded-2xl shadow-2xl p-8">
+          <div className="order-1 lg:order-2 bg-white rounded-2xl shadow-2xl p-8">
             <h2 className="font-heading font-700 text-xl text-charcoal mb-2">
               Send Me the Free Guide
             </h2>
