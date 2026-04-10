@@ -115,9 +115,14 @@ export default function Footer() {
           <p className="font-sans text-xs text-gray-500">
             © {year} Michael Potter · LPT Realty · All rights reserved.
           </p>
-          <p className="font-sans text-xs text-gray-500 text-center">
-            Licensed Colorado Real Estate Broker · Northern Colorado
-          </p>
+          <div className="flex items-center gap-4">
+            <p className="font-sans text-xs text-gray-500 text-center">
+              Licensed Colorado Real Estate Broker · Northern Colorado
+            </p>
+            <Link href="/privacy" className="font-sans text-xs text-gray-500 hover:text-teal transition-colors">
+              Privacy Policy
+            </Link>
+          </div>
         </div>
       </div>
     </footer>
