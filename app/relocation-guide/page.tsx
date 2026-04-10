@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function RelocationGuidePage() {
   return (
-    <div className="min-h-screen bg-teal flex items-center justify-center px-4 py-16">
+    <div className="min-h-screen bg-teal flex items-center justify-center px-4 pt-24 pb-16">
       <div className="w-full max-w-5xl">
 
         {/* Header */}
@@ -20,7 +20,7 @@ export default function RelocationGuidePage() {
           <h1 className="font-heading font-800 text-4xl md:text-5xl text-white leading-tight mb-4">
             Get the Northern Colorado<br />Relocation Guide
           </h1>
-          <p className="font-sans text-white/80 text-lg max-w-xl mx-auto leading-relaxed">
+          <p className="font-sans text-white/80 text-sm md:text-lg max-w-xl mx-auto leading-relaxed">
             Everything you need to know about moving to Northern Colorado — neighborhoods, schools, lifestyle, and the real estate market.
           </p>
         </div>

@@ -48,7 +48,7 @@ export default function Navbar() {
               alt="LPT Realty"
               width={80}
               height={36}
-              className="object-contain invert"
+              className="object-contain invert w-14 h-7 sm:w-20 sm:h-9"
               quality={100}
               priority
             />
