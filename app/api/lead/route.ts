@@ -1,10 +1,24 @@
 import { NextRequest, NextResponse } from 'next/server'
 
+const ZAPIER_WEBHOOK = 'https://hooks.zapier.com/hooks/catch/21406913/u7aj12g/'
+
 const TIMELINE_TAGS: Record<string, string> = {
   'ASAP': 'ASAP',
   'Within the Next 6 Months': '6 Months or Under',
   '6-12 Months': '6-12 Months',
   '1 Year or More': '1 Year or More',
+}
+
+async function alertZapier(form: string, email: string, name: string, error: string) {
+  try {
+    await fetch(ZAPIER_WEBHOOK, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ form, email, name, error }),
+    })
+  } catch {
+    // Don't let alert failure affect the response
+  }
 }
 
 async function verifyRecaptcha(token: string): Promise<boolean> {
@@ -32,7 +46,6 @@ export async function POST(req: NextRequest) {
 
     // Honeypot check — bots fill this, humans don't
     if (honeypot) {
-      // Return success silently so bots don't know they were blocked
       return NextResponse.json({ success: true }, { status: 200 })
     }
 
@@ -54,6 +67,7 @@ export async function POST(req: NextRequest) {
     const apiKey = process.env.FOLLOW_UP_BOSS_API_KEY
     if (!apiKey) {
       console.error('FOLLOW_UP_BOSS_API_KEY is not set')
+      await alertZapier('Relocation Form', email, `${firstName} ${lastName}`, 'FOLLOW_UP_BOSS_API_KEY env var is not set')
       return NextResponse.json(
         { error: 'Server configuration error.' },
         { status: 500 }
@@ -95,6 +109,7 @@ export async function POST(req: NextRequest) {
     if (!fubRes.ok) {
       const errorText = await fubRes.text()
       console.error('Follow Up Boss API error:', fubRes.status, errorText)
+      await alertZapier('Relocation Form', email, `${firstName} ${lastName}`, `FUB API error ${fubRes.status}: ${errorText}`)
       return NextResponse.json(
         { error: 'Failed to submit lead. Please try again.' },
         { status: 502 }
