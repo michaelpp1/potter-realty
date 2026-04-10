@@ -5,7 +5,7 @@ import { SITE } from '@/lib/constants'
 export const metadata: Metadata = {
   title: 'Contact Michael Potter',
   description:
-    'Reach out to Michael Potter, eXp Realty Northern Colorado. Call, email, or book a consultation call to talk about buying, selling, or relocating to Northern Colorado.',
+    'Reach out to Michael Potter, LPT Realty Northern Colorado. Call, email, or book a consultation call to talk about buying, selling, or relocating to Northern Colorado.',
 }
 
 export default function ContactPage() {
