@@ -3,6 +3,7 @@ import { Inter, Montserrat } from 'next/font/google'
 import Script from 'next/script'
 import './globals.css'
 import Navbar from '@/components/Navbar'
+import CookieConsent from '@/components/CookieConsent'
 import Footer from '@/components/Footer'
 import { SITE } from '@/lib/constants'
 
@@ -139,6 +140,7 @@ export default function RootLayout({
         <Navbar />
         <main>{children}</main>
         <Footer />
+        <CookieConsent />
         <Script
           src={`https://www.google.com/recaptcha/api.js?render=${process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}`}
           strategy="afterInteractive"
