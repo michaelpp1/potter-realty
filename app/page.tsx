@@ -174,7 +174,7 @@ export default function HomePage() {
               </p>
               <h2 className="section-heading mb-5">Hi, I&apos;m Michael Potter</h2>
               <p className="font-sans text-gray-600 text-base leading-relaxed mb-5">
-                I&apos;m a real estate advisor with eXp Realty serving Northern Colorado,
+                I&apos;m a real estate advisor with LPT Realty serving Northern Colorado,
                 helping people buy, sell, and relocate to communities like Loveland,
                 Fort Collins, Windsor, Timnath, and the surrounding areas.
               </p>

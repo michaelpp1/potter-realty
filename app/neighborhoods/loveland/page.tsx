@@ -4,7 +4,7 @@ import dynamic from 'next/dynamic'
 import { SITE } from '@/lib/constants'
 
 export const metadata: Metadata = {
-  title: 'Loveland, CO Neighborhoods Guide | Michael Potter — eXp Realty NoCo',
+  title: 'Loveland, CO Neighborhoods Guide | Michael Potter — LPT Realty NoCo',
   description:
     'Explore every neighborhood in Loveland, Colorado. Get insider info on home prices, schools, outdoor access, commute times, and lifestyle for each area — from Downtown to Mariana Butte to Centerra.',
 }
@@ -127,7 +127,7 @@ export default function LovelandNeighborhoodsPage() {
           <Link href="/contact" className="text-teal hover:underline">
             Contact Michael
           </Link>{' '}
-          · eXp Realty NoCo · Serving all of Northern Colorado
+          · LPT Realty NoCo · Serving all of Northern Colorado
         </p>
       </div>
     </>
