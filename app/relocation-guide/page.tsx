@@ -14,15 +14,9 @@ export default function RelocationGuidePage() {
 
         {/* Header */}
         <div className="text-center mb-10">
-          <p className="font-sans text-white/70 text-sm font-500 uppercase tracking-widest mb-3">
-            Free Download
-          </p>
-          <h1 className="font-heading font-800 text-4xl md:text-5xl text-white leading-tight mb-4">
+          <h1 className="font-heading font-800 text-4xl md:text-5xl text-white leading-tight">
             Get the Northern Colorado<br />Relocation Guide
           </h1>
-          <p className="font-sans text-white/80 text-sm md:text-lg max-w-xl mx-auto leading-relaxed">
-            Everything you need to know about moving to Northern Colorado — neighborhoods, schools, lifestyle, and the real estate market.
-          </p>
         </div>
 
         {/* Two column layout */}
@@ -30,6 +24,9 @@ export default function RelocationGuidePage() {
 
           {/* Left: what's inside */}
           <div className="order-2 lg:order-1">
+            <p className="font-sans text-white/80 text-sm md:text-base max-w-xl leading-relaxed mb-6">
+              Everything you need to know about moving to Northern Colorado — neighborhoods, schools, lifestyle, and the real estate market.
+            </p>
             <p className="font-sans text-white/70 text-sm font-500 uppercase tracking-widest mb-4">
               What&apos;s inside
             </p>
