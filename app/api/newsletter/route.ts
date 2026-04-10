@@ -1,5 +1,19 @@
 import { NextRequest, NextResponse } from 'next/server'
 
+const ZAPIER_WEBHOOK = 'https://hooks.zapier.com/hooks/catch/21406913/u7aj12g/'
+
+async function alertZapier(form: string, email: string, name: string, error: string) {
+  try {
+    await fetch(ZAPIER_WEBHOOK, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ form, email, name, error }),
+    })
+  } catch {
+    // Don't let alert failure affect the response
+  }
+}
+
 export async function POST(req: NextRequest) {
   try {
     const { email, firstName } = await req.json()
@@ -11,6 +25,7 @@ export async function POST(req: NextRequest) {
     const fubApiKey = process.env.FOLLOW_UP_BOSS_API_KEY
     if (!fubApiKey) {
       console.error('FOLLOW_UP_BOSS_API_KEY is not set')
+      await alertZapier('Newsletter Signup', email, firstName ?? '', 'FOLLOW_UP_BOSS_API_KEY env var is not set')
       return NextResponse.json({ error: 'Server configuration error.' }, { status: 500 })
     }
 
@@ -34,6 +49,7 @@ export async function POST(req: NextRequest) {
     if (!fubRes.ok) {
       const err = await fubRes.text()
       console.error('FUB contact error:', err)
+      await alertZapier('Newsletter Signup', email, firstName ?? '', `FUB API error ${fubRes.status}: ${err}`)
       return NextResponse.json({ error: 'Could not subscribe. Please try again.' }, { status: 502 })
     }
 
