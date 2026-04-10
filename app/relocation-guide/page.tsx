@@ -69,7 +69,7 @@ export default function RelocationGuidePage() {
               Send Me the Free Guide
             </h2>
             <p className="font-sans text-gray-500 text-sm mb-6">
-              Fill out the form and Michael will personally send you the Relocation Guide along with a note to answer any questions you have about the area.
+              Fill out the form and Michael will send you the Relocation Guide along with a note to answer any questions you have about the area.
             </p>
             <RelocationForm />
           </div>
