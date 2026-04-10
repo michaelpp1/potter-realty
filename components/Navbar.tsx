@@ -49,6 +49,7 @@ export default function Navbar() {
               width={80}
               height={36}
               className="object-contain invert"
+              quality={100}
               priority
             />
             <div className="border-l border-gray-300 pl-2">

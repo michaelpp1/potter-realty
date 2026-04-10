@@ -17,6 +17,7 @@ export default function Footer() {
                 alt="LPT Realty"
                 fill
                 className="object-contain object-left"
+                quality={100}
               />
             </div>
             <p className="font-heading font-700 text-lg text-white mb-1">Michael Potter</p>
