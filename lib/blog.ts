@@ -31,6 +31,93 @@ export const categoryColors: Record<BlogCategory, string> = {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'berthoud-colorado-community-updates-what-is-happening-in-ber',
+    title: "Berthoud, Colorado Community Updates: What Is Happening in Berthoud in 2026",
+    date: 'April 13, 2026',
+    category: 'Market Update',
+    excerpt: "Berthoud, Colorado continues to grow as one of Northern Colorado’s most charming small towns. Here is a look at the latest community events, development projects, and local news shaping life in Berthoud in spring 2026.",
+    readTime: '7 min read',
+    content: [
+      {
+        type: 'paragraph',
+        text: "If Berthoud is on your radar as a place to call home, you are not alone. This small town tucked between Loveland and Johnstown in Northern Colorado has been attracting more and more attention from people relocating from out of state, and for good reason. With its historic downtown, easy access to the mountains, and a community that genuinely shows up for each other, Berthoud offers the kind of lifestyle that a lot of people are searching for. I grew up just up the road in Loveland and have watched Berthoud evolve over the years while keeping the heart of what makes it special. Here is a look at what is happening in town right now.",
+      },
+      {
+        type: 'h2',
+        text: "What Events Are Happening in Berthoud, Colorado This Spring?",
+      },
+      {
+        type: 'paragraph',
+        text: "Spring 2026 is bringing some great community events to Berthoud. On April 18, 2026, the Town of Berthoud and the Larimer County Sheriff’s Office are hosting Dogs & Deputies at Fickel Park from 9:00 AM to 2:00 PM. This event is all about celebrating pet ownership and features local veterinary offices, puppy yoga, pet training resources, and even retired LCSO K9s you can meet and pet. As a dog owner myself, this is exactly the kind of event that makes Berthoud feel like home. If you are moving here with a four-legged family member, know that this community embraces dogs and the outdoor lifestyle that comes with them.",
+      },
+      {
+        type: 'paragraph',
+        text: "Then on April 25, 2026, the Town’s Forestry and Open Space Departments are hosting an Arbor Day celebration at Town Park, located at 200 N 7th Street. The event begins at 9:00 AM and will feature a ceremonial planting of seven trees. It is a small-town tradition that speaks volumes about the way Berthoud values green space, sustainability, and community involvement. Events like these are a big reason people fall in love with this town after visiting just once.",
+      },
+      {
+        type: 'h2',
+        text: "What Development Projects Are Underway in Berthoud?",
+      },
+      {
+        type: 'paragraph',
+        text: "Berthoud has been steadily investing in infrastructure and quality-of-life improvements. According to the Town’s official website, several active projects are in the works, including the Berthoud Arboretum and ongoing road and sidewalk improvements throughout town. The town has also been managing road closures related to these projects, so if you are visiting to tour homes, it is worth checking the Town of Berthoud website for current closure information before you drive in.",
+      },
+      {
+        type: 'paragraph',
+        text: "One thing worth noting for anyone budgeting for a move: the Town of Berthoud approved a water utility rate adjustment that took effect earlier this year. This includes an 8% increase for wastewater utility and a 5% increase for water utility. These adjustments are tied to inflation and necessary infrastructure maintenance and improvements. While no one loves a rate increase, it signals that Berthoud is actively investing in its systems to support the town’s continued growth, which is a positive sign for long-term homeowners.",
+      },
+      {
+        type: 'h2',
+        text: "What Is It Like Living in Berthoud, Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "Berthoud sits in a sweet spot in Northern Colorado. It is close enough to Loveland and Fort Collins that you have easy access to bigger-town amenities, dining, and healthcare, but it maintains a distinctly small-town feel that is hard to find elsewhere. The historic downtown has locally owned shops and restaurants, and the community calendar stays full with events like the annual Berthoud Chocolate Walk, which draws people downtown for an afternoon of chocolate treats and connection every winter. Berthoud High School, part of the Thompson School District, offers strong academics and athletics. The school recently brought a production of The Voice of the Prairie to life, showcasing the kind of engaged, well-rounded student community that families and visiting grandkids can appreciate.",
+      },
+      {
+        type: 'paragraph',
+        text: "For buyers interested in a homestead lifestyle with some acreage, Berthoud and the surrounding area deliver. Properties west of town can offer space for horses, chickens, gardens, and workshops with incredible Front Range views. If you prefer walkability, downtown Berthoud is compact and charming, with the kind of neighborhood feel where people wave to each other on their evening walks. And for anyone worried about being too far from the action, Denver International Airport is roughly an hour’s drive south, and ski resorts like Breckenridge, Keystone, Vail, and Arapahoe Basin are 1.5 to 2.5 hours west, making day trips and weekend getaways very manageable.",
+      },
+      {
+        type: 'h2',
+        text: "Why Are People Relocating to Berthoud from Out of State?",
+      },
+      {
+        type: 'paragraph',
+        text: "Many of the buyers I work with are coming from higher cost-of-living areas like California, Texas, or the Pacific Northwest. They are drawn to Northern Colorado for the outdoor lifestyle, the sunshine, and the sense of community. Berthoud specifically appeals to people who want space and quiet without being isolated. You can hike Devil’s Backbone or walk the trails at nearby Carter Lake and Boyd Lake in minutes. Rocky Mountain National Park and Estes Park are a short drive through some of the most beautiful scenery in the country. And Berthoud’s location between Larimer County and Weld County means you have options when it comes to property taxes and home styles.",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Dogs & Deputies event at Fickel Park on April 18, 2026 — puppy yoga, pet resources, and retired K9 meet-and-greets",
+          "Arbor Day celebration at Town Park on April 25, 2026 — ceremonial planting of seven trees hosted by the Forestry and Open Space Departments",
+          "Active development projects including the Berthoud Arboretum and road and sidewalk improvements throughout town",
+          "Water and wastewater utility rate adjustments (5% and 8% respectively) to support infrastructure maintenance",
+          "Berthoud High School community engagement, including recent student theater productions",
+          "Proximity to Denver International Airport (about 1 hour), ski resorts (1.5–2.5 hours), and outdoor recreation at Carter Lake, Boyd Lake, and Rocky Mountain National Park",
+        ],
+      },
+      {
+        type: 'h2',
+        text: "Thinking About Moving to Berthoud? Here Is How to Get Started",
+      },
+      {
+        type: 'paragraph',
+        text: "If you are considering a move to Berthoud or anywhere in Northern Colorado, I would love to help you get oriented. I am Michael Potter, a relocation specialist and REALTOR with LPT Realty, and I have been helping out-of-state buyers find the right home and the right community here for years. I grew up in Loveland, I know this area inside and out, and I am always happy to share what I know. Whether you are interested in a walkable home near downtown Berthoud or a property with acreage to the west, feel free to reach out through potterealty.com/contact and let me know what you are looking for. No pressure, just real answers from someone who lives this lifestyle every day.",
+      },
+      {
+        type: 'faq',
+        faqs: [
+          { question: "Is Berthoud, Colorado a good place to live?", answer: "Berthoud is one of Northern Colorado’s most desirable small towns, known for its historic downtown, strong sense of community, and proximity to outdoor recreation. It offers a slower pace of life while still being close to Loveland, Fort Collins, and Denver International Airport, which is about an hour away." },
+          { question: "What school district is Berthoud, Colorado in?", answer: "Berthoud is part of the Thompson School District, which also serves Loveland and the surrounding area. Berthoud High School offers strong academics, athletics, and community-focused programs. Many families and grandparents relocating to the area appreciate the quality of schools here." },
+          { question: "How far is Berthoud, Colorado from ski resorts?", answer: "Berthoud is approximately 1.5 to 2.5 hours from major ski resorts including Breckenridge, Keystone, Vail, and Arapahoe Basin. This makes day trips and weekend ski getaways very doable, especially compared to living on the Front Range further south where traffic can add significant time." },
+          { question: "Is Berthoud, Colorado expensive?", answer: "Berthoud tends to offer competitive pricing compared to Fort Collins and some parts of Loveland, though the market varies by neighborhood and property type. Buyers coming from California, Texas metro areas, or the Pacific Northwest often find that their dollar goes further in Berthoud while gaining a higher quality of life." },
+          { question: "What is there to do in Berthoud, Colorado?", answer: "Berthoud offers year-round community events, a charming downtown with local shops and restaurants, and easy access to hiking at Devil’s Backbone, paddleboarding at Carter Lake and Boyd Lake, and camping near Rocky Mountain National Park. The town regularly hosts events like the Chocolate Walk, Arbor Day celebrations, and pet-focused community gatherings." },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'how-to-choose-the-right-neighborhood-in-northern-colorado-fo',
     title: "How to Choose the Right Neighborhood in Northern Colorado for Your Lifestyle and Budget",
     date: 'April 7, 2026',
