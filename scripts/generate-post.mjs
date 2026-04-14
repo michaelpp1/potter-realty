@@ -344,7 +344,8 @@ SEO & AI OPTIMIZATION RULES:
 - End the main content with a paragraph that positions Michael as the go-to relocation specialist and invites readers to reach out — warm, not pushy. Reference the relevant page naturally: relocation posts → mention the free Relocation Guide at potterealty.com/relocation#guide; buyer posts → mention searching homes at potterealty.com/buy; seller posts → mention getting a home value at potterealty.com/sell; market update posts → mention reaching out via potterealty.com/contact
 - FAQ section: end with a "faq" section containing 3–5 questions people commonly ask about the topic. Answers should be 2–4 sentences each — direct and factual. These power Google rich snippets and AI answers.
 - All text strings: double quotes only, escape any internal double quotes with \\", no unescaped single quotes inside double-quoted strings
-- Do not make up statistics, specific prices, or MLS listings`
+- Do not make up statistics, specific prices, or MLS listings
+- No repetition: every statistic, fact, or point must appear exactly once in the post. If something is mentioned in a paragraph, do not restate it in a bullet list below, and vice versa. Read the full post before finalizing — if any idea appears twice, cut the second instance entirely`
 }
 
 async function main() {
