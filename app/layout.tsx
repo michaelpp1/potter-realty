@@ -102,7 +102,13 @@ const structuredData = [
       'Texas to Colorado relocation',
       'NoCo lifestyle',
     ],
-    sameAs: [SITE.instagramUrl],
+    sameAs: [
+      SITE.instagramUrl,
+      'https://www.zillow.com/profile/mpotterealty',
+      'https://share.google/WSa0tiyjqrcAIU5Tk',
+      'https://www.realtor.com/realestateagents/es/5c775dfdc5bb830012007c2d',
+      'https://www.homes.com/real-estate-agents/michael-potter/6wy4xes/',
+    ],
   },
   {
     '@context': 'https://schema.org',
