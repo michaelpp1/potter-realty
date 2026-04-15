@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: 'Contact Michael Potter',
   description:
     'Reach out to Michael Potter, LPT Realty Northern Colorado. Call, email, or book a consultation call to talk about buying, selling, or relocating to Northern Colorado.',
+  alternates: { canonical: 'https://www.potterealty.com/contact' },
 }
 
 export default function ContactPage() {

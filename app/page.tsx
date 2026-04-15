@@ -1,8 +1,13 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
 import { SITE } from '@/lib/constants'
 import Reviews from '@/components/Reviews'
 import NewsletterSignup from '@/components/NewsletterSignup'
+
+export const metadata: Metadata = {
+  alternates: { canonical: 'https://www.potterealty.com' },
+}
 
 export default function HomePage() {
   return (

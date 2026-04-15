@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: 'Sell Your Northern Colorado Home — Free Home Valuation',
   description:
     'Find out what your Northern Colorado home is worth. Get a free, no-pressure market analysis from Michael Potter and a proven strategy to maximize your sale price.',
+  alternates: { canonical: 'https://www.potterealty.com/sell' },
 }
 
 export default function SellPage() {

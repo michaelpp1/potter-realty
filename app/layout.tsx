@@ -54,6 +54,7 @@ export const metadata: Metadata = {
     type: 'website',
     title: SITE.title,
     description: SITE.description,
+    images: [{ url: 'https://www.potterealty.com/images/og-default.jpg', width: 1200, height: 630, alt: 'Michael Potter — Northern Colorado Real Estate' }],
   },
 }
 
