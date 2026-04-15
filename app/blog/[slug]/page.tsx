@@ -77,7 +77,9 @@ export default function BlogPostPage({ params }: Props) {
     '@type': 'Article',
     headline: post.title,
     description: post.excerpt,
+    image: 'https://www.potterealty.com/images/og-default.jpg',
     datePublished: post.isoDate,
+    dateModified: post.isoDate,
     author: {
       '@type': 'Person',
       name: 'Michael Potter',
@@ -89,6 +91,10 @@ export default function BlogPostPage({ params }: Props) {
       '@type': 'Organization',
       name: 'Potter Realty — Michael Potter, LPT Realty',
       url: 'https://www.potterealty.com',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://www.potterealty.com/images/lpt-logo.png',
+      },
     },
     mainEntityOfPage: `https://www.potterealty.com/blog/${post.slug}`,
   }
