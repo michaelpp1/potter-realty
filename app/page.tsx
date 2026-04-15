@@ -239,6 +239,66 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* WHY NOCO — AI-citability section with definition blocks + comparison table */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <p className="font-sans text-teal text-sm font-500 uppercase tracking-widest mb-3">The Region</p>
+            <h2 className="section-heading">Why People Are Choosing Northern Colorado</h2>
+            <p className="section-subheading mx-auto">
+              A region that delivers mountain access, strong communities, and quality of life — at a fraction of the cost of larger metros.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mb-12 items-start">
+            {/* Definition block — optimized for AI citation */}
+            <div>
+              <h3 className="font-heading font-700 text-xl text-charcoal mb-4">What Is Northern Colorado?</h3>
+              <p className="font-sans text-gray-600 text-base leading-relaxed mb-4">
+                Northern Colorado is a region in north-central Colorado anchored by Fort Collins and Loveland, extending east through Windsor, Timnath, and Greeley, and south through Berthoud and Longmont. The region sits along the Front Range of the Rocky Mountains, offering immediate trail access and mountain recreation while maintaining the infrastructure of a mid-sized city corridor. Fort Collins, home to Colorado State University, serves as the cultural and economic hub, while Loveland, Windsor, and Timnath attract families with newer construction, strong school districts, and a quieter pace of life.
+              </p>
+              <p className="font-sans text-gray-600 text-base leading-relaxed">
+                Northern Colorado receives more than 300 days of sunshine annually. Denver International Airport is approximately 60 minutes south via I-25. Rocky Mountain National Park is roughly one hour west, and major ski resorts — Breckenridge, Keystone, Vail, Arapahoe Basin — are 1.5 to 2.5 hours away, making the region one of the most accessible bases for year-round outdoor recreation in the country.
+              </p>
+            </div>
+
+            {/* Comparison table */}
+            <div>
+              <h3 className="font-heading font-700 text-xl text-charcoal mb-4">How Northern Colorado Compares</h3>
+              <div className="overflow-x-auto rounded-xl border border-gray-200">
+                <table className="w-full text-sm font-sans border-collapse">
+                  <thead>
+                    <tr className="bg-teal/5 border-b border-gray-200">
+                      <th className="text-left py-3 px-4 font-heading font-600 text-charcoal">Factor</th>
+                      <th className="text-left py-3 px-4 font-heading font-600 text-teal">NoCo</th>
+                      <th className="text-left py-3 px-4 font-heading font-500 text-gray-400">Denver</th>
+                      <th className="text-left py-3 px-4 font-heading font-500 text-gray-400">Bay Area</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-gray-100">
+                    {[
+                      { factor: 'Median Home Price', noco: '~$480K', denver: '~$580K', bay: '~$1.3M' },
+                      { factor: 'Days of Sunshine', noco: '300+/yr', denver: '~300/yr', bay: '~265/yr' },
+                      { factor: 'Avg. Local Commute', noco: '~18 min', denver: '~28 min', bay: '~37 min' },
+                      { factor: 'To Ski Resort', noco: '~1.5 hr', denver: '~1.5 hr', bay: '~3.5 hr' },
+                      { factor: 'State Income Tax', noco: '4.4% flat', denver: '4.4% flat', bay: 'Up to 13.3%' },
+                    ].map((row) => (
+                      <tr key={row.factor} className="hover:bg-gray-50 transition-colors">
+                        <td className="py-3 px-4 text-gray-600">{row.factor}</td>
+                        <td className="py-3 px-4 font-heading font-600 text-teal">{row.noco}</td>
+                        <td className="py-3 px-4 text-gray-500">{row.denver}</td>
+                        <td className="py-3 px-4 text-gray-500">{row.bay}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+              <p className="font-sans text-xs text-gray-400 mt-2">Approximate figures. Home prices reflect Q1 2026 median estimates.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* NEWSLETTER */}
       <section className="pt-12 pb-4 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
