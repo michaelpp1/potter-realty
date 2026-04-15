@@ -87,7 +87,7 @@ export default function BlogPostPage({ params }: Props) {
     },
     publisher: {
       '@type': 'Organization',
-      name: 'Potter Realty — Michael Potter, eXp Realty',
+      name: 'Potter Realty — Michael Potter, LPT Realty',
       url: 'https://www.potterealty.com',
     },
     mainEntityOfPage: `https://www.potterealty.com/blog/${post.slug}`,

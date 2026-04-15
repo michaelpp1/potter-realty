@@ -3,7 +3,8 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Privacy Policy | Michael Potter — LPT Realty',
-  description: 'Privacy policy for potterrealtyco.com — how we collect, use, and protect your information.',
+  description: 'Privacy policy for potterealty.com — how we collect, use, and protect your information.',
+  alternates: { canonical: 'https://www.potterealty.com/privacy' },
 }
 
 export default function PrivacyPage() {
@@ -20,7 +21,7 @@ export default function PrivacyPage() {
             <div>
               <h2 className="font-heading font-700 text-xl text-charcoal mb-3">Overview</h2>
               <p>
-                This Privacy Policy describes how Michael Potter, LPT Realty (&ldquo;we&rdquo;, &ldquo;us&rdquo;, or &ldquo;our&rdquo;) collects, uses, and protects information you provide when visiting potterrealtyco.com. We take your privacy seriously and will never sell your personal information to third parties.
+                This Privacy Policy describes how Michael Potter, LPT Realty (&ldquo;we&rdquo;, &ldquo;us&rdquo;, or &ldquo;our&rdquo;) collects, uses, and protects information you provide when visiting potterealty.com. We take your privacy seriously and will never sell your personal information to third parties.
               </p>
             </div>
 

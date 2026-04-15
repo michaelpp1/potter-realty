@@ -201,7 +201,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: 'paragraph',
-        text: "Michael Potter is a Northern Colorado relocation specialist with eXp Realty who has helped buyers from across the country find the right neighborhood for their lifestyle and budget. If you are considering a move to Fort Collins, Loveland, Windsor, Timnath, Berthoud, or anywhere else in the region, I would love to help you get oriented. Download the free Relocation Guide at potterealty.com/relocation#guide to start planning your move, or reach out directly. No pressure, just honest answers from someone who grew up here and genuinely loves helping people find their place in Northern Colorado.",
+        text: "Michael Potter is a Northern Colorado relocation specialist with LPT Realty who has helped buyers from across the country find the right neighborhood for their lifestyle and budget. If you are considering a move to Fort Collins, Loveland, Windsor, Timnath, Berthoud, or anywhere else in the region, I would love to help you get oriented. Download the free Relocation Guide at potterealty.com/relocation#guide to start planning your move, or reach out directly. No pressure, just honest answers from someone who grew up here and genuinely loves helping people find their place in Northern Colorado.",
       },
       {
         type: 'faq',
@@ -344,11 +344,35 @@ export const posts: BlogPost[] = [
       },
       {
         type: 'h2',
+        text: 'New Construction vs. Resale: Which Makes More Sense Right Now?',
+      },
+      {
+        type: 'paragraph',
+        text: "New construction remains active in Northern Colorado, particularly in Timnath, Windsor, and the east side of Loveland. Builders have been offering incentives — rate buydowns, closing cost credits, and appliance packages — to move inventory, which means motivated buyers can sometimes negotiate better overall value on a new build than the sticker price suggests. Resale homes, by contrast, often come with established landscaping, mature neighborhoods, and finished basements that would cost significant money to add later. The decision between new and resale comes down to your timeline, your priorities, and which specific neighborhoods are available in each category within your budget.",
+      },
+      {
+        type: 'h2',
+        text: 'The Condo and Townhome Market',
+      },
+      {
+        type: 'paragraph',
+        text: "Condos and townhomes represent a meaningful segment of the Northern Colorado market, particularly in Fort Collins. For first-time buyers, relocators who do not want yard maintenance, and downsizers, this segment has held up well. Inventory in the $300K–$450K range is limited, which keeps well-priced condos and townhomes moving quickly. HOA fees vary significantly by complex, so understanding the full monthly cost — not just the mortgage payment — is especially important in this segment.",
+      },
+      {
+        type: 'h2',
+        text: 'City-by-City Market Snapshot',
+      },
+      {
+        type: 'paragraph',
+        text: "Fort Collins remains the highest-priced market in the region, with median single-family prices well above $500K. Loveland offers a broader range of price points and tends to have slightly more inventory to work with. Windsor and Timnath continue to attract strong buyer demand, especially from out-of-state relocators and Denver-area families, with newer construction as a primary draw. Greeley and Wellington offer the most purchasing power in the region and are worth exploring for buyers whose budget is stretching to meet demand elsewhere. Berthoud sits in between — smaller town, competitive pricing, and strong lifestyle appeal for buyers who want space without full rural isolation.",
+      },
+      {
+        type: 'h2',
         text: 'What This Means for Sellers',
       },
       {
         type: 'paragraph',
-        text: "If you're thinking about selling in 2026, spring remains one of the best windows. Buyer activity peaks March through June, and well-presented homes priced correctly are still receiving multiple offers. The key word is \"priced correctly\" — overpricing in today's market leads to longer days on market and ultimately a lower final sale price than if you had priced it right from day one.",
+        text: "If you're thinking about selling in 2026, spring remains one of the best windows. Buyer activity peaks March through June, and well-presented homes priced correctly are still receiving multiple offers. The key word is 'priced correctly' — overpricing in today's market leads to longer days on market and ultimately a lower final sale price than if you had priced it right from day one. A pre-listing walkthrough with your agent, professional photos, and targeted marketing make a measurable difference in how quickly you sell and what you net.",
       },
       {
         type: 'h2',
@@ -356,11 +380,20 @@ export const posts: BlogPost[] = [
       },
       {
         type: 'paragraph',
-        text: "Get your pre-approval in hand before you start shopping. In competitive price ranges, sellers want to see that you're ready to move. Work with a local agent who knows the neighborhoods and can help you act quickly when the right home comes up. If you're relocating from out of state, virtual tours and a trusted local agent become even more important.",
+        text: "Get your pre-approval in hand before you start shopping. In competitive price ranges, sellers want to see that you're ready to move. Work with a local agent who knows the neighborhoods and can help you act quickly when the right home comes up. If you're relocating from out of state, virtual tours and a trusted local agent become even more important. Be realistic about your timeline: in the sub-$550K range, you may need to move quickly and compete. In higher price ranges, you have more time to be selective.",
       },
       {
         type: 'paragraph',
         text: "Have questions about a specific city, price range, or neighborhood? Reach out — I'm happy to give you a personalized market update for exactly what you're looking for.",
+      },
+      {
+        type: 'faq',
+        faqs: [
+          { question: "Is it a good time to buy a home in Northern Colorado in 2026?", answer: "For most buyers, yes. While interest rates remain elevated compared to pandemic-era lows, home prices in Northern Colorado have continued to appreciate modestly — meaning waiting often costs more than acting. Buyers who get pre-approved and work with a local agent who knows the inventory are well-positioned, especially in the spring window when new listings peak." },
+          { question: "Are home prices dropping in Northern Colorado?", answer: "No. Northern Colorado home prices have shown modest appreciation of roughly 3 to 4 percent year-over-year through Q1 2026. The market has not seen significant price reductions in the core price ranges. Some higher-end homes and some overpriced listings have seen price adjustments, but the overall trend remains upward." },
+          { question: "How competitive is the Northern Colorado housing market?", answer: "Competitive, especially in the $400K to $600K range. Well-priced homes in desirable neighborhoods in Fort Collins, Loveland, Windsor, and Timnath are moving in under three weeks on average. Multiple-offer situations are still common in this price range. Above $700K, buyers have more time and negotiating room." },
+          { question: "What is the best time of year to buy a home in Northern Colorado?", answer: "Late winter and very early spring — January through early March — often offer the best combination of reduced competition and motivated sellers. The peak season runs March through June, when inventory is highest but competition is also at its strongest. Fall can also be a good window as activity slows and sellers become more flexible." },
+        ],
       },
     ],
   },
@@ -432,11 +465,36 @@ export const posts: BlogPost[] = [
       },
       {
         type: 'paragraph',
-        text: "Before you invest in any improvements, talk to your agent about which upgrades will actually impact your sale price versus which ones won't move the needle. Every house is different, and the goal is to spend money where it counts — not to over-improve beyond what the market supports. This conversation alone can save you thousands.",
+        text: "Before you invest in any improvements, talk to your agent about which upgrades will actually impact your sale price versus which ones won't move the needle. Every house is different, and the goal is to spend money where it counts — not to over-improve beyond what the market supports. This conversation alone can save you thousands. A good agent will walk through your home with you, tell you exactly what a buyer will notice, and give you a prioritized list of what matters and what doesn't.",
+      },
+      {
+        type: 'h2',
+        text: 'Bonus: Professional Photography Is Non-Negotiable',
+      },
+      {
+        type: 'paragraph',
+        text: "More than 90 percent of buyers start their search online. The photos your listing launches with are your first showing, and they are happening on a screen, not in person. Professional photography — with proper lighting, wide-angle lenses, and thoughtful composition — makes a measurable difference in how many buyers request showings. In my experience, listings with professional photos generate significantly more interest in the first week than those with phone photos or rushed shots. The cost is modest relative to what it buys you. Consider it part of your listing preparation, not an optional add-on.",
+      },
+      {
+        type: 'h2',
+        text: 'Timing Your Listing for Maximum Exposure',
+      },
+      {
+        type: 'paragraph',
+        text: "In Northern Colorado, the spring market — roughly March through June — is when buyer activity is highest and homes tend to sell fastest and closest to list price. If you have flexibility, listing during this window generally produces the best results. That said, a well-prepared home in a desirable price range can sell in any season. Fall listings face less competition from other sellers, which can work in your favor. The worst time to be underprepared is at the start of the spring surge — which is why doing this preparation work in late winter, before you list, pays off.",
       },
       {
         type: 'paragraph',
         text: "If you're thinking about selling your home in Northern Colorado and want a straight-talk conversation about what it's worth and how to prepare, I'm happy to walk through your home and give you honest, specific feedback — no obligation.",
+      },
+      {
+        type: 'faq',
+        faqs: [
+          { question: "How long does it take to prepare a home for sale in Northern Colorado?", answer: "Most sellers need two to four weeks to properly prepare a home for listing, depending on how much decluttering, cleaning, and minor repair work is needed. Rushing this process typically costs more in the final sale price than the time saved. Starting your preparation conversation with your agent at least a month before your target list date gives you the best outcome." },
+          { question: "Should I renovate my kitchen or bathroom before selling?", answer: "It depends on the condition of the space and what comparable homes in your area offer. Major renovations rarely return dollar-for-dollar in a sale, and some buyers prefer to make their own updates. Minor improvements — new hardware, fresh paint, updated light fixtures — often provide better ROI than full remodels. Always have this conversation with your agent before spending money on improvements." },
+          { question: "Do I need to stage my home to sell it in Northern Colorado?", answer: "Professional staging can meaningfully impact how quickly your home sells and at what price, particularly for vacant homes where buyers struggle to visualize scale and flow. For occupied homes, decluttering and thoughtful furniture arrangement can achieve much of the same effect. Your agent can advise whether full staging is worth the investment based on your home type and price range." },
+          { question: "What is the most important thing sellers do wrong before listing?", answer: "Overpricing. It is the single most common and costly mistake. Sellers often attach sentimental value or over-estimate what improvements are worth. A home that is priced too high sits on the market, generates fewer showings, and often sells for less than it would have if it had been priced correctly from day one. Pricing is a strategy, not just a number." },
+        ],
       },
     ],
   },
@@ -560,11 +618,35 @@ export const posts: BlogPost[] = [
       },
       {
         type: 'h2',
+        text: 'Which Northern Colorado Towns Are Families Choosing?',
+      },
+      {
+        type: 'paragraph',
+        text: "The families I work with most often land in one of four places: Loveland, Windsor, Timnath, or Fort Collins — and the choice typically comes down to lifestyle and budget. Loveland attracts families who want more space, a slightly slower pace, and proximity to open space and water. Carter Lake and Boyd Lake are practically in the backyard, and Devil's Backbone trail system is a short drive. Windsor and Timnath draw families who want newer construction, top-rated schools, and a well-developed neighborhood feel with retail and restaurants close by. Fort Collins appeals to families who want a more walkable, urban experience with a vibrant Old Town, diverse dining, and the energy of a thriving college town. Berthoud and Wellington are also worth mentioning for families who want even more space at a lower price point, with that genuine small-town feel. Each of these towns is great. The right choice depends on your priorities.",
+      },
+      {
+        type: 'h2',
+        text: 'School Districts That Matter to Denver Families',
+      },
+      {
+        type: 'paragraph',
+        text: "School quality is often the deciding factor, and Northern Colorado delivers. The Thompson School District serves Loveland and Berthoud with well-regarded schools known for strong athletics, arts programs, and community involvement. The Poudre School District serves Fort Collins, Timnath, Wellington, and LaPorte and is consistently rated among the best in Colorado — multiple PSD high schools regularly rank in national top-school lists. Windsor School District is one of the smaller districts in the region, known for its tight community feel, high ratings, and a sense of everyone knowing everyone. For families comparing Denver-area schools to Northern Colorado options, the quality gap is often smaller than they expect — and in terms of class sizes, community involvement, and teacher retention, Northern Colorado frequently comes out ahead.",
+      },
+      {
+        type: 'h2',
         text: 'The Commute Question',
       },
       {
         type: 'paragraph',
         text: "The most common concern I hear from Denver-area families considering the move is the commute. If you're working in Denver full-time, the drive north on I-25 is real — plan on 60–90 minutes depending on where you're going and when. But the rise of remote and hybrid work has changed this calculation dramatically. Many families are making this trade: a longer commute 1–2 days a week in exchange for a dramatically better quality of life every other day.",
+      },
+      {
+        type: 'h2',
+        text: 'Remote Work Permanently Changed the Calculation',
+      },
+      {
+        type: 'paragraph',
+        text: "Before 2020, the commute concern was often a dealbreaker for Denver families considering Northern Colorado. Now, many families I work with are fully remote or hybrid — maybe driving south two or three days a week at most. That changes everything. If you are spending the majority of your working hours at home, where that home is matters as much as what is near your office. Northern Colorado gives you a larger home, a quieter neighborhood, trails and open space close by, and a community where people actually know each other. On the days you do need to go south, the drive on I-25 is largely predictable and manageable with some planning. Families who could not have made this trade five years ago are making it now — and not looking back.",
       },
       {
         type: 'h2',
@@ -583,8 +665,26 @@ export const posts: BlogPost[] = [
         ],
       },
       {
+        type: 'h2',
+        text: 'What the Transition Actually Looks Like',
+      },
+      {
+        type: 'paragraph',
+        text: "Most families who relocate from Denver follow a similar path. They start with online research, then connect with a local agent to get oriented on specific neighborhoods and realistic price ranges. They usually make one or two drives up I-25 to walk neighborhoods, check out local parks and schools, and get a genuine feel for different towns. Within a few visits, they typically have a clear picture of where they want to land. The transition itself is smoother than most people expect. Northern Colorado has everything Denver families are used to: hospitals, grocery stores, restaurants, gyms, parks, and quality services — just without the congestion. It is not a move to the middle of nowhere. It is a move to somewhere with a genuinely better day-to-day quality of life, and most families I know who have made the move say it was one of the best decisions they ever made.",
+      },
+      {
         type: 'paragraph',
         text: "Almost universally, the families I work with say the same thing after they've been here for six months: they wish they had made the move sooner. If you're in the Denver area and curious about what life in Northern Colorado actually looks like, I'd love to have that conversation. The move is more feasible than most people think.",
+      },
+      {
+        type: 'faq',
+        faqs: [
+          { question: "Is Northern Colorado worth moving to from Denver?", answer: "Most families who make the move say yes — and that they wish they had done it sooner. Northern Colorado offers more space, lower traffic, strong schools, and direct access to outdoor recreation, often at a comparable or lower cost than Denver-area neighborhoods. The lifestyle trade-off strongly favors Northern Colorado for families who value space, community, and quality of life." },
+          { question: "What is the commute from Northern Colorado to Denver?", answer: "Depending on your specific origin and destination, the commute from Loveland or Fort Collins to Denver typically runs 60 to 90 minutes each way during peak hours. Many families who make this move are remote or hybrid workers who only commute two or three days per week, which makes the trade-off worthwhile for the lifestyle gains." },
+          { question: "Which Northern Colorado city is best for families with kids?", answer: "Windsor, Timnath, and Fort Collins are consistently popular with families relocating from Denver. Windsor and Timnath offer newer construction, strong schools, and a true neighborhood feel. Fort Collins combines excellent schools with a vibrant cultural scene and extensive trail systems. Loveland offers a quieter pace with strong schools and incredible access to open space and mountain recreation." },
+          { question: "How do Northern Colorado schools compare to Denver schools?", answer: "Northern Colorado has several highly rated school districts. The Poudre School District (Fort Collins) and Windsor School District are consistently rated among the best in Colorado. Thompson School District (Loveland) is well-regarded for community involvement and strong extracurricular programs. Many families find Northern Colorado schools competitive with or better than their Denver-area options." },
+          { question: "What is the cost of living in Northern Colorado compared to Denver?", answer: "Housing in Northern Colorado is generally more affordable than in Denver proper, though the gap has narrowed over the past decade. Families moving from Denver to Loveland, Windsor, or Berthoud typically find more home for their money — more square footage, a larger lot, or a newer build — at a comparable or lower price. Everyday costs like groceries, dining, and services are similar between the two regions." },
+        ],
       },
     ],
   },
