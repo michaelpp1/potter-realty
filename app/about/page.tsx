@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: 'About Michael Potter',
   description:
     'Learn about Michael Potter, LPT Realty real estate advisor serving Northern Colorado. Local expertise, modern approach, and a passion for helping clients find their perfect community.',
+  alternates: { canonical: 'https://www.potterealty.com/about' },
 }
 
 export default function AboutPage() {

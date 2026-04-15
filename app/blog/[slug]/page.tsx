@@ -49,8 +49,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = getPostBySlug(params.slug)
   if (!post) return {}
   return {
-    title: `${post.title} | Michael Potter Real Estate`,
+    title: post.title,
     description: post.excerpt,
+    alternates: { canonical: `https://www.potterealty.com/blog/${post.slug}` },
   }
 }
 
@@ -81,7 +82,7 @@ export default function BlogPostPage({ params }: Props) {
       '@type': 'Person',
       name: 'Michael Potter',
       jobTitle: 'Northern Colorado Relocation Specialist & REALTOR®',
-      worksFor: { '@type': 'Organization', name: 'eXp Realty' },
+      worksFor: { '@type': 'Organization', name: 'LPT Realty' },
       url: 'https://www.potterealty.com',
     },
     publisher: {
@@ -147,7 +148,7 @@ export default function BlogPostPage({ params }: Props) {
               </div>
               <div>
                 <p className="font-heading font-600 text-sm text-charcoal">Michael Potter</p>
-                <p className="font-sans text-xs text-gray-400">eXp Realty · Northern Colorado</p>
+                <p className="font-sans text-xs text-gray-400">LPT Realty · Northern Colorado</p>
               </div>
             </div>
             <div className="h-4 w-px bg-gray-200" />
@@ -244,7 +245,7 @@ export default function BlogPostPage({ params }: Props) {
             </div>
             <div>
               <p className="font-heading font-700 text-base text-charcoal mb-1">
-                Michael Potter, eXp Realty, Northern Colorado
+                Michael Potter, LPT Realty, Northern Colorado
               </p>
               <p className="font-sans text-gray-500 text-sm leading-relaxed mb-4">
                 I help buyers, sellers, and people relocating to Northern Colorado find the right home and community. Have a question about this article or the local market? I&apos;m happy to talk.

@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: 'Relocate to Northern Colorado',
   description:
     'Relocating to Northern Colorado? Get Michael Potter\'s free Relocation Guide covering Loveland, Fort Collins, Windsor, Timnath, Berthoud, and more. Local expertise for out-of-state and in-state movers.',
+  alternates: { canonical: 'https://www.potterealty.com/relocation' },
 }
 
 export default function RelocationPage() {

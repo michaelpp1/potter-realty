@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: 'Northern Colorado Real Estate Blog',
   description:
     'Market updates, buyer guides, seller tips, and relocation insights for Northern Colorado from Michael Potter, local real estate expert and relocation specialist.',
+  alternates: { canonical: 'https://www.potterealty.com/blog' },
 }
 
 const categories: BlogCategory[] = ['Market Update', 'Seller Tips', 'Buyer Tips', 'Relocation']

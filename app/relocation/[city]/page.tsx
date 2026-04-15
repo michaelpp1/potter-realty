@@ -19,6 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Living in ${city.name}, Colorado`,
     description: `Thinking about moving to ${city.name}, Colorado? Discover what makes ${city.name} a great place to live, covering neighborhoods, schools, lifestyle, and real estate market insights from local expert Michael Potter.`,
+    alternates: { canonical: `https://www.potterealty.com/relocation/${params.city}` },
   }
 }
 

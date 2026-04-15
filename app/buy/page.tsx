@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: 'Buy a Home in Northern Colorado',
   description:
     'Browse homes for sale in Fort Collins, Loveland, Windsor, Timnath, Berthoud, and all of Northern Colorado. Get pre-approved and start your search with a local expert.',
+  alternates: { canonical: 'https://www.potterealty.com/buy' },
 }
 
 export default function BuyPage() {
