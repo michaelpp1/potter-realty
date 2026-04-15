@@ -69,6 +69,13 @@ const structuredData = [
     email: SITE.email,
     image: 'https://www.potterealty.com/images/headshot.jpg',
     priceRange: '$$',
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '5',
+      reviewCount: '15',
+      bestRating: '5',
+      worstRating: '1',
+    },
     address: {
       '@type': 'PostalAddress',
       addressLocality: 'Loveland',
