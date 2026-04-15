@@ -11,6 +11,7 @@ const URLS = [
   `https://${HOST}/sell`,
   `https://${HOST}/relocation`,
   `https://${HOST}/blog`,
+  `https://${HOST}/blog/moving-from-california-to-northern-colorado`,
   `https://${HOST}/about`,
   `https://${HOST}/contact`,
   `https://${HOST}/relocation/fort-collins`,

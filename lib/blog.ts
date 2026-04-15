@@ -32,6 +32,128 @@ export const categoryColors: Record<BlogCategory, string> = {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'moving-from-california-to-northern-colorado',
+    title: 'Moving from California to Northern Colorado: The Complete Guide',
+    date: 'April 14, 2026',
+    isoDate: '2026-04-14',
+    category: 'Relocation',
+    excerpt: "More than 26,000 Californians move to Colorado every year. Here is what the move actually looks like — cost comparisons, town breakdowns, lifestyle trade-offs, and what most transplants tell me after their first year.",
+    readTime: '10 min read',
+    content: [
+      {
+        type: 'paragraph',
+        text: "More than 26,000 Californians relocate to Colorado every year, and a growing number of them are landing in Northern Colorado specifically. I know this because I work with them every week. Bay Area tech workers who went fully remote and realized they could live anywhere. Southern California families who ran the numbers and could not justify staying. Retirees who wanted four seasons, mountain access, and a lower tax bill. What they have in common is this: they did their research, they visited Northern Colorado, and they made the move. Most tell me it was one of the best decisions they ever made. Here is everything you need to know before you join them.",
+      },
+      {
+        type: 'h2',
+        text: 'Why Are So Many Californians Moving to Northern Colorado?',
+      },
+      {
+        type: 'paragraph',
+        text: "The push factors are not hard to identify. California has some of the highest housing costs in the country, a state income tax that reaches 13.3% at the top bracket, and a cost of living that has squeezed middle-class families for the better part of a decade. Traffic in the Bay Area and Los Angeles has worsened significantly, and the density of major metros has made it harder for families to find the kind of space and community they are looking for. These are legitimate concerns, not just complaints.",
+      },
+      {
+        type: 'paragraph',
+        text: "The pull factors are what make Northern Colorado specifically stand out among the many places Californians could land. The region offers mountain access without mountain prices. It has a genuine outdoor culture where people use the trails, lakes, and open space as part of daily life, not just on weekends. The communities are tight-knit in a way that surprises most newcomers. And the cost-of-living difference compared to the Bay Area or Los Angeles is substantial enough to materially improve quality of life, often on the same income.",
+      },
+      {
+        type: 'h2',
+        text: 'How the Cost of Living Actually Compares',
+      },
+      {
+        type: 'paragraph',
+        text: "The numbers that matter most for California transplants are housing and taxes. On housing: the median home price in Fort Collins is approximately $578,000 and in Loveland approximately $510,000 as of Q1 2026. Compare that to the San Jose metro at $1.5 million or Los Angeles at $900,000, and you begin to see why the math works. Even compared to Sacramento or San Diego, Northern Colorado is meaningfully more affordable while offering a comparable or better lifestyle. Buyers coming from the Bay Area often tell me that what they get for their money here feels almost surreal.",
+      },
+      {
+        type: 'paragraph',
+        text: "On taxes: Colorado has a flat income tax rate of 4.4% with no estate tax. California's income tax runs as high as 13.3%, and for high earners the difference compounds significantly over time. Property taxes in Colorado are also relatively low compared to the national average. Everyday costs — groceries, utilities, dining, and services — are comparable to or lower than most California metros. For remote workers and retirees who are not tied to California income, the financial impact of relocating to Northern Colorado can be tens of thousands of dollars per year.",
+      },
+      {
+        type: 'h2',
+        text: 'Which Northern Colorado Town Is Right for You?',
+      },
+      {
+        type: 'paragraph',
+        text: "The most common question I get from California buyers is which city to land in. The answer depends entirely on what your daily life looks like and what you are coming from.",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Fort Collins: If you are coming from a walkable Bay Area neighborhood or a Southern California city with a real downtown, Fort Collins will feel most familiar. Old Town is genuinely walkable, the restaurant and brewery scene is strong, and Colorado State University gives the city cultural energy and a younger demographic mix. Median prices are the highest in the region but still a fraction of major California metros.",
+          "Loveland: If you want more space, a quieter pace, and direct access to incredible outdoor recreation without paying Fort Collins prices, Loveland is worth a close look. Boyd Lake and Devil's Backbone trail system are practically in the backyard. The arts community is active. And buyers from California consistently tell me Loveland feels like the mountain towns they dreamed of living in — without the resort-town price premium.",
+          "Windsor and Timnath: If you are coming from a newer California suburb and want new construction, excellent schools, and a family-oriented community, Windsor and Timnath are worth serious consideration. They sit in Weld County, which has lower property taxes than Larimer County, and they are growing rapidly with strong infrastructure.",
+          "Berthoud: For buyers who want something genuinely small-town — space to breathe, a community where people know each other, a charming historic downtown — Berthoud is worth exploring. It is between Loveland and Johnstown, is one of the fastest-growing communities in Northern Colorado, and offers competitive price points.",
+        ],
+      },
+      {
+        type: 'h2',
+        text: 'The Outdoor Lifestyle: What You Get and What Changes',
+      },
+      {
+        type: 'paragraph',
+        text: "Northern Colorado receives more than 300 days of sunshine annually. For Californians worried about trading their outdoor lifestyle, the reality is that this region often exceeds expectations. The trail systems in and around Fort Collins and Loveland are extensive, well-maintained, and used year-round. Horsetooth Reservoir and Carter Lake offer paddleboarding, kayaking, fishing, and swimming in the summer. Rocky Mountain National Park is roughly one hour west. Major ski resorts — Breckenridge, Keystone, Vail, and Arapahoe Basin — are 1.5 to 2.5 hours away, making day trips entirely realistic.",
+      },
+      {
+        type: 'paragraph',
+        text: "What changes: there is no ocean. This is the single most common thing California transplants say they miss, and it is worth being honest about. Horsetooth Reservoir offers real water recreation, but it is not the Pacific. If ocean access is central to your lifestyle, the adjustment is real. What most people find is that the mountains more than compensate — and that having world-class ski resorts within a two-hour drive replaces the beach as the primary recreational anchor. The mountains here are genuinely extraordinary.",
+      },
+      {
+        type: 'h2',
+        text: 'Altitude, Winter, and Other Honest Realities',
+      },
+      {
+        type: 'paragraph',
+        text: "Loveland sits at approximately 4,982 feet above sea level. Fort Collins is around 5,003 feet. If you are coming from coastal California, expect one to two weeks of adjustment — you may feel slightly short of breath, tire more easily, and find that alcohol hits harder than usual. This passes. Staying well-hydrated accelerates the adjustment considerably.",
+      },
+      {
+        type: 'paragraph',
+        text: "Winter in Northern Colorado is real, but it is not what most Californians picture. Storms come and go quickly, and the sun typically returns within a day or two. You will drive in snow. You will need real winter clothing and a shovel. But the gray, relentless winters that define the Midwest and East Coast are not what happens here. Most winters include stretches of 50-degree January days where people are out walking their dogs and eating lunch outside. For the majority of people who make the move, winter becomes something they genuinely enjoy rather than endure.",
+      },
+      {
+        type: 'h2',
+        text: 'Schools and Families: What Northern Colorado Offers',
+      },
+      {
+        type: 'paragraph',
+        text: "Northern Colorado has strong school districts across the board. The Poudre School District serves Fort Collins, Timnath, Wellington, and LaPorte and is consistently ranked among the best in Colorado. The Thompson School District serves Loveland and Berthoud and is well-regarded for community involvement, athletics, and breadth of academic programming. Windsor School District is smaller but consistently highly rated with a tight community feel. Families with kids consistently tell me the school communities here feel warmer and more accessible than what they left behind in California. Class sizes tend to be smaller, and parent involvement is high.",
+      },
+      {
+        type: 'h2',
+        text: 'The Remote Worker Advantage in Northern Colorado',
+      },
+      {
+        type: 'paragraph',
+        text: "A significant portion of the California buyers I work with are fully remote or hybrid workers — people who realized they could live anywhere with a good internet connection and a comfortable home office. For this group, Northern Colorado offers a specific kind of value: the ability to convert a California salary into a materially different quality of life. A $250,000 income that feels stretched in the Bay Area buys a very comfortable life in Fort Collins or Loveland. You get a larger home, lower housing costs, outdoor access on your lunch break, and a community that has time for its neighbors. High-speed internet is widely available throughout the region, and Denver International Airport is 60 minutes south for when you need to travel.",
+      },
+      {
+        type: 'h2',
+        text: 'What California Transplants Tell Me After Their First Year',
+      },
+      {
+        type: 'paragraph',
+        text: "I follow up with every relocation client I have helped. The patterns are consistent. Almost universally, the reaction after the first year is some version of: I wish I had done this sooner. The specific things people mention most often: how quickly they felt connected to a community, how much less stressed they feel day-to-day, how often they actually get outside now, and how much more home they have for their money. The things they say they miss most: specific restaurants, the Pacific Ocean, proximity to family who stayed. These are real trade-offs, and anyone who glosses over them is not being straight with you. But the balance of reactions, from clients across the income spectrum and from every part of California, is overwhelmingly positive.",
+      },
+      {
+        type: 'h2',
+        text: 'How to Plan Your Move from California to Northern Colorado',
+      },
+      {
+        type: 'paragraph',
+        text: "The practical path looks like this. Start three to six months before your target move date. Decide whether you want to rent first or buy on arrival — renting for three to six months gives you firsthand knowledge of neighborhoods before committing to a purchase, but many California buyers choose to buy immediately using their sale proceeds and virtual tours. Get pre-approved before you start shopping. Connect with a local agent who specializes in out-of-state relocation and can give you candid, specific guidance on neighborhoods, price ranges, and what to expect from the process. Plan at least one visit to walk neighborhoods and tour homes in person before making an offer. Virtual tours have made remote buying viable, but nothing replaces driving the streets. I work with California buyers through every stage of this process — from initial research conversations to closing day and beyond. If you want to talk through what your specific move could look like, reach out at potterealty.com/contact.",
+      },
+      {
+        type: 'faq',
+        faqs: [
+          { question: "Is it worth moving from California to Northern Colorado?", answer: "For most people who make the move, yes. Northern Colorado offers significantly lower housing costs, a flat 4.4% state income tax compared to California's up to 13.3%, 300+ days of sunshine, direct access to Rocky Mountain National Park and world-class ski resorts, and communities with a genuine quality of life that is hard to find in major California metros. Most transplants report that the move exceeded their expectations within the first year." },
+          { question: "How much cheaper is Northern Colorado than California?", answer: "Housing is typically 40 to 60 percent less expensive than the Bay Area, and 20 to 35 percent less than Southern California. The median home price in Fort Collins is approximately $578,000 and in Loveland approximately $510,000 as of Q1 2026, compared to $1.5 million in the San Jose metro. State income tax savings for higher earners can add up to tens of thousands of dollars annually." },
+          { question: "What is the best city in Northern Colorado for California transplants?", answer: "It depends on what you are coming from. Fort Collins suits buyers who want walkability, downtown energy, and a college-town feel. Loveland suits buyers who want more space, a quieter pace, and trail and lake access at a lower price point. Windsor and Timnath suit families who want newer construction and strong schools. Berthoud suits buyers who want a true small-town lifestyle with room to breathe." },
+          { question: "Does Northern Colorado get a lot of snow?", answer: "Yes, but winters are sunnier and milder than most Californians expect. Storms typically clear quickly and the sun returns within a day or two. Northern Colorado receives more than 300 days of sunshine annually — more than Miami or San Diego. You will need to be comfortable driving in snow, but the gray relentless winters of the Midwest are not what you will experience here." },
+          { question: "Can I buy a home in Northern Colorado from California without visiting first?", answer: "Yes, and many California buyers do exactly that. Virtual tours, video walkthroughs, and remote document signing are all standard in today's market. That said, if at all possible, even one trip to drive neighborhoods and tour homes in person is worth the investment. Working with a local agent who can give you candid firsthand guidance on specific streets and neighborhoods is essential for out-of-state buyers." },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'berthoud-colorado-community-updates-what-is-happening-in-ber',
     title: "Berthoud, Colorado Community Updates: What Is Happening in Berthoud in 2026",
     date: 'April 13, 2026',
