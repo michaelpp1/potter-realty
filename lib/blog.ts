@@ -37,7 +37,7 @@ export const posts: BlogPost[] = [
     date: 'April 13, 2026',
     isoDate: '2026-04-13',
     category: 'Market Update',
-    excerpt: "Berthoud, Colorado continues to grow as one of Northern Colorado’s most charming small towns. Here is a look at the latest community events, development projects, and local news shaping life in Berthoud in spring 2026.",
+    excerpt: "Berthoud, Colorado continues to grow as one of Northern Colorado's most charming small towns. Here is a look at the latest community events, development projects, and local news shaping life in Berthoud in spring 2026.",
     readTime: '7 min read',
     content: [
       {
@@ -50,11 +50,11 @@ export const posts: BlogPost[] = [
       },
       {
         type: 'paragraph',
-        text: "Spring 2026 is bringing some great community events to Berthoud. On April 18, 2026, the Town of Berthoud and the Larimer County Sheriff’s Office are hosting Dogs & Deputies at Fickel Park from 9:00 AM to 2:00 PM. This event is all about celebrating pet ownership and features local veterinary offices, puppy yoga, pet training resources, and even retired LCSO K9s you can meet and pet. As a dog owner myself, this is exactly the kind of event that makes Berthoud feel like home. If you are moving here with a four-legged family member, know that this community embraces dogs and the outdoor lifestyle that comes with them.",
+        text: "Spring 2026 is bringing some great community events to Berthoud. On April 18, 2026, the Town of Berthoud and the Larimer County Sheriff's Office are hosting Dogs & Deputies at Fickel Park from 9:00 AM to 2:00 PM. This event is all about celebrating pet ownership and features local veterinary offices, puppy yoga, pet training resources, and even retired LCSO K9s you can meet and pet. As a dog owner myself, this is exactly the kind of event that makes Berthoud feel like home. If you are moving here with a four-legged family member, know that this community embraces dogs and the outdoor lifestyle that comes with them.",
       },
       {
         type: 'paragraph',
-        text: "Then on April 25, 2026, the Town’s Forestry and Open Space Departments are hosting an Arbor Day celebration at Town Park, located at 200 N 7th Street. The event begins at 9:00 AM and will feature a ceremonial planting of seven trees. It is a small-town tradition that speaks volumes about the way Berthoud values green space, sustainability, and community involvement. Events like these are a big reason people fall in love with this town after visiting just once.",
+        text: "Then on April 25, 2026, the Town's Forestry and Open Space Departments are hosting an Arbor Day celebration at Town Park, located at 200 N 7th Street. The event begins at 9:00 AM and will feature a ceremonial planting of seven trees. It is a small-town tradition that speaks volumes about the way Berthoud values green space, sustainability, and community involvement. Events like these are a big reason people fall in love with this town after visiting just once.",
       },
       {
         type: 'h2',
@@ -62,11 +62,11 @@ export const posts: BlogPost[] = [
       },
       {
         type: 'paragraph',
-        text: "Berthoud has been steadily investing in infrastructure and quality-of-life improvements. According to the Town’s official website, several active projects are in the works, including the Berthoud Arboretum and ongoing road and sidewalk improvements throughout town. The town has also been managing road closures related to these projects, so if you are visiting to tour homes, it is worth checking the Town of Berthoud website for current closure information before you drive in.",
+        text: "Berthoud has been steadily investing in infrastructure and quality-of-life improvements. According to the Town's official website, several active projects are in the works, including the Berthoud Arboretum and ongoing road and sidewalk improvements throughout town. The town has also been managing road closures related to these projects, so if you are visiting to tour homes, it is worth checking the Town of Berthoud website for current closure information before you drive in.",
       },
       {
         type: 'paragraph',
-        text: "One thing worth noting for anyone budgeting for a move: the Town of Berthoud approved a water utility rate adjustment that took effect earlier this year. This includes an 8% increase for wastewater utility and a 5% increase for water utility. These adjustments are tied to inflation and necessary infrastructure maintenance and improvements. While no one loves a rate increase, it signals that Berthoud is actively investing in its systems to support the town’s continued growth, which is a positive sign for long-term homeowners.",
+        text: "One thing worth noting for anyone budgeting for a move: the Town of Berthoud approved a water utility rate adjustment that took effect earlier this year. This includes an 8% increase for wastewater utility and a 5% increase for water utility. These adjustments are tied to inflation and necessary infrastructure maintenance and improvements. While no one loves a rate increase, it signals that Berthoud is actively investing in its systems to support the town's continued growth, which is a positive sign for long-term homeowners.",
       },
       {
         type: 'h2',
@@ -78,7 +78,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: 'paragraph',
-        text: "For buyers interested in a homestead lifestyle with some acreage, Berthoud and the surrounding area deliver. Properties west of town can offer space for horses, chickens, gardens, and workshops with incredible Front Range views. If you prefer walkability, downtown Berthoud is compact and charming, with the kind of neighborhood feel where people wave to each other on their evening walks. And for anyone worried about being too far from the action, Denver International Airport is roughly an hour’s drive south, and ski resorts like Breckenridge, Keystone, Vail, and Arapahoe Basin are 1.5 to 2.5 hours west, making day trips and weekend getaways very manageable.",
+        text: "For buyers interested in a homestead lifestyle with some acreage, Berthoud and the surrounding area deliver. Properties west of town can offer space for horses, chickens, gardens, and workshops with incredible Front Range views. If you prefer walkability, downtown Berthoud is compact and charming, with the kind of neighborhood feel where people wave to each other on their evening walks. And for anyone worried about being too far from the action, Denver International Airport is roughly an hour's drive south, and ski resorts like Breckenridge, Keystone, Vail, and Arapahoe Basin are 1.5 to 2.5 hours west, making day trips and weekend getaways very manageable.",
       },
       {
         type: 'h2',
@@ -86,7 +86,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: 'paragraph',
-        text: "Many of the buyers I work with are coming from higher cost-of-living areas like California, Texas, or the Pacific Northwest. They are drawn to Northern Colorado for the outdoor lifestyle, the sunshine, and the sense of community. Berthoud specifically appeals to people who want space and quiet without being isolated. You can hike Devil’s Backbone or walk the trails at nearby Carter Lake and Boyd Lake in minutes. Rocky Mountain National Park and Estes Park are a short drive through some of the most beautiful scenery in the country. And Berthoud’s location between Larimer County and Weld County means you have options when it comes to property taxes and home styles.",
+        text: "Many of the buyers I work with are coming from higher cost-of-living areas like California, Texas, or the Pacific Northwest. They are drawn to Northern Colorado for the outdoor lifestyle, the sunshine, and the sense of community. Berthoud specifically appeals to people who want space and quiet without being isolated. You can hike Devil's Backbone or walk the trails at nearby Carter Lake and Boyd Lake in minutes. Rocky Mountain National Park and Estes Park are a short drive through some of the most beautiful scenery in the country. And Berthoud's location between Larimer County and Weld County means you have options when it comes to property taxes and home styles.",
       },
       {
         type: 'ul',
@@ -110,11 +110,11 @@ export const posts: BlogPost[] = [
       {
         type: 'faq',
         faqs: [
-          { question: "Is Berthoud, Colorado a good place to live?", answer: "Berthoud is one of Northern Colorado’s most desirable small towns, known for its historic downtown, strong sense of community, and proximity to outdoor recreation. It offers a slower pace of life while still being close to Loveland, Fort Collins, and Denver International Airport, which is about an hour away." },
+          { question: "Is Berthoud, Colorado a good place to live?", answer: "Berthoud is one of Northern Colorado's most desirable small towns, known for its historic downtown, strong sense of community, and proximity to outdoor recreation. It offers a slower pace of life while still being close to Loveland, Fort Collins, and Denver International Airport, which is about an hour away." },
           { question: "What school district is Berthoud, Colorado in?", answer: "Berthoud is part of the Thompson School District, which also serves Loveland and the surrounding area. Berthoud High School offers strong academics, athletics, and community-focused programs. Many families and grandparents relocating to the area appreciate the quality of schools here." },
           { question: "How far is Berthoud, Colorado from ski resorts?", answer: "Berthoud is approximately 1.5 to 2.5 hours from major ski resorts including Breckenridge, Keystone, Vail, and Arapahoe Basin. This makes day trips and weekend ski getaways very doable, especially compared to living on the Front Range further south where traffic can add significant time." },
           { question: "Is Berthoud, Colorado expensive?", answer: "Berthoud tends to offer competitive pricing compared to Fort Collins and some parts of Loveland, though the market varies by neighborhood and property type. Buyers coming from California, Texas metro areas, or the Pacific Northwest often find that their dollar goes further in Berthoud while gaining a higher quality of life." },
-          { question: "What is there to do in Berthoud, Colorado?", answer: "Berthoud offers year-round community events, a charming downtown with local shops and restaurants, and easy access to hiking at Devil’s Backbone, paddleboarding at Carter Lake and Boyd Lake, and camping near Rocky Mountain National Park. The town regularly hosts events like the Chocolate Walk, Arbor Day celebrations, and pet-focused community gatherings." },
+          { question: "What is there to do in Berthoud, Colorado?", answer: "Berthoud offers year-round community events, a charming downtown with local shops and restaurants, and easy access to hiking at Devil's Backbone, paddleboarding at Carter Lake and Boyd Lake, and camping near Rocky Mountain National Park. The town regularly hosts events like the Chocolate Walk, Arbor Day celebrations, and pet-focused community gatherings." },
         ],
       },
     ],
@@ -175,7 +175,7 @@ export const posts: BlogPost[] = [
       {
         type: 'ul',
         items: [
-          "Proximity to trails and open space: If hiking with your dog is a daily activity, neighborhoods near Devil’s Backbone, Horsetooth, Lory State Park, or the Poudre River trail system will feel like home.",
+          "Proximity to trails and open space: If hiking with your dog is a daily activity, neighborhoods near Devil's Backbone, Horsetooth, Lory State Park, or the Poudre River trail system will feel like home.",
           "Walkability to downtown amenities: If you want to walk or bike to coffee shops, breweries, restaurants, and weekend festivals, prioritize established neighborhoods in central Fort Collins or downtown Loveland.",
           "Lot size and land use: If you want space for horses, chickens, a large garden, or a detached shop, look at properties west of town or in rural pockets of Berthoud, Johnstown, and Wellington.",
           "School districts: If you have kids at home or grandchildren who will visit regularly, research the Thompson School District (Loveland, Berthoud) and Poudre School District (Fort Collins, Timnath, Wellington) specifically.",
@@ -197,7 +197,7 @@ export const posts: BlogPost[] = [
       },
       {
         type: 'paragraph',
-        text: "This is where working with someone who actually lives here makes a real difference. I am not just pulling listings off a database. I paddleboard at Horsetooth Reservoir and Carter Lake in the summer. I hike Devil’s Backbone and camp up the Poudre Canyon. I eat at the restaurants, drink coffee at the local shops, and walk through these neighborhoods regularly. When I tell a client that a particular street feels quiet and tree-lined or that a certain subdivision has an active community feel, it is because I have been there, not because I read it on a website.",
+        text: "This is where working with someone who actually lives here makes a real difference. I am not just pulling listings off a database. I paddleboard at Horsetooth Reservoir and Carter Lake in the summer. I hike Devil's Backbone and camp up the Poudre Canyon. I eat at the restaurants, drink coffee at the local shops, and walk through these neighborhoods regularly. When I tell a client that a particular street feels quiet and tree-lined or that a certain subdivision has an active community feel, it is because I have been there, not because I read it on a website.",
       },
       {
         type: 'paragraph',
@@ -216,11 +216,11 @@ export const posts: BlogPost[] = [
     ],
   },
   {
-    slug: ‘what-its-really-like-to-live-in-northern-colorado-an-honest-’,
-    title: "What It’s Really Like to Live in Northern Colorado: An Honest Look at the Lifestyle",
-    date: ‘April 1, 2026’,
-    isoDate: ‘2026-04-01’,
-    category: ‘Relocation’,
+    slug: 'what-its-really-like-to-live-in-northern-colorado-an-honest-',
+    title: "What It's Really Like to Live in Northern Colorado: An Honest Look at the Lifestyle",
+    date: 'April 1, 2026',
+    isoDate: '2026-04-01',
+    category: 'Relocation',
     excerpt: "Thinking about relocating to Northern Colorado? Here is a genuine look at the outdoor lifestyle, tight-knit communities, and everyday quality of life that make this region so hard to leave.",
     readTime: '7 min read',
     content: [
@@ -230,11 +230,11 @@ export const posts: BlogPost[] = [
       },
       {
         type: 'h2',
-        text: "The Outdoor Lifestyle Is Not Hype — It’s Everyday Life",
+        text: "The Outdoor Lifestyle Is Not Hype — It's Everyday Life",
       },
       {
         type: 'paragraph',
-        text: "One of the first things people notice after moving here is how naturally the outdoors weave into daily routines. This is not a place where you save outdoor adventures for vacation. It is where you mountain bike after work on a Tuesday, paddle board at Horsetooth Reservoir on a Saturday morning, or take a quick evening hike at Devil’s Backbone outside Loveland. The trail systems in and around Fort Collins, Loveland, Windsor, and Timnath are extensive, well-maintained, and genuinely used by locals year-round.",
+        text: "One of the first things people notice after moving here is how naturally the outdoors weave into daily routines. This is not a place where you save outdoor adventures for vacation. It is where you mountain bike after work on a Tuesday, paddle board at Horsetooth Reservoir on a Saturday morning, or take a quick evening hike at Devil's Backbone outside Loveland. The trail systems in and around Fort Collins, Loveland, Windsor, and Timnath are extensive, well-maintained, and genuinely used by locals year-round.",
       },
       {
         type: 'paragraph',
