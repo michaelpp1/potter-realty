@@ -77,7 +77,7 @@ export default function BlogPostPage({ params }: Props) {
     '@type': 'Article',
     headline: post.title,
     description: post.excerpt,
-    datePublished: post.date,
+    datePublished: post.isoDate,
     author: {
       '@type': 'Person',
       name: 'Michael Potter',
