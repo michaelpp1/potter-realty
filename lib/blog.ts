@@ -16,6 +16,7 @@ export interface BlogPost {
   slug: string
   title: string
   date: string
+  isoDate: string
   category: BlogCategory
   excerpt: string
   readTime: string
@@ -34,6 +35,7 @@ export const posts: BlogPost[] = [
     slug: 'berthoud-colorado-community-updates-what-is-happening-in-ber',
     title: "Berthoud, Colorado Community Updates: What Is Happening in Berthoud in 2026",
     date: 'April 13, 2026',
+    isoDate: '2026-04-13',
     category: 'Market Update',
     excerpt: "Berthoud, Colorado continues to grow as one of Northern Colorado’s most charming small towns. Here is a look at the latest community events, development projects, and local news shaping life in Berthoud in spring 2026.",
     readTime: '7 min read',
@@ -121,6 +123,7 @@ export const posts: BlogPost[] = [
     slug: 'how-to-choose-the-right-neighborhood-in-northern-colorado-fo',
     title: "How to Choose the Right Neighborhood in Northern Colorado for Your Lifestyle and Budget",
     date: 'April 7, 2026',
+    isoDate: '2026-04-07',
     category: 'Buyer Tips',
     excerpt: "Northern Colorado offers dozens of distinct neighborhoods across Fort Collins, Loveland, Windsor, Timnath, Berthoud, and beyond. This guide breaks down how to match your lifestyle priorities and budget to the right community so you can relocate with confidence.",
     readTime: '9 min read',
@@ -213,10 +216,11 @@ export const posts: BlogPost[] = [
     ],
   },
   {
-    slug: 'what-its-really-like-to-live-in-northern-colorado-an-honest-',
+    slug: ‘what-its-really-like-to-live-in-northern-colorado-an-honest-’,
     title: "What It’s Really Like to Live in Northern Colorado: An Honest Look at the Lifestyle",
-    date: 'April 1, 2026',
-    category: 'Relocation',
+    date: ‘April 1, 2026’,
+    isoDate: ‘2026-04-01’,
+    category: ‘Relocation’,
     excerpt: "Thinking about relocating to Northern Colorado? Here is a genuine look at the outdoor lifestyle, tight-knit communities, and everyday quality of life that make this region so hard to leave.",
     readTime: '7 min read',
     content: [
@@ -304,6 +308,7 @@ export const posts: BlogPost[] = [
     slug: 'northern-colorado-market-update-q1-2026',
     title: 'Northern Colorado Real Estate Market Update — Q1 2026',
     date: 'March 10, 2026',
+    isoDate: '2026-03-10',
     category: 'Market Update',
     excerpt:
       'What buyers and sellers need to know about the Northern Colorado market heading into spring 2026 — inventory, pricing trends, and what to expect.',
@@ -363,6 +368,7 @@ export const posts: BlogPost[] = [
     slug: '7-things-to-do-before-listing-your-home',
     title: '7 Things to Do Before You List Your Home in Northern Colorado',
     date: 'March 3, 2026',
+    isoDate: '2026-03-03',
     category: 'Seller Tips',
     excerpt:
       "Small preparation steps make a big difference in how quickly your home sells and what you net at closing. Here's what I tell every seller before we go live.",
@@ -438,6 +444,7 @@ export const posts: BlogPost[] = [
     slug: 'first-time-buyer-guide-northern-colorado',
     title: "A First-Time Buyer's Guide to Northern Colorado",
     date: 'February 24, 2026',
+    isoDate: '2026-02-24',
     category: 'Buyer Tips',
     excerpt:
       "Buying your first home is exciting and overwhelming in equal measure. Here's a straightforward guide to what the process looks like in Northern Colorado.",
@@ -517,6 +524,7 @@ export const posts: BlogPost[] = [
     slug: 'why-families-relocate-northern-colorado-from-denver',
     title: 'Why Families Are Leaving Denver for Northern Colorado',
     date: 'February 17, 2026',
+    isoDate: '2026-02-17',
     category: 'Relocation',
     excerpt:
       "More and more families are trading the Denver metro for Northern Colorado. Here's what's driving the move and what they find when they get here.",
