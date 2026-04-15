@@ -4,9 +4,9 @@ import { posts, categoryColors, type BlogCategory } from '@/lib/blog'
 import NewsletterSignup from '@/components/NewsletterSignup'
 
 export const metadata: Metadata = {
-  title: 'Real Estate Blog, Northern Colorado',
+  title: 'Northern Colorado Real Estate Blog',
   description:
-    'Market updates, seller tips, buyer guides, and relocation insights for Northern Colorado from local real estate expert Michael Potter.',
+    'Market updates, buyer guides, seller tips, and relocation insights for Northern Colorado from Michael Potter, local real estate expert and relocation specialist.',
 }
 
 const categories: BlogCategory[] = ['Market Update', 'Seller Tips', 'Buyer Tips', 'Relocation']

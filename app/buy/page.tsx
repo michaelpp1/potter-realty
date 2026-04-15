@@ -1,9 +1,14 @@
-'use client'
-
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import Script from 'next/script'
 import { SITE } from '@/lib/constants'
 import NewsletterSignup from '@/components/NewsletterSignup'
+
+export const metadata: Metadata = {
+  title: 'Buy a Home in Northern Colorado',
+  description:
+    'Browse homes for sale in Fort Collins, Loveland, Windsor, Timnath, Berthoud, and all of Northern Colorado. Get pre-approved and start your search with a local expert.',
+}
 
 export default function BuyPage() {
   return (
