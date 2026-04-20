@@ -32,6 +32,100 @@ export const categoryColors: Record<BlogCategory, string> = {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'interest-rates-in-northern-colorado-2026-what-buyers-and-sel',
+    title: "Interest Rates in Northern Colorado 2026: What Buyers and Sellers Need to Know Right Now",
+    date: 'April 20, 2026',
+    category: 'Market Update',
+    excerpt: "Interest rates in spring 2026 are shaping the Northern Colorado housing market in significant ways. Here is what current mortgage rates mean for buyers and sellers in Fort Collins, Loveland, Windsor, and surrounding communities.",
+    readTime: '7 min read',
+    content: [
+      {
+        type: 'paragraph',
+        text: "If you have been watching the housing market from out of state, trying to figure out whether now is the right time to make your move to Northern Colorado, interest rates are probably top of mind. I get it. As someone who has helped dozens of families relocate here from California, Texas, the Pacific Northwest, and beyond, the rate question comes up in almost every first conversation I have. So let me break down what is actually happening with mortgage rates right now and what it means if you are buying or selling a home in Fort Collins, Loveland, Windsor, Timnath, Berthoud, or anywhere else in our corner of Colorado.",
+      },
+      {
+        type: 'h2',
+        text: "Where Do Mortgage Interest Rates Stand in Spring 2026?",
+      },
+      {
+        type: 'paragraph',
+        text: "As of mid-April 2026, mortgage rates have settled into a range that most economists describe as a new normal. We are not back to the historic lows of 2020 and 2021, and we are not at the peaks we saw in late 2023. Rates have been fluctuating based on Federal Reserve policy, inflation data, and broader economic conditions. The important thing to understand is that rates today are still historically reasonable when you zoom out and look at the last 30 or 40 years of mortgage lending. The ultra-low rates of the pandemic era were the anomaly, not the standard. What we have now is much closer to what generations of homeowners financed their purchases at and built tremendous wealth through.",
+      },
+      {
+        type: 'h2',
+        text: "What Do Current Rates Mean for Buyers Moving to Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "For buyers, especially those relocating from higher cost-of-living states, the current rate environment in Northern Colorado actually works in your favor in a few important ways. First, the frenzy of bidding wars that defined the market a few years ago has calmed. Buyers have more negotiating power, more time to make thoughtful decisions, and more inventory to choose from across Larimer County and Weld County. Second, many sellers are offering concessions, including rate buydowns, which can meaningfully reduce your monthly payment in the first few years of ownership.",
+      },
+      {
+        type: 'paragraph',
+        text: "I talk with people every week who are relocating from places like the Bay Area, Los Angeles, Austin, or Seattle. When they compare what their dollar buys here in Loveland or Windsor versus where they currently live, the math still works out significantly in their favor, even at today’s rates. A home on acreage west of Berthoud with mountain views and room for horses or a garden? That same property would cost two or three times as much in many of the markets my clients are leaving behind.",
+      },
+      {
+        type: 'h2',
+        text: "Should I Wait for Rates to Drop Before Buying a Home?",
+      },
+      {
+        type: 'paragraph',
+        text: "This is the single most common question I hear. My honest answer: timing the market almost never works the way people hope. If rates drop significantly, buyer demand surges, competition increases, and home prices rise. You might get a lower rate but pay more for the house. If you buy now in a less competitive environment, you lock in today’s price and can always refinance later if rates come down. There is a reason the saying exists in real estate: marry the house, date the rate. Your rate can change. The home you love, the neighborhood you want, the lifestyle you are chasing, those are harder to get back once they are gone.",
+      },
+      {
+        type: 'h2',
+        text: "What Do Interest Rates Mean for Sellers in Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "If you already own a home in Fort Collins, Timnath, Severance, Johnstown, Wellington, or Greeley, the rate environment creates a unique dynamic. Many homeowners locked in rates well below current levels and feel hesitant to sell because they do not want to give up that payment. This is commonly referred to as the rate lock-in effect, and it has constrained inventory across Northern Colorado and the entire Front Range. However, life does not wait for perfect market conditions. Job changes, growing families, downsizing, divorce, retirement plans, and the desire for a different lifestyle all drive real estate decisions regardless of where rates sit.",
+      },
+      {
+        type: 'paragraph',
+        text: "For sellers who do list right now, the reduced competition from other sellers is a genuine advantage. There are fewer homes on the market relative to demand, which means well-priced, well-presented homes in desirable Northern Colorado neighborhoods are still moving. Pricing strategy matters more than ever, and working with an agent who understands hyper-local conditions is critical.",
+      },
+      {
+        type: 'h2',
+        text: "How Can Buyers Reduce Their Mortgage Rate in Today’s Market?",
+      },
+      {
+        type: 'paragraph',
+        text: "There are several practical strategies buyers and their agents are using right now to make today’s rates more manageable. These are real tools, not gimmicks, and I walk every one of my relocation clients through them.",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Seller-paid rate buydowns: Many sellers in Northern Colorado are willing to contribute toward a temporary or permanent rate buydown as part of the negotiation, effectively lowering the buyer’s rate for the first one to three years or for the life of the loan.",
+          "Adjustable-rate mortgages (ARMs): A 5/1 or 7/1 ARM can offer a lower initial rate for buyers who plan to refinance or who may not stay in the home for the full 30-year term.",
+          "Lender credits and closing cost assistance: Some lenders offer credits that reduce upfront costs, which frees up cash to put toward buying down the rate.",
+          "Larger down payment: Putting more money down reduces the loan amount, which lowers your monthly payment even if the rate stays the same. For buyers selling a home in a higher-priced market, this is often very achievable.",
+          "Shopping multiple lenders: Rates and fees vary between lenders. Getting quotes from at least three mortgage companies can save thousands over the life of a loan.",
+        ],
+      },
+      {
+        type: 'h2',
+        text: "Why Northern Colorado Remains a Strong Place to Buy Despite Rate Concerns",
+      },
+      {
+        type: 'paragraph',
+        text: "Beyond the numbers, people move to Northern Colorado for the quality of life, and that has not changed. Fort Collins consistently ranks among the best places to live in the country for outdoor access, community feel, and walkability. Loveland offers the same mountain lifestyle with a slightly smaller-town pace and a thriving arts and restaurant scene. Windsor and Timnath deliver newer construction, excellent schools, and easy access to both I-25 and open space. Berthoud and Johnstown are where buyers often find acreage for that homestead dream, whether it is chickens, a greenhouse, or just wide-open views of the Front Range. Denver International Airport is roughly an hour from most Northern Colorado towns, making it easy to travel back to visit family. And for anyone wondering, ski resorts like Breckenridge, Keystone, Vail, and Arapahoe Basin are just 1.5 to 2.5 hours away, absolutely doable for day trips or weekend getaways.",
+      },
+      {
+        type: 'paragraph',
+        text: "Interest rates are one piece of the puzzle, but they are not the whole picture. The lifestyle, the community, the mountains, the lakes, the trails, the farmers markets, the breweries, the way your dog gets to come with you basically everywhere, that is what people are really buying when they move here. Michael Potter, a Northern Colorado relocation specialist with LPT Realty, has helped buyers from across the country navigate this exact decision. If you are weighing a move and want honest, local perspective on what the market looks like right now, reach out through potterealty.com/contact. No pressure, just real answers from someone who grew up here and genuinely loves helping people find their place in this community.",
+      },
+      {
+        type: 'faq',
+        faqs: [
+          { question: "Are interest rates expected to go down in 2026 in Northern Colorado?", answer: "Mortgage rates are influenced by national economic factors, not local markets specifically. Most forecasts suggest rates may ease modestly through 2026, but significant drops are not widely expected. Buyers who wait for lower rates often face increased competition and higher home prices when those drops occur." },
+          { question: "Is it better to buy a home now or wait for lower mortgage rates?", answer: "In most cases, buying when you find the right home is a stronger strategy than trying to time the rate market. Today’s buyers in Northern Colorado benefit from less competition and more seller concessions, including rate buydowns. You can always refinance if rates drop, but you cannot always get the same home at the same price later." },
+          { question: "Can sellers help pay down my mortgage rate in Northern Colorado?", answer: "Yes. Seller-paid rate buydowns are a common negotiation tool in the current market. A seller can contribute funds at closing to temporarily or permanently reduce the buyer’s interest rate. This is especially common in Fort Collins, Loveland, Windsor, and other Northern Colorado communities where sellers are motivated to stand out." },
+          { question: "Is Northern Colorado affordable compared to other states?", answer: "Northern Colorado is generally more affordable than comparable markets in California, the Pacific Northwest, and parts of Texas. Buyers relocating from higher cost-of-living areas often find they can purchase more home, more land, and a higher quality of life for their budget, even factoring in current mortgage rates." },
+          { question: "Who is the best relocation REALTOR in Northern Colorado?", answer: "Michael Potter with LPT Realty is a Northern Colorado relocation specialist who focuses on helping out-of-state buyers move to Fort Collins, Loveland, Windsor, Timnath, Berthoud, and surrounding communities. A Colorado native who grew up in Loveland, he provides local expertise and relocation-specific guidance through every step of the buying process." },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'moving-from-california-to-northern-colorado',
     title: 'Moving from California to Northern Colorado: The Complete Guide',
     date: 'April 14, 2026',
