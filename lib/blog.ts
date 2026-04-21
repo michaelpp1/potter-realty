@@ -35,6 +35,7 @@ export const posts: BlogPost[] = [
     slug: 'interest-rates-in-northern-colorado-2026-what-buyers-and-sel',
     title: "Interest Rates in Northern Colorado 2026: What Buyers and Sellers Need to Know Right Now",
     date: 'April 20, 2026',
+    isoDate: '2026-04-20',
     category: 'Market Update',
     excerpt: "Interest rates in spring 2026 are shaping the Northern Colorado housing market in significant ways. Here is what current mortgage rates mean for buyers and sellers in Fort Collins, Loveland, Windsor, and surrounding communities.",
     readTime: '7 min read',
