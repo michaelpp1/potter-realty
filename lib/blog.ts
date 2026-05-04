@@ -32,6 +32,104 @@ export const categoryColors: Record<BlogCategory, string> = {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'relocating-to-northern-colorado-from-out-of-state-a-complete',
+    title: "Relocating to Northern Colorado from Out of State: A Complete Step-by-Step Guide",
+    date: 'May 4, 2026',
+    category: 'Relocation',
+    excerpt: "Moving to Northern Colorado from another state involves choosing the right town, understanding the housing market, and planning your timeline. This step-by-step relocation guide covers everything you need to know about making Fort Collins, Loveland, Windsor, Timnath, Berthoud, or the surrounding area your new home.",
+    readTime: '9 min read',
+    content: [
+      {
+        type: 'paragraph',
+        text: "I grew up in Loveland, graduated from Thompson Valley High School, and bought my first home in downtown Loveland in 2017. After a brief stint traveling abroad in 2019 that only confirmed how much I love this place, I came home and built my career around helping people relocate to Northern Colorado. Most of my clients are coming from out of state — California, Texas, the Pacific Northwest, the Midwest — and they all have the same mix of excitement and overwhelm. This guide is the step-by-step framework I walk every single one of them through.",
+      },
+      {
+        type: 'h2',
+        text: "Why Are So Many People Moving to Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "Northern Colorado offers something that is genuinely hard to find: a slower pace of life paired with easy access to world-class outdoor recreation, strong community roots, and real economic opportunity. Fort Collins consistently ranks among the best places to live in the U.S. Loveland is known for its public art, sweetheart culture, and proximity to lakes and open space. Towns like Windsor, Timnath, and Berthoud offer newer construction, excellent schools, and a small-town feel with modern amenities. Whether you want walkable downtown living near yoga studios and farmers markets or 5 acres west of town with horses and a greenhouse, this region delivers both lifestyles within a short drive of each other.",
+      },
+      {
+        type: 'h2',
+        text: "Step 1: How Do You Choose the Right Town in Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "This is the most important decision, and it is the one most people try to make too quickly. Each community in Northern Colorado has a distinct personality. Fort Collins is the largest city in the region, home to Colorado State University, Old Town, and a legendary craft brewery scene. Loveland offers a quieter, artsy vibe with easy access to Horsetooth Reservoir, Carter Lake, and Boyd Lake. Windsor and Timnath sit along the I-25 corridor in Weld County and offer some of the top-rated school districts in the state, making them popular with families. Berthoud and Johnstown attract buyers looking for more space and newer builds at approachable price points. Wellington and Severance appeal to those wanting acreage and elbow room without sacrificing convenience. Greeley is the most affordable option and has seen significant investment in its downtown and university district.",
+      },
+      {
+        type: 'paragraph',
+        text: "My advice: do not pick a town based solely on price or a single Google search. Tell me what your daily life looks like — morning coffee routine, how often you hike, whether you want to walk to dinner or drive 10 minutes through open fields — and I will narrow the list fast.",
+      },
+      {
+        type: 'h2',
+        text: "Step 2: What Should You Know About the Northern Colorado Housing Market Before You Move?",
+      },
+      {
+        type: 'paragraph',
+        text: "If you are coming from a high cost-of-living area, Northern Colorado will likely feel reasonable. If you are coming from somewhere more affordable, you may experience some sticker shock in certain neighborhoods, especially in west Fort Collins or properties with acreage near Horsetooth or the Poudre Canyon foothills. The market varies significantly between Larimer County and Weld County. Generally, Larimer County communities like Fort Collins and Loveland carry a premium for their mountain proximity and established character, while Weld County towns like Windsor, Severance, and Johnstown offer more square footage per dollar. Getting pre-approved with a Colorado-based lender early in your process is critical. Out-of-state lenders can cause delays, and local lenders understand appraisal norms and inspection timelines specific to this market.",
+      },
+      {
+        type: 'h2',
+        text: "Step 3: How Do You Plan a Relocation Visit to Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "I recommend flying into Denver International Airport, which is about an hour south of the Fort Collins and Loveland area. Most of my relocation clients plan a 3- to 4-day visit. We spend the first day driving through neighborhoods and towns so you can feel the differences — not just see photos. Days two and three are for touring specific homes. I also encourage clients to eat at local restaurants, walk downtown Fort Collins and downtown Loveland, drive west toward the foothills, and spend time at a trailhead or lake. You are not just buying a house. You are choosing a lifestyle.",
+      },
+      {
+        type: 'h2',
+        text: "Step 4: What Is the Timeline for an Out-of-State Move to Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "Here is a realistic timeline I walk my clients through. Every situation is different, but this gives you a framework to plan around.",
+      },
+      {
+        type: 'ul',
+        items: [
+          "3-6 months before your move: Start researching towns, connect with a relocation specialist like Michael Potter, and get pre-approved with a Colorado lender.",
+          "2-3 months before: Schedule your relocation visit, tour homes and neighborhoods, and make an offer if the right property appears.",
+          "30-45 days before closing: Complete inspections, appraisal, and finalize your loan. Begin coordinating movers and transferring utilities.",
+          "Closing week: Sign documents (often done remotely for out-of-state buyers), receive keys, and coordinate your move-in.",
+          "First 30 days after arrival: Update your Colorado driver license, register vehicles, register to vote, establish care with local doctors and veterinarians, and start exploring your new community.",
+        ],
+      },
+      {
+        type: 'h2',
+        text: "Step 5: What About Lifestyle Factors Like Skiing, Outdoor Recreation, and Community?",
+      },
+      {
+        type: 'paragraph',
+        text: "One concern I hear constantly is whether Northern Colorado is too far from the ski resorts. It is not. Breckenridge, Keystone, Arapahoe Basin, and Vail are all 1.5 to 2.5 hours away — very doable for day trips or weekend getaways. And skiing is only one piece of the outdoor puzzle here. I spend my summers paddleboarding and swimming at Horsetooth Reservoir, Carter Lake, and Boyd Lake. I hike Devil's Backbone, trails up the Poudre Canyon, and Lory State Park year-round. Rocky Mountain National Park is less than an hour from most of Northern Colorado — I grew up camping and watching elk bugle at Trail Ridge Road with my family, and it never gets old. White water rafting on the Cache la Poudre River, farmers markets on Saturday mornings, festivals in Old Town Fort Collins, and an incredible local food and coffee scene round out a lifestyle that consistently draws people in and keeps them here.",
+      },
+      {
+        type: 'h2',
+        text: "Is Northern Colorado a Good Place to Raise a Family or Retire?",
+      },
+      {
+        type: 'paragraph',
+        text: "Absolutely. Many of my clients are middle-aged or retired couples — sometimes empty nesters who want a place their adult kids will love visiting, sometimes families with teens still at home. The school districts in the Windsor, Timnath, and Fort Collins areas are well-regarded, and the overall sense of community in these towns is something people comment on immediately. Northern Colorado also has strong healthcare systems and an increasingly robust network of senior services. Whether you are looking for a walkable townhome near breweries and bookstores or a property with enough land for goats, chickens, a garden, and a barn, you will find both options here.",
+      },
+      {
+        type: 'paragraph',
+        text: "If you are considering a move to Northern Colorado, I would love to help you think it through. I am Michael Potter with LPT Realty, and I specialize in out-of-state relocations to this area. I have helped buyers from across the country find the right town, the right home, and the right lifestyle here — because I have lived it my entire life. Download my free Relocation Guide at potterealty.com/relocation#guide or reach out directly. No pressure, just honest answers from someone who knows every corner of this region.",
+      },
+      {
+        type: 'faq',
+        faqs: [
+          { question: "How far is Northern Colorado from Denver International Airport?", answer: "Denver International Airport is approximately one hour south of the Fort Collins and Loveland area via I-25. This makes Northern Colorado very convenient for frequent travelers or for family and friends flying in to visit." },
+          { question: "Is Northern Colorado too far from ski resorts?", answer: "No. Popular ski resorts including Breckenridge, Keystone, Arapahoe Basin, and Vail are 1.5 to 2.5 hours from Northern Colorado. Many residents make regular day trips or weekend getaways throughout ski season without difficulty." },
+          { question: "What is the difference between living in Larimer County and Weld County?", answer: "Larimer County includes Fort Collins, Loveland, and Berthoud and tends to be closer to the mountains with established neighborhoods and higher price points. Weld County includes Windsor, Severance, Johnstown, and Greeley and generally offers more new construction and more square footage for the price. Both counties provide excellent quality of life." },
+          { question: "Can I buy a home in Colorado from out of state before I move?", answer: "Yes. Many of Michael Potter's relocation clients begin the process remotely — researching towns, getting pre-approved, and even viewing homes via video tours. Most buyers then schedule a focused 3- to 4-day visit to tour homes in person and make a decision. Closing documents can often be signed remotely as well." },
+          { question: "What do I need to do after I move to Colorado?", answer: "Within 30 days of establishing residency, you should obtain a Colorado driver license and register your vehicles. You will also want to register to vote, update your address with banks and insurance providers, and establish care with local healthcare providers. Your relocation specialist can provide recommendations for all of these." },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'home-staging-tips-that-actually-work-when-selling-in-norther',
     title: "Home Staging Tips That Actually Work When Selling in Northern Colorado",
     date: 'April 27, 2026',
