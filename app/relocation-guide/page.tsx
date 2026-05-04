@@ -82,7 +82,6 @@ export default function RelocationGuidePage() {
 
       </div>
 
-      <Script src="https://link.msgsndr.com/js/form_embed.js" strategy="lazyOnload" />
     </div>
   )
 }
