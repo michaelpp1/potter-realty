@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import RelocationForm from '@/components/RelocationForm'
+import Script from 'next/script'
 import { cities } from '@/lib/cities'
 import NewsletterSignup from '@/components/NewsletterSignup'
 
@@ -142,17 +142,25 @@ export default function RelocationPage() {
               </ul>
             </div>
 
-            {/* Right: form */}
-            <div className="bg-white rounded-2xl shadow-xl p-8">
-              <h3 className="font-heading font-700 text-xl text-charcoal mb-2">
-                Send Me the Free Guide
-              </h3>
-              <p className="font-sans text-gray-500 text-sm mb-6">
-                Fill out the form below and Michael will send you the
-                Relocation Guide along with a note to answer any questions you
-                have about the area.
-              </p>
-              <RelocationForm />
+            {/* Right: GHL form */}
+            <div className="bg-white rounded-2xl shadow-xl overflow-hidden" style={{ minHeight: '925px' }}>
+              <iframe
+                src="https://api.leadconnectorhq.com/widget/form/o0j1Udh1mD9Rj5rfzHUp"
+                style={{ width: '100%', height: '100%', border: 'none', borderRadius: '3px', minHeight: '925px' }}
+                id="inline-o0j1Udh1mD9Rj5rfzHUp"
+                data-layout="{'id':'INLINE'}"
+                data-trigger-type="alwaysShow"
+                data-trigger-value=""
+                data-activation-type="alwaysActivated"
+                data-activation-value=""
+                data-deactivation-type="neverDeactivate"
+                data-deactivation-value=""
+                data-form-name="Form 1"
+                data-height="925"
+                data-layout-iframe-id="inline-o0j1Udh1mD9Rj5rfzHUp"
+                data-form-id="o0j1Udh1mD9Rj5rfzHUp"
+                title="Relocation Guide Request"
+              />
             </div>
           </div>
         </div>
@@ -341,6 +349,8 @@ export default function RelocationPage() {
           </div>
         </div>
       </section>
+
+      <Script src="https://link.msgsndr.com/js/form_embed.js" strategy="lazyOnload" />
     </>
   )
 }
