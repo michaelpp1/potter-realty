@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import RelocationForm from '@/components/RelocationForm'
+import Script from 'next/script'
 
 export const metadata: Metadata = {
   title: 'Free Northern Colorado Relocation Guide | Michael Potter',
@@ -63,15 +63,25 @@ export default function RelocationGuidePage() {
             </div>
           </div>
 
-          {/* Right: form */}
-          <div className="order-1 lg:order-2 bg-white rounded-2xl shadow-2xl p-8">
-            <h2 className="font-heading font-700 text-xl text-charcoal mb-2">
-              Send Me the Free Guide
-            </h2>
-            <p className="font-sans text-gray-500 text-sm mb-6">
-              Fill out the form and Michael will send you the Relocation Guide along with a note to answer any questions you have about the area.
-            </p>
-            <RelocationForm />
+          {/* Right: GHL form */}
+          <div className="order-1 lg:order-2 bg-white rounded-2xl shadow-2xl overflow-hidden" style={{ minHeight: '925px' }}>
+            <iframe
+              src="https://api.leadconnectorhq.com/widget/form/o0j1Udh1mD9Rj5rfzHUp"
+              style={{ width: '100%', height: '100%', border: 'none', borderRadius: '3px', minHeight: '925px' }}
+              id="inline-o0j1Udh1mD9Rj5rfzHUp"
+              data-layout="{'id':'INLINE'}"
+              data-trigger-type="alwaysShow"
+              data-trigger-value=""
+              data-activation-type="alwaysActivated"
+              data-activation-value=""
+              data-deactivation-type="neverDeactivate"
+              data-deactivation-value=""
+              data-form-name="Form 1"
+              data-height="925"
+              data-layout-iframe-id="inline-o0j1Udh1mD9Rj5rfzHUp"
+              data-form-id="o0j1Udh1mD9Rj5rfzHUp"
+              title="Relocation Guide Request"
+            />
           </div>
         </div>
 
@@ -81,6 +91,8 @@ export default function RelocationGuidePage() {
         </p>
 
       </div>
+
+      <Script src="https://link.msgsndr.com/js/form_embed.js" strategy="lazyOnload" />
     </div>
   )
 }
