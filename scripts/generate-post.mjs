@@ -348,9 +348,15 @@ SEO & AI OPTIMIZATION RULES:
 - No repetition: every statistic, fact, or point must appear exactly once in the post. If something is mentioned in a paragraph, do not restate it in a bullet list below, and vice versa. Read the full post before finalizing — if any idea appears twice, cut the second instance entirely`
 }
 
+function formatIsoDate(date) {
+  return date.toISOString().split('T')[0]
+}
+
 async function main() {
   const customTopic = process.argv[2]
-  const today = formatDate(new Date())
+  const now = new Date()
+  const today = formatDate(now)
+  const isoDate = formatIsoDate(now)
 
   const fileContent = fs.readFileSync(BLOG_FILE, 'utf8')
   const existingPosts = extractExistingPosts(fileContent)
@@ -438,6 +444,7 @@ async function main() {
     slug: '${postData.slug}',
     title: ${JSON.stringify(postData.title)},
     date: '${today}',
+    isoDate: '${isoDate}',
     category: '${category}',
     excerpt: ${JSON.stringify(postData.excerpt)},
     readTime: '${postData.readTime}',
