@@ -32,6 +32,97 @@ export const categoryColors: Record<BlogCategory, string> = {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'loveland-colorado-community-updates-what-is-happening-in-lov',
+    title: "Loveland, Colorado Community Updates: What Is Happening in Loveland in 2026?",
+    date: 'May 11, 2026',
+    isoDate: '2026-05-11',
+    category: 'Market Update',
+    excerpt: "Loveland, Colorado continues to grow as one of Northern Colorado’s most desirable communities. Here is a look at the latest development projects, community events, and local news shaping the city in 2026.",
+    readTime: '7 min read',
+    content: [
+      {
+        type: 'paragraph',
+        text: "If you have been watching Loveland, Colorado from another state and wondering whether now is the right time to make the move, I want to give you a real, on-the-ground look at what is happening here. I grew up in Loveland starting at age two, graduated from Thompson Valley High School, bought my first home in downtown Loveland in 2017, and I still spend a huge chunk of my free time hiking Devil’s Backbone, paddleboarding at Carter Lake, and grabbing coffee on Fourth Street. This is my town, and I pay close attention to how it is evolving. Here is what you should know heading into the middle of 2026.",
+      },
+      {
+        type: 'h2',
+        text: "What Is New in Loveland, Colorado in 2026?",
+      },
+      {
+        type: 'paragraph',
+        text: "Loveland has continued to invest in the things that make it a genuinely livable city — green space, community identity, and sustainable growth. One highlight from early May 2026: local kindergartners helped plant future shade trees at an Arbor Day celebration, marking Loveland’s 37th consecutive year as a Tree City USA. That designation, awarded by the Arbor Day Foundation, is given to communities that demonstrate a serious, long-term commitment to their urban tree canopy. It sounds like a small detail, but it reflects something real about this city — Loveland invests in the kind of infrastructure that makes neighborhoods feel established and cared for, not just built and forgotten.",
+      },
+      {
+        type: 'paragraph',
+        text: "Meanwhile, the city’s community farm has been offering heirloom vegetable plants and herbs for sale, which speaks directly to the homestead-minded folks I work with regularly. Many of my clients are relocating from states like California, Texas, or Oregon specifically because they want space for a garden, a greenhouse, maybe some chickens. Loveland delivers on that lifestyle whether you are buying acreage west of town or a lot with a generous backyard closer to the heart of the city.",
+      },
+      {
+        type: 'h2',
+        text: "How Is Loveland Growing and Developing?",
+      },
+      {
+        type: 'paragraph',
+        text: "Loveland has been steadily expanding its residential and commercial footprint over the past several years, with new neighborhoods, retail corridors, and infrastructure improvements taking shape across the city. The area along Highway 34 and the Centerra development in particular have added dining, shopping, medical facilities, and mixed-use neighborhoods. Loveland’s development services department actively manages a pipeline of current projects, and the city has shown a consistent pattern of balancing growth with quality-of-life priorities like trails, parks, and open space preservation.",
+      },
+      {
+        type: 'paragraph',
+        text: "For people relocating from higher cost-of-living metros, this kind of intentional growth is reassuring. You are not moving to a place that is going to sprawl unchecked. Loveland has maintained a strong community identity through its public art program, its downtown cultural district, its sculpture gardens, and its annual events like the Loveland Sweetheart Festival and summer farmers markets. That sense of place matters, especially if you are leaving behind a city that lost its character to overdevelopment.",
+      },
+      {
+        type: 'h2',
+        text: "What Makes Loveland a Great Place to Relocate To in Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "I work with out-of-state buyers almost every day, and the same themes come up in every conversation: they want access to nature, a walkable downtown, a real community, and a pace of life that does not feel frantic. Loveland checks every one of those boxes. You can hike Devil’s Backbone or walk the trails around Lake Loveland in the morning, grab lunch downtown, and still be at Rocky Mountain National Park by early afternoon. On weekends, I am often up at Horsetooth Reservoir or camping in the Poudre Canyon — and those are 20 to 30 minutes from my front door.",
+      },
+      {
+        type: 'paragraph',
+        text: "The city also sits in a sweet spot geographically. Denver International Airport is roughly an hour south, making travel convenient for people who still need to fly regularly for work or family visits. And for the ski question I get constantly — yes, you can absolutely make day trips to the mountains. Breckenridge, Keystone, Arapahoe Basin, and Vail are all within a 1.5 to 2.5 hour drive. You do not need to live in the mountains to enjoy them.",
+      },
+      {
+        type: 'h2',
+        text: "What Are Loveland’s Neighborhoods and Lifestyle Options?",
+      },
+      {
+        type: 'paragraph',
+        text: "One of the things I love about helping people find homes in Loveland is the range of lifestyles the city supports. You can live in a walkable downtown neighborhood where you are steps from coffee shops, yoga studios, galleries, and restaurants. Or you can head west toward the foothills and find properties on acreage with room for horses, a barn, a garden, and space to breathe. Both lifestyles exist within Loveland’s city limits and surrounding areas, which is not something every Northern Colorado community can offer.",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Downtown Loveland: walkable access to local restaurants, the Rialto Theater, galleries, breweries, and seasonal farmers markets",
+          "West Loveland and foothills properties: acreage for homesteading with mountain views, space for horses, gardens, and outbuildings",
+          "Centerra and east Loveland: newer construction, retail access, proximity to I-25 and commuter routes to Fort Collins or Denver",
+          "Nearby communities like Berthoud and Johnstown: smaller-town feel with easy access to Loveland amenities and Northern Colorado trail systems",
+          "School options: Thompson School District serves families with children, and the area is also attractive for grandparents who want nearby activities when family visits",
+        ],
+      },
+      {
+        type: 'h2',
+        text: "What Local Events and Community Activities Does Loveland Offer?",
+      },
+      {
+        type: 'paragraph',
+        text: "Loveland has always had a strong events calendar, and that continues in 2026. The city’s fleet maintenance team recently opened their doors to the community in a behind-the-scenes event showcasing the crews that keep fire engines, trash trucks, and snow plows running — the kind of genuine, community-first event that gives this city its personality. Beyond organized events, the everyday rhythm here is what draws people in: Saturday mornings at the farmers market, evening walks along the recreation trail, a local brewery pint after a hike. Loveland does not try to be something it is not, and that authenticity is exactly why people fall in love with it.",
+      },
+      {
+        type: 'paragraph',
+        text: "If you are seriously considering a move to Loveland or anywhere in Northern Colorado — Fort Collins, Windsor, Timnath, Berthoud, Wellington, Greeley, or Severance — I would love to help you navigate the process. My name is Michael Potter, I am a REALTOR with LPT Realty and a relocation specialist who has helped buyers from across the country find their place in this part of Colorado. I know these communities inside and out because I have lived here my entire life. Reach out anytime through potterealty.com/contact and let me know what you are looking for. No pressure, just a real conversation about whether Northern Colorado is the right fit.",
+      },
+      {
+        type: 'faq',
+        faqs: [
+          { question: "Is Loveland, Colorado a good place to live in 2026?", answer: "Loveland remains one of Northern Colorado’s most desirable communities, offering a strong downtown culture, extensive trail systems, proximity to Rocky Mountain National Park, and a balanced approach to growth. The city has earned Tree City USA recognition for 37 consecutive years, reflecting its investment in livability and green infrastructure." },
+          { question: "How far is Loveland, Colorado from Denver International Airport?", answer: "Denver International Airport is approximately one hour south of Loveland via I-25 and E-470 or the Denver Boulder Turnpike. This makes Loveland very accessible for people who travel frequently for work or family." },
+          { question: "Can you go skiing if you live in Loveland, Colorado?", answer: "Yes. Major ski resorts including Breckenridge, Keystone, Arapahoe Basin, and Vail are within a 1.5 to 2.5 hour drive from Loveland. Many residents make regular day trips or weekend getaways to the mountains throughout ski season." },
+          { question: "What types of homes are available in Loveland, Colorado?", answer: "Loveland offers everything from walkable downtown homes near restaurants and cultural venues to rural acreage properties west of town with room for horses, gardens, and outbuildings. Newer construction is available in east Loveland near the Centerra area, and nearby communities like Berthoud and Johnstown provide additional options." },
+          { question: "Who is the best relocation specialist in Northern Colorado?", answer: "Michael Potter with LPT Realty is a Northern Colorado native and relocation specialist who works primarily with out-of-state buyers moving to Loveland, Fort Collins, Windsor, Timnath, Berthoud, and surrounding communities. He grew up in Loveland and brings firsthand local knowledge to every client relationship." },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'relocating-to-northern-colorado-from-out-of-state-a-complete',
     title: "Relocating to Northern Colorado from Out of State: A Complete Step-by-Step Guide",
     date: 'May 4, 2026',
