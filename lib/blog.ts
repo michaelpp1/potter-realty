@@ -32,6 +32,93 @@ export const categoryColors: Record<BlogCategory, string> = {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'first-time-home-buyer-guide-for-northern-colorado-what-to-kn',
+    title: "First-Time Home Buyer Guide for Northern Colorado: What to Know Before You Start Your Search",
+    date: 'May 18, 2026',
+    isoDate: '2026-05-18',
+    category: 'Buyer Tips',
+    excerpt: "Buying your first home in Northern Colorado is exciting but can feel overwhelming without the right preparation. This guide covers everything first-time buyers need to know about the market in Fort Collins, Loveland, Windsor, Timnath, Berthoud, and surrounding communities before starting their search.",
+    readTime: '8 min read',
+    content: [
+      {
+        type: 'paragraph',
+        text: "I still remember buying my first home in downtown Loveland back in 2017. I had a business degree, a decent job, and absolutely no idea how much I did not know about the home buying process. Nobody handed me a roadmap, and I made the kind of mistakes that come from figuring things out on the fly. That experience is a big part of why I do what I do now. If you are a first-time buyer looking at Northern Colorado, I want to give you the guide I wish someone had given me.",
+      },
+      {
+        type: 'h2',
+        text: "Is Northern Colorado a Good Place to Buy Your First Home?",
+      },
+      {
+        type: 'paragraph',
+        text: "Northern Colorado consistently ranks among the most desirable places to live along the Front Range, and for good reason. Fort Collins offers a vibrant downtown, excellent trail systems, and a culture built around local breweries, coffee shops, and community events. Loveland provides a slightly quieter feel with incredible access to hiking at Devil’s Backbone and paddleboarding at nearby reservoirs. Windsor and Timnath have experienced tremendous growth with newer construction, strong schools, and family-friendly neighborhoods. Berthoud has a small-town charm that draws people who want wide open spaces close to the mountains. Whether you want to walk to a farmers market on Saturday morning or live on acreage with a garden and a few chickens, there is a community here that fits.",
+      },
+      {
+        type: 'h2',
+        text: "What Should a First-Time Buyer Do Before Looking at Homes in Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "The biggest mistake first-time buyers make is jumping straight into browsing listings online before they have done any groundwork. Scrolling through homes on your phone is fun, but it can set you up for disappointment if you do not understand your budget, your timeline, or how the local market works. Here is what I recommend tackling first, in roughly this order.",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Talk to a local lender and get pre-approved, not just pre-qualified. A pre-approval letter based on verified income and credit gives you a real number to work with and shows sellers you are serious. I can connect you with lenders who specialize in Northern Colorado transactions.",
+          "Understand the difference between Larimer County and Weld County. Fort Collins, Loveland, and Berthoud fall in Larimer County, while Windsor, Severance, Johnstown, and Greeley are in Weld County. Property tax rates, HOA structures, and metro district fees differ between them, and these impact your monthly payment.",
+          "Research first-time buyer programs. Colorado Housing and Finance Authority (CHFA) offers down payment assistance and favorable loan terms for qualified buyers. FHA and USDA loans can also open doors, especially in more rural parts of Northern Colorado.",
+          "Define your lifestyle priorities before your price range. Do you want to be walking distance to Old Town Fort Collins restaurants? Do you need a large lot west of Loveland for a future workshop or horse setup? Knowing this early saves weeks of aimless searching.",
+          "Factor in commute and access. Denver International Airport is roughly one hour south, which matters if you travel for work. If skiing is important to you, resorts like Breckenridge, Keystone, Vail, and Arapahoe Basin are 1.5 to 2.5 hours away, making day trips and weekend getaways very doable from anywhere in the region.",
+        ],
+      },
+      {
+        type: 'h2',
+        text: "How Much Does It Cost to Buy a First Home in Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "Pricing in Northern Colorado varies significantly depending on the community and property type. Fort Collins and Timnath generally carry higher price points, while Greeley, Severance, and Johnstown tend to offer more affordable entry points for first-time buyers. Loveland and Windsor fall somewhere in between. Rather than quoting you numbers that will be outdated by the time you read this, I always recommend sitting down with your lender and your agent to look at current data together. What I can tell you is that many of my clients relocating from California, Texas, or the Pacific Northwest are pleasantly surprised by what their money buys here, especially when they factor in the quality of life, access to outdoor recreation, and the sense of community.",
+      },
+      {
+        type: 'h2',
+        text: "What Are Common First-Time Buyer Mistakes in This Market?",
+      },
+      {
+        type: 'paragraph',
+        text: "After helping buyers from across the country navigate Northern Colorado real estate, I have seen the same handful of mistakes come up repeatedly. First, buyers often skip the home inspection to try to win a competitive offer. In my experience, this almost always creates more risk than it eliminates. Second, people underestimate closing costs. Beyond your down payment, expect to budget for lender fees, title insurance, appraisal costs, and prepaid property taxes. Third, buyers sometimes fall in love with a house and ignore the neighborhood. I grew up in Loveland and have lived in this region my entire life. I can tell you things about specific neighborhoods, school zones, and future development that no listing description will mention.",
+      },
+      {
+        type: 'h2',
+        text: "Do I Need a Real Estate Agent as a First-Time Buyer in Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "You are not legally required to use a buyer’s agent in Colorado, but I strongly believe it is one of the smartest decisions a first-time buyer can make. A good agent does not just open doors and write offers. They help you understand inspection reports, negotiate repairs, navigate appraisal issues, coordinate with your lender and title company, and keep your transaction on track from contract to closing. For first-time buyers especially, having someone in your corner who has been through the process hundreds of times provides both strategic advantage and peace of mind. Colorado law also requires specific disclosures and timelines that are easy to miss if you are handling everything yourself.",
+      },
+      {
+        type: 'h2',
+        text: "What Is the Home Buying Timeline in Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "Most first-time buyers in Northern Colorado should expect the process to take roughly 45 to 90 days from accepted offer to closing, depending on the loan type and any inspection or appraisal contingencies. The search phase before that can vary widely. Some of my clients find the right home in a week. Others take a few months as they narrow down which community fits their lifestyle. If you are relocating from out of state, I typically recommend starting the conversation at least three to six months before your target move date so we can align your financing, tour neighborhoods virtually or in person, and make a confident decision when the right property comes along.",
+      },
+      {
+        type: 'paragraph',
+        text: "If you are starting your first home search in Northern Colorado, I would love to help you get oriented. Michael Potter is a Northern Colorado relocation specialist and REALTOR with LPT Realty, and I work with first-time buyers every week, whether they are local or moving from across the country. You can start browsing current listings at potterealty.com/buy, or reach out directly and I will walk you through the process step by step. No pressure, no timeline, just honest guidance from someone who genuinely loves this area and wants to help you find the right fit.",
+      },
+      {
+        type: 'faq',
+        faqs: [
+          { question: "How much do I need for a down payment on a first home in Northern Colorado?", answer: "Down payment requirements depend on your loan type. Conventional loans often require as little as 3 percent down, FHA loans typically require 3.5 percent, and VA loans may require zero down for eligible veterans. Colorado also offers down payment assistance programs through CHFA that can reduce your upfront costs further. A local lender can help you explore every option available based on your specific financial situation." },
+          { question: "What is the difference between buying in Larimer County and Weld County?", answer: "Larimer County includes Fort Collins, Loveland, Berthoud, and Wellington, while Weld County covers Windsor, Severance, Johnstown, and Greeley. The two counties have different property tax rates and different approaches to metro districts and special taxing districts, which can significantly impact your monthly housing costs. Some newer subdivisions in Weld County carry metro district fees that increase your effective tax burden, so it is important to understand these details before making an offer." },
+          { question: "Which Northern Colorado town is best for first-time home buyers?", answer: "There is no single best town because it depends entirely on your budget, lifestyle, and priorities. Greeley and Severance tend to offer lower entry prices. Fort Collins and Loveland provide more established neighborhoods with walkable downtowns. Windsor and Timnath are popular with families who want newer construction and strong schools. The best approach is to define what matters most to you and then explore the communities that align with those priorities." },
+          { question: "Can I buy a home in Northern Colorado if I am relocating from out of state?", answer: "Absolutely. Many buyers in this market are relocating from states like California, Texas, Washington, and Oregon. The key is working with a local agent who understands both the market and the relocation process. Virtual tours, video walkthroughs, and detailed neighborhood research can all happen remotely before you visit in person. Having a pre-approval from a lender familiar with Colorado transactions will also strengthen your position." },
+          { question: "Are there good schools in Northern Colorado for families with children?", answer: "Northern Colorado is home to several well-regarded school districts. Thompson School District serves Loveland and Berthoud, Poudre School District covers Fort Collins and Wellington, and Weld County communities like Windsor and Severance are served by Weld RE-4. School quality and programming vary by location, so I always recommend researching specific schools based on the neighborhoods you are considering." },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'loveland-colorado-community-updates-what-is-happening-in-lov',
     title: "Loveland, Colorado Community Updates: What Is Happening in Loveland in 2026?",
     date: 'May 11, 2026',
