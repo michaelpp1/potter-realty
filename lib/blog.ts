@@ -32,6 +32,132 @@ export const categoryColors: Record<BlogCategory, string> = {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'moving-to-northern-colorado-for-work-top-employers-commutes-',
+    title: "Moving to Northern Colorado for Work: Top Employers, Commutes, and Where to Live Near Your Job",
+    date: 'May 25, 2026',
+    isoDate: '2026-05-25',
+    category: 'Relocation',
+    excerpt: "Northern Colorado is home to major employers in tech, healthcare, energy, and education, with communities like Fort Collins, Loveland, Windsor, and Timnath offering distinct lifestyles for working professionals and their families. Here is everything you need to know about matching your job location to the right neighborhood.",
+    readTime: '9 min read',
+    content: [
+      {
+        type: 'paragraph',
+        text: "If you are relocating to Northern Colorado for a job, you are not alone. This region has quietly become one of the most desirable employment corridors in the Mountain West, attracting companies and talent from across the country. But unlike sprawling metro areas where your commute dictates your life, Northern Colorado gives you real options. You can live in a walkable downtown, on acreage with mountain views, or somewhere in between — and still get to work without losing your mind in traffic.",
+      },
+      {
+        type: 'paragraph',
+        text: "I am Michael Potter, a Northern Colorado relocation specialist with LPT Realty. I grew up in Loveland, graduated from Thompson Valley High School, and have spent the better part of my career helping out-of-state buyers figure out exactly where to plant roots here. One of the most common questions I get is simple: I have a job lined up — where should I live? This post is designed to answer that question in detail.",
+      },
+      {
+        type: 'h2',
+        text: "Who Are the Largest Employers in Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "Northern Colorado has a diversified economy anchored by several major industries. Unlike regions dependent on a single sector, this area blends technology, higher education, healthcare, manufacturing, and energy into a resilient job market. Fort Collins serves as the economic hub, but employers are spread across Larimer County and Weld County, which means your home search can cover a wide geographic range.",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Colorado State University (Fort Collins) — One of the region’s largest employers with thousands of faculty, staff, and research positions across multiple campuses.",
+          "UCHealth and Banner Health — Major hospital systems with facilities in Fort Collins, Loveland, and Greeley, employing physicians, nurses, technicians, and administrative professionals.",
+          "Broadcom (formerly Hewlett Packard Enterprise) — A significant tech presence in Fort Collins with engineering and R&D roles.",
+          "Woodward, Inc. — An aerospace and energy technology manufacturer headquartered in Fort Collins with a large campus along the I-25 corridor.",
+          "Vestas — A global wind energy company with North American operations based in Windsor and manufacturing in several nearby communities.",
+          "Nutrien and Agri-industries — Greeley and the eastern parts of Weld County remain a major agricultural hub with corporate and field-based employment.",
+          "City and County Government — Larimer County, the City of Fort Collins, the City of Loveland, and the City of Greeley are all top-ten employers in their respective areas.",
+          "School Districts — Poudre School District (Fort Collins, Timnath, Wellington), Thompson School District (Loveland, Berthoud), and Weld County districts (Windsor, Severance, Johnstown) collectively employ thousands.",
+        ],
+      },
+      {
+        type: 'h2',
+        text: "What Are Commute Times Like in Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "One of the biggest advantages of living in Northern Colorado is that commute times are dramatically shorter than what most transplants — especially those coming from California, Texas, or the Pacific Northwest — are used to. Most drives between communities run 15 to 30 minutes. Even the longest cross-region commutes, like Wellington to Johnstown or Berthoud to Greeley, typically stay under 45 minutes.",
+      },
+      {
+        type: 'paragraph',
+        text: "Interstate 25 is the main north-south artery connecting all of these towns. US Highway 34 connects Loveland to Greeley through a straight east-west shot. US Highway 287 runs through Fort Collins and Loveland, linking to Berthoud and Longmont to the south. Highway 392 connects Fort Collins to Windsor and continues east toward Greeley. The infrastructure is straightforward, and once you learn the handful of main roads, getting around feels easy.",
+      },
+      {
+        type: 'paragraph',
+        text: "Rush hour does exist, primarily on I-25 between Fort Collins and Loveland and near the Harmony Road interchange, but it is nothing like what you would experience in Denver or any major metro. Most people here describe their commute as the best part of their day compared to where they moved from.",
+      },
+      {
+        type: 'h2',
+        text: "Where Should I Live if I Work in Fort Collins?",
+      },
+      {
+        type: 'paragraph',
+        text: "If your job is at Colorado State University, Woodward, Broadcom, or anywhere within Fort Collins city limits, you have the most options. Living in Fort Collins proper puts you close to Old Town’s walkable restaurants, coffee shops, breweries, and Saturday farmers markets. If you want more space, Timnath is just east of Fort Collins along Harmony Road — a rapidly growing community with newer homes, excellent schools in the Poudre School District, and easy I-25 access. Wellington, about 15 minutes north, offers a small-town feel with lower price points and is increasingly popular with families.",
+      },
+      {
+        type: 'paragraph',
+        text: "For those who dream of acreage — room for horses, a big garden, maybe a few goats — the areas west of Fort Collins along Rist Canyon or near Horsetooth Reservoir offer that mountain-adjacent homestead lifestyle. Lory State Park, Devil’s Backbone, and the Poudre Canyon trailheads are all within easy reach, which is a major draw for people who want to hike or paddleboard after work.",
+      },
+      {
+        type: 'h2',
+        text: "Where Should I Live if I Work in Loveland or Berthoud?",
+      },
+      {
+        type: 'paragraph',
+        text: "Loveland has its own thriving employment base, particularly in healthcare with UCHealth and Banner, plus a growing arts and small business community. Living in Loveland itself gives you access to a charming downtown, Boyd Lake, and quick routes to both Rocky Mountain National Park and Estes Park via Highway 34. I grew up here, bought my first home in downtown Loveland in 2017, and can tell you firsthand that this city has a strong sense of community that newcomers feel immediately.",
+      },
+      {
+        type: 'paragraph',
+        text: "Berthoud, about ten minutes south of Loveland on Highway 287, has become one of the most popular choices for families and couples who want a quieter, more rural atmosphere without sacrificing convenience. You will find homes on larger lots, strong community events, and an easy commute north to Loveland or south toward Longmont and Boulder.",
+      },
+      {
+        type: 'h2',
+        text: "Where Should I Live if I Work in Windsor, Greeley, or the I-25 Corridor?",
+      },
+      {
+        type: 'paragraph',
+        text: "Windsor sits right along the I-25 corridor between Fort Collins and Greeley, making it ideal for commuters who need to reach either city. Vestas employees, in particular, find Windsor convenient. The town has invested heavily in parks, trails, and a walkable downtown area. Severance, just east of Windsor, is one of the fastest-growing communities in Weld County, offering newer construction and more affordable price points. Johnstown, a few miles south along I-25, provides similar value with easy access to both Northern Colorado employers and the Denver metro.",
+      },
+      {
+        type: 'paragraph',
+        text: "If your job is in Greeley — whether at the University of Northern Colorado, JBS, or one of the agricultural companies — you can absolutely live in Greeley itself for some of the most competitive home prices in the region. But many people who work in Greeley choose to live in Windsor or Evans and commute 15 to 20 minutes on Highway 34 or Highway 392.",
+      },
+      {
+        type: 'h2',
+        text: "What About Remote Workers and Hybrid Schedules?",
+      },
+      {
+        type: 'paragraph',
+        text: "A significant number of people relocating to Northern Colorado are remote or hybrid workers. If you only need to commute to Denver a few days a week, this region is incredibly appealing. Denver International Airport is roughly one hour from Fort Collins or Loveland, which also makes national or international travel straightforward. Many of my clients work remotely for companies headquartered in other states and chose Northern Colorado specifically for the quality of life — access to trails, open space, four distinct seasons, and a pace of life that actually allows them to enjoy it all.",
+      },
+      {
+        type: 'h2',
+        text: "Is Northern Colorado Affordable Compared to Where I Am Now?",
+      },
+      {
+        type: 'paragraph',
+        text: "If you are coming from coastal California, the Bay Area, Seattle, Austin, or similar high-cost markets, Northern Colorado generally offers more home for your money. You will find everything from newer subdivisions in Timnath and Severance to established neighborhoods in Fort Collins and Loveland to rural properties in Berthoud and west of town. Pricing varies by community, property type, and lot size, but most out-of-state buyers I work with are pleasantly surprised at what their budget buys here compared to back home.",
+      },
+      {
+        type: 'paragraph',
+        text: "And for those wondering about weekend skiing — Breckenridge, Keystone, Arapahoe Basin, and Vail are all 1.5 to 2.5 hours from Northern Colorado. Day trips and weekend getaways are completely doable, especially once you learn the timing to beat I-70 traffic.",
+      },
+      {
+        type: 'paragraph',
+        text: "If you are relocating to Northern Colorado for work and want help matching your job location to the right community, I would love to help. I have guided buyers from across the country through this exact process — comparing commute times, school districts, neighborhoods, and lifestyle fit. Grab my free Relocation Guide at potterealty.com/relocation#guide, or reach out directly. I will give you honest, local perspective and make sure you land in the right spot.",
+      },
+      {
+        type: 'faq',
+        faqs: [
+          { question: "What are the biggest industries and employers in Northern Colorado?", answer: "Northern Colorado’s economy is anchored by higher education (Colorado State University, University of Northern Colorado), healthcare (UCHealth, Banner Health), technology (Broadcom), aerospace and energy manufacturing (Woodward, Vestas), agriculture, and local government. These employers are spread across Fort Collins, Loveland, Windsor, Greeley, and surrounding communities." },
+          { question: "How long is the commute between towns in Northern Colorado?", answer: "Most commutes between Northern Colorado communities range from 15 to 30 minutes. Fort Collins to Loveland is about 15 minutes on I-25 or Highway 287. Windsor to Greeley runs about 15 to 20 minutes on Highway 392. Even longer routes like Wellington to Berthoud typically stay under 45 minutes." },
+          { question: "Is Northern Colorado a good place to live if I work remotely?", answer: "Northern Colorado is an excellent fit for remote and hybrid workers. The region offers a high quality of life with mountain access, trails, lakes, and vibrant downtowns. Denver International Airport is about one hour away for business travel, and the lower cost of living compared to many coastal metros makes it attractive for people who can work from anywhere." },
+          { question: "Which Northern Colorado town is best for families relocating for work?", answer: "It depends on where your job is located and what lifestyle you want. Timnath and Windsor offer newer homes and top-rated schools. Fort Collins provides a walkable urban feel with strong school options. Loveland and Berthoud appeal to families wanting more space and a tight-knit community. Each town has distinct character, so working with a local relocation specialist can help narrow the choice." },
+          { question: "How far is Northern Colorado from Denver and the ski resorts?", answer: "Denver International Airport is approximately one hour south of Fort Collins and Loveland via I-25. Major ski resorts including Breckenridge, Keystone, Arapahoe Basin, and Vail are 1.5 to 2.5 hours from Northern Colorado, making day trips and weekend ski outings very doable throughout the winter season." },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'first-time-home-buyer-guide-for-northern-colorado-what-to-kn',
     title: "First-Time Home Buyer Guide for Northern Colorado: What to Know Before You Start Your Search",
     date: 'May 18, 2026',
