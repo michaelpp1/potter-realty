@@ -231,6 +231,14 @@ export default function RootLayout({
             gtag('config', 'G-R8R5C87GW2');
           `}
         </Script>
+        {/* GoHighLevel Chat Widget */}
+        <Script
+          src="https://widgets.leadconnectorhq.com/loader.js"
+          data-resources-url="https://widgets.leadconnectorhq.com/chat-widget/loader.js"
+          data-widget-id="6a1744203b8055c49e1832aa"
+          data-source="WEB_USER"
+          strategy="lazyOnload"
+        />
         {/* Meta Pixel */}
         <Script id="meta-pixel" strategy="afterInteractive">
           {`
