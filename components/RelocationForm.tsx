@@ -21,7 +21,7 @@ declare global {
   }
 }
 
-export default function RelocationForm() {
+export default function RelocationForm({ source = 'Website Relocation Form' }: { source?: string }) {
   const [formState, setFormState] = useState<FormState>('idle')
   const [errorMessage, setErrorMessage] = useState('')
   const [formData, setFormData] = useState<FormData>({
@@ -62,7 +62,7 @@ export default function RelocationForm() {
       const res = await fetch('/api/lead', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ ...formData, honeypot, recaptchaToken }),
+        body: JSON.stringify({ ...formData, honeypot, recaptchaToken, source }),
       })
 
       if (!res.ok) {

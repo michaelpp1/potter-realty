@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
 }
 
-export default function RelocationGuidePage() {
+export default function RelocationGuideInstagramPage() {
   return (
     <div className="min-h-screen bg-teal flex items-center justify-center px-4 pt-24 pb-16">
       <div className="w-full max-w-5xl">
@@ -71,7 +71,7 @@ export default function RelocationGuidePage() {
             <p className="font-sans text-gray-500 text-sm mb-6">
               Fill out the form and Michael will send you the Relocation Guide along with a note to answer any questions you have about the area.
             </p>
-            <RelocationForm source="ManyChat" />
+            <RelocationForm source="Instagram" />
           </div>
         </div>
 
@@ -81,7 +81,6 @@ export default function RelocationGuidePage() {
         </p>
 
       </div>
-
     </div>
   )
 }

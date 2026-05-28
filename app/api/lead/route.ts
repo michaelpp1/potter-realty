@@ -42,7 +42,7 @@ async function verifyRecaptcha(token: string): Promise<boolean> {
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json()
-    const { firstName, lastName, email, phone, movingTimeline, honeypot, recaptchaToken } = body
+    const { firstName, lastName, email, phone, movingTimeline, honeypot, recaptchaToken, source } = body
 
     // Honeypot check — bots fill this, humans don't
     if (honeypot) {
@@ -88,11 +88,13 @@ export async function POST(req: NextRequest) {
       person.phones = [{ value: phone.trim(), type: 'mobile' }]
     }
 
+    const resolvedSource = source || 'Website Relocation Form'
+
     const payload = {
-      source: 'Website Relocation Form',
+      source: resolvedSource,
       type: 'Registration',
       person,
-      note: `Relocation inquiry submitted via website. Moving timeline: ${movingTimeline}.`,
+      note: `Relocation inquiry submitted via ${resolvedSource}. Moving timeline: ${movingTimeline}.`,
     }
 
     const fubRes = await fetch('https://api.followupboss.com/v1/events', {
