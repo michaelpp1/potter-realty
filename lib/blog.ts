@@ -32,6 +32,102 @@ export const categoryColors: Record<BlogCategory, string> = {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'severance-colorado-community-updates-what-to-know-about-livi',
+    title: "Severance, Colorado Community Updates: What to Know About Living in One of Northern Colorado’s Fastest-Growing Towns",
+    date: 'June 1, 2026',
+    isoDate: '2026-06-01',
+    category: 'Market Update',
+    excerpt: "Severance, Colorado continues to grow with new development, community investment, and a small-town lifestyle that draws relocators from across the country. Here is what is happening in Severance and why it belongs on your radar if you are moving to Northern Colorado.",
+    readTime: '7 min read',
+    content: [
+      {
+        type: 'paragraph',
+        text: "If you have been researching a move to Northern Colorado, you have probably come across Severance. This Weld County town sits just east of Fort Collins and south of Wellington, and it has quietly become one of the most popular destinations for families, couples, and retirees relocating from out of state. I grew up in Loveland and have watched Severance transform from a tiny agricultural community into a thriving small town with new neighborhoods, schools, parks, and local businesses. As a relocation specialist, I get questions about Severance constantly — so let me walk you through what is happening there right now and why it deserves serious consideration.",
+      },
+      {
+        type: 'h2',
+        text: "What Is Happening in Severance, Colorado in 2026?",
+      },
+      {
+        type: 'paragraph',
+        text: "Severance continues to see steady growth and investment heading into summer 2026. Earlier this spring, Weld County deputies sought public assistance in identifying suspects connected to a vandalism case near Severance, a reminder that the community stays engaged and looks out for one another. On the infrastructure side, Northern Colorado’s largest solar project, which began operations near Severance in late 2025, is designed to eventually power approximately 73,000 homes with clean energy. That kind of forward-thinking development is part of what makes the broader Northern Colorado region attractive to people relocating from states like California, Texas, and the Pacific Northwest — you get that blend of rural character and modern investment.",
+      },
+      {
+        type: 'paragraph',
+        text: "The Town of Severance government operates out of Town Hall at 3 South Timber Ridge Parkway, and they have been steadily expanding services, parks, and road infrastructure to keep up with the pace of residential growth. New subdivisions have been filling in over the past several years with a mix of single-family homes on standard lots and larger properties that appeal to buyers wanting a bit more space — room for a garden, a shop, maybe even a few animals.",
+      },
+      {
+        type: 'h2',
+        text: "Is Severance a Good Place to Live in Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "Absolutely. Severance offers something that is increasingly hard to find along the Front Range: a genuine small-town feel with easy access to everything Northern Colorado has to offer. Fort Collins is about 15 minutes to the northwest, Greeley is roughly 15 minutes to the southeast, and Windsor and Timnath are right next door. You are not isolated — you are central. Severance High School has built a strong identity since opening, and the local schools in the Windsor RE-4 School District are well-regarded by families with kids and grandkids alike.",
+      },
+      {
+        type: 'paragraph',
+        text: "For outdoor lovers, the location is ideal. Horsetooth Reservoir, Lory State Park, and Devil’s Backbone Open Space are all within a short drive west. I spend my summers paddleboarding at Horsetooth and Carter Lake, and I can tell you that living on this side of Northern Colorado puts those adventures well within reach for a weekday evening outing, not just a weekend trip. Rocky Mountain National Park and Estes Park are about an hour from Severance — close enough for spontaneous day trips to hike, watch the elk, or grab lunch on the Estes Park riverwalk.",
+      },
+      {
+        type: 'h2',
+        text: "Who Is Moving to Severance and Why?",
+      },
+      {
+        type: 'paragraph',
+        text: "Most of the out-of-state buyers I work with who end up in Severance fall into a few categories: couples in their 40s to 60s looking for more space and a slower pace, retirees who want a community where they can walk their dog on quiet trails and still drive to a brewery or farmers market in minutes, and families drawn to the school district and the chance to raise kids with open sky and mountain views. Many are coming from higher cost-of-living metros and are pleasantly surprised by what their budget gets them in Severance compared to Fort Collins or Loveland proper.",
+      },
+      {
+        type: 'paragraph',
+        text: "A big draw is the land. If you have dreamed about a homestead lifestyle — horses, chickens, a greenhouse, maybe a barn or workshop — Severance and the surrounding unincorporated Weld County areas offer properties with acreage that are hard to find closer to the urban cores. At the same time, newer developments in town provide a more traditional neighborhood experience with parks, sidewalks, and community gathering spaces.",
+      },
+      {
+        type: 'h2',
+        text: "How Far Is Severance from Denver International Airport and Colorado Ski Resorts?",
+      },
+      {
+        type: 'paragraph',
+        text: "Denver International Airport is roughly one hour south of Severance, making travel in and out of Colorado very convenient — whether you are flying back to visit family or welcoming out-of-state guests. As for skiing, Severance is about 2 to 2.5 hours from Breckenridge, Keystone, Arapahoe Basin, and Vail. That is absolutely doable for day trips and very common for weekend getaways. Plenty of Northern Colorado residents make the drive regularly throughout ski season.",
+      },
+      {
+        type: 'h2',
+        text: "Key Reasons Relocators Choose Severance Over Other Northern Colorado Towns",
+      },
+      {
+        type: 'ul',
+        items: [
+          "More home and land for your money compared to Fort Collins and Loveland, with newer construction and modern floor plans widely available",
+          "Access to the Windsor RE-4 School District, which serves many Severance neighborhoods and is a top consideration for families",
+          "Central location between Fort Collins, Greeley, Windsor, and Timnath — nothing in Northern Colorado feels far away",
+          "Proximity to large-scale infrastructure investment, including Northern Colorado’s largest solar energy project which came online nearby in 2025",
+          "A growing roster of local businesses, restaurants, and community events that give Severance its own identity rather than feeling like a bedroom community",
+          "Easy access to outdoor recreation at Horsetooth Reservoir, Boyd Lake, Poudre Canyon, Rocky Mountain National Park, and dozens of open space trails",
+        ],
+      },
+      {
+        type: 'h2',
+        text: "What Should You Know Before Moving to Severance?",
+      },
+      {
+        type: 'paragraph',
+        text: "A few practical things to keep in mind. Severance is in Weld County, not Larimer County, which means different property tax rates, building regulations, and water districts than you would find in Fort Collins or Loveland. That is not a negative — in many cases it works in your favor — but it is important to understand the differences before you buy. Water rights and well permits can also come into play if you are looking at larger acreage properties outside town limits. These are the kinds of details I help my clients navigate every day.",
+      },
+      {
+        type: 'paragraph',
+        text: "If you are considering a move to Severance or anywhere in Northern Colorado, I would love to help you get oriented. My name is Michael Potter, I am a REALTOR with LPT Realty and a Colorado native who has lived in this area nearly my entire life. I specialize in helping out-of-state buyers relocate here, and most of my clients find me through the content I share on Instagram (@michaelpotternoco). Whether you are six months out or just starting to explore, feel free to reach out through potterealty.com/contact — I am happy to answer questions, talk through neighborhoods, or just help you figure out if Northern Colorado is the right fit.",
+      },
+      {
+        type: 'faq',
+        faqs: [
+          { question: "Is Severance, Colorado a good place to retire?", answer: "Severance is an excellent option for retirees who want a quiet, community-oriented lifestyle with easy access to outdoor recreation, healthcare in nearby Fort Collins and Greeley, and Denver International Airport about an hour away. The cost of living tends to be more approachable than Fort Collins or Loveland, and newer homes with main-floor living are widely available." },
+          { question: "How far is Severance, Colorado from Fort Collins?", answer: "Severance is approximately 15 minutes east of Fort Collins by car. Windsor and Timnath sit between the two towns, so you have seamless access to dining, shopping, breweries, and cultural events in Fort Collins while enjoying the quieter pace of Severance." },
+          { question: "What school district serves Severance, Colorado?", answer: "Most of Severance is served by the Windsor RE-4 School District, which includes Severance High School. The district is well-regarded in the region and is a major draw for families with school-age children or grandchildren who visit regularly." },
+          { question: "Is Severance, Colorado affordable compared to Fort Collins and Loveland?", answer: "Generally, yes. Buyers relocating from out of state often find that Severance offers more square footage, newer construction, and larger lots for less than comparable homes in Fort Collins or Loveland. Exact pricing varies by neighborhood and property type, so working with a local agent who knows the market is important." },
+          { question: "Can you have horses or livestock in Severance, Colorado?", answer: "Yes, particularly on properties outside town limits in unincorporated Weld County. Many buyers are drawn to the Severance area specifically for the opportunity to own acreage suitable for horses, chickens, goats, and other livestock. Zoning and covenants vary by property, so it is essential to verify what is allowed before purchasing." },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'moving-to-northern-colorado-for-work-top-employers-commutes-',
     title: "Moving to Northern Colorado for Work: Top Employers, Commutes, and Where to Live Near Your Job",
     date: 'May 25, 2026',
