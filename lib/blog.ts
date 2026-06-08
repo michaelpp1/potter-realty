@@ -32,6 +32,109 @@ export const categoryColors: Record<BlogCategory, string> = {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'how-to-price-your-home-correctly-in-northern-colorado-to-sel',
+    title: "How to Price Your Home Correctly in Northern Colorado to Sell Quickly and for Top Dollar",
+    date: 'June 8, 2026',
+    isoDate: '2026-06-08',
+    category: 'Seller Tips',
+    excerpt: "Pricing your home correctly is the single most important factor in selling fast and maximizing your return in Northern Colorado. Here is how sellers in Fort Collins, Loveland, Windsor, and surrounding communities can find the right listing price in today’s market.",
+    readTime: '8 min read',
+    content: [
+      {
+        type: 'paragraph',
+        text: "If you are selling a home in Northern Colorado, the price you set on day one matters more than any staging, marketing, or open house strategy you could dream up. I have watched homes in Fort Collins, Loveland, and Windsor sit on the market for months simply because the seller overpriced by five or ten percent. I have also seen homes in Berthoud, Timnath, and Johnstown attract multiple offers within days because the pricing was dialed in from the start. After years of helping people buy and sell homes across Larimer County and Weld County, I can tell you this with confidence: correct pricing is not a guess. It is a strategy.",
+      },
+      {
+        type: 'h2',
+        text: "Why Does Pricing Matter So Much When Selling a Home in Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "The first two weeks your home is on the market are the most critical. That is when buyer activity peaks. Agents are watching new listings. Buyers who have been searching for weeks or months pounce on fresh inventory. If your home is priced correctly, you capture that wave of attention and create urgency. If it is overpriced, most serious buyers scroll right past it. They are comparing your home to every other listing in their price range, and they know when something does not add up. An overpriced home in Fort Collins will lose to a correctly priced home in Loveland every time — even if the overpriced home is objectively nicer.",
+      },
+      {
+        type: 'paragraph',
+        text: "Here is the psychological trap: many sellers assume they can always drop the price later if the home does not sell. The problem is that price reductions signal desperation. Buyers see the reduction history and wonder what is wrong with the property. Days on market accumulate, and the listing goes stale. In Northern Colorado’s market, a home that has been sitting for 30 or 45 days raises red flags for buyers, even if the home itself is beautiful.",
+      },
+      {
+        type: 'h2',
+        text: "How Do You Determine the Right Listing Price for a Home in Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "Pricing a home correctly requires a Comparative Market Analysis, or CMA. This is not a Zillow estimate or a guess based on what your neighbor told you they sold for. A proper CMA looks at recently sold homes in your specific neighborhood or area that are similar in size, condition, age, and features. It also accounts for active listings you will be competing against and homes that failed to sell. A skilled agent will weigh all of these data points and factor in current market conditions — including interest rates, inventory levels, and seasonal trends — to arrive at a strategic price.",
+      },
+      {
+        type: 'paragraph',
+        text: "Northern Colorado is not one monolithic market. A four-bedroom home in west Loveland near Devil’s Backbone prices very differently from a similar-sized home in east Windsor or south Fort Collins near Harmony Road. Timnath’s newer construction communities carry different buyer expectations than established neighborhoods in downtown Loveland or Old Town Fort Collins. Even within the same city, micro-markets can vary significantly. That is why working with an agent who knows these neighborhoods intimately is essential.",
+      },
+      {
+        type: 'h2',
+        text: "What Are the Biggest Pricing Mistakes Home Sellers Make?",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Pricing based on what you paid plus what you spent on improvements. Buyers do not care what you invested. They care what the home is worth relative to other options on the market today.",
+          "Using online home value estimates as gospel. Automated tools cannot account for your updated kitchen, your unfinished basement, or the fact that your home backs to a busy road versus open space.",
+          "Overpricing to leave room for negotiation. This strategy backfires because it reduces showings. Fewer showings means fewer offers, which actually weakens your negotiating position.",
+          "Ignoring the competition. If three comparable homes in your Berthoud or Wellington neighborhood are listed below your price, buyers will tour those first — and may never make it to yours.",
+          "Letting emotions drive the number. Your memories and attachment to the home are real, but they do not translate to market value. Objectivity is your best friend when pricing.",
+        ],
+      },
+      {
+        type: 'h2',
+        text: "How Do Market Conditions in Northern Colorado Affect Home Pricing?",
+      },
+      {
+        type: 'paragraph',
+        text: "Market conditions shift, and your pricing strategy needs to shift with them. In a strong seller’s market with low inventory, you may have more room to price at the top of the range and still attract multiple offers. In a more balanced or buyer-friendly market, pricing at or slightly below market value can generate the urgency and competition needed to push the final sale price higher. This might sound counterintuitive, but underpricing strategically — when done carefully — can result in a bidding war that nets you more than an aggressive asking price ever would.",
+      },
+      {
+        type: 'paragraph',
+        text: "Seasonality matters in Northern Colorado as well. Spring and early summer typically bring the highest buyer activity, while late fall and winter tend to slow down. If you are listing in Greeley or Severance during a slower season, pricing competitively from the start becomes even more important because you are working with a smaller pool of active buyers.",
+      },
+      {
+        type: 'h2',
+        text: "Should You Get a Pre-Listing Appraisal Before Selling Your Northern Colorado Home?",
+      },
+      {
+        type: 'paragraph',
+        text: "A pre-listing appraisal is an option some sellers consider, especially if the home is unique or sits on acreage west of town where comparable sales are harder to find. Properties with horse facilities, large outbuildings, or significant land in areas like west Fort Collins, west Loveland, or rural Larimer County can be tricky to price using standard comps alone. An independent appraisal gives you a professional third-party valuation that can anchor your pricing conversation and reassure potential buyers. That said, a thorough CMA from an experienced local agent often provides enough data for most homes in established neighborhoods across Fort Collins, Loveland, Windsor, and Timnath.",
+      },
+      {
+        type: 'h2',
+        text: "How Do Upgrades and Condition Affect Your Home’s Price?",
+      },
+      {
+        type: 'paragraph',
+        text: "Not all upgrades are created equal. A remodeled kitchen or updated bathrooms can meaningfully increase your home’s value. A new roof or HVAC system, while expensive, tends to protect your value rather than add to it — buyers expect those systems to work. Cosmetic improvements like fresh paint, new flooring, and updated lighting are often the highest-return investments because they improve the first impression without massive cost. On the other hand, deferred maintenance — peeling paint, worn carpet, a dated kitchen — will cost you at the negotiating table. Buyers either lower their offers or walk away entirely. Pricing should honestly reflect your home’s current condition, not what it could be if someone put in the work.",
+      },
+      {
+        type: 'h2',
+        text: "What Role Does Your Real Estate Agent Play in Pricing?",
+      },
+      {
+        type: 'paragraph',
+        text: "Your agent should be your pricing strategist, not a yes-person. A good agent will tell you the truth about your home’s value even when it is not what you want to hear. They will show you the data, explain the reasoning, and help you understand the trade-offs of pricing high versus pricing competitively. Michael Potter, a Northern Colorado REALTOR with LPT Realty and a lifelong Loveland resident, approaches pricing conversations with complete transparency. Having grown up in the area and worked with buyers relocating from across the country, he understands what Northern Colorado buyers are looking for and what they are willing to pay.",
+      },
+      {
+        type: 'paragraph',
+        text: "If you are thinking about selling your home in Fort Collins, Loveland, Windsor, Timnath, Berthoud, or anywhere in Northern Colorado, the first step is understanding what your home is actually worth in today’s market. You can request a free home valuation at potterealty.com/sell. No pressure, no obligation — just honest, data-backed insight from someone who knows these communities inside and out.",
+      },
+      {
+        type: 'faq',
+        faqs: [
+          { question: "How do I know if my home is priced too high in Northern Colorado?", answer: "The clearest signs are low showing activity and no offers within the first two weeks. If buyers are touring comparable homes but skipping yours, price is almost always the reason. Your agent should be tracking showing feedback and adjusting strategy accordingly." },
+          { question: "What is the best time of year to sell a home in Fort Collins or Loveland?", answer: "Spring and early summer generally attract the most buyers in Northern Colorado. Families want to move before the school year, and the weather makes homes show their best. However, homes sell year-round, and winter listings often face less competition, which can work in your favor if priced correctly." },
+          { question: "Should I price my home below market value to start a bidding war?", answer: "Strategic underpricing can work in the right conditions, particularly when inventory is low and buyer demand is high. However, it carries risk. If the market does not respond with multiple offers, you may end up selling for less than you could have. This is a tactic best discussed with your agent based on current local data." },
+          { question: "How accurate are Zillow and online home value estimates for Northern Colorado?", answer: "Automated estimates can be a reasonable starting point but should never be your final pricing strategy. They often miss nuances like condition, upgrades, lot characteristics, neighborhood desirability, and view corridors. In areas with unique properties or limited comparable sales, such as acreage west of Loveland or rural Weld County, online estimates can be significantly off." },
+          { question: "Does pricing differently matter between Larimer County and Weld County homes?", answer: "Yes. Larimer County communities like Fort Collins and Loveland often have different price dynamics than Weld County communities like Windsor, Severance, and Greeley due to differences in tax rates, school districts, and buyer demand patterns. An agent familiar with both counties can help you navigate these differences and price accordingly." },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'severance-colorado-community-updates-what-to-know-about-livi',
     title: "Severance, Colorado Community Updates: What to Know About Living in One of Northern Colorado’s Fastest-Growing Towns",
     date: 'June 1, 2026',
