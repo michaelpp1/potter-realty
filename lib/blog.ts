@@ -32,6 +32,101 @@ export const categoryColors: Record<BlogCategory, string> = {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'how-to-buy-and-sell-a-home-at-the-same-time-in-northern-colo',
+    title: "How to Buy and Sell a Home at the Same Time in Northern Colorado Without Losing Your Mind",
+    date: 'June 15, 2026',
+    isoDate: '2026-06-15',
+    category: 'Buyer Tips',
+    excerpt: "Buying and selling a home simultaneously in Northern Colorado is one of the most stressful real estate scenarios, but with the right strategy and timeline, you can navigate both transactions smoothly in markets like Fort Collins, Loveland, Windsor, and beyond.",
+    readTime: '9 min read',
+    content: [
+      {
+        type: 'paragraph',
+        text: "If you already own a home in Northern Colorado and you are ready to move up, downsize, or shift to a different town, you are facing one of the trickiest puzzles in real estate: how do you sell your current place and buy a new one without ending up homeless, broke, or both? I have walked dozens of clients through this exact situation in Fort Collins, Loveland, Windsor, Timnath, Berthoud, and the surrounding areas. It is absolutely doable. But it requires a clear plan, honest conversations, and a willingness to be flexible. Let me break down exactly how this works.",
+      },
+      {
+        type: 'h2',
+        text: "Why Is It So Hard to Buy and Sell a Home at the Same Time?",
+      },
+      {
+        type: 'paragraph',
+        text: "The core problem is timing. If you sell your current home first, you have cash in hand but nowhere to live. If you buy first, you might be stuck carrying two mortgages while your old house sits on the market. Northern Colorado adds its own wrinkles to this equation. Depending on the season and the neighborhood, homes in places like downtown Loveland or west Fort Collins might move quickly, while properties in Weld County communities like Windsor or Severance might take a bit longer. Understanding the local pace of each micro-market is essential to getting the timing right.",
+      },
+      {
+        type: 'h2',
+        text: "What Are the Best Strategies for Buying and Selling Simultaneously in Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "There is no single right answer here. The best approach depends on your financial situation, your risk tolerance, and where you are moving within the region. Here are the most common strategies I walk clients through, along with when each one makes the most sense.",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Sale contingency offer: You make an offer on your new home contingent on the sale of your current one. This is the safest route financially, but it makes your offer weaker in competitive situations. It works best in balanced or buyer-friendly markets.",
+          "Sell first with a rent-back agreement: You close the sale of your current home but negotiate to stay in it as a renter for 30 to 60 days, giving you time to close on your next purchase. This is one of the most popular strategies in Larimer County and Weld County right now.",
+          "Buy first with a bridge loan: A bridge loan lets you tap into your current home equity to fund the down payment on your new home before your old one sells. This works well if you have significant equity and strong income.",
+          "Home equity line of credit (HELOC): Similar to a bridge loan but often with lower closing costs. You open the HELOC before listing your current home, use it for the new down payment, then pay it off when your sale closes.",
+          "Simultaneous closings: Both transactions close on the same day or within a few days. This requires meticulous coordination between both title companies, both lenders, and both agents. It is stressful but very achievable with the right team.",
+        ],
+      },
+      {
+        type: 'h2',
+        text: "Should You Sell Your Northern Colorado Home Before Buying a New One?",
+      },
+      {
+        type: 'paragraph',
+        text: "For most people, selling first is the less risky move. You know exactly how much money you are working with, your offer on the next home carries more weight because there is no contingency, and you are not sweating two mortgage payments. The downside is the gap between closing and finding your next place. That is where the rent-back strategy shines. I have seen sellers in Fort Collins, Berthoud, and Johnstown negotiate rent-backs of up to 60 days, which gives you breathing room to find and close on your next home without rushing into a bad decision or moving into temporary housing.",
+      },
+      {
+        type: 'h2',
+        text: "How Do You Handle the Transition Period Between Homes?",
+      },
+      {
+        type: 'paragraph',
+        text: "Even with the best planning, there is sometimes a gap. Maybe your rent-back expires before your new home closes, or your purchase falls through at the last minute. Having a backup plan is not pessimistic, it is smart. Some clients stay with family locally. Others use short-term furnished rentals, which are available in Fort Collins and Loveland through various platforms. I have even had clients who stored their belongings and spent a couple of weeks camping up the Poudre Canyon, which honestly sounds like a pretty great way to handle the stress. The point is, do not let fear of a short gap keep you from making the right long-term move.",
+      },
+      {
+        type: 'h2',
+        text: "How Does the Northern Colorado Market Affect Your Buy-Sell Timeline?",
+      },
+      {
+        type: 'paragraph',
+        text: "Market conditions matter enormously here. In a strong seller market, your current home will likely sell fast, which makes buying first or coordinating simultaneous closings more realistic. In a slower market, you might need to list your home earlier and lean on a contingency or bridge loan strategy. The Northern Colorado market varies by community. A home on acreage west of Loveland appeals to a different buyer pool than a townhome near Old Town Fort Collins or a new build in Timnath or Severance. Each of these sub-markets has its own pace and demand level. Working with someone who understands these differences at a granular level is the single biggest advantage you can give yourself.",
+      },
+      {
+        type: 'h2',
+        text: "What Should You Do First If You Want to Buy and Sell at the Same Time?",
+      },
+      {
+        type: 'paragraph',
+        text: "Before you do anything else, talk to a lender. Not to commit, just to understand your numbers. How much equity do you have? What can you qualify for on your next purchase? Are you eligible for a bridge loan or HELOC? These answers shape your entire strategy. Once you have that financial picture, the next step is a realistic conversation with your agent about your current home value, how long it will likely take to sell, and what your target purchase looks like. If you are moving within Northern Colorado, say from Greeley to Loveland, or from a Wellington subdivision to a property with land near Berthoud, your agent should be able to map out both sides of the transaction with local precision.",
+      },
+      {
+        type: 'h2',
+        text: "Can You Avoid Two Mortgage Payments When Buying and Selling?",
+      },
+      {
+        type: 'paragraph',
+        text: "Yes, and that is the whole goal of strategic timing. The rent-back approach and simultaneous closing both eliminate the double-payment problem entirely. Bridge loans and HELOCs technically create overlap, but they are designed to be short-term and are paid off the moment your sale closes. The key is working with a lender and an agent who communicate constantly and keep both timelines aligned. I coordinate directly with my clients' lenders and the other agents involved to make sure nothing falls through the cracks. When you are juggling two major transactions in the same window, communication is everything.",
+      },
+      {
+        type: 'paragraph',
+        text: "If you are thinking about making a move within Northern Colorado, or you are relocating here from out of state and need to sell a home elsewhere while buying locally, I would love to help you think through the logistics. I am Michael Potter, a relocation specialist and REALTOR with LPT Realty, and I have been helping people navigate exactly these situations across Fort Collins, Loveland, Windsor, Timnath, Berthoud, and the surrounding communities for years. Start by searching available homes at potterealty.com/buy, or if you want to know what your current home might be worth, head to potterealty.com/sell. Either way, reach out whenever you are ready. No pressure, just a real conversation about your options.",
+      },
+      {
+        type: 'faq',
+        faqs: [
+          { question: "How long does it take to buy and sell a home at the same time in Northern Colorado?", answer: "The entire process typically takes 60 to 120 days depending on your strategy and market conditions. A rent-back arrangement can condense the overlap period, while a contingency sale may extend the timeline if your current home takes longer to sell. Working with a local agent who understands the pace of specific Northern Colorado communities helps you set realistic expectations." },
+          { question: "Is a bridge loan worth it for buying a home before selling in Fort Collins or Loveland?", answer: "A bridge loan can be a smart tool if you have substantial equity in your current home and want to make a strong, non-contingent offer on your next property. The cost is the interest you pay during the overlap period, which is usually a few weeks to a couple of months. For competitive neighborhoods in Fort Collins, Loveland, or Timnath, removing a sale contingency can make the difference between winning and losing a home." },
+          { question: "What is a rent-back agreement and how does it work in Colorado?", answer: "A rent-back agreement allows you to stay in your home after selling it by renting it back from the new buyer for a set period, typically 30 to 60 days. In Colorado, rent-back terms are negotiated as part of the purchase contract. This gives you time to close on your next home without needing temporary housing or carrying two mortgages." },
+          { question: "Can I make a contingent offer on a home in Northern Colorado?", answer: "You can, and many sellers will consider them, especially if your current home is already under contract or in a desirable area likely to sell quickly. In highly competitive situations, a contingent offer may be less attractive to sellers who have non-contingent options. Your agent can help you structure the contingency to be as appealing as possible while still protecting you." },
+          { question: "Who should I talk to first if I want to buy and sell a home at the same time?", answer: "Start with a local lender to understand your equity position, purchasing power, and financing options like bridge loans or HELOCs. Then connect with a Northern Colorado real estate agent who has experience coordinating dual transactions. Michael Potter at LPT Realty specializes in these situations and can help you build a strategy tailored to your specific timeline and goals." },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'how-to-price-your-home-correctly-in-northern-colorado-to-sel',
     title: "How to Price Your Home Correctly in Northern Colorado to Sell Quickly and for Top Dollar",
     date: 'June 8, 2026',
