@@ -32,6 +32,118 @@ export const categoryColors: Record<BlogCategory, string> = {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'retiring-to-northern-colorado-why-retirees-are-choosing-fort',
+    title: "Retiring to Northern Colorado: Why Retirees Are Choosing Fort Collins and Loveland",
+    date: 'June 22, 2026',
+    isoDate: '2026-06-22',
+    category: 'Relocation',
+    excerpt: "Fort Collins and Loveland offer retirees an unbeatable combination of outdoor recreation, walkable downtowns, excellent healthcare, and a welcoming community atmosphere that draws people from across the country to Northern Colorado.",
+    readTime: '8 min read',
+    content: [
+      {
+        type: 'paragraph',
+        text: "Something interesting is happening in Northern Colorado. More and more retirees are packing up from places like Southern California, the Dallas-Fort Worth metro, Phoenix, and the Pacific Northwest and landing right here in Fort Collins and Loveland. They are not just chasing mountain views, although those certainly do not hurt. They are choosing a lifestyle that blends outdoor adventure, genuine community, and a pace of life that actually lets you enjoy retirement the way you imagined it.",
+      },
+      {
+        type: 'paragraph',
+        text: "I grew up in Loveland from the time I was two years old. I graduated from Thompson Valley High School, bought my first home in downtown Loveland, and after a brief attempt at living abroad, came right back because nowhere else felt like home. I have watched this region evolve over the decades, and I can tell you firsthand why retirees keep choosing Northern Colorado over flashier retirement destinations.",
+      },
+      {
+        type: 'h2',
+        text: "Why Are So Many Retirees Moving to Fort Collins and Loveland?",
+      },
+      {
+        type: 'paragraph',
+        text: "The answer is not one single thing. It is everything working together. Fort Collins consistently ranks among the best places to live in the United States, and Loveland offers a slightly quieter, more affordable alternative just 15 minutes south. Both cities sit along the Front Range of the Rocky Mountains, giving residents immediate access to world-class hiking, fishing, paddleboarding, and wildlife viewing without the congestion or cost of living in a mountain town.",
+      },
+      {
+        type: 'paragraph',
+        text: "Retirees who move here tend to fall into two camps. The first group wants to live in town, within walking distance of yoga studios, coffee shops, farmers markets, breweries, and restaurants. Downtown Fort Collins and downtown Loveland both deliver on that front beautifully. The second group wants acreage west of town, where they can finally build the homestead they have been dreaming about, complete with horses, chickens, a greenhouse, a garden, and a shop or barn. Northern Colorado accommodates both lifestyles, often just minutes apart.",
+      },
+      {
+        type: 'h2',
+        text: "Is Northern Colorado a Good Place to Retire?",
+      },
+      {
+        type: 'paragraph',
+        text: "Northern Colorado is an exceptional place to retire, and here is why it works so well for people in this stage of life. The region offers over 300 days of sunshine per year, which means you are not stuck indoors for months on end. Winters are real but manageable. Snow falls, the sun comes out, and it melts within a day or two at lower elevations. Many retirees tell me they are far more active here than they ever were back home.",
+      },
+      {
+        type: 'paragraph',
+        text: "Healthcare access is another major factor. UCHealth and Banner Health both have significant hospital and clinic networks across Larimer County and Weld County. Fort Collins is home to a major UCHealth medical center, and Loveland has the Medical Center of the Rockies, a level II trauma center. For retirees, having excellent healthcare nearby is not optional, and Northern Colorado delivers.",
+      },
+      {
+        type: 'paragraph',
+        text: "Community matters too. This is not a place where people keep to themselves. Fort Collins and Loveland both have thriving farmers markets, art walks, live music scenes, and seasonal festivals that bring neighbors together. Loveland is literally called the Sweetheart City and is known for its public art, sculpture gardens, and Valentine remailing program. Fort Collins has Old Town, one of the most beloved downtown districts in the state, filled with locally owned shops, restaurants, and craft breweries.",
+      },
+      {
+        type: 'h2',
+        text: "What Outdoor Activities Are Available for Retirees in Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "This is where Northern Colorado really shines for active retirees. I spend my own summers paddleboarding and swimming at Horsetooth Reservoir, Carter Lake, and Boyd Lake. I hike Devil's Backbone, the trails around Horsetooth, Lory State Park, and the Cache la Poudre River corridor regularly. Rocky Mountain National Park is less than an hour from Fort Collins, and it has been a huge part of my life since childhood. Watching elk bugle along Trail Ridge Road in the fall never gets old.",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Horsetooth Reservoir: paddleboarding, kayaking, swimming, and lakeside hiking just minutes from Fort Collins",
+          "Devil's Backbone Open Space in Loveland: scenic rock formations and moderate trails perfect for morning hikes with your dog",
+          "Rocky Mountain National Park: less than an hour from Fort Collins, offering hundreds of miles of trails, wildlife viewing, and alpine scenery",
+          "Cache la Poudre River: Colorado's only nationally designated Wild and Scenic River, ideal for fly fishing, white water rafting, and canyon camping",
+          "Carter Lake and Boyd Lake: quieter lake options for fishing, picnicking, and nature walks in Larimer and Weld counties",
+          "Lory State Park: over 25 miles of trails on the west side of Horsetooth Reservoir, popular for hiking, mountain biking, and horseback riding",
+        ],
+      },
+      {
+        type: 'h2',
+        text: "How Far Is Northern Colorado from Denver and Colorado Ski Resorts?",
+      },
+      {
+        type: 'paragraph',
+        text: "One of the most common questions I hear from retirees considering this area is about proximity to the airport and the mountains. Denver International Airport is roughly one hour south of Fort Collins and Loveland, making it very convenient when family flies in to visit or when you want to take a trip yourself. Several retirees I have worked with specifically chose Northern Colorado because grandchildren can fly in easily for summer visits and holidays.",
+      },
+      {
+        type: 'paragraph',
+        text: "As for skiing, the major resorts including Breckenridge, Keystone, Arapahoe Basin, and Vail are about 1.5 to 2.5 hours from Fort Collins and Loveland. That is absolutely doable for day trips or weekend getaways. You do not need to live in a mountain town to enjoy the slopes regularly. And the beauty of living along the Front Range is that you get the mountain lifestyle without mountain-town prices or the isolation that comes with living at altitude year-round.",
+      },
+      {
+        type: 'h2',
+        text: "Is It Too Expensive to Retire in Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "Cost is always top of mind, and it is a fair question. The reality is that many retirees relocating to Northern Colorado are coming from significantly higher cost-of-living areas. Buyers moving from the San Francisco Bay Area, Los Angeles, Seattle, Portland, or Austin often find that their housing dollar stretches considerably further here. Beyond Fort Collins and Loveland, surrounding communities like Windsor, Timnath, Berthoud, Johnstown, Wellington, Greeley, and Severance offer a wide range of price points and property types, from newer subdivision homes to rural acreage with room to spread out.",
+      },
+      {
+        type: 'paragraph',
+        text: "Colorado also does not tax Social Security income for most retirees, which is a meaningful financial benefit. Property taxes in Larimer County and Weld County tend to be lower than what many transplants are accustomed to paying in their home states. While Northern Colorado is not the cheapest place in the country, it offers outstanding value when you factor in the quality of life, climate, outdoor access, and community.",
+      },
+      {
+        type: 'h2',
+        text: "What About Grandchildren and Family Visits?",
+      },
+      {
+        type: 'paragraph',
+        text: "Many of the retirees I work with are empty nesters who still want a home that welcomes family. They look for guest bedrooms, a yard for the grandkids, and a location close to activities that all ages enjoy. Estes Park is a favorite family destination, just a short drive from Fort Collins. The Stanley Hotel, Lake Estes, and the charming downtown shops make it a perfect day trip or overnight getaway. Closer to home, Fort Collins and Loveland both have excellent parks, recreation centers, and family-friendly events throughout the year. For families with school-age grandchildren who might eventually relocate nearby, Northern Colorado is served by highly regarded school districts including Poudre School District and Thompson School District.",
+      },
+      {
+        type: 'paragraph',
+        text: "If you are seriously considering retiring to Northern Colorado, I would love to help you navigate the process. My name is Michael Potter, and I am a relocation specialist and REALTOR with LPT Realty. I have helped buyers from across the country relocate to Fort Collins, Loveland, and the surrounding communities, and I know this area inside and out because I have lived here nearly my entire life. Whether you want a walkable downtown lifestyle or acreage with mountain views, I can help you find the right fit. Download my free Relocation Guide at potterealty.com/relocation#guide to start planning your move.",
+      },
+      {
+        type: 'faq',
+        faqs: [
+          { question: "Is Fort Collins or Loveland better for retirees?", answer: "Both cities are excellent for retirees, and the best choice depends on your priorities. Fort Collins has a larger downtown with more dining, shopping, and cultural options, plus a strong university-town energy from Colorado State University. Loveland offers a quieter atmosphere, a celebrated arts community, and tends to have slightly lower home prices. Many retirees tour both cities before deciding." },
+          { question: "What is the weather like in Northern Colorado for retirees?", answer: "Northern Colorado enjoys over 300 days of sunshine per year with four distinct seasons. Summers are warm and dry, perfect for outdoor activities, while winters bring periodic snow that typically melts quickly at lower elevations. The low humidity and abundant sunshine make the climate very comfortable for people coming from humid or rainy regions." },
+          { question: "How do I find a relocation specialist in Northern Colorado?", answer: "Look for a REALTOR who specializes specifically in helping out-of-state buyers. Michael Potter with LPT Realty focuses on relocation clients moving to Northern Colorado and provides a free Relocation Guide covering neighborhoods, lifestyle, cost of living, and the home-buying process. Working with someone who knows the local communities intimately makes a significant difference when you are moving from out of state." },
+          { question: "Can I find acreage or a homestead property near Fort Collins or Loveland?", answer: "Yes. There are rural properties west of both Fort Collins and Loveland, as well as in surrounding communities like Berthoud, Wellington, and parts of Weld County. These properties can offer enough land for horses, livestock, gardens, and outbuildings while still being a short drive to town for groceries, healthcare, and dining." },
+          { question: "Is Northern Colorado safe for retirees?", answer: "Northern Colorado communities like Fort Collins, Loveland, Windsor, and Timnath consistently rank among the safest cities in Colorado. The region has a strong sense of community, well-maintained public spaces, and active neighborhood engagement. Many retirees who relocate here comment on how safe and welcoming the area feels compared to where they moved from." },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'how-to-buy-and-sell-a-home-at-the-same-time-in-northern-colo',
     title: "How to Buy and Sell a Home at the Same Time in Northern Colorado Without Losing Your Mind",
     date: 'June 15, 2026',
