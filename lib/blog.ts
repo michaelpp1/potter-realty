@@ -32,6 +32,103 @@ export const categoryColors: Record<BlogCategory, string> = {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'how-to-choose-the-right-listing-agent-in-northern-colorado-q',
+    title: "How to Choose the Right Listing Agent in Northern Colorado: Questions to Ask Before You Sign",
+    date: 'June 29, 2026',
+    isoDate: '2026-06-29',
+    category: 'Seller Tips',
+    excerpt: "Selling a home in Northern Colorado is a major decision, and the listing agent you choose can make or break your results. Here are the essential questions to ask before signing a listing agreement with any REALTOR in Fort Collins, Loveland, Windsor, or the surrounding area.",
+    readTime: '8 min read',
+    content: [
+      {
+        type: 'paragraph',
+        text: "You have decided to sell your home in Northern Colorado. Maybe you are downsizing from your acreage west of Loveland, upgrading to something bigger in Timnath, or relocating out of state after years in Fort Collins. Whatever the reason, the listing agent you hire will shape every part of the experience — from how your home is priced and marketed to how negotiations unfold and whether you walk away with the best possible outcome. Not all agents operate the same way, and the wrong choice can cost you tens of thousands of dollars or months of unnecessary stress.",
+      },
+      {
+        type: 'paragraph',
+        text: "I am Michael Potter, a REALTOR with LPT Realty and a Northern Colorado relocation specialist. I grew up in Loveland, graduated from Thompson Valley High School, and have spent my career helping people buy and sell homes across Larimer County, Weld County, and everywhere in between. I have seen firsthand what separates a great listing experience from a frustrating one. Here is how to evaluate any listing agent before you sign — and the specific questions that will tell you everything you need to know.",
+      },
+      {
+        type: 'h2',
+        text: "Why Does Your Choice of Listing Agent Matter So Much?",
+      },
+      {
+        type: 'paragraph',
+        text: "A listing agent does far more than put a sign in your yard and upload photos to the MLS. They are responsible for pricing strategy, professional marketing, buyer screening, negotiation, inspection management, and guiding you through the closing process. In a market like Northern Colorado — where neighborhoods in Fort Collins, Windsor, Berthoud, and Severance each have their own dynamics — local expertise is not optional. An agent who does not understand the difference between selling a newer build in Johnstown versus a mid-century home in downtown Loveland is going to leave money on the table.",
+      },
+      {
+        type: 'h2',
+        text: "What Questions Should You Ask a Listing Agent Before Hiring Them?",
+      },
+      {
+        type: 'paragraph',
+        text: "When you sit down for a listing consultation, you are essentially conducting a job interview. The agent works for you, and you deserve clear, specific answers. Here are the questions I recommend every Northern Colorado seller ask before making a decision.",
+      },
+      {
+        type: 'ul',
+        items: [
+          "How many homes have you sold in my specific city or neighborhood in the past 12 months? An agent who primarily works in Denver may not understand the nuances of the Fort Collins, Loveland, or Wellington markets.",
+          "What is your pricing strategy, and how do you determine list price? A strong agent will walk you through a comparative market analysis using recent, hyperlocal sales data — not just a quick online estimate.",
+          "What does your marketing plan include beyond the MLS? Ask about professional photography, video walkthroughs, social media promotion, staging consultation, and print materials. In today is market, digital presence matters enormously.",
+          "How do you handle multiple offers, and what is your negotiation approach? Northern Colorado can shift between competitive and balanced conditions quickly. You want someone who adapts strategy based on current buyer demand.",
+          "What is your communication style, and how often will I hear from you? Some agents disappear after listing day. Clarify whether you will receive weekly updates, feedback after showings, and timely responses to your questions.",
+          "Can you provide references from recent sellers in Northern Colorado? Any experienced agent should be happy to connect you with past clients who can speak to their process and results.",
+          "What are the full terms of the listing agreement, including commission structure, contract length, and cancellation policy? Read every line before you sign.",
+        ],
+      },
+      {
+        type: 'h2',
+        text: "How Do You Know If a Listing Agent Truly Knows Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "Local knowledge is one of the hardest things to fake. An agent who genuinely knows this area can speak to the lifestyle differences between living in a walkable Fort Collins neighborhood near Old Town and owning a five-acre property outside Berthoud. They understand which Timnath developments are attracting families and which parts of Windsor or Greeley are seeing the strongest appreciation. They know that buyers relocating from California or Texas often care about proximity to trails, open space, and community events like farmers markets and local festivals — and they market your home accordingly.",
+      },
+      {
+        type: 'paragraph',
+        text: "Ask your potential agent what they love about living here. Ask them where they hike, where they grab coffee, and what they tell out-of-state buyers about the area. If they cannot give you a genuine, detailed answer, they probably are not embedded enough in the community to effectively sell your home to the people most likely to buy it.",
+      },
+      {
+        type: 'h2',
+        text: "What Red Flags Should Sellers Watch For When Choosing a Listing Agent?",
+      },
+      {
+        type: 'paragraph',
+        text: "Be cautious of any agent who suggests an unusually high list price just to win your business. This is called buying the listing, and it almost always backfires — your home sits on the market too long, buyers assume something is wrong, and you end up reducing the price below where you could have started. A trustworthy agent will give you an honest price range backed by data, even if it is not the number you hoped to hear.",
+      },
+      {
+        type: 'paragraph',
+        text: "Also watch out for agents who cannot clearly explain their marketing plan, who are vague about their availability, or who pressure you into a lengthy listing contract with no performance benchmarks. Selling a home in Northern Colorado is a significant financial event, and you deserve a professional who treats it that way.",
+      },
+      {
+        type: 'h2',
+        text: "Should You Interview More Than One Listing Agent?",
+      },
+      {
+        type: 'paragraph',
+        text: "Absolutely. I recommend interviewing at least two or three agents before making your decision. Compare their market analyses, marketing strategies, and communication styles. Pay attention to who asks thoughtful questions about your goals and timeline versus who launches straight into a pitch. The best listing agent for your situation is the one who listens, demonstrates local expertise, and provides a clear plan tailored to your property — not a generic presentation they use for every home.",
+      },
+      {
+        type: 'h2',
+        text: "Ready to Sell Your Home in Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "If you are thinking about selling a home in Fort Collins, Loveland, Windsor, Timnath, Berthoud, Wellington, Johnstown, Greeley, or Severance, I would love to have a straightforward conversation about your goals. I will give you an honest assessment of your home is value, walk you through my marketing approach, and answer every question on the list above — no pressure, no fluff. You can get started with a complimentary home value analysis at potterealty.com/sell, and we can go from there whenever you are ready.",
+      },
+      {
+        type: 'faq',
+        faqs: [
+          { question: "How do I find the best listing agent in Northern Colorado?", answer: "Start by looking for agents with a proven track record of recent sales in your specific city or neighborhood, whether that is Fort Collins, Loveland, Windsor, or elsewhere in the region. Interview multiple agents, ask for references, and evaluate their marketing plan, pricing strategy, and local expertise before signing any agreement." },
+          { question: "What should a listing agreement include in Colorado?", answer: "A Colorado listing agreement should clearly outline the commission structure, the length of the contract, the scope of the agent is marketing responsibilities, and the terms under which either party can cancel. Make sure you understand every clause before signing, and do not hesitate to ask your agent to explain anything that is unclear." },
+          { question: "How long does it typically take to sell a home in Northern Colorado?", answer: "The timeline varies based on location, price point, condition, and current market conditions. A well-priced, properly marketed home in desirable areas of Larimer County or Weld County can attract strong interest relatively quickly, but overpriced listings in any market tend to sit. Your listing agent should provide realistic expectations based on current data." },
+          { question: "Do I need a listing agent who specializes in my specific city?", answer: "Hyperlocal knowledge is a major advantage. An agent who regularly sells homes in your area will understand buyer demographics, neighborhood trends, and how to position your property against the competition. This is especially important in Northern Colorado, where market conditions can differ significantly between communities like Timnath, Berthoud, and Greeley." },
+          { question: "What marketing should a listing agent provide for my home?", answer: "At a minimum, expect professional photography, detailed MLS listings, and a social media marketing plan. The best listing agents also offer video walkthroughs, targeted digital advertising, staging consultation, and a strategy for reaching out-of-state buyers who are actively looking to relocate to Northern Colorado." },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'retiring-to-northern-colorado-why-retirees-are-choosing-fort',
     title: "Retiring to Northern Colorado: Why Retirees Are Choosing Fort Collins and Loveland",
     date: 'June 22, 2026',
