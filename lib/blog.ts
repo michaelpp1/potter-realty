@@ -32,6 +32,102 @@ export const categoryColors: Record<BlogCategory, string> = {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'severance-colorado-community-updates-2026-news-growth-and-wh',
+    title: "Severance, Colorado Community Updates 2026: News, Growth, and What Relocators Should Know",
+    date: 'July 6, 2026',
+    isoDate: '2026-07-06',
+    category: 'Market Update',
+    excerpt: "Severance, Colorado is one of Northern Colorado’s fastest-growing towns, with new development, expanding schools, and a community feel that draws families and retirees alike. Here is what you need to know about Severance heading into mid-2026.",
+    readTime: '7 min read',
+    content: [
+      {
+        type: 'paragraph',
+        text: "If you have been researching a move to Northern Colorado, Severance probably keeps popping up on your radar. This small town in Weld County has grown from a quiet agricultural community into one of the region’s most talked-about places to live — and for good reason. The combination of newer construction, relatively affordable home prices compared to neighboring Fort Collins and Loveland, and easy access to open space has made Severance a magnet for relocating families and couples looking for room to breathe. I’m Michael Potter, a Northern Colorado relocation specialist with LPT Realty, and I work with out-of-state buyers moving to this area every week. Here’s what’s happening in Severance right now and why it matters if you’re considering a move.",
+      },
+      {
+        type: 'h2',
+        text: "What Is Happening in Severance, Colorado in 2026?",
+      },
+      {
+        type: 'paragraph',
+        text: "Severance continues to be one of the fastest-growing communities in Weld County. The town has been steadily expanding its infrastructure, adding residential neighborhoods, commercial corridors, and community amenities to keep pace with its population growth. If you drive through town today compared to even a few years ago, the transformation is striking — new rooftops, freshly paved roads, and retail development that did not exist before.",
+      },
+      {
+        type: 'paragraph',
+        text: "On the broader Northern Colorado front, a mid-2026 housing market analysis published by North Forty News on July 5, 2026, describes the region as a more balanced market compared to the hyper-competitive years of 2021 and 2022. The article highlights that Northern Colorado is not one housing market but nineteen distinct ones — and Severance is among the communities where buyers are finding more negotiating room and newer inventory than in established cities like Fort Collins or Loveland. For relocators, that’s significant. It means you may find more home for your dollar here without sacrificing the lifestyle that draws people to this part of Colorado.",
+      },
+      {
+        type: 'h2',
+        text: "What About Schools and Education in Severance?",
+      },
+      {
+        type: 'paragraph',
+        text: "Severance falls within the Weld County RE-4 School District, which includes the town’s own Severance High School and several elementary and middle schools that have been built or expanded in recent years to accommodate growth. A June 2026 report from North Forty News noted that students in Northern Colorado are blessed with better funding options than ever, particularly when it comes to higher education financing. The Poudre Valley REA also awarded $54,500 in scholarships to 30 Northern Colorado students in spring 2026, reflecting the kind of community investment in education that makes this area stand out. Whether you have school-age kids, grandchildren who visit, or you simply care about supporting a community that prioritizes young people, Severance and the surrounding area deliver.",
+      },
+      {
+        type: 'h2',
+        text: "Is Severance a Good Place to Live for Outdoor Lovers?",
+      },
+      {
+        type: 'paragraph',
+        text: "Absolutely. Severance sits in the plains east of the Front Range, which means you get wide-open skies, stunning mountain views to the west, and easy access to everything Northern Colorado is known for. I grew up in Loveland and spend my summers paddleboarding at Horsetooth Reservoir, hiking Devil’s Backbone, and camping up the Poudre Canyon. From Severance, all of those spots are a short drive away. Boyd Lake State Park in Loveland, Carter Lake, and Lory State Park near Fort Collins are all within 30 to 45 minutes. Rocky Mountain National Park and Estes Park — where I’ve been hiking and watching elk bugle since I was a kid — are about an hour and a half from your front door.",
+      },
+      {
+        type: 'paragraph',
+        text: "One question I hear from relocators constantly is whether Northern Colorado is too far from ski resorts. It’s not. Breckenridge, Keystone, Arapahoe Basin, and Vail are all roughly 1.5 to 2.5 hours from Severance. Plenty of locals make day trips throughout ski season without thinking twice about it.",
+      },
+      {
+        type: 'h2',
+        text: "What Makes Severance Different from Fort Collins or Loveland?",
+      },
+      {
+        type: 'paragraph',
+        text: "Fort Collins and Loveland are established cities with deep roots, walkable downtowns, and well-known cultural scenes. Severance offers something different: the chance to get into a newer home, often with more square footage and a larger lot, at a price point that can be significantly lower than what you would pay in Fort Collins proper. Many of my clients — especially couples relocating from California, Texas, or the Pacific Northwest — are genuinely surprised by how much further their budget stretches in Severance compared to what they’re leaving behind.",
+      },
+      {
+        type: 'paragraph',
+        text: "Severance also appeals to people who want a bit of that rural, homestead-adjacent lifestyle without being completely off the grid. Depending on the neighborhood and zoning, you may find properties with enough acreage for a garden, chickens, or even horses. At the same time, you’re only about 15 minutes from the shops, breweries, and restaurants in Windsor or Greeley, and 25 to 30 minutes from Fort Collins. Denver International Airport is roughly an hour away, which makes travel convenient whether you’re flying back to visit family or picking up grandkids for the summer.",
+      },
+      {
+        type: 'h2',
+        text: "Recent Community and Energy News Near Severance",
+      },
+      {
+        type: 'paragraph',
+        text: "Northern Colorado’s largest solar project, located near Severance, began operations in late 2025. The project is designed to eventually power approximately 73,000 homes with clean energy, making it a significant piece of the region’s renewable infrastructure. For a town rooted in agriculture, this kind of forward-thinking development speaks to where Severance and Weld County are headed — balancing growth with sustainability.",
+      },
+      {
+        type: 'h2',
+        text: "Key Reasons Relocators Are Choosing Severance, Colorado",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Newer construction with modern floorplans, energy-efficient builds, and larger lots compared to Fort Collins or Loveland",
+          "Lower median home prices relative to other Northern Colorado communities, making it attractive for buyers coming from higher cost-of-living states",
+          "Proximity to outdoor recreation: Boyd Lake, Horsetooth Reservoir, Rocky Mountain National Park, and Poudre Canyon are all within easy reach",
+          "Strong school district with recent investments in facilities and student funding across Weld County",
+          "Growing commercial development including retail, dining, and services so residents do not have to drive far for daily needs",
+          "Denver International Airport is approximately one hour away for convenient air travel",
+        ],
+      },
+      {
+        type: 'paragraph',
+        text: "If you’re exploring a move to Severance or anywhere in Northern Colorado, I’d love to help you figure out which community fits your lifestyle. I’ve helped buyers relocate from all over the country, and I know this area inside and out — I grew up here. Whether you want a walkable neighborhood close to coffee shops and farmers markets or a property with some land west of town, I can point you in the right direction. Reach out anytime through potterealty.com/contact and let’s start a conversation.",
+      },
+      {
+        type: 'faq',
+        faqs: [
+          { question: "Is Severance, Colorado a good place to live?", answer: "Severance is one of Northern Colorado’s fastest-growing towns and appeals to families, couples, and retirees looking for newer homes, open space, and a strong sense of community. It offers easy access to outdoor recreation, good schools in the Weld County RE-4 district, and a more affordable price point than neighboring Fort Collins or Loveland." },
+          { question: "How far is Severance from Denver International Airport?", answer: "Denver International Airport is approximately one hour from Severance, making it convenient for frequent travelers or for picking up visiting family. The drive is straightforward via Interstate 25 and E-470 or the DIA direct toll road." },
+          { question: "What is the housing market like in Severance in 2026?", answer: "As of mid-2026, the Northern Colorado housing market has shifted toward a more balanced environment. Severance in particular offers newer construction inventory, and buyers relocating from higher cost-of-living states often find significantly more home for their money here compared to where they are moving from." },
+          { question: "How far is Severance from ski resorts in Colorado?", answer: "Major ski resorts like Breckenridge, Keystone, Arapahoe Basin, and Vail are roughly 1.5 to 2.5 hours from Severance. Many Northern Colorado residents make regular day trips or weekend getaways to the mountains throughout ski season." },
+          { question: "What outdoor activities are near Severance, Colorado?", answer: "Severance residents have easy access to Horsetooth Reservoir, Boyd Lake State Park, Carter Lake, Rocky Mountain National Park, and miles of hiking trails including Devil’s Backbone and the Poudre Canyon. Paddleboarding, hiking, camping, fishing, and white water rafting on the Poudre River are all popular activities in the area." },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'how-to-choose-the-right-listing-agent-in-northern-colorado-q',
     title: "How to Choose the Right Listing Agent in Northern Colorado: Questions to Ask Before You Sign",
     date: 'June 29, 2026',
