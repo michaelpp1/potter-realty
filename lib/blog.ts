@@ -32,6 +32,115 @@ export const categoryColors: Record<BlogCategory, string> = {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'how-to-get-pre-approved-for-a-mortgage-in-colorado-a-norther',
+    title: "How to Get Pre-Approved for a Mortgage in Colorado: A Northern Colorado Buyer Guide",
+    date: 'July 13, 2026',
+    isoDate: '2026-07-13',
+    category: 'Buyer Tips',
+    excerpt: "Getting pre-approved for a mortgage before you start house hunting in Northern Colorado saves you time, strengthens your offers, and helps you understand exactly what you can afford in communities like Fort Collins, Loveland, Windsor, and beyond.",
+    readTime: '8 min read',
+    content: [
+      {
+        type: 'paragraph',
+        text: "If you are planning a move to Northern Colorado, whether you have your eye on a walkable neighborhood in downtown Fort Collins or a property with acreage west of Loveland, the single most important step you can take before browsing listings is getting pre-approved for a mortgage. I have worked with dozens of out-of-state buyers relocating here from California, Texas, the Pacific Northwest, and beyond, and I always give them the same advice: talk to a lender before you fall in love with a house.",
+      },
+      {
+        type: 'h2',
+        text: "What Is Mortgage Pre-Approval and How Is It Different from Pre-Qualification?",
+      },
+      {
+        type: 'paragraph',
+        text: "These two terms get used interchangeably, but they are not the same thing. Pre-qualification is a quick, informal estimate of what you might be able to borrow based on self-reported income and debt numbers. Pre-approval is a much more thorough process. A lender pulls your credit, verifies your income, reviews your assets, and issues a conditional commitment letter stating the loan amount you qualify for. In a competitive Northern Colorado market, sellers and listing agents take pre-approval letters seriously because they signal that a buyer has already been financially vetted.",
+      },
+      {
+        type: 'h2',
+        text: "Why Does Pre-Approval Matter Before Searching for Homes in Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "Northern Colorado spans a wide range of price points and property types, from townhomes in Greeley and Severance to custom builds in Timnath and horse properties near Berthoud. Without a clear picture of your purchasing power, you can waste weeks touring homes that are outside your budget or, just as frustrating, searching below your actual range and missing out on neighborhoods that would have been a perfect fit. Pre-approval eliminates that guesswork and lets you search with confidence.",
+      },
+      {
+        type: 'paragraph',
+        text: "Beyond budgeting, pre-approval gives you a competitive edge when you are ready to make an offer. In communities like Windsor and Fort Collins, well-priced homes can attract multiple offers within days of listing. Sellers are far more likely to negotiate with a buyer who has a pre-approval letter in hand than with someone who still needs to figure out financing. I have seen buyers lose out on their dream home in Loveland simply because another offer came in with stronger proof of funds. It is an avoidable loss.",
+      },
+      {
+        type: 'h2',
+        text: "What Do You Need to Get Pre-Approved for a Mortgage in Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "The documentation requirements are fairly standard across lenders, but gathering everything ahead of time will speed up the process significantly. Here is what most Colorado lenders will ask for:",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Government-issued photo ID and Social Security number for a credit check",
+          "Two most recent pay stubs and W-2s from the past two years (or tax returns if self-employed)",
+          "Bank and investment account statements from the last 60 days showing available funds for down payment and closing costs",
+          "Documentation of any additional income sources such as rental income, Social Security, pensions, or alimony",
+          "A list of monthly debts including car loans, student loans, credit card minimums, and any other recurring obligations",
+          "Employment verification, which the lender will typically handle directly with your employer",
+          "If applicable, a gift letter for any portion of the down payment coming from a family member",
+        ],
+      },
+      {
+        type: 'h2',
+        text: "How Long Does Mortgage Pre-Approval Take in Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "If your financial documents are organized and ready to go, many lenders can issue a pre-approval letter within one to three business days. Some online lenders advertise same-day turnarounds, though the thoroughness of those reviews can vary. I always recommend working with a lender who is licensed in Colorado and familiar with Larimer County and Weld County transactions. Local lenders and loan officers understand the nuances of our market, from HOA structures in master-planned communities in Timnath to well and septic considerations on rural Berthoud properties.",
+      },
+      {
+        type: 'h2',
+        text: "How Long Is a Mortgage Pre-Approval Valid?",
+      },
+      {
+        type: 'paragraph',
+        text: "Most pre-approval letters are valid for 60 to 90 days. If your home search extends beyond that window, your lender will need to re-pull your credit and review updated financial documents to reissue the letter. This is one reason I encourage buyers to get pre-approved when they are genuinely ready to start looking rather than months in advance. If you are still in the research phase, exploring whether Fort Collins or Loveland is the right fit, that is perfectly fine. Focus on learning about the area first, then get pre-approved when you are ready to tour homes.",
+      },
+      {
+        type: 'h2',
+        text: "Does Pre-Approval Hurt Your Credit Score?",
+      },
+      {
+        type: 'paragraph',
+        text: "A mortgage pre-approval does involve a hard credit inquiry, which can temporarily lower your score by a few points. However, the credit bureaus recognize that rate shopping is a normal part of the home buying process. If you apply with multiple lenders within a 14- to 45-day window, depending on the scoring model, those inquiries are typically grouped together and counted as a single pull. This means you can and should compare rates from two or three lenders without worrying about damaging your credit.",
+      },
+      {
+        type: 'h2',
+        text: "Should Out-of-State Buyers Use a Local Colorado Lender?",
+      },
+      {
+        type: 'paragraph',
+        text: "You are not required to use a local lender, but there are real advantages. A lender based in Northern Colorado will be familiar with common property types in the area, from newer construction in Wellington and Johnstown to older homes in established Loveland and Fort Collins neighborhoods. They will also have relationships with local title companies and can often move faster when timelines get tight. I have a short list of trusted lenders I have worked with on relocation transactions, and I am always happy to share it with buyers who are just getting started.",
+      },
+      {
+        type: 'h2',
+        text: "Can You Get Pre-Approved Before You Move to Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "Absolutely. The entire pre-approval process can be handled remotely. Most lenders accept documents via secure upload portals, and phone or video consultations make it easy to ask questions from wherever you are currently living. Many of the buyers I work with complete their pre-approval from out of state, then fly in for a focused weekend of home tours with a clear budget and a strong letter ready to submit with their offer. It is one of the smartest ways to approach an out-of-state move.",
+      },
+      {
+        type: 'paragraph',
+        text: "If you are considering a move to Northern Colorado, whether you are drawn to the trails at Devil’s Backbone, the energy of Old Town Fort Collins, or the peace and quiet of a homestead property with mountain views, I would love to help you get started. My name is Michael Potter, and I am a Northern Colorado relocation specialist with LPT Realty. I have helped buyers from across the country navigate every step of the process, from finding the right lender to handing over the keys. You can browse current listings and learn more about buying a home in our area at potterealty.com/buy, or reach out anytime. I am always happy to point you toward a great lender and answer any questions about the area I have called home for most of my life.",
+      },
+      {
+        type: 'faq',
+        faqs: [
+          { question: "How much do I need for a down payment on a home in Northern Colorado?", answer: "Down payment requirements depend on the loan type. Conventional loans typically require 3 to 20 percent down, FHA loans require as little as 3.5 percent, and VA and USDA loans may offer zero-down options for eligible buyers. Your lender will walk you through which programs you qualify for based on your financial profile and the property location." },
+          { question: "Can I get pre-approved for a mortgage if I am self-employed?", answer: "Yes, self-employed buyers get pre-approved regularly. You will need to provide two years of personal and business tax returns along with a year-to-date profit and loss statement. Lenders typically average your net income over that two-year period, so consistent or growing income strengthens your application." },
+          { question: "Is a pre-approval letter required to make an offer on a house in Colorado?", answer: "It is not legally required, but it is effectively a necessity in practice. Most listing agents in Fort Collins, Loveland, Windsor, and surrounding markets will not present an offer to their seller without a pre-approval letter or proof of funds attached. Submitting an offer without one puts you at a significant disadvantage." },
+          { question: "What credit score do I need to buy a home in Colorado?", answer: "Minimum credit score requirements vary by loan type. FHA loans generally require a score of 580 or higher for the lowest down payment option, while conventional loans typically look for a 620 or above. Higher credit scores unlock better interest rates, which can save you thousands over the life of the loan." },
+          { question: "Should I get pre-approved before contacting a real estate agent in Northern Colorado?", answer: "You can reach out to an agent before or after getting pre-approved. A good relocation agent will actually help you find a reputable lender and guide you through the timeline. That said, having your pre-approval in place before you start touring homes ensures you are looking in the right price range and ready to act quickly when the right property comes along." },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'severance-colorado-community-updates-2026-news-growth-and-wh',
     title: "Severance, Colorado Community Updates 2026: News, Growth, and What Relocators Should Know",
     date: 'July 6, 2026',
