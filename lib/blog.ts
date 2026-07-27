@@ -32,6 +32,109 @@ export const categoryColors: Record<BlogCategory, string> = {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'best-neighborhoods-in-fort-collins-for-families-relocating-f',
+    title: "Best Neighborhoods in Fort Collins for Families Relocating from Out of State to Northern Colorado",
+    date: 'July 27, 2026',
+    isoDate: '2026-07-27',
+    category: 'Relocation',
+    excerpt: "Fort Collins offers relocating families a rare combination of top-rated schools, outdoor recreation, walkable neighborhoods, and genuine community. Here is a neighborhood-by-neighborhood breakdown to help you find the right fit for your family in Northern Colorado.",
+    readTime: '9 min read',
+    content: [
+      {
+        type: 'paragraph',
+        text: "If you are researching neighborhoods in Fort Collins as part of an out-of-state move, you are probably feeling a mix of excitement and overwhelm. I get it. I grew up in Loveland starting at age two, graduated from Thompson Valley High School, and have spent most of my life exploring every corner of Northern Colorado. I now work full-time as a relocation specialist with LPT Realty, and the majority of my clients are families and couples moving here from states like California, Texas, Washington, and Oregon. The single most common question I hear is simple: which neighborhood should we be looking at? This post is my honest answer.",
+      },
+      {
+        type: 'h2',
+        text: "Why Do So Many Families Choose Fort Collins Over Denver?",
+      },
+      {
+        type: 'paragraph',
+        text: "Fort Collins sits about 60 miles north of Denver along the Front Range, and it delivers something Denver increasingly cannot: a manageable pace of life with serious outdoor access. Old Town Fort Collins is one of the most walkable downtowns in Colorado, packed with locally owned coffee shops, breweries, restaurants, yoga studios, and a beloved weekly farmers market. The Poudre River runs right through town, giving families immediate access to fishing, tubing, and paved trails. Meanwhile, Horsetooth Reservoir and Lory State Park are less than 15 minutes from most neighborhoods. Rocky Mountain National Park is roughly an hour west. Denver International Airport is about an hour south on I-25, making travel convenient without having to live in a sprawling metro. For families who want the Colorado lifestyle without big-city congestion, Fort Collins consistently ranks as one of the best places to live in the state.",
+      },
+      {
+        type: 'h2',
+        text: "What Are the Best Neighborhoods in Fort Collins for Families?",
+      },
+      {
+        type: 'paragraph',
+        text: "Fort Collins has a wide range of neighborhoods, and the right one depends on whether your family prioritizes walkability, newer construction, acreage, or school proximity. Here are the areas I recommend most often to relocating families.",
+      },
+      {
+        type: 'h2',
+        text: "Old Town and Surrounding Historic Neighborhoods",
+      },
+      {
+        type: 'paragraph',
+        text: "If walkability is at the top of your list, Old Town Fort Collins and its surrounding neighborhoods — including Laurel, the Near North, and Mountain Avenue — offer tree-lined streets, character homes, and the ability to walk or bike to restaurants, shops, and the Poudre River Trail. Families here tend to love the community feel: block parties, front-porch culture, and quick access to seasonal festivals like Bohemian Nights and Tour de Fat. Homes range from early 1900s bungalows to mid-century ranches, and inventory can be competitive because turnover is low. These neighborhoods feed into Poudre School District, which is one of the top-performing districts in Northern Colorado.",
+      },
+      {
+        type: 'h2',
+        text: "Is the Fossil Creek and Southridge Area Good for Families?",
+      },
+      {
+        type: 'paragraph',
+        text: "South Fort Collins has grown significantly over the past two decades, and the Fossil Creek and Southridge areas are popular with families who want newer construction, good parks, and easy access to shopping along Harmony Road. Fossil Creek Park itself is a local favorite with a pond, trails, and open fields. Homes here are typically built from the early 2000s forward, with a mix of single-family homes and townhomes. The area has convenient access to I-25, which matters if one spouse commutes to Loveland, Windsor, or even south toward Longmont.",
+      },
+      {
+        type: 'h2',
+        text: "What About the West Side of Fort Collins Near Horsetooth?",
+      },
+      {
+        type: 'paragraph',
+        text: "The west side of Fort Collins — loosely defined as anything west of Taft Hill Road heading toward the foothills — is where outdoor-focused families tend to gravitate. Neighborhoods like Quail Hollow, Clarendon Hills, and the areas along Overland Trail put you minutes from Horsetooth Reservoir, Maxwell Natural Area, and the Poudre Canyon. Some properties on the western fringe sit on larger lots with views of the foothills. If your vision for Colorado life includes morning hikes with your dog, paddleboarding after work, and weekend camping trips up Highway 14, the west side delivers that lifestyle in a way few other parts of town can.",
+      },
+      {
+        type: 'h2',
+        text: "Should Relocating Families Consider Timnath or Windsor Instead?",
+      },
+      {
+        type: 'paragraph',
+        text: "Absolutely. Timnath and Windsor sit just east of Fort Collins in Weld County, and both towns have seen tremendous growth with brand-new schools, modern community amenities, and family-friendly master-planned neighborhoods. Timnath in particular has become a top choice for families moving from out of state who want newer homes, larger lots, and a small-town feel while remaining within a short drive of Fort Collins and Loveland. Windsor offers a charming downtown of its own, strong youth sports programs, and easy access to Boyd Lake State Park. Homes in both communities can offer more square footage per dollar compared to established Fort Collins neighborhoods, which is a significant factor for buyers coming from higher cost-of-living markets.",
+      },
+      {
+        type: 'h2',
+        text: "What Should Out-of-State Families Know Before Choosing a Neighborhood?",
+      },
+      {
+        type: 'paragraph',
+        text: "Every family I work with has a slightly different priority list, but here are the factors that come up in almost every relocation conversation.",
+      },
+      {
+        type: 'ul',
+        items: [
+          "School district boundaries: Fort Collins is served primarily by Poudre School District, while Timnath and Windsor may fall under Thompson or Windsor RE-4. District boundaries do not always follow city lines, so verify before making an offer.",
+          "HOA rules and metro districts: Many newer neighborhoods in Timnath, Windsor, and south Fort Collins have HOA covenants and metro district taxes. These can impact your monthly cost significantly, and I always help my clients understand the full picture before writing an offer.",
+          "Commute patterns: If you or your spouse will work remotely most of the time but occasionally drive to Denver, living on the north or west side of Fort Collins adds 15 to 20 minutes compared to south Fort Collins or Timnath. Factor that in.",
+          "Proximity to trails and open space: Fort Collins has an exceptional natural areas program with over 40 conserved sites. Some neighborhoods border natural areas directly, which means trail access from your front door.",
+          "Ski access: Breckenridge, Keystone, Arapahoe Basin, and Vail are roughly 1.5 to 2.5 hours from Fort Collins. Many families are surprised to learn that day trips to the slopes are very doable from Northern Colorado.",
+        ],
+      },
+      {
+        type: 'h2',
+        text: "How Much Does It Cost to Buy a Home in Fort Collins Neighborhoods?",
+      },
+      {
+        type: 'paragraph',
+        text: "Pricing varies significantly by neighborhood, age of home, and lot size. Generally, Fort Collins is more affordable than Boulder and most Denver metro communities, which is one of the reasons it attracts so many relocating families from higher-cost states. Older homes near Old Town tend to hold strong value due to location and limited supply, while newer builds on the east side and in Timnath or Windsor may offer more home for the money. Rather than quoting numbers that will be outdated by the time you read this, I recommend reaching out for a current market snapshot tailored to the neighborhoods you are considering.",
+      },
+      {
+        type: 'paragraph',
+        text: "As a Colorado native and full-time relocation specialist, Michael Potter helps families from across the country find the right neighborhood, school district, and lifestyle fit in Northern Colorado. If you are planning a move to Fort Collins, Loveland, Timnath, Windsor, Berthoud, or any of the surrounding communities, I would love to help you get oriented. Download my free Relocation Guide at potterealty.com/relocation#guide — it covers everything from cost of living and climate to outdoor recreation and local culture. And when you are ready to talk neighborhoods in detail, just reach out. I am always happy to share what I know about the place I have called home my entire life.",
+      },
+      {
+        type: 'faq',
+        faqs: [
+          { question: "What is the best school district in Fort Collins for relocating families?", answer: "Poudre School District serves most of Fort Collins and is one of the highest-rated districts in Northern Colorado. Families moving to Timnath or Windsor may fall under Thompson School District or Windsor RE-4, both of which also have strong reputations. Always verify the specific school assignments for any address you are considering, as boundaries do not always align with city limits." },
+          { question: "Is Fort Collins too far from Denver for commuting or airport access?", answer: "Denver International Airport is approximately one hour south of Fort Collins via I-25, which most relocating families find very manageable. A daily commute to downtown Denver would be challenging, but many residents work remotely or commute to Loveland, Longmont, or Boulder. The Bustang bus service also offers a commuter route to Denver." },
+          { question: "Are there neighborhoods in Fort Collins with acreage or land for horses?", answer: "Yes. Properties west of Fort Collins toward the foothills and in unincorporated Larimer County can offer acreage suitable for horses, hobby farms, and homestead-style living. Berthoud and areas south of Loveland also have rural properties with larger lots. Zoning and water rights vary, so it is important to work with an agent who understands the local regulations." },
+          { question: "How far is Fort Collins from ski resorts like Breckenridge or Vail?", answer: "Breckenridge and Keystone are roughly 2 to 2.5 hours from Fort Collins. Arapahoe Basin is about 2 hours. Vail is approximately 2.5 hours. Many Northern Colorado families make regular day trips or weekend trips to the ski resorts throughout the winter season." },
+          { question: "Is Fort Collins affordable compared to other Colorado cities?", answer: "Fort Collins is generally more affordable than Boulder, Denver, and many mountain communities. Buyers relocating from California, the Pacific Northwest, or major Texas metros often find that their dollar goes further here, particularly in newer communities like Timnath and Windsor. Pricing changes with market conditions, so requesting a current market analysis from a local agent is the best way to understand what your budget can buy." },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'loveland-and-windsor-real-estate-market-update-pricing-trend',
     title: "Loveland and Windsor Real Estate Market Update: Pricing Trends and Inventory in Northern Colorado (July 2026)",
     date: 'July 20, 2026',
