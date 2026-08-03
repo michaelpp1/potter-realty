@@ -32,6 +32,96 @@ export const categoryColors: Record<BlogCategory, string> = {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'what-to-look-for-in-a-home-inspection-when-buying-in-norther',
+    title: "What to Look for in a Home Inspection When Buying in Northern Colorado",
+    date: 'August 3, 2026',
+    isoDate: '2026-08-03',
+    category: 'Buyer Tips',
+    excerpt: "A home inspection in Northern Colorado covers far more than the basics. From hail damage on the roof to expansive soils in the foundation, here is what every buyer should watch for before closing on a home in Fort Collins, Loveland, Windsor, or anywhere along the Front Range.",
+    readTime: '9 min read',
+    content: [
+      {
+        type: 'paragraph',
+        text: "If you are buying a home in Northern Colorado, the inspection is one of the most important steps in the entire process. I have walked through dozens of inspections with buyers relocating to Fort Collins, Loveland, Timnath, Windsor, Berthoud, and the surrounding communities, and I can tell you that this region has its own set of things to watch for. The semi-arid climate, intense sun exposure, afternoon hailstorms, and soil conditions along the Front Range all create issues you simply will not find in other parts of the country. Whether you are coming from California, Texas, the Pacific Northwest, or anywhere else, understanding what a Northern Colorado home inspection should cover will help you make a confident, informed decision.",
+      },
+      {
+        type: 'h2',
+        text: "Why Are Home Inspections So Important in Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "Every home inspection matters, but in Northern Colorado the stakes are a little different. We deal with weather extremes that stress building materials in ways many out-of-state buyers do not expect. Summers bring intense UV radiation at our elevation (roughly 5,000 feet above sea level), and spring and summer hailstorms roll through Larimer County and Weld County on a regular basis. Winters bring freeze-thaw cycles that test foundations, driveways, and exterior finishes. A thorough inspection tailored to this climate can save you thousands of dollars in surprise repairs after closing.",
+      },
+      {
+        type: 'h2',
+        text: "What Should a Home Inspector Check for in Fort Collins, Loveland, or Windsor?",
+      },
+      {
+        type: 'paragraph',
+        text: "A qualified inspector will cover all the standard systems — electrical, plumbing, HVAC, appliances, and structural components — but here are the Northern Colorado-specific issues I always make sure my buyers pay close attention to.",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Roof condition and hail damage: Northern Colorado sees significant hailstorms, sometimes multiple times per season. Your inspector should look for dented or cracked shingles, damaged flashing, and compromised gutters. Ask about the age of the roof and whether any insurance claims have been filed for hail damage.",
+          "Foundation and expansive soils: Parts of Loveland, Windsor, Severance, Johnstown, and Greeley sit on expansive clay soils that swell when wet and shrink when dry. This movement can cause foundation cracks, sticking doors, and uneven floors. A good inspector will flag signs of settling or heaving and may recommend a structural engineer for further evaluation.",
+          "Furnace and HVAC efficiency: Winters in Northern Colorado can dip well below zero, and homes at elevation work their heating systems hard. Make sure the furnace is inspected for age, efficiency rating, and proper venting. Heat exchangers in older furnaces can crack, which is both a performance and safety concern.",
+          "Water heater type and condition: Many homes in this area use standard tank water heaters, but tankless units are becoming more common in newer builds in Timnath and Windsor. Either way, your inspector should note the age, capacity, and any signs of corrosion or sediment buildup.",
+          "Exterior siding, paint, and stucco: The intense high-altitude sun fades and deteriorates exterior finishes faster than in lower-elevation climates. Wood siding and trim may show cracking, peeling, or rot, especially on south- and west-facing walls. Stucco homes, common in some Berthoud and Fort Collins neighborhoods, should be checked for hairline cracks that allow moisture intrusion.",
+          "Window seals and insulation: Blown window seals — where condensation or fogging appears between double-pane glass — are common due to temperature swings. Failed seals reduce energy efficiency and can signal windows nearing end of life.",
+          "Radon levels: Colorado has naturally elevated radon levels because of the geology along the Front Range. Radon testing is strongly recommended during any home inspection in Northern Colorado, and if levels come back above the EPA action level of 4 picocuries per liter, a mitigation system can usually be installed for a reasonable cost.",
+          "Sewer line scope: Older neighborhoods in downtown Loveland, old town Fort Collins, and parts of Greeley may have original clay or cast iron sewer lines. Tree root intrusion and pipe deterioration are common. A sewer scope is a separate service from the general inspection, but I always recommend it — especially on homes built before the 1990s.",
+        ],
+      },
+      {
+        type: 'h2',
+        text: "Do Newer Homes in Northern Colorado Still Need a Full Inspection?",
+      },
+      {
+        type: 'paragraph',
+        text: "Absolutely. I have seen brand-new construction in Timnath, Windsor, and Severance with issues that only a trained inspector would catch — improperly graded lots that direct water toward the foundation, missing attic insulation, HVAC ductwork that was never sealed, and grading issues in the yard. Builders are generally responsive to warranty claims, but you need an independent inspection to know what to ask for. Do not assume that new means perfect.",
+      },
+      {
+        type: 'h2',
+        text: "How Do You Choose a Good Home Inspector in Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "Look for an inspector who is licensed in Colorado and familiar with the specific conditions along the Front Range. Ask how many inspections they have performed in Larimer County or Weld County. A local inspector will instinctively check for hail damage, expansive soil indicators, and radon — things an inspector from out of the area might overlook. Your REALTOR should be able to recommend inspectors they have worked with and trust, but ultimately the choice is yours. I always encourage my clients to attend the inspection in person if possible. Walking through the home with the inspector gives you a much better understanding of what they are finding and why it matters.",
+      },
+      {
+        type: 'h2',
+        text: "What Happens After the Home Inspection in Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "Once you receive the inspection report, you and your agent will review everything together. In Colorado, the inspection objection and resolution process is built into the contract with specific deadlines. You can ask the seller to make repairs, offer a credit, reduce the price, or in some cases you may decide to accept the home as-is if the findings are minor. If something major comes up — a failing foundation, a roof that needs full replacement, or elevated radon — having a knowledgeable agent who understands these issues in a Northern Colorado context is critical. Not every finding is a dealbreaker, and not every repair request is reasonable. The goal is to make sure you know exactly what you are buying.",
+      },
+      {
+        type: 'h2',
+        text: "Should You Get a Radon Test When Buying a Home in Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "Yes, and I recommend it for every single transaction. Colorado sits on granite-rich geology that produces higher-than-average radon levels across much of the state. Radon is an odorless, colorless gas that enters homes through cracks in the foundation, and long-term exposure is a known health risk. The good news is that radon mitigation systems are effective and widely available in Northern Colorado. If your test comes back high, a mitigation company can typically install a system within a few days, and it is a common negotiation point during the inspection period.",
+      },
+      {
+        type: 'paragraph',
+        text: "As a Northern Colorado relocation specialist and REALTOR with LPT Realty, I — Michael Potter — walk my buyers through every step of this process, including connecting you with trusted local inspectors who know exactly what to look for in our market. Whether you are buying a walkable bungalow near downtown Loveland, a newer build in Windsor, or a property on acreage west of Fort Collins, I want you to feel completely confident in your purchase. If you are starting your home search, head over to potterealty.com/buy to browse current listings, or reach out directly — I am always happy to answer questions and help you get oriented before you even set foot in Northern Colorado.",
+      },
+      {
+        type: 'faq',
+        faqs: [
+          { question: "How much does a home inspection cost in Northern Colorado?", answer: "Home inspection costs in Northern Colorado typically depend on the size, age, and type of property. A standard inspection for an average-sized single-family home generally takes two to three hours. Additional services like radon testing and sewer line scopes are usually priced separately. Your agent can provide recommendations for licensed inspectors in the area." },
+          { question: "Is radon a problem in Fort Collins and Loveland, Colorado?", answer: "Radon levels in Fort Collins, Loveland, and much of Larimer and Weld County tend to run higher than the national average due to the underlying geology. Testing during the inspection period is strongly recommended for every home purchase. If levels exceed the EPA action threshold, mitigation systems are effective and widely installed throughout Northern Colorado." },
+          { question: "Do I need a sewer scope when buying a home in Northern Colorado?", answer: "A sewer scope is not required, but it is highly recommended — especially for older homes in established neighborhoods like old town Fort Collins, downtown Loveland, or parts of Greeley. Clay and cast iron pipes can deteriorate over time, and tree root intrusion is a common issue. Replacing a sewer line after closing can be a significant unexpected expense." },
+          { question: "What is expansive soil and how does it affect homes in Northern Colorado?", answer: "Expansive soil contains clay minerals that swell when they absorb moisture and shrink as they dry out. This cycle puts pressure on foundations and can cause cracking, uneven floors, and doors that stick. Many areas in Weld County and parts of Larimer County have expansive soils, and a knowledgeable inspector will look for signs of movement during the inspection." },
+          { question: "Can I negotiate repairs after a home inspection in Colorado?", answer: "Yes. Colorado real estate contracts include a formal inspection objection and resolution process with defined deadlines. Buyers can request repairs, ask for a seller credit, negotiate a price reduction, or accept the property as-is. Having an experienced agent who understands what is reasonable to ask for in the local market makes a significant difference in this negotiation." },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'best-neighborhoods-in-fort-collins-for-families-relocating-f',
     title: "Best Neighborhoods in Fort Collins for Families Relocating from Out of State to Northern Colorado",
     date: 'July 27, 2026',
