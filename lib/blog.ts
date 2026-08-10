@@ -32,6 +32,106 @@ export const categoryColors: Record<BlogCategory, string> = {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'how-to-sell-your-northern-colorado-home-fast-a-realistic-gam',
+    title: "How to Sell Your Northern Colorado Home Fast: A Realistic Game Plan from Prep to Close",
+    date: 'August 10, 2026',
+    isoDate: '2026-08-10',
+    category: 'Seller Tips',
+    excerpt: "Selling a home in Northern Colorado requires more than sticking a sign in the yard. Here is a step-by-step game plan covering prep, pricing, marketing, and closing so you can sell your Fort Collins, Loveland, or Windsor home quickly and for top dollar.",
+    readTime: '9 min read',
+    content: [
+      {
+        type: 'paragraph',
+        text: "I have helped homeowners across Loveland, Fort Collins, Windsor, Timnath, Berthoud, and the surrounding areas navigate the selling process, and the number one thing I tell every client is the same: speed starts with preparation. A fast sale is not about luck. It is the result of a clear plan that covers everything from the first coat of touch-up paint to the moment you hand over the keys. Whether you are downsizing from a homestead property west of Loveland or moving on from a townhome near Old Town Fort Collins, this is the realistic game plan I walk my sellers through.",
+      },
+      {
+        type: 'h2',
+        text: "When Is the Best Time to Sell a Home in Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "Northern Colorado has historically seen the strongest buyer activity between March and June, when relocating families want to settle in before the school year and the weather makes showings easy. That said, inventory in markets like Windsor, Timnath, and Severance can be tight year-round, which means well-priced homes attract attention even in fall and winter. The best time to sell is when your home is truly ready. Rushing to list before the property shows well almost always costs more in price reductions than it saves in time.",
+      },
+      {
+        type: 'h2',
+        text: "How Should I Prepare My Northern Colorado Home Before Listing?",
+      },
+      {
+        type: 'paragraph',
+        text: "Preparation is where most of the heavy lifting happens, and it should start four to six weeks before your target list date. The goal is to let buyers picture their life in the home, not yours. In Northern Colorado, many buyers are relocating from out of state. They are often discovering Loveland, Fort Collins, or Berthoud through online photos before they ever step foot in the house, so first impressions are largely digital. Every room needs to photograph well.",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Declutter aggressively: remove personal photos, excess furniture, and anything that shrinks the visual space in listing photos.",
+          "Deep clean everything, including baseboards, window tracks, ceiling fans, and garage floors. Buyers in Larimer and Weld County notice deferred maintenance fast.",
+          "Handle minor repairs now: fix leaky faucets, patch drywall dings, replace burned-out bulbs, and tighten loose cabinet hardware.",
+          "Boost curb appeal with fresh mulch, a trimmed lawn, a clean front door, and a welcoming porch. Properties in Johnstown, Wellington, and Greeley benefit enormously from tidy exteriors because many buyers drive by before scheduling a showing.",
+          "Consider a pre-listing inspection. Knowing about issues in advance lets you fix them on your terms rather than scrambling during the buyer inspection period.",
+          "Stage key rooms — at minimum the living room, primary bedroom, and kitchen. Professional staging is ideal, but even a thoughtful furniture rearrangement and neutral decor refresh can make a measurable difference.",
+        ],
+      },
+      {
+        type: 'h2',
+        text: "How Do I Price My Home Correctly in the Northern Colorado Market?",
+      },
+      {
+        type: 'paragraph',
+        text: "Pricing is the single biggest factor in how fast your home sells. Overpricing by even five percent can cause a listing to sit, and in Northern Colorado, days on market start to raise red flags with buyers after the first couple of weeks. The right price is not what you hope to get or what your neighbor claims they got. It is based on a comparative market analysis that accounts for recent closed sales of similar homes in your specific neighborhood, current competing listings, and local trends in places like Fort Collins, Loveland, Windsor, or Timnath. A home priced correctly from day one generates the most showings in its first week, which is when buyer interest peaks. Strategic pricing can even create multiple-offer situations that drive the final sale price above list.",
+      },
+      {
+        type: 'h2',
+        text: "What Marketing Strategies Help Sell a Home Faster in Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "This is an area where I see a massive gap between agents. Professional photography is non-negotiable. Drone shots that capture mountain views, open space, or proximity to trails like Devil’s Backbone or Horsetooth are powerful selling tools for Northern Colorado properties. Video walkthroughs and social media exposure matter more than ever, especially for reaching out-of-state buyers who are researching areas like Berthoud or Severance from their couch in California or Texas. I find and serve most of my clients through Instagram content creation, so I have seen firsthand how a well-produced property video can generate serious interest from relocating buyers before a home even hits the MLS.",
+      },
+      {
+        type: 'paragraph',
+        text: "Beyond digital marketing, your agent should have a plan for the first weekend of showings, including open houses timed to maximize foot traffic and a strategy for following up with every buyer agent who tours the property. In competitive Northern Colorado submarkets, a coordinated launch creates urgency that translates to stronger offers.",
+      },
+      {
+        type: 'h2',
+        text: "What Happens After I Accept an Offer on My Northern Colorado Home?",
+      },
+      {
+        type: 'paragraph',
+        text: "Accepting an offer is exciting, but the work is not over. In Colorado, the contract-to-close period typically runs about 30 days, though cash transactions or certain loan types can shorten or extend that window. During this phase, you will navigate the inspection, appraisal, title review, and final walkthrough. Each step has deadlines outlined in the Colorado Real Estate Commission contract, and missing one can cost you the deal. A good agent manages every deadline proactively and communicates with the buyer’s side daily when necessary.",
+      },
+      {
+        type: 'paragraph',
+        text: "One tip I always share: be flexible on showing requests during the inspection period, respond to repair negotiations quickly, and keep the home in showing condition until the deal is fully closed. Deals in Larimer County and Weld County fall through for preventable reasons more often than most sellers realize. Staying engaged through closing day is critical.",
+      },
+      {
+        type: 'h2',
+        text: "Should I Make Repairs or Sell My Northern Colorado Home As-Is?",
+      },
+      {
+        type: 'paragraph',
+        text: "This depends on your specific situation and the condition of your home. In most cases, addressing cosmetic issues and minor mechanical problems before listing nets a higher sale price than the cost of the repairs. However, if the home needs significant work and your budget is limited, pricing it accordingly as a fixer-upper can attract investors and renovation-minded buyers, especially in areas like Greeley and Johnstown where entry-level price points draw strong demand. Your agent should run the numbers with you so the decision is based on data, not guesswork.",
+      },
+      {
+        type: 'h2',
+        text: "Ready to Sell Your Home in Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "If you are thinking about selling your home in Fort Collins, Loveland, Windsor, Timnath, Berthoud, or anywhere else in Northern Colorado, I would love to help you put together a game plan tailored to your property and your timeline. I am Michael Potter, a REALTOR with LPT Realty and a Colorado native who grew up in Loveland. I know these neighborhoods, these buyers, and what it takes to get a home sold in this market. Start by getting a home value estimate at potterealty.com/sell, or reach out directly and we can talk through your options. No pressure, just honest guidance from someone who genuinely cares about this community.",
+      },
+      {
+        type: 'faq',
+        faqs: [
+          { question: "How long does it take to sell a home in Northern Colorado?", answer: "The timeline varies by price point, location, and market conditions, but a well-prepared and competitively priced home in areas like Fort Collins, Loveland, or Windsor can go under contract within the first one to two weeks. The full process from listing to closing typically takes 45 to 75 days when you factor in the contract-to-close period." },
+          { question: "Do I need to stage my Northern Colorado home before selling?", answer: "Staging is not required, but it consistently helps homes sell faster and for more money. At minimum, decluttering and depersonalizing the space allows buyers to envision themselves living there. Professional staging is especially impactful for vacant properties or homes competing in higher price ranges in Timnath, Windsor, or west Fort Collins." },
+          { question: "What are the biggest mistakes sellers make in Northern Colorado?", answer: "The most common mistakes are overpricing the home based on emotional attachment rather than market data, skipping preparation and professional photography, and being unresponsive during the inspection negotiation phase. Each of these can add weeks to your time on market or cost you thousands at the closing table." },
+          { question: "How much does it cost to sell a home in Colorado?", answer: "Seller costs in Colorado generally include agent commissions, title insurance, closing fees, any negotiated repair credits, and prorated property taxes. The total varies, but sellers should plan for these expenses when calculating their expected net proceeds. A detailed net sheet from your agent will give you a clear picture before you list." },
+          { question: "Can I sell my home in Loveland or Fort Collins during the winter?", answer: "Yes. While spring and early summer tend to bring the highest volume of buyers, Northern Colorado attracts relocating buyers year-round. Winter listings often face less competition from other sellers, which can work in your favor. Homes that show well and are priced right will sell in any season." },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'what-to-look-for-in-a-home-inspection-when-buying-in-norther',
     title: "What to Look for in a Home Inspection When Buying in Northern Colorado",
     date: 'August 3, 2026',
