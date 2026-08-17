@@ -32,6 +32,117 @@ export const categoryColors: Record<BlogCategory, string> = {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'northern-colorado-schools-guide-what-families-need-to-know-b',
+    title: "Northern Colorado Schools Guide: What Families Need to Know Before Choosing Where to Live",
+    date: 'August 17, 2026',
+    isoDate: '2026-08-17',
+    category: 'Relocation',
+    excerpt: "Northern Colorado is home to several highly regarded school districts across Fort Collins, Loveland, Windsor, Timnath, and Berthoud. This guide breaks down what relocating families should know about school boundaries, district differences, and how your choice of neighborhood directly affects which schools your kids will attend.",
+    readTime: '9 min read',
+    content: [
+      {
+        type: 'paragraph',
+        text: "One of the first questions I get from families relocating to Northern Colorado is about schools. It makes sense. Whether you have kids at home, grandchildren who visit regularly, or you simply want to buy in a neighborhood where strong schools support long-term property values, understanding the local school landscape is a critical part of choosing where to live. I grew up here in Loveland, graduated from Thompson Valley High School in 2007, and have spent years helping out-of-state buyers navigate exactly these decisions. So let me walk you through what you actually need to know.",
+      },
+      {
+        type: 'h2',
+        text: "What School Districts Serve Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "Northern Colorado is served by multiple school districts, and the boundaries do not always align neatly with city limits. This is one of the biggest surprises for families moving from out of state. Two homes on the same street can sometimes fall in different districts. The major districts you need to know about are Poudre School District (PSD), Thompson School District (TSD), Windsor School District (Weld RE-4), and Johnstown-Milliken School District (Weld RE-5J). There are smaller districts as well, but these four cover the vast majority of the communities where my clients are buying homes.",
+      },
+      {
+        type: 'h2',
+        text: "Which School District Is Best in Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "This is the question everyone wants answered, and the honest answer is that it depends on what matters most to your family. Each district has its own strengths. Poudre School District is the largest in the region and serves Fort Collins, Timnath, Wellington, and parts of Laporte and Livermore. PSD is known for a wide range of programs, including International Baccalaureate options, robust STEM offerings, and strong extracurricular activities. Fort Collins also benefits from the presence of Colorado State University, which creates a college-town culture that filters down into the K-12 environment through partnerships and community engagement.",
+      },
+      {
+        type: 'paragraph',
+        text: "Thompson School District covers Loveland, Berthoud, and the Big Thompson Canyon area. TSD has been investing heavily in facility upgrades and curriculum development in recent years. Loveland in particular offers a wonderful small-city feel with excellent elementary and middle school options. As someone who went through TSD myself, I can tell you the community involvement in these schools is genuine and strong.",
+      },
+      {
+        type: 'paragraph',
+        text: "Windsor School District (Weld RE-4) serves Windsor, Severance, and parts of the surrounding Weld County area. Windsor has seen tremendous growth over the past decade, and the district has expanded to keep pace. New school facilities, competitive athletics, and a family-oriented community make Windsor increasingly popular with relocating families. Severance, just east of Windsor, is one of the fastest-growing towns in Colorado and falls within this same district.",
+      },
+      {
+        type: 'paragraph',
+        text: "Johnstown-Milliken School District (Weld RE-5J) covers Johnstown and Milliken, two towns south of Windsor that offer some of the most affordable home prices in the region. The district has been growing alongside these communities, adding new schools and programs to serve the influx of young families.",
+      },
+      {
+        type: 'h2',
+        text: "How Do School Boundaries Work When Buying a Home in Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "This is where things get tricky, and where working with a local agent genuinely matters. Northern Colorado straddles two counties: Larimer County and Weld County. School district boundaries do not follow county lines, city limits, or ZIP codes. A home in Timnath might be in Poudre School District or Windsor School District depending on which side of a particular road it sits on. Parts of south Fort Collins are actually in Thompson School District. Some newer developments in Severance are in Windsor RE-4, while others a few miles away fall under Greeley-Evans School District (Weld County District 6).",
+      },
+      {
+        type: 'paragraph',
+        text: "The only way to confirm which district and specific schools serve a property is to verify the address directly with the district or use the boundary lookup tools each district provides on their website. I always help my clients confirm this before they make an offer, because assumptions based on mailing address or city name can be wrong.",
+      },
+      {
+        type: 'h2',
+        text: "Are There Private and Charter School Options in Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "Yes, and the options have expanded significantly. Fort Collins and Loveland both have well-established charter schools that offer alternative educational models, including classical education, project-based learning, and Montessori approaches. There are also private schools across the region, including faith-based and independent options. Several charter schools in PSD and TSD have waiting lists, so if a charter school is important to your family, it is worth applying early, even before you have closed on a home. Most charter schools in Colorado are tuition-free since they are publicly funded, but they operate with more flexibility in curriculum and structure than traditional public schools.",
+      },
+      {
+        type: 'h2',
+        text: "What Should Relocating Families Consider Beyond School Ratings?",
+      },
+      {
+        type: 'paragraph',
+        text: "I always encourage families to look beyond online rating scores. Those numbers are a starting point, not the full picture. Here are the factors I suggest relocating families weigh when choosing a neighborhood based on schools:",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Commute and daily logistics: If both parents work, consider how school drop-off and pick-up align with your commute. Fort Collins and Loveland have very different traffic patterns than what you may be used to from larger metro areas, but school zones and morning congestion still matter.",
+          "Before- and after-school care availability: Not every school has on-site programs, and waitlists for third-party providers can be long in fast-growing areas like Timnath and Windsor.",
+          "High school feeder patterns: If you have younger children, understand which middle and high schools they will feed into. Some families buy in a neighborhood for the elementary school without realizing the high school feeder is across town.",
+          "Extracurricular priorities: If your child is serious about a particular sport, performing art, or academic program, certain schools and districts have stronger offerings. PSD tends to have the widest variety due to sheer size, but Windsor and TSD schools are highly competitive in athletics.",
+          "Community and neighborhood culture: Walk the neighborhood at school pick-up time. Visit the local park on a Saturday. Talk to parents at the nearby coffee shop. The feel of a community tells you more than any website rating.",
+        ],
+      },
+      {
+        type: 'h2',
+        text: "Does School District Affect Home Values in Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "Absolutely. Homes in sought-after school boundaries consistently hold and appreciate in value, even during market corrections. This is true across the country, and Northern Colorado is no exception. Neighborhoods zoned for popular schools in PSD and Windsor RE-4 tend to command a premium. That said, Northern Colorado remains more affordable than many of the places my clients are relocating from, including California, the Pacific Northwest, and parts of Texas. The value you get here, both in home quality and school quality, often surprises buyers who are used to paying significantly more for less.",
+      },
+      {
+        type: 'h2',
+        text: "What About Families Moving to Northern Colorado for the Lifestyle, Not Just Schools?",
+      },
+      {
+        type: 'paragraph',
+        text: "Many of my clients are empty nesters or couples whose kids are grown but still visit. They care about schools because they want to be in a family-friendly, well-maintained neighborhood, or because grandchildren will eventually be part of the picture. If that sounds like you, the good news is that the same communities with strong schools also tend to have the walkable downtowns, farmers markets, trails, and outdoor access that draw people to Northern Colorado in the first place. Loveland and Fort Collins both offer that blend of in-town livability and easy access to the foothills. Berthoud and Johnstown provide a quieter, more rural feel with room for acreage and still-solid schools. Windsor and Timnath are newer and growing fast, with modern amenities and a strong sense of neighborhood.",
+      },
+      {
+        type: 'paragraph',
+        text: "If you are planning a move to Northern Colorado and schools are part of your decision, I would love to help you sort through the details. As a relocation specialist who grew up in this area and works with out-of-state buyers every week, I know the neighborhoods, the school boundaries, and the nuances that do not show up on Zillow. Michael Potter with LPT Realty is here to make your transition smooth. Download the free Relocation Guide at potterealty.com/relocation#guide to start planning your move, or reach out directly. I am happy to answer questions, walk you through specific neighborhoods, and make sure you land in the right spot for your family.",
+      },
+      {
+        type: 'faq',
+        faqs: [
+          { question: "What are the main school districts in Northern Colorado?", answer: "The four primary districts are Poudre School District (serving Fort Collins, Timnath, and Wellington), Thompson School District (serving Loveland and Berthoud), Windsor School District or Weld RE-4 (serving Windsor and Severance), and Johnstown-Milliken School District or Weld RE-5J (serving Johnstown and Milliken). District boundaries do not always match city limits, so verifying the specific district for any property is essential." },
+          { question: "How do I find out which school district a specific home is in?", answer: "Each school district provides an online boundary lookup tool where you can enter a property address to confirm which schools serve that location. Your real estate agent should also verify this during the home search process. Do not rely on city name or ZIP code alone, as boundaries often cross those lines in Northern Colorado." },
+          { question: "Are there good charter and private school options in Fort Collins and Loveland?", answer: "Yes. Both Fort Collins and Loveland have multiple charter schools offering alternative educational models, including classical, Montessori, and project-based learning. Charter schools in Colorado are publicly funded and tuition-free. Private schools, both faith-based and independent, are also available across the region. Many charter schools maintain waitlists, so early application is recommended." },
+          { question: "Does the school district affect home prices in Northern Colorado?", answer: "Yes, school district and specific school boundaries can influence home values. Neighborhoods zoned for popular schools in Poudre School District and Windsor RE-4 often carry a price premium. Strong schools support long-term property value appreciation, which is an important consideration even for buyers without school-age children." },
+          { question: "Is Northern Colorado a good place to raise a family?", answer: "Northern Colorado consistently ranks among the best places to live in Colorado for families. Communities like Fort Collins, Loveland, Windsor, and Berthoud offer strong schools, extensive parks and trail systems, safe neighborhoods, and a culture built around outdoor recreation and community involvement. Denver International Airport is roughly one hour away, making travel convenient for families with connections elsewhere." },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'how-to-sell-your-northern-colorado-home-fast-a-realistic-gam',
     title: "How to Sell Your Northern Colorado Home Fast: A Realistic Game Plan from Prep to Close",
     date: 'August 10, 2026',
