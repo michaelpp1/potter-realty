@@ -32,6 +32,102 @@ export const categoryColors: Record<BlogCategory, string> = {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'loveland-colorado-community-updates-latest-news-events-and-d',
+    title: "Loveland, Colorado Community Updates: Latest News, Events, and Development in 2026",
+    date: 'August 24, 2026',
+    isoDate: '2026-08-24',
+    category: 'Market Update',
+    excerpt: "Loveland, Colorado continues to grow as one of Northern Colorado’s most desirable communities. Here is a look at what is happening in Loveland right now, from local events and development to why so many people are relocating here.",
+    readTime: '7 min read',
+    content: [
+      {
+        type: 'paragraph',
+        text: "If you have been thinking about relocating to Northern Colorado, Loveland should be on your radar. As someone who grew up here — I moved to Loveland when I was two years old, graduated from Thompson Valley High School, and bought my first home in downtown Loveland back in 2017 — I have watched this city evolve in incredible ways. And right now, there is a lot happening that makes Loveland an especially exciting place to call home.",
+      },
+      {
+        type: 'h2',
+        text: "What Is Happening in Loveland, Colorado Right Now?",
+      },
+      {
+        type: 'paragraph',
+        text: "Loveland just celebrated 130 years of its iconic Corn Roast Festival in August 2026. This is one of those quintessential Northern Colorado traditions that perfectly captures what life here is all about. Chamber organizers expected as many as 15,000 people to attend the two-day festival and ordered 12,000 ears of corn to help feed them. If you are wondering whether Loveland has real community spirit, that answers the question. Events like the Corn Roast Festival, along with regular farmers markets, art walks, and seasonal celebrations, are woven into the fabric of daily life here.",
+      },
+      {
+        type: 'paragraph',
+        text: "Beyond community events, Loveland continues to see ongoing development and investment. The city has been steadily expanding its residential neighborhoods, commercial corridors, and recreational infrastructure for years now. Whether you are looking for a walkable downtown lifestyle near coffee shops and yoga studios or acreage on the west side of town where you can have horses, chickens, and a garden, Loveland offers both — and that rare combination is exactly why so many of my relocation clients end up choosing it.",
+      },
+      {
+        type: 'h2',
+        text: "Why Are So Many People Relocating to Loveland, Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "Loveland sits at the heart of Northern Colorado, right along the I-25 corridor between Fort Collins to the north and the Denver metro to the south. That positioning gives residents easy access to everything: Denver International Airport is about an hour away, making travel incredibly convenient. Ski resorts like Breckenridge, Keystone, Vail, and Arapahoe Basin are roughly 1.5 to 2.5 hours from Loveland — very doable for day trips or weekend getaways. And some of the best outdoor recreation in the state is right in your backyard.",
+      },
+      {
+        type: 'paragraph',
+        text: "I spend my summers paddleboarding and swimming at Carter Lake and Boyd Lake, both of which are just minutes from Loveland. Devil’s Backbone Open Space is one of my favorite local hikes, and it is a trail system that makes people fall in love with this area on the spot. Rocky Mountain National Park and Estes Park are a short drive up the canyon, and I grew up camping and hiking there with my family. When people visit Loveland and realize how close they are to all of this, the decision to move here tends to make itself.",
+      },
+      {
+        type: 'h2',
+        text: "Is Loveland, Colorado Affordable Compared to Other States?",
+      },
+      {
+        type: 'paragraph',
+        text: "Many of the buyers I work with are coming from higher cost-of-living areas like California, the Pacific Northwest, or parts of Texas where prices have surged in recent years. While Northern Colorado is not the cheapest market in the country, it often represents strong value compared to what these buyers are leaving behind. You can find well-maintained homes in established Loveland neighborhoods, newer construction in growing communities, or rural properties west of town with acreage and mountain views — often at price points that feel like a relief compared to coastal markets.",
+      },
+      {
+        type: 'paragraph',
+        text: "Loveland also benefits from being slightly more affordable than Fort Collins in many cases while still offering a comparable quality of life, strong schools, and excellent access to amenities. Neighboring communities like Berthoud and Johnstown provide additional options at varying price points, giving buyers real flexibility depending on their lifestyle preferences and budget.",
+      },
+      {
+        type: 'h2',
+        text: "What Makes Loveland Different from Other Northern Colorado Cities?",
+      },
+      {
+        type: 'paragraph',
+        text: "Every Northern Colorado community has its own character. Fort Collins has the energy of a university town. Windsor and Timnath are growing rapidly with newer master-planned communities. Loveland strikes a balance that appeals to a lot of people: it has a thriving arts scene, a charming and walkable downtown, excellent parks and trail systems, and a pace of life that feels intentional rather than hectic. It is the kind of place where you recognize people at the brewery or the Saturday farmers market.",
+      },
+      {
+        type: 'paragraph',
+        text: "For buyers who want the homestead lifestyle, the areas west of Loveland toward the foothills offer properties with enough land for a greenhouse, a workshop, small livestock, and genuine breathing room. For those who prefer to walk to dinner or a yoga class, downtown Loveland and the surrounding neighborhoods deliver that experience beautifully. That dual identity is something I highlight with almost every relocation client I work with.",
+      },
+      {
+        type: 'h2',
+        text: "Key Reasons People Are Choosing Loveland in 2026",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Proximity to outdoor recreation: Devil’s Backbone, Carter Lake, Boyd Lake, Rocky Mountain National Park, and the Big Thompson Canyon are all within easy reach.",
+          "Community-driven events: The 130-year-old Corn Roast Festival, weekly farmers markets, art walks, and local music events create a strong sense of belonging.",
+          "Lifestyle flexibility: Walkable downtown living and rural acreage properties are both available within the same city limits and surrounding areas.",
+          "Convenient travel access: Denver International Airport is approximately one hour south, and major ski resorts are 1.5 to 2.5 hours west.",
+          "Competitive value: Loveland often offers lower price points than Fort Collins while maintaining comparable amenities, schools, and outdoor access.",
+          "Strong neighboring communities: Berthoud, Johnstown, Windsor, Timnath, and Wellington all provide nearby options in both Larimer County and Weld County.",
+        ],
+      },
+      {
+        type: 'h2',
+        text: "Thinking About Relocating to Loveland or Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "If you are considering a move to Loveland or anywhere in Northern Colorado, I would love to help you navigate the process. My name is Michael Potter, and I am a relocation specialist and REALTOR with LPT Realty who has helped buyers from across the country make this area home. I grew up here, I live here, and I know these communities inside and out. Whether you are exploring Fort Collins, Loveland, Berthoud, Windsor, Timnath, or the surrounding areas, I can help you find the right fit. Reach out anytime through potterealty.com/contact — I am always happy to answer questions and share what I know about this incredible part of Colorado.",
+      },
+      {
+        type: 'faq',
+        faqs: [
+          { question: "Is Loveland, Colorado a good place to live?", answer: "Loveland is widely regarded as one of the best places to live in Northern Colorado. It offers a strong sense of community, a walkable downtown with local shops and restaurants, excellent access to outdoor recreation including Devil’s Backbone and Carter Lake, and a more relaxed pace of life compared to larger metro areas. It is particularly popular with couples, retirees, and families who value nature and small-town character." },
+          { question: "How far is Loveland, Colorado from Denver International Airport?", answer: "Denver International Airport is approximately one hour south of Loveland via I-25 and E-470 or the Denver International Airport toll road. This makes travel very convenient for residents who fly frequently or who have family visiting from out of state." },
+          { question: "How far is Loveland from Colorado ski resorts?", answer: "Popular ski resorts like Breckenridge, Keystone, Arapahoe Basin, and Vail are roughly 1.5 to 2.5 hours from Loveland, depending on traffic and conditions. Many Loveland residents make regular day trips or weekend getaways to the mountains throughout ski season." },
+          { question: "What events happen in Loveland, Colorado?", answer: "Loveland hosts a variety of community events throughout the year. The Corn Roast Festival, which celebrated its 130th year in August 2026, is one of the longest-running traditions in Northern Colorado. The city also hosts farmers markets, art walks, holiday celebrations, and outdoor concerts that bring the community together regularly." },
+          { question: "Is Loveland more affordable than Fort Collins?", answer: "In many cases, Loveland offers somewhat lower home prices compared to Fort Collins while providing a similar quality of life, strong schools, and comparable access to outdoor recreation and amenities. Buyers coming from higher cost-of-living states like California or the Pacific Northwest often find strong value in Loveland and the surrounding Northern Colorado communities." },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'northern-colorado-schools-guide-what-families-need-to-know-b',
     title: "Northern Colorado Schools Guide: What Families Need to Know Before Choosing Where to Live",
     date: 'August 17, 2026',
