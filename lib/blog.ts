@@ -32,6 +32,93 @@ export const categoryColors: Record<BlogCategory, string> = {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'true-cost-of-buying-a-home-in-northern-colorado-beyond-the-p',
+    title: "True Cost of Buying a Home in Northern Colorado Beyond the Purchase Price",
+    date: 'August 31, 2026',
+    isoDate: '2026-08-31',
+    category: 'Buyer Tips',
+    excerpt: "The purchase price is just the starting point when buying a home in Northern Colorado. Here is a detailed breakdown of closing costs, property taxes, HOA fees, insurance, and other expenses buyers should budget for in Fort Collins, Loveland, Windsor, and surrounding communities.",
+    readTime: '9 min read',
+    content: [
+      {
+        type: 'paragraph',
+        text: "When buyers reach out to me about relocating to Northern Colorado, one of the first questions they ask is how much it actually costs to buy a home here. The purchase price is the obvious number, but it is rarely the full picture. Whether you are moving from California, Texas, or the Pacific Northwest, understanding the true cost of homeownership in communities like Fort Collins, Loveland, Windsor, Timnath, and Berthoud will help you budget accurately and avoid surprises at the closing table and beyond.",
+      },
+      {
+        type: 'h2',
+        text: "What Are the Closing Costs When Buying a Home in Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "Closing costs in Colorado typically range from about 2% to 4% of the purchase price for buyers. On a home purchase, that adds up quickly. These costs include lender fees such as origination charges and underwriting, a title insurance policy, an appraisal fee, prepaid property taxes, prepaid homeowners insurance, and recording fees paid to Larimer County or Weld County depending on which side of the line your home falls. Some buyers also choose to buy down their interest rate with discount points, which adds to the upfront cost but lowers monthly payments over time. Your lender will provide a detailed Loan Estimate within three business days of your application, so you will know early in the process what to expect.",
+      },
+      {
+        type: 'h2',
+        text: "How Much Are Property Taxes in Fort Collins, Loveland, and Windsor?",
+      },
+      {
+        type: 'paragraph',
+        text: "Property taxes are one of the biggest ongoing costs of homeownership, and the good news for buyers relocating to Northern Colorado is that Colorado has some of the lowest effective property tax rates in the country. The state uses an assessment rate applied to your home’s actual value, and then local mill levies determine your final bill. Your exact tax amount depends on which city, county, school district, and special districts your property sits in. A home in unincorporated Larimer County will have a different tax bill than one inside Fort Collins city limits, even if they are priced identically. Homes in Weld County communities like Windsor, Severance, Johnstown, and Greeley often have different mill levies as well. I always recommend buyers request the actual tax history for any specific property they are considering rather than relying on general estimates.",
+      },
+      {
+        type: 'h2',
+        text: "What Other Monthly Costs Should Buyers Budget for in Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "Beyond your mortgage payment, principal, and interest, several recurring expenses shape your true monthly housing cost. Many buyers coming from out of state underestimate some of these, so here is a clear breakdown of what to plan for.",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Homeowners insurance: Colorado premiums vary based on location, home age, square footage, and proximity to wildfire zones. Homes west of town on acreage near the foothills may carry higher premiums than homes in established Loveland or Timnath subdivisions.",
+          "HOA dues: Many newer neighborhoods in Windsor, Timnath, and Fort Collins have homeowners associations with monthly or quarterly fees that cover community amenities, landscaping, snow removal, and sometimes exterior maintenance. These can range from modest to several hundred dollars per month depending on the community.",
+          "Utilities: Northern Colorado winters are real. Budget for natural gas heating costs that spike from November through March, plus electricity, water, sewer, and trash. Water costs in particular can be significant during summer if you are maintaining a yard or garden.",
+          "Metropolitan district taxes: Some newer developments in Northern Colorado are located within metropolitan districts that levy additional property taxes to pay for infrastructure like roads, water systems, and parks. These show up on your tax bill and can meaningfully increase your annual cost, so always ask whether a property is in a metro district before writing an offer.",
+          "Maintenance and repairs: A general rule of thumb is to set aside 1% to 2% of your home’s value annually for upkeep. In Northern Colorado, common maintenance items include furnace servicing before winter, swamp cooler or AC maintenance before summer, sprinkler system winterization, and roof inspections after hailstorms.",
+        ],
+      },
+      {
+        type: 'h2',
+        text: "Are There Upfront Costs Beyond the Down Payment and Closing Costs?",
+      },
+      {
+        type: 'paragraph',
+        text: "Yes, and this is where first-time buyers or those relocating from states with different customs sometimes get caught off guard. In Colorado, buyers typically pay for the home inspection out of pocket before closing, which generally runs a few hundred dollars depending on the size and age of the home. If additional inspections are warranted, such as a sewer scope, radon test, or well and septic inspection for properties on acreage in areas like Berthoud or Wellington, those are additional costs. Earnest money is also required when you go under contract. This deposit shows the seller you are serious and is held in escrow. It is typically applied toward your down payment or closing costs at settlement, but it is money you need to have liquid and ready when you make your offer.",
+      },
+      {
+        type: 'h2',
+        text: "Does Living in Northern Colorado Cost Less Than Other Parts of Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "For many buyers relocating from the Denver metro, Boulder, or mountain communities, Northern Colorado offers more home for the money. Fort Collins and Loveland provide a genuine downtown lifestyle with walkable access to coffee shops, breweries, farmers markets, restaurants, and festivals at a lower price point than comparable neighborhoods in Denver or Boulder. Communities like Johnstown, Severance, and Greeley tend to offer even more value for buyers looking to stretch their budget. And for those dreaming of a homestead lifestyle with acreage for horses, chickens, a garden, and a shop, areas west of Loveland and Berthoud or north toward Wellington provide that opportunity without the extreme price tags you would find closer to the mountains. Meanwhile, you are still only about an hour from Denver International Airport and roughly 1.5 to 2.5 hours from ski resorts like Breckenridge, Keystone, Vail, and Arapahoe Basin, making both travel and mountain recreation very accessible.",
+      },
+      {
+        type: 'h2',
+        text: "How Can I Accurately Estimate My Total Monthly Housing Cost?",
+      },
+      {
+        type: 'paragraph',
+        text: "The best approach is to work backward from your comfort zone. Start with your ideal monthly payment, then subtract estimated property taxes, insurance, HOA fees, and any metro district taxes. What remains is the amount available for principal and interest, which your lender can use to determine your comfortable purchase price range. This is a much more reliable method than starting with a maximum approval amount and hoping everything else fits. A good lender and a knowledgeable local agent working together will help you see the complete picture before you start touring homes.",
+      },
+      {
+        type: 'paragraph',
+        text: "As a Northern Colorado relocation specialist with LPT Realty, I help buyers from across the country navigate exactly these questions every week. Michael Potter is my name, and I grew up here in Loveland. I know the differences between Larimer County and Weld County tax structures, which neighborhoods have metro districts, and which communities offer the best fit for your lifestyle and budget. If you are thinking about making a move to Fort Collins, Loveland, Windsor, Timnath, Berthoud, or anywhere in Northern Colorado, I would love to help you plan. Start browsing available homes at potterealty.com/buy, or reach out directly and I will walk you through everything so there are no surprises.",
+      },
+      {
+        type: 'faq',
+        faqs: [
+          { question: "How much are closing costs for buyers in Northern Colorado?", answer: "Buyer closing costs in Northern Colorado typically range from about 2% to 4% of the purchase price. These include lender fees, title insurance, appraisal fees, prepaid taxes, and prepaid insurance. Your lender will provide a detailed Loan Estimate early in the process so you can plan accordingly." },
+          { question: "What is a metropolitan district and how does it affect my property taxes?", answer: "A metropolitan district is a special taxing district created to fund infrastructure like roads, utilities, and parks in newer developments. Homes within a metro district carry additional property tax levies on top of standard county and city taxes, which can significantly increase your annual tax bill. Always ask your agent whether a property is in a metro district before making an offer." },
+          { question: "Are property taxes in Weld County lower than in Larimer County?", answer: "Tax rates depend on the specific combination of city, school district, and special districts for each property, not just the county. Some Weld County communities like Windsor and Severance may have different effective rates than Larimer County communities like Fort Collins and Loveland. The best approach is to look at the actual tax history for any specific home you are considering." },
+          { question: "What inspections do buyers typically pay for in Colorado?", answer: "Buyers in Colorado usually pay for a general home inspection, and many also opt for a sewer scope and radon test. Properties on well and septic systems, which are common on acreage in Berthoud, Wellington, and other rural areas, may require additional well and septic inspections. These are paid out of pocket before closing." },
+          { question: "Is Northern Colorado more affordable than Denver or Boulder?", answer: "Many buyers find that Northern Colorado communities like Fort Collins, Loveland, Johnstown, and Greeley offer more home for the money compared to the Denver metro and Boulder. You get access to a vibrant outdoor lifestyle, strong community culture, and proximity to both Denver International Airport and mountain ski resorts at a comparatively lower cost of living." },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'loveland-colorado-community-updates-latest-news-events-and-d',
     title: "Loveland, Colorado Community Updates: Latest News, Events, and Development in 2026",
     date: 'August 24, 2026',
