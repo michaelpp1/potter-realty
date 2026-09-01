@@ -1,0 +1,35 @@
+name: Weekly Form Health Check
+
+on:
+  schedule:
+    # Every Wednesday at 9:00 AM Mountain Time (15:00 UTC)
+    - cron: '0 15 * * 3'
+  workflow_dispatch:
+
+jobs:
+  check-forms:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Test FUB connection via health endpoint
+        id: health
+        run: |
+          RESPONSE=$(curl -s -o /tmp/health.json -w "%{http_code}" \
+            "https://www.potterealty.com/api/health?secret=${{ secrets.HEALTH_CHECK_SECRET }}")
+          BODY=$(cat /tmp/health.json)
+          echo "status=$RESPONSE" >> $GITHUB_OUTPUT
+          echo "body=$BODY" >> $GITHUB_OUTPUT
+          echo "Health check status: $RESPONSE"
+          echo "Health check body: $BODY"
+          if [ "$RESPONSE" != "200" ]; then
+            echo "Health check FAILED"
+            exit 1
+          fi
+          echo "Health check passed"
+
+      - name: Alert via Zapier on failure
+        if: failure()
+        run: |
+          curl -s -X POST "https://hooks.zapier.com/hooks/catch/21406913/u7aj12g/" \
+            -H "Content-Type: application/json" \
+            -d "{\"form\": \"Weekly Health Check\", \"email\": \"system@potterealty.com\", \"name\": \"Health Check Bot\", \"error\": \"FUB form connection check FAILED. HTTP status: ${{ steps.health.outputs.status }}. Response: ${{ steps.health.outputs.body }}\"}"

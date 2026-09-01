@@ -21,22 +21,26 @@ async function alertZapier(form: string, email: string, name: string, error: str
   }
 }
 
+// Returns true if human, false only for confirmed bots (score <= 0.1).
+// Fails open — if reCAPTCHA is unavailable or uncertain, we let the lead through.
+// The honeypot field is the primary bot defence.
 async function verifyRecaptcha(token: string): Promise<boolean> {
   const secretKey = process.env.RECAPTCHA_SECRET_KEY
-  if (!secretKey) {
-    console.error('RECAPTCHA_SECRET_KEY is not set')
-    return false
+  if (!secretKey) return true // fail open — don't block leads over a missing key
+
+  try {
+    const res = await fetch('https://www.google.com/recaptcha/api/siteverify', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams({ secret: secretKey, response: token }),
+    })
+    const data = await res.json()
+    // Only block if reCAPTCHA explicitly flags as bot (score <= 0.1)
+    if (data.success === true && data.score <= 0.1) return false
+    return true // pass everything else, including errors and low-confidence scores
+  } catch {
+    return true // fail open on network errors
   }
-
-  const res = await fetch('https://www.google.com/recaptcha/api/siteverify', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-    body: new URLSearchParams({ secret: secretKey, response: token }),
-  })
-
-  const data = await res.json()
-  // Require score >= 0.5 (0 = bot, 1 = human)
-  return data.success === true && data.score >= 0.3
 }
 
 export async function POST(req: NextRequest) {
