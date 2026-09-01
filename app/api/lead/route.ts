@@ -36,7 +36,7 @@ async function verifyRecaptcha(token: string): Promise<boolean> {
 
   const data = await res.json()
   // Require score >= 0.5 (0 = bot, 1 = human)
-  return data.success === true && data.score >= 0.5
+  return data.success === true && data.score >= 0.3
 }
 
 export async function POST(req: NextRequest) {
