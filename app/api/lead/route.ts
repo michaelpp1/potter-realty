@@ -48,11 +48,6 @@ export async function POST(req: NextRequest) {
     const body = await req.json()
     const { firstName, lastName, email, phone, movingTimeline, honeypot, recaptchaToken, source } = body
 
-    // Honeypot check — bots fill this, humans don't
-    if (honeypot) {
-      return NextResponse.json({ success: true }, { status: 200 })
-    }
-
     // reCAPTCHA verification
     if (!recaptchaToken || !(await verifyRecaptcha(recaptchaToken))) {
       return NextResponse.json(
