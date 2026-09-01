@@ -122,7 +122,24 @@ export async function POST(req: NextRequest) {
     }
 
     const fubData = await fubRes.json()
-    console.log('[lead] FUB success — person id:', fubData?.id, 'email:', email)
+    const personId = fubData?.id
+    console.log('[lead] FUB success — person id:', personId, 'email:', email)
+
+    // Re-apply tags as a separate PATCH so FUB fires tag-based automations.
+    // Tags included in the initial event creation don't trigger "tag added" events.
+    if (personId) {
+      const allTags = person.tags as string[]
+      await fetch(`https://api.followupboss.com/v1/people/${personId}`, {
+        method: 'PUT',
+        headers: {
+          'Authorization': `Basic ${credentials}`,
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ tags: allTags }),
+      })
+      console.log('[lead] tags re-applied to trigger automation:', allTags)
+    }
+
     return NextResponse.json({ success: true }, { status: 200 })
   } catch (err) {
     console.error('Lead submission error:', err)
