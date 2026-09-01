@@ -48,8 +48,11 @@ export async function POST(req: NextRequest) {
     const body = await req.json()
     const { firstName, lastName, email, phone, movingTimeline, honeypot, recaptchaToken, source } = body
 
+    console.log('[lead] submission received:', { firstName, lastName, email, source, hasToken: !!recaptchaToken, tokenLength: recaptchaToken?.length ?? 0 })
+
     // reCAPTCHA verification
     if (!recaptchaToken || !(await verifyRecaptcha(recaptchaToken))) {
+      console.log('[lead] blocked by recaptcha — token present:', !!recaptchaToken)
       return NextResponse.json(
         { error: 'Security check failed. Please try again.' },
         { status: 400 }
@@ -57,6 +60,7 @@ export async function POST(req: NextRequest) {
     }
 
     if (!firstName || !lastName || !email || !movingTimeline) {
+      console.log('[lead] missing required fields:', { firstName: !!firstName, lastName: !!lastName, email: !!email, movingTimeline: !!movingTimeline })
       return NextResponse.json(
         { error: 'Missing required fields.' },
         { status: 400 }
@@ -65,7 +69,7 @@ export async function POST(req: NextRequest) {
 
     const apiKey = process.env.FOLLOW_UP_BOSS_API_KEY
     if (!apiKey) {
-      console.error('FOLLOW_UP_BOSS_API_KEY is not set')
+      console.error('[lead] FOLLOW_UP_BOSS_API_KEY is not set')
       await alertZapier('Relocation Form', email, `${firstName} ${lastName}`, 'FOLLOW_UP_BOSS_API_KEY env var is not set')
       return NextResponse.json(
         { error: 'Server configuration error.' },
@@ -109,7 +113,7 @@ export async function POST(req: NextRequest) {
 
     if (!fubRes.ok) {
       const errorText = await fubRes.text()
-      console.error('Follow Up Boss API error:', fubRes.status, errorText)
+      console.error('[lead] FUB API error:', fubRes.status, errorText)
       await alertZapier('Relocation Form', email, `${firstName} ${lastName}`, `FUB API error ${fubRes.status}: ${errorText}`)
       return NextResponse.json(
         { error: 'Failed to submit lead. Please try again.' },
@@ -117,6 +121,8 @@ export async function POST(req: NextRequest) {
       )
     }
 
+    const fubData = await fubRes.json()
+    console.log('[lead] FUB success — person id:', fubData?.id, 'email:', email)
     return NextResponse.json({ success: true }, { status: 200 })
   } catch (err) {
     console.error('Lead submission error:', err)
