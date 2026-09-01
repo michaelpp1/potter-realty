@@ -16,6 +16,8 @@ export async function GET(req: NextRequest) {
   try {
     const credentials = Buffer.from(`${apiKey}:`).toString('base64')
 
+    const TEST_EMAIL = 'm.potter870@gmail.com'
+
     // Create a test lead
     const createRes = await fetch('https://api.followupboss.com/v1/events', {
       method: 'POST',
@@ -31,7 +33,7 @@ export async function GET(req: NextRequest) {
         person: {
           firstName: 'Health',
           lastName: 'Check',
-          emails: [{ value: 'healthcheck@potterealty.com' }],
+          emails: [{ value: TEST_EMAIL }],
           tags: ['Health Check'],
         },
         note: 'Automated weekly health check — this lead will be deleted.',
@@ -51,20 +53,15 @@ export async function GET(req: NextRequest) {
       return NextResponse.json({ ok: false, error: `FUB API error: ${createRes.status}` }, { status: 502 })
     }
 
-    // Find and delete the test lead
-    const findRes = await fetch(
-      'https://api.followupboss.com/v1/people?email=healthcheck%40potterealty.com&limit=1',
-      { headers: { 'Authorization': `Basic ${credentials}` } }
-    )
-    if (findRes.ok) {
-      const findData = await findRes.json()
-      const personId = findData?.people?.[0]?.id
-      if (personId) {
-        await fetch(`https://api.followupboss.com/v1/people/${personId}`, {
-          method: 'DELETE',
-          headers: { 'Authorization': `Basic ${credentials}` },
-        })
-      }
+    const createData = await createRes.json()
+    const personId = createData?.id
+
+    // Delete the test lead by the ID returned from creation
+    if (personId) {
+      await fetch(`https://api.followupboss.com/v1/people/${personId}`, {
+        method: 'DELETE',
+        headers: { 'Authorization': `Basic ${credentials}` },
+      })
     }
 
     return NextResponse.json({ ok: true, message: 'FUB connection healthy' }, { status: 200 })
