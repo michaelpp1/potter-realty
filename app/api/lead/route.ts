@@ -80,21 +80,34 @@ export async function POST(req: NextRequest) {
     const tag = TIMELINE_TAGS[movingTimeline] ?? 'Relocation - Website Lead'
     const credentials = Buffer.from(`${apiKey}:`).toString('base64')
 
+    const resolvedSource = source || 'Website Relocation Form'
+
+    // FUB action plans (Relo Lead Emails, timeline plans) only fire for lead flows
+    // tied to "Instagram" and "Website Relocation Form". Other sources like TikTok
+    // and ManyChat get a different lead flow and miss the automations. We normalise
+    // all relocation form submissions to "Website Relocation Form" so the automations
+    // always fire, and add the real source as a tag for tracking.
+    const SOURCE_TAG_MAP: Record<string, string> = {
+      'TikTok': 'TikTok Lead',
+      'Instagram': 'Instagram Lead',
+      'ManyChat': 'ManyChat Lead',
+    }
+    const fubSource = 'Website Relocation Form'
+    const sourceTags = SOURCE_TAG_MAP[resolvedSource] ? [SOURCE_TAG_MAP[resolvedSource]] : []
+
     const person: Record<string, unknown> = {
       firstName,
       lastName,
       emails: [{ value: email }],
-      tags: [tag, 'Website Lead'],
+      tags: [tag, 'Website Lead', ...sourceTags],
     }
 
     if (phone && phone.trim()) {
       person.phones = [{ value: phone.trim(), type: 'mobile' }]
     }
 
-    const resolvedSource = source || 'Website Relocation Form'
-
     const payload = {
-      source: resolvedSource,
+      source: fubSource,
       type: 'Registration',
       person,
       note: `Relocation inquiry submitted via ${resolvedSource}. Moving timeline: ${movingTimeline}.`,
