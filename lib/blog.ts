@@ -32,6 +32,107 @@ export const categoryColors: Record<BlogCategory, string> = {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'what-to-expect-during-the-closing-process-when-selling-a-hom',
+    title: "What to Expect During the Closing Process When Selling a Home in Northern Colorado",
+    date: 'September 7, 2026',
+    isoDate: '2026-09-07',
+    category: 'Seller Tips',
+    excerpt: "Selling a home in Colorado involves a multi-step closing process that typically takes 30 to 45 days from accepted offer to final signatures. Here is a clear breakdown of what Northern Colorado sellers should expect at every stage so there are no surprises on closing day.",
+    readTime: '8 min read',
+    content: [
+      {
+        type: 'paragraph',
+        text: "You have listed your home in Fort Collins, Loveland, or one of the other growing communities across Northern Colorado, and now you have an accepted offer in hand. Congratulations. But the work is not over yet. The period between accepting an offer and actually handing over the keys is called the closing process, and understanding every step of it will help you avoid delays, protect your proceeds, and close with confidence. I have walked sellers through this process dozens of times across Larimer County and Weld County, and I want to give you an honest look at what happens behind the scenes.",
+      },
+      {
+        type: 'h2',
+        text: "How Long Does the Closing Process Take When Selling a Home in Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "In most Northern Colorado transactions, closing takes between 30 and 45 days from the date both parties sign the purchase contract. Cash deals can sometimes close faster, while transactions involving certain loan types or complex negotiations may extend the timeline. Colorado uses a standardized set of real estate contracts published by the Colorado Real Estate Commission, and these contracts include specific deadlines for inspections, appraisals, loan objections, and title resolution. Every single one of those deadlines matters, and missing one can jeopardize the deal.",
+      },
+      {
+        type: 'h2',
+        text: "What Happens After You Accept an Offer on Your Home?",
+      },
+      {
+        type: 'paragraph',
+        text: "Once the contract is fully executed, several things kick off simultaneously. The buyer will wire their earnest money deposit to the title company. The title company, which in Colorado handles the closing rather than an attorney in most cases, will begin a title search on your property. And the buyer will schedule a home inspection, usually within the first week or two. Here is a step-by-step look at the major milestones you will encounter as a seller.",
+      },
+      {
+        type: 'h2',
+        text: "What Are the Key Steps in the Colorado Home Closing Process for Sellers?",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Title commitment and search: The title company examines your property records to confirm you have clear ownership and identifies any liens, easements, or encumbrances that must be resolved before closing.",
+          "Buyer inspection period: The buyer hires a licensed inspector to evaluate the property. In Northern Colorado, common inspection findings include aging roofs from hail damage, older water heaters, and minor foundation settling. Buyers may request repairs, credits, or price adjustments based on findings.",
+          "Inspection objection and resolution: Colorado contracts include a formal inspection objection deadline. You and the buyer negotiate what will be addressed. You are not obligated to fix everything, but being reasonable helps keep the deal together.",
+          "Appraisal: If the buyer is using financing, their lender will order an appraisal to confirm the home value supports the loan amount. If the appraisal comes in low, you may need to renegotiate the price or the buyer may need to cover the gap out of pocket.",
+          "Loan objection deadline: The buyer must confirm their financing is on track by a specific date in the contract. If they cannot secure their loan, they may have the right to terminate.",
+          "Final walkthrough: Typically done the day before or the morning of closing, the buyer walks through the property to verify its condition and confirm any agreed-upon repairs were completed.",
+          "Closing day signing: You sign the deed, transfer documents, and settlement statement at the title company. In many Northern Colorado closings, the seller can sign a day or two early through a pre-signing appointment if scheduling is tight.",
+        ],
+      },
+      {
+        type: 'h2',
+        text: "What Costs Do Sellers Pay at Closing in Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "Colorado sellers should expect several costs to come out of their proceeds at closing. The largest is typically the real estate commission, which is agreed upon in your listing agreement. Beyond that, sellers commonly pay for the owner title insurance policy, which is customary in most Northern Colorado transactions. You will also see prorated property taxes, any remaining mortgage payoff, HOA transfer fees if applicable, and potential recording fees. The title company prepares a detailed settlement statement, sometimes called a closing disclosure, that itemizes every dollar so you know exactly what you are netting before you sign.",
+      },
+      {
+        type: 'h2',
+        text: "Who Handles the Closing in Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "Colorado is a title company state, meaning a title company or licensed closing company facilitates the transaction rather than requiring attorneys at the closing table. Several well-established title companies operate throughout Fort Collins, Loveland, Windsor, Timnath, Berthoud, and the broader Northern Colorado area. Your REALTOR will typically have strong working relationships with local title companies and can recommend one, though the choice often depends on the terms negotiated in the contract. A good title company keeps all parties informed, manages deadlines, and ensures the transfer is legally sound.",
+      },
+      {
+        type: 'h2',
+        text: "What Can Delay or Derail a Closing in Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "Even in a smooth transaction, delays can pop up. Title issues are one of the more common culprits. An old lien from a contractor, an unresolved judgment, or a boundary dispute discovered during the title search can slow things down. Appraisal shortfalls also cause renegotiations that extend timelines. Buyer financing problems, such as a change in employment or a new debt that alters their qualification, can surface late in the process. And occasionally, the final walkthrough reveals an issue, like a broken appliance or damage that occurred after the inspection, that needs to be addressed before the buyer will close. The best way to avoid surprises is to work with an experienced agent who stays on top of every deadline and communicates proactively with the other side.",
+      },
+      {
+        type: 'h2',
+        text: "Do Sellers Need to Be Present at Closing in Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "Not necessarily. If you have already relocated out of the area or have a scheduling conflict, you can often sign your closing documents remotely through a mobile notary or, in some cases, through a power of attorney arrangement. This is especially common for sellers who have moved out of state before closing. Your title company and agent will coordinate the details so the process stays on track regardless of where you are physically located.",
+      },
+      {
+        type: 'h2',
+        text: "When Do Sellers Receive Their Proceeds?",
+      },
+      {
+        type: 'paragraph',
+        text: "In Colorado, proceeds from a home sale are typically wired to the seller on the same day the transaction records with the county. In Larimer County and Weld County, recording usually happens the same day as the signing appointment, assuming all documents are in order and the buyer funds on time. Most sellers see their net proceeds deposited into their bank account by end of business on closing day, though wire transfer timing can vary by bank.",
+      },
+      {
+        type: 'paragraph',
+        text: "Selling a home is a significant financial decision, and the closing process is where the details truly matter. Whether you are selling a home in downtown Loveland, a property on acreage west of Berthoud, or a newer build in Severance, Johnstown, or Wellington, the process follows the same general framework. Having someone in your corner who knows these deadlines inside and out makes a real difference. Michael Potter is a Northern Colorado REALTOR with LPT Realty who has guided sellers through every phase of this process across the region. If you are thinking about selling and want to understand what your home might be worth in today’s market, visit potterealty.com/sell for a complimentary home value estimate.",
+      },
+      {
+        type: 'faq',
+        faqs: [
+          { question: "How long does it take to close on a home sale in Colorado?", answer: "Most home sales in Colorado close within 30 to 45 days from the date the purchase contract is fully signed. Cash transactions may close in as few as two to three weeks, while financed deals with complex negotiations or title issues can take longer." },
+          { question: "Do Colorado home sellers pay for title insurance?", answer: "In most Northern Colorado transactions, it is customary for the seller to pay for the owner title insurance policy that protects the buyer. This is a negotiable item in the contract, but the seller covering this cost is the standard practice in Larimer County and Weld County." },
+          { question: "Can I sell my home in Colorado without being at the closing?", answer: "Yes. Colorado sellers can sign closing documents in advance through a pre-signing appointment or use a mobile notary if they are out of the area. Power of attorney arrangements are also an option in certain situations. Your title company and REALTOR will coordinate the logistics." },
+          { question: "What happens if the buyer appraisal comes in low in Colorado?", answer: "If the appraisal value is lower than the purchase price, the buyer and seller typically renegotiate. The seller may agree to lower the price, the buyer may bring additional cash to cover the gap, or the two sides may meet somewhere in the middle. If no agreement is reached, the buyer may have the right to terminate the contract depending on the deadline terms." },
+          { question: "What are common closing costs for home sellers in Northern Colorado?", answer: "Seller closing costs in Northern Colorado typically include real estate commissions, owner title insurance, prorated property taxes, mortgage payoff, recording fees, and any HOA transfer fees. The exact total varies by transaction, but sellers should plan for these costs when estimating their net proceeds." },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'true-cost-of-buying-a-home-in-northern-colorado-beyond-the-p',
     title: "True Cost of Buying a Home in Northern Colorado Beyond the Purchase Price",
     date: 'August 31, 2026',
