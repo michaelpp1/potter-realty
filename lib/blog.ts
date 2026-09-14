@@ -32,6 +32,110 @@ export const categoryColors: Record<BlogCategory, string> = {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'moving-from-texas-to-northern-colorado-cost-of-living-climat',
+    title: "Moving from Texas to Northern Colorado: Cost of Living, Climate, and Real Estate Comparison",
+    date: 'September 14, 2026',
+    isoDate: '2026-09-14',
+    category: 'Relocation',
+    excerpt: "Thinking about relocating from Texas to Northern Colorado? Here is a detailed comparison of cost of living, climate, lifestyle, and real estate between the two regions to help you decide if Fort Collins, Loveland, or surrounding communities are the right fit.",
+    readTime: '9 min read',
+    content: [
+      {
+        type: 'paragraph',
+        text: "Over the past few years, I have worked with dozens of families and couples relocating from Texas to Northern Colorado. Whether they are coming from the Dallas-Fort Worth metroplex, Austin, Houston, or San Antonio, the reasons tend to overlap: they want four distinct seasons, access to mountains, a slower pace of life, and relief from brutal summer heat. Having grown up in Loveland and spent my entire career helping out-of-state buyers land in the right Northern Colorado community, I can tell you the transition is smoother than most people expect — but there are real differences worth understanding before you make the move.",
+      },
+      {
+        type: 'h2',
+        text: "How Does the Cost of Living in Northern Colorado Compare to Texas?",
+      },
+      {
+        type: 'paragraph',
+        text: "This is the first question almost every Texas buyer asks me, and the honest answer is: it depends on where in Texas you are leaving and where in Northern Colorado you are landing. If you are coming from Austin or parts of Dallas, you may find that home prices in Loveland, Berthoud, Windsor, or Johnstown are comparable or even lower than what you left behind. Fort Collins and Timnath tend to sit at a slightly higher price point, but they also offer walkability, top-rated schools, and immediate access to trails and open space that justify the investment.",
+      },
+      {
+        type: 'paragraph',
+        text: "Colorado does have a state income tax, which Texas does not. That is a legitimate factor. However, property tax rates in Larimer County and Weld County are significantly lower than most Texas counties. In Texas, effective property tax rates commonly land between 1.6% and 2.5% of assessed value. In Northern Colorado, rates generally fall well below 1%. For many of my Texas clients, the property tax savings alone offset the state income tax and then some. Groceries, utilities, and everyday expenses are broadly similar between the two regions, with no dramatic sticker shock in either direction.",
+      },
+      {
+        type: 'h2',
+        text: "What Is the Climate Like in Northern Colorado Compared to Texas?",
+      },
+      {
+        type: 'paragraph',
+        text: "Climate is usually the number one motivator for Texas-to-Colorado relocations. Northern Colorado sits at roughly 5,000 feet of elevation along the Front Range, and the difference in summer comfort is dramatic. While Texas regularly sees weeks of 100-degree-plus heat with oppressive humidity, Fort Collins and Loveland enjoy dry summers that typically peak in the mid-80s to low 90s. Evenings cool down into the 50s and 60s, which means you can actually sit on your patio after dinner without melting.",
+      },
+      {
+        type: 'paragraph',
+        text: "Winters are milder than most Texans imagine. Northern Colorado gets sunshine roughly 300 days per year. Snow falls regularly from November through March, but it tends to melt within a day or two at lower elevations. You will not experience the prolonged gray, frozen winters of the upper Midwest. Spring and fall are spectacular — golden aspens in September, wildflower-covered meadows in May and June. If you are someone who genuinely wants to experience all four seasons, this region delivers.",
+      },
+      {
+        type: 'h2',
+        text: "How Does the Real Estate Market in Northern Colorado Differ from Texas?",
+      },
+      {
+        type: 'paragraph',
+        text: "The Northern Colorado real estate market has a different rhythm than what most Texans are used to. Inventory tends to be tighter here, especially in desirable neighborhoods in Fort Collins, west Loveland, and Timnath. New construction is more prevalent in communities like Windsor, Severance, Johnstown, and east Timnath, where Weld County development has expanded significantly. If you want acreage — room for horses, a garden, a shop, or a small homestead — Berthoud and areas west of Loveland and Fort Collins offer that lifestyle without being far from town.",
+      },
+      {
+        type: 'paragraph',
+        text: "One thing that surprises Texas buyers is the variety packed into a small geographic area. Within a 30-minute drive, you can go from a walkable downtown condo in Old Town Fort Collins to a 5-acre property backing up to open space with mountain views. That range of lifestyle options, all within Northern Colorado, is something the sprawling Texas metros simply cannot replicate.",
+      },
+      {
+        type: 'h2',
+        text: "What About Access to Ski Resorts and Denver International Airport?",
+      },
+      {
+        type: 'paragraph',
+        text: "Two concerns I hear constantly from Texas buyers: distance to skiing and distance to a major airport. Both are more manageable than you might think. Denver International Airport is roughly one hour south of Fort Collins and Loveland, making it easy to fly back to Texas for holidays or host family coming to visit. As for skiing, world-class resorts like Breckenridge, Keystone, Arapahoe Basin, and Vail are 1.5 to 2.5 hours from Northern Colorado. Plenty of locals, myself included, make regular day trips throughout ski season. You do not need to live in a mountain town to enjoy mountain recreation.",
+      },
+      {
+        type: 'h2',
+        text: "Why Do Texas Families Choose Northern Colorado Specifically?",
+      },
+      {
+        type: 'paragraph',
+        text: "Beyond cost of living, climate, and real estate, there is something harder to quantify that keeps drawing people here: community. Northern Colorado has a genuine small-town feel even as it has grown. Fort Collins and Loveland both have thriving downtown districts with locally owned coffee shops, breweries, restaurants, and weekly farmers markets. Wellington offers a quieter, more rural pace just north of Fort Collins. Timnath and Windsor blend newer amenities with easy access to open space and excellent schools in both Poudre School District and Thompson School District.",
+      },
+      {
+        type: 'paragraph',
+        text: "The outdoor lifestyle here is not a marketing pitch — it is daily life. I spend my summers paddleboarding at Horsetooth Reservoir and Carter Lake, hiking Devil's Backbone and trails along the Poudre River, and camping up the Poudre Canyon. Rocky Mountain National Park is less than an hour from my front door. For families and couples who want to trade the Texas heat for a life built around mountains, trails, and water, Northern Colorado checks every box.",
+      },
+      {
+        type: 'h2',
+        text: "Key Differences Between Texas and Northern Colorado at a Glance",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Property tax rates in Larimer and Weld Counties are generally well below 1%, compared to 1.6% to 2.5% in most Texas counties",
+          "Northern Colorado summers average mid-80s with low humidity, while much of Texas regularly exceeds 100 degrees with high humidity",
+          "Colorado has a state income tax; Texas does not — but lower property taxes often balance this out for homeowners",
+          "Northern Colorado offers roughly 300 days of sunshine per year, with snow that typically melts quickly at Front Range elevations",
+          "Fort Collins, Loveland, and surrounding towns provide walkable downtowns, acreage properties, and everything in between within a compact region",
+          "Denver International Airport is about one hour from most Northern Colorado communities, making travel back to Texas convenient",
+        ],
+      },
+      {
+        type: 'h2',
+        text: "Ready to Explore Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "If you are seriously considering a move from Texas to Northern Colorado, I would love to help you navigate the transition. My name is Michael Potter, and I am a relocation specialist and REALTOR with LPT Realty based right here in Loveland. I grew up in this area, I know every community intimately, and I work almost exclusively with out-of-state buyers making this exact move. Whether you are drawn to a walkable neighborhood near Old Town Fort Collins or a homestead property west of Berthoud, I can help you find the right fit. Download my free Relocation Guide at potterealty.com/relocation#guide to start planning — it covers neighborhoods, lifestyle, schools, and everything else you need to make an informed decision.",
+      },
+      {
+        type: 'faq',
+        faqs: [
+          { question: "Is Northern Colorado more expensive than Texas?", answer: "It depends on the specific cities you are comparing. Home prices in Loveland, Berthoud, Windsor, and Johnstown are often comparable to Austin and parts of Dallas-Fort Worth. While Colorado has a state income tax that Texas lacks, Northern Colorado property tax rates are significantly lower, which can offset or even exceed the income tax difference for homeowners." },
+          { question: "How bad are Northern Colorado winters for someone coming from Texas?", answer: "Northern Colorado winters are sunnier and milder than most Texans expect. The region averages roughly 300 days of sunshine per year, and snow at lower elevations typically melts within a day or two. You will need a good winter coat and snow tires, but you will not experience the extended gray, bitter cold of northern states." },
+          { question: "How far is Northern Colorado from ski resorts?", answer: "Popular ski resorts like Breckenridge, Keystone, Arapahoe Basin, and Vail are approximately 1.5 to 2.5 hours from Fort Collins and Loveland. Many Northern Colorado residents make regular day trips during ski season, and weekend getaways to the mountains are a normal part of life here." },
+          { question: "What are the best Northern Colorado towns for families relocating from Texas?", answer: "Fort Collins, Loveland, Timnath, and Windsor are all popular with relocating families due to their strong school districts, community amenities, and outdoor recreation access. Wellington and Berthoud appeal to buyers wanting a quieter, more rural feel while remaining close to larger town conveniences. The best fit depends on your lifestyle priorities and budget." },
+          { question: "How far is Denver International Airport from Northern Colorado?", answer: "Denver International Airport is approximately one hour south of Fort Collins and Loveland via Interstate 25. This makes it convenient for frequent travelers and for hosting family and friends flying in from Texas or elsewhere. Several shuttle and rideshare options also serve the Northern Colorado to DIA corridor." },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'what-to-expect-during-the-closing-process-when-selling-a-hom',
     title: "What to Expect During the Closing Process When Selling a Home in Northern Colorado",
     date: 'September 7, 2026',
