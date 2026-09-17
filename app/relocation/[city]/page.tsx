@@ -98,7 +98,7 @@ export default function CityPage({ params }: Props) {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {city.highlights.map((h) => (
               <div key={h.label} className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
-                <span className="text-2xl mb-3 block">{h.icon}</span>
+                <div className="w-8 h-0.5 bg-teal mb-4" />
                 <p className="font-heading font-700 text-sm text-charcoal mb-1">{h.label}</p>
                 <p className="font-sans text-gray-500 text-sm">{h.value}</p>
               </div>
@@ -112,38 +112,15 @@ export default function CityPage({ params }: Props) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             {[
-              {
-                title: 'Lifestyle',
-                icon: '🌄',
-                content: city.lifestyle,
-                color: 'teal',
-              },
-              {
-                title: 'Schools & Education',
-                icon: '🏫',
-                content: city.schools,
-                color: 'gold',
-              },
-              {
-                title: 'Commute & Access',
-                icon: '🚗',
-                content: city.commute,
-                color: 'sage',
-              },
-              {
-                title: 'Real Estate Market',
-                icon: '🏠',
-                content: city.marketOverview,
-                color: 'teal',
-              },
+              { title: 'Lifestyle', content: city.lifestyle },
+              { title: 'Schools & Education', content: city.schools },
+              { title: 'Commute & Access', content: city.commute },
+              { title: 'Real Estate Market', content: city.marketOverview },
             ].map((section) => (
               <div key={section.title} className="card p-8">
-                <div className="flex items-center gap-3 mb-4">
-                  <span className="text-2xl">{section.icon}</span>
-                  <h3 className="font-heading font-700 text-lg text-charcoal">
-                    {section.title}
-                  </h3>
-                </div>
+                <h3 className="font-heading font-700 text-lg text-charcoal mb-4">
+                  {section.title}
+                </h3>
                 <p className="font-sans text-gray-600 text-sm leading-relaxed">
                   {section.content}
                 </p>

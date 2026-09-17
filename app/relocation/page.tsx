@@ -59,38 +59,32 @@ export default function RelocationPage() {
           <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
             {[
               {
-                icon: '🏔️',
                 title: 'Easy Mountain Access',
                 body: 'Rocky Mountain National Park is 30 to 60 minutes away. World-class hiking, fishing, camping, rock climbing, and scenic drives are practically in your backyard.',
               },
               {
-                icon: '🌞',
                 title: '300+ Days of Sunshine',
                 body: 'Northern Colorado averages over 300 sunny days per year. Even in winter, you\'ll have clear, blue-sky days that make the cold feel worth it.',
               },
               {
-                icon: '🤝',
                 title: 'Real Community',
                 body: 'People here are genuinely friendly and community-minded. Whether you land in a small town or a larger city, neighbors actually know each other.',
               },
               {
-                icon: '💼',
                 title: 'Thriving Economy',
                 body: 'Northern Colorado has a diverse economy: tech, healthcare, agriculture, energy, education, and remote work are all well-represented.',
               },
               {
-                icon: '🏡',
                 title: 'Space to Breathe',
                 body: 'Compared to Denver and the Front Range metros, Northern Colorado offers more space, less traffic, and a genuinely better quality of life.',
               },
               {
-                icon: '🎓',
                 title: 'World Class Education',
                 body: 'Colorado State University, University of Northern Colorado, and highly rated K12 school districts make NoCo a strong choice for families.',
               },
             ].map((item) => (
               <div key={item.title} className="card p-5 md:p-7">
-                <span className="text-2xl md:text-3xl mb-3 md:mb-4 block">{item.icon}</span>
+                <div className="w-8 h-0.5 bg-teal mb-4" />
                 <h3 className="font-heading font-700 text-sm md:text-base text-charcoal mb-1.5 md:mb-2">
                   {item.title}
                 </h3>

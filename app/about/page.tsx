@@ -214,18 +214,18 @@ export default function AboutPage() {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-5 mt-8">
             {[
-              { emoji: '🏔️', label: 'Rocky Mountain NP — 1 hr away' },
-              { emoji: '🛶', label: 'Horsetooth, Carter & Boyd Lakes' },
-              { emoji: '🥾', label: "Devil's Backbone & Poudre Trails" },
-              { emoji: '🌅', label: '300+ Sunny Days a Year' },
-            ].map((item) => (
+              'Rocky Mountain NP — 1 hr away',
+              'Horsetooth, Carter & Boyd Lakes',
+              "Devil's Backbone & Poudre Trails",
+              '300+ Sunny Days a Year',
+            ].map((label) => (
               <div
-                key={item.label}
+                key={label}
                 className="bg-white rounded-2xl p-6 text-center shadow-sm border border-gray-100"
               >
-                <span className="text-3xl mb-3 block">{item.emoji}</span>
+                <div className="w-8 h-0.5 bg-teal mx-auto mb-4" />
                 <p className="font-heading font-600 text-sm text-charcoal">
-                  {item.label}
+                  {label}
                 </p>
               </div>
             ))}

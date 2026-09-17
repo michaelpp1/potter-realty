@@ -128,28 +128,24 @@ export default function ContactPage() {
                 <div className="space-y-5">
                   {[
                     {
-                      icon: '⚡',
                       title: 'Quick Response',
                       body: 'I typically respond within a few hours during business hours. Texts and calls are always welcome.',
                     },
                     {
-                      icon: '🎯',
                       title: 'No Pressure',
                       body: 'Our first conversation is just that: a conversation. There\'s no obligation and no sales pitch.',
                     },
                     {
-                      icon: '🗺️',
                       title: 'Real Local Expertise',
                       body: 'I\'ve lived in Northern Colorado for decades. You\'ll get honest, local insights, not generic advice.',
                     },
                     {
-                      icon: '📋',
                       title: 'A Clear Plan',
                       body: 'After we connect, you\'ll leave with a clear picture of your options, next steps, and a realistic timeline.',
                     },
                   ].map((item) => (
                     <div key={item.title} className="flex items-start gap-4">
-                      <span className="text-xl shrink-0 mt-0.5">{item.icon}</span>
+                      <div className="w-1.5 h-1.5 rounded-full bg-teal shrink-0 mt-2" />
                       <div>
                         <p className="font-heading font-600 text-sm text-charcoal mb-1">
                           {item.title}
