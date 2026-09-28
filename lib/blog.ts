@@ -32,6 +32,106 @@ export const categoryColors: Record<BlogCategory, string> = {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'how-to-handle-multiple-offers-on-your-northern-colorado-home',
+    title: "How to Handle Multiple Offers on Your Northern Colorado Home and Pick the Right Buyer",
+    date: 'September 28, 2026',
+    isoDate: '2026-09-28',
+    category: 'Seller Tips',
+    excerpt: "Receiving multiple offers on your Northern Colorado home is exciting but requires careful strategy. Here is how to evaluate competing bids, negotiate effectively, and choose the buyer who will actually make it to the closing table.",
+    readTime: '8 min read',
+    content: [
+      {
+        type: 'paragraph',
+        text: "If you have listed your home in Fort Collins, Loveland, Windsor, or anywhere else in Northern Colorado and suddenly find yourself holding two, three, or even five offers at once, congratulations. That is a strong signal that your home was priced well, showed beautifully, and hit the market at the right time. But now comes the part that can actually make or break your sale: choosing the right buyer. The highest offer is not always the best offer, and picking the wrong one can cost you weeks of wasted time or thousands of dollars if the deal falls apart.",
+      },
+      {
+        type: 'paragraph',
+        text: "I have walked sellers through multiple-offer situations across Larimer County and Weld County, from a starter home in downtown Loveland to a property on acreage west of Berthoud. Every scenario is different, but the framework for evaluating offers stays remarkably consistent. Let me walk you through exactly how I advise my clients when the offers start stacking up.",
+      },
+      {
+        type: 'h2',
+        text: "Why Do Homes in Northern Colorado Get Multiple Offers?",
+      },
+      {
+        type: 'paragraph',
+        text: "Northern Colorado continues to attract buyers from across the country, particularly from higher cost-of-living states like California, Texas, and the Pacific Northwest. Communities like Fort Collins, Timnath, Windsor, and Loveland offer the combination of outdoor lifestyle, strong schools, and genuine community feel that many relocating buyers are actively searching for. When demand from both local move-up buyers and out-of-state relocators converges on a well-priced listing, multiple offers are the natural result. Seasonality matters too. Spring and summer tend to generate the most competitive conditions, though well-positioned homes in Severance, Johnstown, and Wellington can attract multiple bids year-round depending on inventory levels.",
+      },
+      {
+        type: 'h2',
+        text: "What Should You Look at Beyond the Offer Price?",
+      },
+      {
+        type: 'paragraph',
+        text: "Price gets all the attention, but experienced sellers know that the terms of an offer often matter just as much. A buyer offering top dollar with shaky financing or excessive contingencies can end up costing you more than a slightly lower offer from a rock-solid buyer. Here are the key factors I recommend evaluating side by side when you are comparing offers on your Northern Colorado home.",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Pre-approval strength: A fully underwritten pre-approval from a reputable local lender carries far more weight than a generic online pre-qualification letter. Ask your agent to call the lender directly and verify the buyer is truly qualified.",
+          "Earnest money amount: Higher earnest money signals serious commitment. In Northern Colorado, earnest money deposits typically range from 1% to 3% of the purchase price, but a buyer putting down more is demonstrating confidence in the deal.",
+          "Contingency timelines: Pay close attention to inspection, appraisal, and loan contingency deadlines. Tighter timelines mean faster resolution and less time your home sits under contract with uncertainty.",
+          "Appraisal gap coverage: If a buyer offers above asking price, find out whether they are willing to cover a gap between the appraised value and the contract price. Without this, a high offer can fall apart at appraisal.",
+          "Closing timeline flexibility: Some sellers need a quick close, others need extra time to find their next home. The buyer whose timeline matches yours can save you from paying for temporary housing or rushing a move.",
+          "Escalation clauses: Some buyers include clauses that automatically increase their offer above competing bids up to a stated cap. These can work in your favor but need to be evaluated carefully with your agent.",
+        ],
+      },
+      {
+        type: 'h2',
+        text: "Should You Always Counter or Ask for Highest and Best?",
+      },
+      {
+        type: 'paragraph',
+        text: "This is one of the most common questions I get from sellers, and the answer depends entirely on the situation. Asking all buyers to submit their highest and best offer by a set deadline is a common and effective strategy. It creates a level playing field and often pushes buyers to put their strongest numbers forward. However, it can also cause some buyers to walk away if they feel the process is too competitive or impersonal.",
+      },
+      {
+        type: 'paragraph',
+        text: "In some cases, it makes more sense to counter a single strong offer directly, especially if that buyer has the cleanest terms and the best financing. Other times, you might counter two or more buyers simultaneously to see who responds with the most favorable revision. Your agent should be advising you on which approach fits the specific dynamics at play. There is no one-size-fits-all answer, and the right move depends on how many offers you have, how far apart they are, and what your priorities are as a seller.",
+      },
+      {
+        type: 'h2',
+        text: "How Do You Evaluate a Cash Offer vs. a Financed Offer?",
+      },
+      {
+        type: 'paragraph',
+        text: "Cash offers are appealing because they eliminate the risk of loan denial and typically close faster. But a cash offer that is significantly below your asking price is not automatically better than a well-qualified financed offer at full price. In the Northern Colorado market, many relocating buyers are coming from states where they sold a home at a high price point, so they may have substantial cash to put down even if they are still financing a portion. The key question is always: how likely is this buyer to close on time and at the agreed price? A financed buyer with a strong down payment, solid pre-approval, and appraisal gap coverage can be every bit as reliable as a cash buyer.",
+      },
+      {
+        type: 'h2',
+        text: "What Happens If You Pick the Wrong Buyer?",
+      },
+      {
+        type: 'paragraph',
+        text: "This is the scenario every seller wants to avoid. You accept an offer, take your home off the market, and two or three weeks later the deal falls apart because the buyer could not secure financing, got cold feet after the inspection, or the appraisal came in low with no gap coverage. Now you are back on the market as a re-list, which can carry a stigma. Buyers start wondering what went wrong. You may have also lost other interested parties who moved on to different homes in Fort Collins, Loveland, or Windsor while you were under contract.",
+      },
+      {
+        type: 'paragraph',
+        text: "This is exactly why choosing the strongest overall offer rather than just the highest number is so critical. A good listing agent will dig into the details of each offer, contact buyer agents to gauge motivation and readiness, and present you with a clear comparison so you can make an informed decision rather than an emotional one.",
+      },
+      {
+        type: 'h2',
+        text: "Can You Accept a Backup Offer in Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "Yes, and in a multiple-offer situation, I strongly recommend it. A backup offer is a fully executed contract that moves into primary position if your first buyer falls through. This gives you immediate protection without having to re-list. Many buyers in Northern Colorado are willing to sit in backup position, especially relocating buyers who have a flexible timeline and are committed to a specific community like Timnath, Berthoud, or Wellington. Having a backup in place also gives you more confidence to hold firm during inspection negotiations, knowing you have another buyer ready if the first deal does not work out.",
+      },
+      {
+        type: 'paragraph',
+        text: "Navigating multiple offers is one of those situations where having an experienced local agent genuinely makes a measurable difference. Michael Potter, a Northern Colorado relocation specialist and REALTOR with LPT Realty, works with sellers across Fort Collins, Loveland, Windsor, Timnath, Berthoud, Johnstown, Wellington, Greeley, and Severance. If you are considering listing your home and want to understand what it might be worth in today’s market, visit potterealty.com/sell to get started. No pressure, just honest guidance from someone who grew up here and knows these neighborhoods inside and out.",
+      },
+      {
+        type: 'faq',
+        faqs: [
+          { question: "How long do I have to respond to multiple offers on my home in Northern Colorado?", answer: "There is no legal requirement to respond within a specific timeframe unless an offer includes an expiration deadline set by the buyer. However, most listing agents will set a clear deadline for all offers to be submitted, then review and respond within 24 to 48 hours. Moving quickly shows buyers you are serious and reduces the chance they move on to another property." },
+          { question: "Is it legal to tell buyers how many offers you have received?", answer: "Yes. In Colorado, sellers and their agents can disclose that multiple offers have been received. You are not required to disclose the specific terms or price of competing offers, but letting buyer agents know you are in a multiple-offer situation is standard practice and often motivates stronger bids." },
+          { question: "Should I always take the highest offer on my Northern Colorado home?", answer: "Not necessarily. The highest offer is only the best offer if the buyer can actually perform. Factors like financing strength, earnest money amount, contingency timelines, and appraisal gap coverage all influence whether that top-dollar number translates into actual money at closing. Evaluate every offer as a complete package." },
+          { question: "What is an appraisal gap clause and why does it matter in a multiple-offer situation?", answer: "An appraisal gap clause is a commitment from the buyer to cover any difference between the appraised value and the contract price, up to a specified amount, using their own funds. This matters because if a buyer offers well above asking price and the home does not appraise at that level, the lender will only finance the appraised value. Without gap coverage, the deal can fall apart or the buyer may ask you to reduce the price." },
+          { question: "How does a backup offer work in Colorado real estate?", answer: "A backup offer is a fully executed contract that sits in second position behind the primary contract. If the primary buyer defaults or terminates, the backup offer automatically moves into first position with agreed-upon timelines. It protects you from having to re-list and start the process over, which can cost time and market momentum." },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'how-to-win-a-competitive-offer-on-a-home-in-northern-colorad',
     title: "How to Win a Competitive Offer on a Home in Northern Colorado: Buyer Strategies That Work",
     date: 'September 21, 2026',
