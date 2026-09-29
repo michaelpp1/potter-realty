@@ -94,12 +94,13 @@ export async function POST(req: NextRequest) {
     }
     const fubSource = 'Website Relocation Form'
     const sourceTags = SOURCE_TAG_MAP[resolvedSource] ? [SOURCE_TAG_MAP[resolvedSource]] : []
+    const websiteLeadTag = sourceTags.length === 0 ? ['Website Lead'] : []
 
     const person: Record<string, unknown> = {
       firstName,
       lastName,
       emails: [{ value: email }],
-      tags: [tag, 'Website Lead', ...sourceTags],
+      tags: [tag, ...websiteLeadTag, ...sourceTags],
     }
 
     if (phone && phone.trim()) {
