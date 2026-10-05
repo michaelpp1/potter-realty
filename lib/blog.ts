@@ -32,6 +32,109 @@ export const categoryColors: Record<BlogCategory, string> = {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'cost-of-living-in-northern-colorado-what-to-budget-when-movi',
+    title: "Cost of Living in Northern Colorado: What to Budget When Moving from California, Texas, or Other High-Cost States",
+    date: 'October 5, 2026',
+    isoDate: '2026-10-05',
+    category: 'Relocation',
+    excerpt: "Northern Colorado offers a lower cost of living than many parts of California and coastal Texas, with affordable housing, no state grocery tax, and a lifestyle that balances mountain access with small-city charm. Here is what to expect when budgeting your move to Fort Collins, Loveland, Windsor, or surrounding communities.",
+    readTime: '9 min read',
+    content: [
+      {
+        type: 'paragraph',
+        text: "One of the first questions I hear from people considering a move to Northern Colorado is some version of: \"Can I actually afford to live there?\" If you are coming from the Bay Area, Southern California, Austin, Dallas-Fort Worth, or the Pacific Northwest, the answer is almost always yes — and often with money left over. But cost of living is about more than just the price of a house. It includes taxes, groceries, utilities, insurance, and all the little daily expenses that add up. I have helped dozens of families from higher-cost states make this move, and I want to give you an honest, detailed breakdown so you can plan with confidence.",
+      },
+      {
+        type: 'h2',
+        text: "How Much Does It Cost to Live in Northern Colorado Compared to California or Texas?",
+      },
+      {
+        type: 'paragraph',
+        text: "The short answer: it depends on exactly where you are coming from and where you land here, but most of my clients from California see meaningful savings across the board — especially in housing. A family leaving the San Francisco Bay Area, Los Angeles, or San Diego will typically find that comparable homes in Fort Collins, Loveland, or Windsor cost significantly less, even after the market appreciation Northern Colorado has seen over the past decade. Buyers coming from Texas often find home prices to be roughly comparable or slightly higher in Northern Colorado, but they gain something Texas cannot offer: direct access to the Rocky Mountains, a milder summer climate, and a distinct four-season lifestyle without the humidity.",
+      },
+      {
+        type: 'h2',
+        text: "What Are Housing Costs Like in Fort Collins, Loveland, and Surrounding Areas?",
+      },
+      {
+        type: 'paragraph',
+        text: "Housing is the single biggest line item in any cost-of-living comparison, so let me break this down by area. Fort Collins and Loveland are the two primary markets I work in, and they offer a wide range — from walkable downtown condos and townhomes to single-family homes in established neighborhoods to properties on acreage west of town where you can have horses, chickens, a garden, and real space to breathe. Timnath and Windsor have seen tremendous growth with newer construction and master-planned communities, often at slightly lower price points than central Fort Collins. Berthoud, Johnstown, Severance, and Wellington round out the region with even more affordability and a small-town feel that many of my clients are specifically seeking.",
+      },
+      {
+        type: 'paragraph',
+        text: "Rather than quoting you a number that will be outdated next month, I will say this: the Northern Colorado market has a range wide enough to accommodate most budgets, especially if you are selling a home in a high-cost market and bringing equity with you. Many of my California clients are able to purchase in cash or put down a substantial down payment, which dramatically changes the monthly cost equation. If you want current, real-time pricing for the specific neighborhoods and property types you are interested in, I am happy to set up a custom search — just reach out and I will get it dialed in for you.",
+      },
+      {
+        type: 'h2',
+        text: "What About Property Taxes, Income Tax, and Other Taxes in Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "This is where things get interesting and where I see the most surprise from out-of-state buyers. Colorado has a flat state income tax rate, which is currently among the lower rates in the country. If you are coming from California, where the top marginal rate can exceed 13%, the tax savings can be substantial — especially for retirees drawing from investment accounts or business owners with pass-through income. Texas has no state income tax, so that is one area where Texas transplants will see a new expense. However, Texas compensates with much higher property tax rates, often in the 2% to 3% range. Colorado property tax rates are significantly lower, typically well under 1% of assessed value in both Larimer County and Weld County. For many Texas buyers, the property tax savings alone offset the new state income tax.",
+      },
+      {
+        type: 'paragraph',
+        text: "Colorado also does not tax groceries at the state level. Some municipalities add a small local sales tax on food, but it is minimal compared to states with full grocery taxation. General sales tax rates in Northern Colorado vary by city but tend to be moderate relative to national averages.",
+      },
+      {
+        type: 'h2',
+        text: "What Other Monthly Expenses Should I Budget for in Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "Beyond housing and taxes, here are the key budget categories to plan for when relocating to the Fort Collins, Loveland, or Windsor area. I have organized these based on the questions my clients ask most often.",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Utilities: Heating costs are higher than in California or Texas due to cold winters, but air conditioning costs are lower because Northern Colorado summers are dry and mild compared to Texas heat or Central Valley temperatures. Many homes use evaporative coolers instead of traditional AC, which cost a fraction to operate.",
+          "Auto insurance: Colorado auto insurance premiums tend to be moderate, though rates depend on your driving record and coverage level. You will need to register your vehicle and obtain a Colorado license within 90 days of establishing residency.",
+          "Health insurance: If you are not yet on Medicare, Colorado has a competitive health insurance marketplace. Northern Colorado has good hospital systems, including UCHealth and Banner Health facilities in Fort Collins, Loveland, and Greeley.",
+          "Homeowners insurance: Premiums in Northern Colorado are generally reasonable, though properties in certain foothill areas or near wildfire zones may carry higher rates. Standard policies are typically less expensive than comparable coverage in wildfire-prone parts of California.",
+          "Groceries and dining: Day-to-day grocery costs are in line with national averages. Dining out in Fort Collins and Loveland is noticeably less expensive than in major California metro areas, and the local restaurant and brewery scene is excellent — you will not feel like you are sacrificing quality.",
+        ],
+      },
+      {
+        type: 'h2',
+        text: "Is Northern Colorado Affordable for Retirees?",
+      },
+      {
+        type: 'paragraph',
+        text: "Northern Colorado has become an increasingly popular destination for retirees and near-retirees, and the cost of living is a big part of that draw. Colorado offers a retirement income tax deduction for residents over a certain age, which can reduce your state tax burden on Social Security, pensions, and other qualified retirement income. Combined with lower property taxes and a lifestyle that genuinely encourages you to get outside — hiking Devil's Backbone, paddleboarding at Horsetooth Reservoir, walking the trails at Lory State Park, or just strolling through a Saturday farmers market — the value proposition is strong. Many of my retired clients tell me they spend less than they did in their previous state while living a richer, more active daily life.",
+      },
+      {
+        type: 'h2',
+        text: "How Far Is Northern Colorado from Denver International Airport and Ski Resorts?",
+      },
+      {
+        type: 'paragraph',
+        text: "Two practical concerns that come up in almost every relocation conversation: airport access and ski access. Denver International Airport is approximately one hour south of Fort Collins and Loveland, making it very convenient for travel — whether you are flying back to visit family or picking up grandkids for a summer visit. As for skiing, resorts like Arapahoe Basin, Keystone, Breckenridge, and Vail are 1.5 to 2.5 hours from Northern Colorado. That is absolutely doable for day trips or weekend getaways. I grew up making that drive, and it never gets old.",
+      },
+      {
+        type: 'h2',
+        text: "What Is the Best Way to Plan Your Budget Before Relocating?",
+      },
+      {
+        type: 'paragraph',
+        text: "My biggest piece of advice: do not rely solely on online cost-of-living calculators. Those tools use broad averages and rarely account for the neighborhood-level differences that exist across Northern Colorado. A home in downtown Loveland has a very different cost profile than a property on five acres west of Berthoud, even though they are only 15 minutes apart. The best approach is to connect with someone who lives here, knows the market at a granular level, and can walk you through real numbers based on your specific situation.",
+      },
+      {
+        type: 'paragraph',
+        text: "That is exactly what I do. My name is Michael Potter, and I am a relocation specialist and REALTOR with LPT Realty based here in Northern Colorado. I grew up in Loveland, I live here now, and I have helped buyers from California, Texas, Washington, Oregon, and beyond navigate this exact transition. If you are in the early stages of exploring a move, I put together a free Relocation Guide that covers everything from neighborhoods and school districts to lifestyle and logistics — you can grab it at potterealty.com/relocation#guide. And when you are ready to talk specifics, I am just a message away.",
+      },
+      {
+        type: 'faq',
+        faqs: [
+          { question: "Is it cheaper to live in Northern Colorado than in California?", answer: "For most people, yes. Housing costs in Fort Collins, Loveland, Windsor, and surrounding areas are substantially lower than in major California metros like the Bay Area, Los Angeles, or San Diego. Property taxes and state income taxes are also lower in Colorado. The biggest variable is where in California you are leaving and what type of property you are targeting in Northern Colorado." },
+          { question: "How do property taxes in Colorado compare to Texas?", answer: "Colorado property tax rates are significantly lower than Texas property tax rates. In Larimer County and Weld County, effective property tax rates are typically well under 1% of assessed value, whereas Texas rates commonly fall in the 2% to 3% range. This is one of the biggest financial advantages for Texas transplants, even though Colorado does have a state income tax." },
+          { question: "What is the most affordable town in Northern Colorado?", answer: "Towns like Severance, Johnstown, Wellington, and Berthoud generally offer lower home prices than Fort Collins or Loveland, while still providing easy access to the amenities of the larger cities. Greeley also tends to have more affordable housing. The best fit depends on your lifestyle priorities, commute needs, and whether you want a walkable town center or more rural acreage." },
+          { question: "Does Colorado tax retirement income?", answer: "Colorado does tax retirement income, but it offers a deduction for qualifying seniors that can significantly reduce the amount subject to state income tax. Social Security benefits, pensions, and annuity income may all be partially or fully deductible depending on your age and filing status. Consulting a Colorado-based tax professional before your move is a smart step." },
+          { question: "How far is Fort Collins from Denver International Airport?", answer: "Denver International Airport is approximately 60 to 75 minutes from Fort Collins, Loveland, and Windsor, depending on traffic and your exact starting point. This makes Northern Colorado very convenient for frequent travelers and for hosting out-of-state family who fly in to visit." },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'how-to-handle-multiple-offers-on-your-northern-colorado-home',
     title: "How to Handle Multiple Offers on Your Northern Colorado Home and Pick the Right Buyer",
     date: 'September 28, 2026',
