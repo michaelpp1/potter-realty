@@ -32,6 +32,113 @@ export const categoryColors: Record<BlogCategory, string> = {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'new-construction-vs-resale-homes-in-northern-colorado-which-',
+    title: "New Construction vs Resale Homes in Northern Colorado: Which Is the Better Buy?",
+    date: 'October 12, 2026',
+    isoDate: '2026-10-12',
+    category: 'Buyer Tips',
+    excerpt: "Choosing between new construction and resale homes in Northern Colorado depends on your priorities, budget, and lifestyle goals. Here is a detailed comparison to help you decide which option fits your move to Fort Collins, Loveland, Windsor, Timnath, or the surrounding area.",
+    readTime: '8 min read',
+    content: [
+      {
+        type: 'paragraph',
+        text: "One of the first big decisions buyers face when relocating to Northern Colorado is whether to buy a brand-new home or a resale property. Both options are widely available across the region, and both come with real advantages depending on what matters most to you. I have helped dozens of out-of-state buyers work through this exact decision, and the answer is rarely one-size-fits-all. Let me walk you through what I tell every client who asks.",
+      },
+      {
+        type: 'h2',
+        text: "Is It Better to Buy New Construction or a Resale Home in Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "The honest answer is that it depends on your timeline, your budget, your tolerance for compromise, and where you want to live. Northern Colorado has significant new construction activity in communities like Windsor, Timnath, Severance, and Johnstown, where master-planned neighborhoods continue to expand. Meanwhile, established neighborhoods in Fort Collins, Loveland, and Berthoud offer resale homes with mature trees, larger lots, and proximity to the walkable downtowns that draw so many people to this area in the first place.",
+      },
+      {
+        type: 'paragraph',
+        text: "If you are moving from a higher cost-of-living state like California, Texas, or the Pacific Northwest, you will likely find that both new construction and resale homes in Northern Colorado offer strong value compared to what you are leaving behind. But the tradeoffs between the two are worth understanding before you start your search.",
+      },
+      {
+        type: 'h2',
+        text: "What Are the Advantages of New Construction in Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "New construction is appealing for a lot of reasons, especially if you are relocating from out of state and want everything move-in ready without the uncertainty of older systems and finishes. Builders in Windsor, Timnath, Severance, and Johnstown are actively developing neighborhoods with modern floor plans, energy-efficient features, and HOA-maintained common areas. Many of these communities include parks, trails, and amenities that appeal to active buyers who love being outdoors.",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Modern energy efficiency: new homes typically include high-performance insulation, windows, HVAC systems, and appliances that can meaningfully reduce utility costs compared to older homes.",
+          "Builder warranties: most new construction in Northern Colorado comes with a structural warranty (often 10 years) plus shorter warranties on mechanical systems and finishes, giving buyers peace of mind.",
+          "Customization opportunities: depending on the build stage, you may be able to select flooring, countertops, fixtures, and layout options to match your preferences without a post-purchase renovation.",
+          "Lower near-term maintenance: new roofs, new water heaters, new foundations — you are unlikely to face major repair bills in the first several years of ownership.",
+          "Community infrastructure: many new neighborhoods in Weld County and eastern Larimer County include trail systems, dog parks, pools, and gathering spaces designed from the ground up.",
+        ],
+      },
+      {
+        type: 'h2',
+        text: "What Are the Advantages of Buying a Resale Home in Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "Resale homes have their own compelling strengths, and for many of the buyers I work with, these strengths end up being the deciding factor. If you are drawn to Northern Colorado because you want to walk to a farmers market on Saturday morning, grab coffee at a local shop, bike to a yoga class, or stroll downtown with your dog, then you are probably describing the established neighborhoods of Fort Collins or Loveland. Those walkable, character-rich areas are almost entirely resale inventory.",
+      },
+      {
+        type: 'paragraph',
+        text: "Resale homes in Fort Collins neighborhoods near Old Town or along the Spring Creek Trail put you right in the heart of the lifestyle that attracts people here. In Loveland, homes near the historic downtown or west of town toward Devil’s Backbone give you mountain views, open space access, and a genuine small-town feel. Berthoud’s charming downtown and surrounding countryside offer a similar appeal. These are things that a brand-new subdivision simply cannot replicate.",
+      },
+      {
+        type: 'paragraph',
+        text: "Resale properties also tend to sit on larger lots, which matters enormously if you are looking for acreage west of town where you can have horses, chickens, a greenhouse, a garden, or a workshop. That homestead lifestyle is a major draw for relocating buyers, and the properties that support it are almost always existing homes on established land rather than new builds.",
+      },
+      {
+        type: 'h2',
+        text: "How Do New Construction and Resale Homes Compare on Price in Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "Pricing varies significantly by location, size, and condition, so I am not going to throw out a blanket number. What I can tell you from working this market every day is that new construction often carries a price premium per square foot compared to resale homes in the same general area. However, that premium buys you modern systems, current building codes, and warranty coverage. Resale homes may come in at a lower price point, but you should budget for potential updates or repairs — a roof nearing end of life, an older furnace, or cosmetic renovations to bring things up to your standards.",
+      },
+      {
+        type: 'paragraph',
+        text: "One thing I always flag for buyers: new construction pricing can be deceptive if you do not account for upgrades. The base price on a builder’s listing often does not include the finishes you see in the model home. By the time you add upgraded flooring, cabinets, appliances, and landscaping, the final number can climb well beyond what you initially expected. Always ask for a full breakdown before committing.",
+      },
+      {
+        type: 'h2',
+        text: "Does Location Affect Which Option Is Best?",
+      },
+      {
+        type: 'paragraph',
+        text: "Absolutely. Location is probably the single biggest factor in this decision. If you want to be in central Fort Collins or downtown Loveland, your inventory is going to be almost entirely resale. If you want a newer home in a planned community with HOA amenities, you will likely be looking at Windsor, Timnath, Severance, Johnstown, or the eastern edges of Loveland and Fort Collins. Wellington also has growing new construction options north of Fort Collins.",
+      },
+      {
+        type: 'paragraph',
+        text: "For buyers who want acreage and elbow room — space for animals, gardens, and quiet — the western portions of Larimer County near Horsetooth Reservoir, Carter Lake, and the foothills tend to offer resale properties on larger parcels. These areas are also closer to Rocky Mountain National Park, the Poudre Canyon, and the trail systems at Devil’s Backbone and Lory State Park, which is a huge lifestyle perk if outdoor recreation is central to your move.",
+      },
+      {
+        type: 'h2',
+        text: "What Should Relocation Buyers Know Before Choosing?",
+      },
+      {
+        type: 'paragraph',
+        text: "If you are moving to Northern Colorado from out of state, there are a few things worth keeping in mind. First, having a local agent who knows the builders, the neighborhoods, and the nuances of each community is not optional — it is essential. Builder sales offices represent the builder, not you. Second, school quality varies across Larimer County and Weld County, and the district boundaries do not always align with city limits, so if schools matter for your kids or visiting grandkids, verify the district before you fall in love with a home. Third, proximity to Denver International Airport (about an hour from most Northern Colorado cities) is comparable whether you buy new or resale, so that should not be a deciding factor between the two.",
+      },
+      {
+        type: 'paragraph',
+        text: "Michael Potter is a Northern Colorado relocation specialist and REALTOR with LPT Realty who has helped buyers from across the country navigate exactly this decision. Whether you are leaning toward a new build in Timnath or a character-filled home in Old Town Fort Collins, I can walk you through the options, connect you with trusted inspectors and lenders, and make sure you understand exactly what you are buying. Start browsing available homes at potterealty.com/buy, or reach out directly — I am always happy to talk through your priorities and help you figure out which path makes the most sense for your move.",
+      },
+      {
+        type: 'faq',
+        faqs: [
+          { question: "Is new construction cheaper than resale in Northern Colorado?", answer: "Not necessarily. New construction often carries a higher per-square-foot cost, especially after upgrades are factored in. However, you avoid near-term repair and renovation costs that can come with older resale homes. The best approach is to compare total cost of ownership over the first five to ten years rather than sticker price alone." },
+          { question: "Where is new construction being built in Northern Colorado?", answer: "The most active new construction areas as of 2026 include Windsor, Timnath, Severance, Johnstown, and Wellington, along with the eastern edges of Fort Collins and Loveland. These communities in Larimer County and Weld County continue to see development from both national and regional builders." },
+          { question: "Do I need my own agent when buying new construction in Northern Colorado?", answer: "Yes, and this is critically important. The sales representatives at builder model homes work for the builder, not for you. Having your own buyer agent ensures someone is reviewing contracts, negotiating on your behalf, and catching issues during inspections and walkthroughs that a builder’s team has no incentive to flag." },
+          { question: "Can I find acreage or homestead properties as new construction in Northern Colorado?", answer: "Large-acreage new construction is rare in this market. Most new builds are in planned communities with smaller lots. If you want land for horses, livestock, gardens, or a workshop, you will almost certainly be looking at resale properties, particularly west of Loveland, Fort Collins, or Berthoud near the foothills." },
+          { question: "How far is Northern Colorado from ski resorts?", answer: "Popular ski resorts like Breckenridge, Keystone, Arapahoe Basin, and Vail are roughly 1.5 to 2.5 hours from Fort Collins and Loveland. That makes day trips and weekend getaways very doable throughout ski season. The drive is the same whether you live in a new construction neighborhood or an established part of town." },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'cost-of-living-in-northern-colorado-what-to-budget-when-movi',
     title: "Cost of Living in Northern Colorado: What to Budget When Moving from California, Texas, or Other High-Cost States",
     date: 'October 5, 2026',
