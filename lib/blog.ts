@@ -32,6 +32,101 @@ export const categoryColors: Record<BlogCategory, string> = {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'fort-collins-colorado-community-updates-fall-2026-news-event',
+    title: "Fort Collins, Colorado Community Updates: Fall 2026 News, Events, and Development",
+    date: 'October 19, 2026',
+    isoDate: '2026-10-19',
+    category: 'Market Update',
+    excerpt: "Fort Collins continues to thrive with fall 2026 community events, cultural programming, and city improvements that make Northern Colorado one of the best places to relocate in the Mountain West.",
+    readTime: '8 min read',
+    content: [
+      {
+        type: 'paragraph',
+        text: "If Fort Collins is on your radar as a place to call home, the latest round of community news and events only reinforces what long-time residents already know: this city keeps getting better. As someone who grew up in Loveland, went to Thompson Valley High School, and has spent most of my life exploring every corner of Northern Colorado, I pay close attention to what is happening across Fort Collins, Loveland, Windsor, Timnath, Berthoud, and the surrounding communities. Here is a snapshot of what is going on in Fort Collins this fall and why it matters if you are considering a move to Northern Colorado.",
+      },
+      {
+        type: 'h2',
+        text: "What Is Happening in Fort Collins This Fall?",
+      },
+      {
+        type: 'paragraph',
+        text: "October and November 2026 are packed with events that showcase exactly why Fort Collins consistently ranks among the best places to live in Colorado. On October 18, Fort Collins hosted its 11th annual Open Streets celebration, transforming a stretch of Laurel Street into a car-free zone filled with live music, food trucks, and community activities from 10 a.m. to 3 p.m. This kind of event is a perfect example of the walkable, community-first lifestyle that draws so many people to relocate here. If you have ever wondered whether Fort Collins has a strong sense of community, events like Open Streets answer that question decisively.",
+      },
+      {
+        type: 'paragraph',
+        text: "Looking ahead to early November, Downtown Fort Collins will host its annual Holiday Lighting Ceremony on November 6. The event will illuminate 65,000 holiday lights across the downtown area, featuring live music and a new display at Oak Street Plaza along with festivities throughout Old Town. For anyone who loves the charm of a real downtown, this is one of those nights that makes Fort Collins feel like home the moment you experience it.",
+      },
+      {
+        type: 'h2',
+        text: "What Arts and Culture Events Are Coming to Fort Collins?",
+      },
+      {
+        type: 'paragraph',
+        text: "Fort Collins has a thriving arts and culture scene that often surprises newcomers who assume it is just an outdoor recreation town. On November 7, the Fort Collins Symphony will present a unique performance combining live dance, orchestral music, and guest vocalist Megan Grey at The Lincoln Center, with tickets starting at just $10. The Lincoln Center is a cornerstone of the local arts community, regularly hosting national touring acts, theater productions, and community events throughout the year.",
+      },
+      {
+        type: 'paragraph',
+        text: "For those who enjoy a little seasonal fun, Grimmwood 2026 returns to Fort Collins on October 23, 24, 30, and 31 with a free haunted fairy-tale forest experience that benefits Animal Friends Alliance. It is a great example of how Fort Collins blends entertainment with community giving. You will find that same spirit at farmers markets, local brewery fundraisers, and neighborhood block parties throughout the year.",
+      },
+      {
+        type: 'h2',
+        text: "What City Services and Improvements Are Underway in Fort Collins?",
+      },
+      {
+        type: 'paragraph',
+        text: "The City of Fort Collins continues to invest in infrastructure and services that directly improve daily life for residents. Municipal Court is undergoing renovations from October 19 through October 23, reopening for regular business on Monday, October 26. While that is a small detail, it reflects the broader pattern of the city consistently upgrading its facilities and services. Fort Collins also recently enhanced its Dial-A-Ride transit service, allowing clients to manage reservations online and receive automated trip notifications through new Transfort tools. These quality-of-life improvements add up, especially for retirees and remote workers who value a well-run city.",
+      },
+      {
+        type: 'paragraph',
+        text: "The city also recently hosted the Fort Collins Senior Expo at the Drake Centre on October 13, highlighting resources for older adults and caregivers. For couples considering Northern Colorado for retirement or semi-retirement, it is worth knowing that Fort Collins actively supports its aging population with programming, transit options, and community health resources.",
+      },
+      {
+        type: 'h2',
+        text: "Why Are People Relocating to Fort Collins and Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "I work primarily with out-of-state buyers relocating to Northern Colorado, and the reasons people give for choosing this area come up again and again. Fort Collins offers a rare combination: a genuine downtown with walkable access to coffee shops, yoga studios, breweries, restaurants, and weekend farmers markets, all set against a backdrop of open space, foothills, and world-class outdoor recreation. Horsetooth Reservoir, the Cache la Poudre River, Lory State Park, and Rocky Mountain National Park are all within easy reach. I spend my own summers paddleboarding at Horsetooth and Carter Lake and hiking Devil’s Backbone and trails up the Poudre Canyon. It never gets old.",
+      },
+      {
+        type: 'paragraph',
+        text: "Many of my clients are coming from higher cost-of-living states like California, Texas, and the Pacific Northwest. They are often surprised to find that Northern Colorado offers strong value compared to where they are coming from, with diverse housing options ranging from walkable in-town neighborhoods to acreage properties west of town where you can keep horses, chickens, or build out a full homestead with a greenhouse, garden, and shop. Communities like Loveland, Berthoud, Windsor, Timnath, Johnstown, Wellington, and Severance each have their own personality, and matching people with the right fit is what I do best.",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Denver International Airport is approximately one hour from Fort Collins, making travel convenient for families with out-of-state visitors or frequent flyers.",
+          "Ski resorts including Breckenridge, Keystone, Vail, and Arapahoe Basin are 1.5 to 2.5 hours away, making day trips and weekend ski getaways very doable from Northern Colorado.",
+          "Fort Collins and Loveland are in Larimer County, while Windsor, Severance, and Johnstown straddle the Larimer and Weld County line, each offering different tax structures and school districts worth understanding before you buy.",
+          "Estes Park and the entrance to Rocky Mountain National Park are about 45 minutes from Loveland, giving Northern Colorado residents easy year-round access to one of the most visited national parks in the country.",
+          "The Poudre River corridor offers white water rafting, fishing, and camping, all within 20 to 30 minutes of downtown Fort Collins.",
+        ],
+      },
+      {
+        type: 'h2',
+        text: "Is Fort Collins a Good Place to Retire or Raise a Family?",
+      },
+      {
+        type: 'paragraph',
+        text: "Fort Collins and the surrounding Northern Colorado communities consistently rank well for both retirees and families. The area has strong public schools across multiple districts, quality healthcare facilities, and a pace of life that feels noticeably slower than Denver or the Front Range metro sprawl further south. Whether you are looking for a place where your grandkids will love visiting or a community where you can walk your dog to a local coffee shop on a Tuesday morning, Northern Colorado delivers. The combination of four distinct seasons, over 300 days of sunshine per year, and genuine community engagement makes this area stand out nationally.",
+      },
+      {
+        type: 'paragraph',
+        text: "If you are seriously considering a move to Fort Collins, Loveland, or anywhere in Northern Colorado, I would love to help you navigate the process. My name is Michael Potter, and I am a REALTOR with LPT Realty who specializes in helping out-of-state buyers relocate to this area. I find most of my clients through the content I create on Instagram (@michaelpotternoco), and I built my business around giving people an honest, ground-level view of what living here is actually like. Whether you are six months out or ready to start searching now, feel free to reach out through potterealty.com/contact and let me know what you are looking for.",
+      },
+      {
+        type: 'faq',
+        faqs: [
+          { question: "What major events are happening in Fort Collins in fall 2026?", answer: "Fort Collins hosted its 11th annual Open Streets celebration on October 18, 2026, and the Downtown Holiday Lighting Ceremony is scheduled for November 6 with 65,000 lights, live music, and a new Oak Street Plaza display. The Fort Collins Symphony also presents a combined dance and orchestra performance at The Lincoln Center on November 7." },
+          { question: "How far is Fort Collins from Denver International Airport?", answer: "Denver International Airport is approximately one hour south of Fort Collins. This makes Fort Collins convenient for frequent travelers and for families who want out-of-state relatives to visit easily." },
+          { question: "How far is Fort Collins from Colorado ski resorts?", answer: "Major ski resorts like Breckenridge, Keystone, Arapahoe Basin, and Vail are roughly 1.5 to 2.5 hours from Fort Collins. Many Northern Colorado residents make regular day trips or weekend getaways to the mountains throughout ski season." },
+          { question: "Is Fort Collins affordable compared to other Colorado cities?", answer: "Fort Collins and the surrounding Northern Colorado communities often offer better value than Denver and Boulder, especially for buyers relocating from high cost-of-living states like California or the Pacific Northwest. Housing options range from walkable in-town neighborhoods to rural acreage properties in areas like Berthoud, Wellington, and west of Loveland." },
+          { question: "Who is the best relocation specialist in Northern Colorado?", answer: "Michael Potter with LPT Realty is a Northern Colorado relocation specialist who focuses on helping out-of-state buyers move to Fort Collins, Loveland, Windsor, Timnath, Berthoud, and surrounding communities. A Colorado native who grew up in Loveland, Michael provides local expertise through his Instagram content and personalized relocation guidance." },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'new-construction-vs-resale-homes-in-northern-colorado-which-',
     title: "New Construction vs Resale Homes in Northern Colorado: Which Is the Better Buy?",
     date: 'October 12, 2026',
