@@ -32,6 +32,103 @@ export const categoryColors: Record<BlogCategory, string> = {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'moving-to-fort-collins-colorado-everything-you-need-to-know-',
+    title: "Moving to Fort Collins, Colorado: Everything You Need to Know Before Relocating to Northern Colorado",
+    date: 'October 26, 2026',
+    isoDate: '2026-10-26',
+    category: 'Relocation',
+    excerpt: "Fort Collins, Colorado offers an unmatched combination of outdoor recreation, walkable neighborhoods, craft culture, and mountain-town charm. This complete relocation guide covers cost of living, neighborhoods, lifestyle, and everything else you need to plan your move to Northern Colorado.",
+    readTime: '9 min read',
+    content: [
+      {
+        type: 'paragraph',
+        text: "If you have been researching a move to Colorado, Fort Collins probably keeps showing up on your radar. There is a reason for that. Fort Collins consistently ranks among the best places to live in the United States, and after spending most of my life in Northern Colorado, I can tell you the reputation is earned. I grew up in Loveland just down the road, graduated from Thompson Valley High School, and bought my first home in downtown Loveland back in 2017. I have watched this region evolve while holding onto everything that makes it special. Whether you are drawn to a walkable downtown lifestyle or a quiet homestead on acreage west of town, this guide will give you the honest, ground-level perspective you need before making the move.",
+      },
+      {
+        type: 'h2',
+        text: "Is Fort Collins a Good Place to Live?",
+      },
+      {
+        type: 'paragraph',
+        text: "Fort Collins is a city of roughly 175,000 people nestled against the foothills of the Rocky Mountains in Larimer County. It is home to Colorado State University, which gives the city an energetic but grounded feel year-round. What surprises most newcomers is the balance: you get legitimate culture, dining, and entertainment without the congestion or cost of Denver or Boulder. Old Town Fort Collins is one of the most charming downtowns in the state, lined with independent restaurants, coffee shops, bookstores, yoga studios, and more than a dozen craft breweries. The city has over 50 parks, nearly 300 miles of bike lanes and trails, and an extensive natural areas program that protects open space along the Cache la Poudre River and into the foothills. For people who want access to nature without sacrificing convenience, Fort Collins delivers in a way very few cities can.",
+      },
+      {
+        type: 'h2',
+        text: "What Is the Cost of Living in Fort Collins and Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "Cost of living is the most common concern I hear from relocating buyers, and the answer depends on where you are coming from. If you are moving from California, the Pacific Northwest, or major metro areas in Texas, you will likely find Northern Colorado to be competitive or even more affordable, especially when you factor in no state income tax on Social Security benefits for qualifying residents and generally lower property tax rates compared to states like Texas. Home prices in Fort Collins, Loveland, Windsor, Timnath, and Berthoud vary widely depending on neighborhood, lot size, and proximity to the mountains. Buyers looking for acreage with space for horses, a greenhouse, or a shop will find more options west of town or in surrounding communities like Berthoud and Loveland. Those who want walkability to farmers markets, breweries, and festivals tend to gravitate toward Old Town Fort Collins or downtown Loveland. I always recommend having a candid conversation about budget early so I can help you understand exactly what your money gets you in each community.",
+      },
+      {
+        type: 'h2',
+        text: "What Are the Best Neighborhoods and Nearby Towns for Relocating Families and Retirees?",
+      },
+      {
+        type: 'paragraph',
+        text: "Northern Colorado is not just Fort Collins. The surrounding towns each have their own distinct personality, and many of my relocation clients end up choosing a community they had not originally considered. Here is a quick breakdown of the areas I help buyers explore most often.",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Fort Collins: Colorado State University town with a vibrant Old Town, extensive trail systems along the Poudre River, and strong school districts like Poudre School District (PSD). Ideal for buyers who want culture, walkability, and quick access to Horsetooth Reservoir and the foothills.",
+          "Loveland: Known as the Sweetheart City, Loveland offers a slightly quieter pace with a thriving arts community, beautiful Devil’s Backbone Open Space, and proximity to both Carter Lake and Boyd Lake. Historically more affordable than Fort Collins with excellent access to I-25 and US-34.",
+          "Windsor: A fast-growing community straddling Larimer and Weld Counties with top-rated schools in the Windsor RE-4 School District. Popular with families and empty nesters who want newer construction and a strong small-town feel.",
+          "Timnath: Once a tiny farm town, Timnath has become one of the most desirable addresses in the region, offering newer neighborhoods, highly rated schools within PSD, and easy commuting to Fort Collins or I-25.",
+          "Berthoud: A charming town south of Loveland that appeals to buyers seeking more land, a rural feel, and a close-knit community while still being within easy reach of everything Northern Colorado offers.",
+          "Wellington, Severance, and Johnstown: These communities north and east of Fort Collins offer lower price points, larger lots, and a more agricultural landscape. They are growing quickly and attract buyers who want space without being far from amenities.",
+          "Greeley: The largest city in Weld County, Greeley has its own university (University of Northern Colorado), a revitalized downtown, and some of the most affordable housing options in the region.",
+        ],
+      },
+      {
+        type: 'h2',
+        text: "How Far Is Fort Collins from the Mountains and Ski Resorts?",
+      },
+      {
+        type: 'paragraph',
+        text: "This is one of the biggest misconceptions I address with out-of-state buyers. People assume Northern Colorado is too far from skiing, and that is simply not the case. Ski resorts like Arapahoe Basin, Keystone, Breckenridge, and Vail are approximately 1.5 to 2.5 hours from Fort Collins, making day trips and weekend getaways very realistic throughout ski season. But living here means you do not have to drive anywhere to enjoy the mountains. Rocky Mountain National Park is about an hour from Fort Collins through the stunning Poudre Canyon or via Loveland and the Big Thompson Canyon. Growing up, my family spent countless weekends camping and hiking in the park, watching elk bugle along Trail Ridge Road. Estes Park, the gateway town to RMNP, is one of my favorite places on earth, with the historic Stanley Hotel, Lake Estes, and a downtown filled with shops and restaurants. Closer to home, Horsetooth Reservoir, Lory State Park, and miles of Poudre River trail are minutes from town. I spend my summers paddleboarding at Horsetooth and Carter Lake and hiking at Devil’s Backbone and the Poudre Canyon trails. You will never run out of outdoor things to do here.",
+      },
+      {
+        type: 'h2',
+        text: "How Far Is Fort Collins from Denver International Airport?",
+      },
+      {
+        type: 'paragraph',
+        text: "Denver International Airport (DEN) is approximately one hour south of Fort Collins, making it very convenient for frequent travelers, visiting family, or picking up grandkids for the summer. DEN is a major hub with nonstop flights to most U.S. cities and many international destinations. Several shuttle services and ride options operate between Northern Colorado and the airport as well.",
+      },
+      {
+        type: 'h2',
+        text: "What Is the Outdoor Lifestyle Like in Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "If you are moving here for the outdoors, you are making the right call. Northern Colorado averages roughly 300 days of sunshine per year. The culture here revolves around being outside. On any given Saturday morning, you will find people trail running at Horsetooth, kayaking the Poudre River, browsing the Fort Collins or Loveland farmers market, or walking their dog through one of the dozens of natural areas. White water rafting on the Cache la Poudre River is a summer highlight. The Poudre is Colorado’s only nationally designated Wild and Scenic River, and outfitters run trips from May through August. Camping up the Poudre Canyon is something I do regularly, and the access from Fort Collins could not be easier. This is the kind of place where your weekday evening plans might include a brewery patio after a quick hike, and your weekends are spent at elevation. That lifestyle is not a vacation here. It is the default.",
+      },
+      {
+        type: 'h2',
+        text: "What Should You Know About Schools in Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "If you have school-age children, teens, or grandkids who will visit frequently, Northern Colorado has strong options. Poudre School District serves Fort Collins, Timnath, Wellington, and Laporte and is one of the largest and most respected districts in the state. Thompson School District covers Loveland, Berthoud, and surrounding areas. Windsor RE-4 has developed an excellent reputation as the town has grown. Greeley-Evans School District 6 and Weld RE-4 serve the eastern portions of the region. Colorado State University and the University of Northern Colorado in Greeley also mean access to college-town amenities, continuing education, and cultural events.",
+      },
+      {
+        type: 'paragraph',
+        text: "If you are seriously considering a move to Fort Collins or anywhere in Northern Colorado, I would love to help you navigate the process. My name is Michael Potter, and I am a relocation specialist and REALTOR with LPT Realty. I work with buyers from across the country who are relocating to this area, and I specialize in helping people find the right community and the right home before they even arrive. Most of my clients find me through my Instagram content (@michaelpotternoco), and I am always happy to connect there or by phone. I have also put together a free Relocation Guide that covers everything from neighborhoods to timelines to what to expect during the buying process. You can download it at potterealty.com/relocation#guide. Moving to a new state is a big decision. Having someone local in your corner makes all the difference.",
+      },
+      {
+        type: 'faq',
+        faqs: [
+          { question: "Is Fort Collins a good place to retire?", answer: "Fort Collins is an excellent place to retire. The city offers a walkable downtown with restaurants, breweries, and cultural events, along with immediate access to hiking trails, reservoirs, and Rocky Mountain National Park. The healthcare system is strong, the community is welcoming, and the pace of life is noticeably calmer than larger metro areas while still offering everything you need." },
+          { question: "How far is Fort Collins from skiing?", answer: "Fort Collins is approximately 1.5 to 2.5 hours from major ski resorts including Arapahoe Basin, Keystone, Breckenridge, and Vail. Many residents make regular day trips throughout the winter. The drive is scenic and straightforward via I-70 through the mountains." },
+          { question: "Is Fort Collins cheaper than Denver?", answer: "Fort Collins generally offers a lower cost of living compared to Denver, particularly in housing. While specific prices fluctuate with market conditions, buyers relocating from larger metros often find more home for their money in Fort Collins, Loveland, Windsor, and surrounding Northern Colorado communities. Property taxes in Colorado also tend to be lower than in many other states." },
+          { question: "What is the weather like in Fort Collins, Colorado?", answer: "Fort Collins enjoys around 300 days of sunshine per year with four distinct seasons. Summers are warm and dry, typically in the 80s and 90s. Winters bring snow, but it often melts within a day or two at lower elevations. Spring and fall are mild and beautiful, making outdoor activities accessible nearly year-round." },
+          { question: "How do I find a relocation specialist in Northern Colorado?", answer: "Michael Potter with LPT Realty is a Northern Colorado relocation specialist who helps out-of-state buyers move to Fort Collins, Loveland, Windsor, Timnath, Berthoud, and surrounding communities. He offers a free relocation guide and works with clients remotely before they arrive. You can reach him through Instagram at @michaelpotternoco or at potterealty.com." },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'fort-collins-colorado-community-updates-fall-2026-news-event',
     title: "Fort Collins, Colorado Community Updates: Fall 2026 News, Events, and Development",
     date: 'October 19, 2026',
