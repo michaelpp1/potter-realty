@@ -32,6 +32,108 @@ export const categoryColors: Record<BlogCategory, string> = {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'what-repairs-and-upgrades-are-worth-doing-before-listing-you',
+    title: "What Repairs and Upgrades Are Worth Doing Before Listing Your Northern Colorado Home",
+    date: 'November 2, 2026',
+    isoDate: '2026-11-02',
+    category: 'Seller Tips',
+    excerpt: "Not every home improvement pays off at resale. Here is a practical breakdown of which repairs and upgrades actually move the needle when selling a home in Fort Collins, Loveland, Windsor, Timnath, Berthoud, and the surrounding Northern Colorado market.",
+    readTime: '8 min read',
+    content: [
+      {
+        type: 'paragraph',
+        text: "One of the most common questions I get from sellers across Northern Colorado is some version of: Should I renovate before I list? The answer is almost never a full renovation, but it is rarely nothing at all. The sweet spot is somewhere in between, and it depends heavily on your specific home, your neighborhood, and what buyers in this market actually care about. I have helped sellers in Fort Collins, Loveland, Windsor, Berthoud, Timnath, and beyond figure out exactly where to spend and where to save. This post is the honest rundown I give every client.",
+      },
+      {
+        type: 'h2',
+        text: "Should You Renovate Your Home Before Selling in Northern Colorado?",
+      },
+      {
+        type: 'paragraph',
+        text: "In most cases, no, you should not do a major renovation. A full kitchen remodel or bathroom gut job rarely returns dollar-for-dollar what you put in, especially when the project delays your listing timeline by weeks or months. What does pay off is strategic, targeted work that removes objections from buyers and helps your home photograph well. Think of it this way: buyers in Northern Colorado are not expecting a brand-new home. They are expecting a home that feels clean, well-maintained, and move-in ready. If your house checks those boxes, you are in strong shape.",
+      },
+      {
+        type: 'h2',
+        text: "What Repairs Should You Make Before Listing a Home?",
+      },
+      {
+        type: 'paragraph',
+        text: "Repairs are different from upgrades, and they almost always come first. Deferred maintenance scares buyers more than dated finishes do. A leaky faucet, a furnace that has not been serviced, or a cracked window might seem minor to you after living with it for years, but to a buyer walking through for the first time, it raises questions about what else has been neglected. In Larimer County and Weld County, home inspectors are thorough, and issues that show up on an inspection report become negotiation leverage for the buyer. Fixing known problems before listing keeps you in control of the transaction.",
+      },
+      {
+        type: 'paragraph',
+        text: "Here are the repairs and small upgrades that consistently deliver the best return for Northern Colorado sellers:",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Interior paint in neutral, modern tones — this is the single highest-ROI improvement for most homes in Fort Collins and Loveland, often returning several times its cost",
+          "Deep cleaning and professional carpet cleaning or replacement if carpets are visibly worn or stained",
+          "Fixing leaky faucets, running toilets, and any visible plumbing issues",
+          "Replacing cracked or foggy window panes, which are common in older homes across Berthoud, Loveland, and west Fort Collins",
+          "Addressing any known electrical issues, including non-functioning outlets and outdated panels",
+          "Servicing the furnace and AC system and providing documentation — Northern Colorado buyers want to know the HVAC works before their first winter",
+          "Landscaping cleanup: trimming overgrown bushes, adding fresh mulch, and making sure the front entry looks inviting",
+          "Updating dated light fixtures and cabinet hardware, which can modernize a kitchen or bathroom for a few hundred dollars",
+        ],
+      },
+      {
+        type: 'h2',
+        text: "What Upgrades Are Not Worth the Money Before Selling?",
+      },
+      {
+        type: 'paragraph',
+        text: "This is where sellers sometimes go wrong. I have seen homeowners in Windsor and Timnath spend tens of thousands on upgrades that buyers either did not notice or would have done differently themselves. A full kitchen remodel is the classic example. Unless your kitchen is truly non-functional or severely outdated compared to every other home in your price range, you are better off leaving it alone or making cosmetic updates only. The same goes for adding a swimming pool, finishing a basement to your personal taste, or installing luxury countertops in a home priced in a range where buyers are not expecting them.",
+      },
+      {
+        type: 'paragraph',
+        text: "Bathroom remodels fall into a gray area. Replacing a vanity, adding a new mirror, and installing a modern faucet can be worthwhile. Gutting the entire bathroom and re-tiling the shower usually is not, unless the existing condition is genuinely going to turn buyers away. The key question to ask yourself is: Will this fix remove an objection, or am I doing this because I think buyers should want it? If it is the latter, save your money.",
+      },
+      {
+        type: 'h2',
+        text: "Does Curb Appeal Matter When Selling a Home in Fort Collins or Loveland?",
+      },
+      {
+        type: 'paragraph',
+        text: "Absolutely, and it matters more than most sellers realize. In Northern Colorado, buyers are often coming from out of state. Many of the relocation buyers I work with are discovering homes online first, which means your listing photos are your curb appeal. But for those who drive by or attend a showing in person, the first impression starts at the curb. A pressure-washed driveway, a freshly painted front door, clean gutters, and a tidy yard signal that the home has been cared for. In neighborhoods across Loveland, Fort Collins, Johnstown, Wellington, Greeley, and Severance, curb appeal sets the emotional tone before a buyer even walks inside.",
+      },
+      {
+        type: 'paragraph',
+        text: "For properties west of town on acreage, curb appeal looks a little different. Buyers looking at rural or semi-rural properties in areas like west Loveland, west Berthoud, or the Rist Canyon corridor are expecting land, outbuildings, and space, but they still want it to look maintained. Clearing debris, organizing outdoor storage, and making sure fencing is in good repair goes a long way.",
+      },
+      {
+        type: 'h2',
+        text: "How Do You Know Which Improvements Will Pay Off for Your Specific Home?",
+      },
+      {
+        type: 'paragraph',
+        text: "This is where working with a local agent who knows the Northern Colorado market makes a real difference. What pays off in a $400,000 home in Greeley is not the same as what pays off in an $800,000 home in Timnath. The comps in your specific neighborhood tell the story. If every comparable home that has sold recently has updated flooring and yours still has original carpet from 2003, that is a gap worth closing. If your home is already competitive with the comps as-is, you might not need to do much at all. A good agent will walk your home with you, identify the gaps, and help you prioritize the improvements that will actually affect your sale price and days on market.",
+      },
+      {
+        type: 'h2',
+        text: "A Pre-Listing Inspection Can Save You Thousands",
+      },
+      {
+        type: 'paragraph',
+        text: "One strategy I recommend to many of my sellers is ordering a pre-listing home inspection. This costs a few hundred dollars and gives you a clear picture of what an inspector will flag for the buyer. You can then decide what to fix in advance and what to disclose and price accordingly. This approach reduces surprises during the buyer inspection period and keeps negotiations cleaner. It is especially useful for older homes in established neighborhoods in Loveland, Fort Collins, and Berthoud where age-related issues like aging water heaters, older roofing, or foundation settling are common.",
+      },
+      {
+        type: 'paragraph',
+        text: "If you are thinking about selling your home in Northern Colorado and want an honest assessment of what is worth doing before you list, I would love to help. I am Michael Potter, a REALTOR with LPT Realty and a lifelong Northern Colorado resident. I grew up in Loveland, and I know these neighborhoods, these price points, and what buyers in this market are looking for. You can get a current estimate of your home value and connect with me at potterealty.com/sell. No pressure, just a straightforward conversation about your goals and the best path to get there.",
+      },
+      {
+        type: 'faq',
+        faqs: [
+          { question: "What is the best home improvement to make before selling in Northern Colorado?", answer: "Fresh interior paint in neutral tones is consistently the highest-ROI improvement for sellers across Fort Collins, Loveland, Windsor, and the surrounding area. It makes the home feel clean and updated in listing photos and in person, and it typically costs far less than the value it adds to the sale price." },
+          { question: "Should I remodel my kitchen before listing my home?", answer: "In most cases, a full kitchen remodel is not worth the investment before selling. Cosmetic updates like new cabinet hardware, a fresh coat of paint on cabinets, and updated light fixtures can modernize the space at a fraction of the cost. Save the full remodel unless your kitchen is significantly below the standard of comparable homes in your neighborhood." },
+          { question: "Is a pre-listing home inspection worth it for sellers?", answer: "Yes. A pre-listing inspection typically costs a few hundred dollars and reveals issues that a buyer inspector will likely flag later. By addressing problems in advance, you reduce the chance of renegotiation or deal-killing surprises during the buyer due diligence period. It is especially valuable for older homes in established Northern Colorado neighborhoods." },
+          { question: "How much does curb appeal affect home value in Northern Colorado?", answer: "Curb appeal has a significant impact on buyer perception and can influence both the speed of sale and the final price. A well-maintained exterior signals that the home has been cared for. Simple steps like a clean driveway, fresh mulch, trimmed landscaping, and a painted front door create a strong first impression for in-person showings and listing photos." },
+          { question: "What repairs scare buyers the most during a home inspection?", answer: "Roof damage, foundation issues, outdated electrical panels, and aging HVAC systems tend to raise the most concern. Buyers worry about large, expensive fixes they were not expecting. Addressing known mechanical and structural issues before listing, or at minimum disclosing them transparently, keeps the transaction smoother and protects your negotiating position." },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'moving-to-fort-collins-colorado-everything-you-need-to-know-',
     title: "Moving to Fort Collins, Colorado: Everything You Need to Know Before Relocating to Northern Colorado",
     date: 'October 26, 2026',
