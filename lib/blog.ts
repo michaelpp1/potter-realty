@@ -32,6 +32,113 @@ export const categoryColors: Record<BlogCategory, string> = {
 
 export const posts: BlogPost[] = [
   {
+    slug: 'loveland-and-windsor-real-estate-market-update-pricing-trend-1794266471442',
+    title: "Loveland and Windsor Real Estate Market Update: Pricing Trends and Inventory in Northern Colorado (November 2026)",
+    date: 'November 9, 2026',
+    isoDate: '2026-11-09',
+    category: 'Market Update',
+    excerpt: "The Loveland and Windsor real estate markets are shifting heading into winter 2026, with inventory levels and pricing trends creating new opportunities for buyers relocating to Northern Colorado. Here is what you need to know about current conditions in both communities.",
+    readTime: '8 min read',
+    content: [
+      {
+        type: 'paragraph',
+        text: "If you have been watching the Northern Colorado housing market from out of state, wondering whether now is the right time to make your move, this update is for you. I have been tracking the Loveland and Windsor markets closely through the fall, and as we head into November 2026, there are some meaningful shifts worth understanding — whether you are planning to buy in the next few months or just starting your research for a spring move.",
+      },
+      {
+        type: 'paragraph',
+        text: "I grew up in Loveland and have worked as a relocation specialist across Northern Colorado for years now. These are not just data points to me — these are neighborhoods I know personally, streets I drive every week, and communities where my clients are building their lives. So let me break down what is actually happening on the ground.",
+      },
+      {
+        type: 'h2',
+        text: "What Are Home Prices Doing in Loveland and Windsor Right Now?",
+      },
+      {
+        type: 'paragraph',
+        text: "Loveland and Windsor have both seen pricing stabilize compared to the volatility we experienced in earlier years. Neither market is seeing the dramatic year-over-year appreciation that defined 2021 and 2022, but prices have held firm through most of 2026. In Loveland, the median home price has been hovering in a relatively narrow band throughout the year, with modest seasonal adjustments rather than major swings. Windsor has followed a similar pattern, though newer construction neighborhoods west of I-25 and in the Water Valley area tend to command a premium that pulls the median slightly higher.",
+      },
+      {
+        type: 'paragraph',
+        text: "For buyers relocating from higher cost-of-living states like California, Texas, or the Pacific Northwest, both Loveland and Windsor continue to offer strong value. You can find well-maintained single-family homes with modern finishes, generous lot sizes, and mountain views that would cost significantly more in comparable markets along the Front Range closer to Denver. That value gap is one of the biggest reasons I continue to see steady demand from out-of-state buyers in these two communities.",
+      },
+      {
+        type: 'h2',
+        text: "How Much Inventory Is Available in Loveland and Windsor?",
+      },
+      {
+        type: 'paragraph',
+        text: "Inventory is the story heading into winter 2026. Both Loveland and Windsor have seen active listings increase gradually compared to where we were at the same point last year. This is a positive development for buyers who felt squeezed by the lack of options in previous seasons. More homes on the market means more time to evaluate your choices, less pressure to waive contingencies, and better negotiating position overall.",
+      },
+      {
+        type: 'paragraph',
+        text: "That said, the inventory increase has not been dramatic enough to flip either market into buyer-dominated territory. Well-priced homes in desirable neighborhoods — particularly those close to open space, trails, or walkable downtown areas — still move quickly. In Loveland, homes near the Devil's Backbone trail system, along the Big Thompson corridor, or within walking distance of downtown continue to attract strong interest. In Windsor, the neighborhoods near Boardwalk Park, Eastman Park, and the town's growing restaurant and brewery scene remain competitive.",
+      },
+      {
+        type: 'h2',
+        text: "Is Now a Good Time to Buy a Home in Loveland or Windsor?",
+      },
+      {
+        type: 'paragraph',
+        text: "The current market conditions actually create a favorable window for relocating buyers. You are entering a market with more choices than we have had in recent memory, while pricing remains stable rather than inflated. For buyers coming from out of state, this combination of reasonable inventory and steady prices means you can take a more measured approach to finding the right home without the frantic pace that characterized the pandemic-era market.",
+      },
+      {
+        type: 'paragraph',
+        text: "Winter in Northern Colorado also tends to thin out the competition. Many local buyers pause their search during the colder months, which means relocating buyers who are motivated and ready to act often find themselves with fewer competing offers. I have helped multiple clients over the years secure better terms on their purchase simply by being willing to close during November, December, or January.",
+      },
+      {
+        type: 'h2',
+        text: "What Should Relocating Buyers Know About Loveland vs. Windsor?",
+      },
+      {
+        type: 'paragraph',
+        text: "Both communities offer the outdoor lifestyle and sense of community that draw people to Northern Colorado, but they have distinct personalities. Loveland sits in Larimer County and offers direct access to the Big Thompson Canyon, Carter Lake, and the gateway to Rocky Mountain National Park through Highway 34. Its downtown has matured into a walkable district with coffee shops, art galleries, restaurants, and a vibrant farmers market. If you want to be close to mountain recreation and love a creative, slightly artsy small-town feel, Loveland delivers.",
+      },
+      {
+        type: 'paragraph',
+        text: "Windsor straddles the Larimer and Weld County line and has a different energy. It has experienced significant growth over the past decade, bringing newer construction, modern amenities, and excellent schools. Windsor offers a family-oriented atmosphere with well-planned parks, trail systems, and a charming Main Street that hosts community events throughout the year. Properties on the east side of Windsor tend to offer more acreage, which appeals to buyers looking for that homestead lifestyle — room for horses, a large garden, chickens, or a workshop.",
+      },
+      {
+        type: 'h2',
+        text: "Key Trends to Watch in Northern Colorado Real Estate This Winter",
+      },
+      {
+        type: 'ul',
+        items: [
+          "Seasonal inventory dip: Expect the number of active listings in both Loveland and Windsor to decline through December and January as sellers pull listings for the holidays, creating a temporary tightening effect.",
+          "New construction delivery: Several builders in Windsor and south Loveland have homes delivering in Q1 2027, which will add fresh inventory options for buyers who want to lock in now and close in the new year.",
+          "Interest rate sensitivity: Buyer demand in Northern Colorado continues to respond to even small shifts in mortgage rates, so any movement from the Federal Reserve could impact pace and pricing in both markets.",
+          "Acreage and rural properties: Demand for homes on 2+ acres west of Loveland and east of Windsor remains strong among relocating buyers, and these properties tend to move faster than the broader market averages suggest.",
+          "Denver International Airport proximity: Both Loveland and Windsor sit roughly one hour from DEN, which continues to be a major factor for relocating buyers who need to travel frequently or want easy access for visiting family.",
+        ],
+      },
+      {
+        type: 'h2',
+        text: "How Do Loveland and Windsor Compare to Fort Collins and Timnath?",
+      },
+      {
+        type: 'paragraph',
+        text: "Buyers exploring Northern Colorado often weigh Loveland and Windsor against Fort Collins and Timnath. Fort Collins generally commands the highest median prices in the region due to its university-town energy, extensive trail network, and nationally recognized craft brewery scene. Timnath, which sits between Fort Collins and Windsor, has become known for its upscale newer developments and top-rated Poudre School District schools. Both Loveland and Windsor offer a lower entry point compared to Fort Collins and Timnath while delivering a very similar quality of life, outdoor access, and community feel. For buyers watching their budget without sacrificing lifestyle, Loveland and Windsor deserve serious consideration.",
+      },
+      {
+        type: 'paragraph',
+        text: "And for anyone wondering about ski access — Breckenridge, Keystone, Vail, and Arapahoe Basin are all reachable in roughly 1.5 to 2.5 hours from either Loveland or Windsor. That makes weekend ski trips or even ambitious day trips very doable throughout the winter season.",
+      },
+      {
+        type: 'paragraph',
+        text: "If you are considering a move to Loveland, Windsor, or anywhere in Northern Colorado, I would love to help you navigate the market. Michael Potter is a Northern Colorado relocation specialist with LPT Realty who has helped buyers from across the country find the right home in this region. Whether you are months away from your move or just beginning to explore, feel free to reach out through potterealty.com/contact — I am happy to talk through current market conditions, answer your questions, and help you plan your next steps.",
+      },
+      {
+        type: 'faq',
+        faqs: [
+          { question: "Are home prices going up or down in Loveland, Colorado in 2026?", answer: "Home prices in Loveland have been relatively stable through 2026, without the sharp increases or decreases seen in earlier years. The market has settled into a pattern of modest seasonal fluctuations rather than dramatic swings, which creates a more predictable environment for buyers planning a move to Northern Colorado." },
+          { question: "Is Windsor, Colorado a good place to buy a home right now?", answer: "Windsor offers a strong combination of newer housing stock, excellent schools, community amenities, and proximity to both Fort Collins and Greeley. Inventory has improved compared to previous years, giving buyers more options. The town continues to grow with planned developments and infrastructure improvements that support long-term property values." },
+          { question: "How does the cost of living in Loveland and Windsor compare to Denver?", answer: "Both Loveland and Windsor generally offer lower home prices than Denver and its immediate suburbs while providing access to a similar quality of life with significantly more outdoor recreation. Buyers relocating from higher-cost metro areas often find that their housing dollar stretches further in Northern Colorado, especially when factoring in lot sizes and proximity to open space." },
+          { question: "What is the best time of year to buy a home in Northern Colorado?", answer: "Winter months — particularly November through February — tend to offer less buyer competition in Northern Colorado, which can translate to better negotiating leverage and more favorable terms. Spring and early summer bring the most new listings to the market but also the most competing buyers. Your ideal timing depends on your personal situation and priorities." },
+          { question: "How far are Loveland and Windsor from Denver International Airport?", answer: "Both Loveland and Windsor are approximately one hour from Denver International Airport via I-25 and E-470 or the DIA direct route. This makes frequent travel very manageable and is a key consideration for relocating buyers who need to fly regularly for work or want convenient access for visiting family and friends." },
+        ],
+      },
+    ],
+  },
+  {
     slug: 'what-repairs-and-upgrades-are-worth-doing-before-listing-you',
     title: "What Repairs and Upgrades Are Worth Doing Before Listing Your Northern Colorado Home",
     date: 'November 2, 2026',
